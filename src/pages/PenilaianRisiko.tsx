@@ -18,12 +18,29 @@ function useToggleSet() {
 
 const fmt = (n: number) => n.toLocaleString('id-ID', { maximumFractionDigits: 2 })
 
+// Ringkasan hasil yang menempel di atas layar ponsel, agar hasil tetap terlihat saat mencentang
+// daftar kriteria yang panjang. Disembunyikan di layar lebar (hasil lengkap sudah di samping).
+function RingkasHasil({ judul, isi }: { judul: string; isi: string }) {
+  return (
+    <button
+      type="button"
+      className="result-mini"
+      onClick={() => document.getElementById('hasil-risiko')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+    >
+      <strong>{judul}</strong>
+      <span>{isi}</span>
+      <span className="result-mini-cta">Detail ↓</span>
+    </button>
+  )
+}
+
 function KalkulatorSkor({ skor }: { skor: SkorRisiko }) {
   const [dipilih, toggle, reset] = useToggleSet()
   const nilai = hitungSkor(skor, dipilih)
   const kat = kategoriSkor(skor, nilai)
   return (
     <div className="calc">
+      <RingkasHasil judul={`Skor ${fmt(nilai)}`} isi={kat.risiko} />
       <div className="calc-form">
         <p className="muted">{skor.deskripsi}</p>
         <fieldset>
@@ -41,7 +58,7 @@ function KalkulatorSkor({ skor }: { skor: SkorRisiko }) {
         </fieldset>
         <button type="button" className="ghost" onClick={reset}>Atur ulang</button>
       </div>
-      <aside className="result" aria-live="polite">
+      <aside className="result" id="hasil-risiko" aria-live="polite">
         <p className="result-label">Skor {skor.nama}</p>
         <p className="result-num">{fmt(nilai)}</p>
         <p className="result-label">Risiko kejadian kardiak maternal</p>
@@ -67,6 +84,7 @@ function KalkulatorMWHO() {
   const hasil = useMemo(() => kelasMWHO(dipilih), [dipilih])
   return (
     <div className="calc">
+      <RingkasHasil judul={hasil ? `mWHO ${hasil.kelas}` : 'mWHO'} isi={hasil ? hasil.kejadian : 'Belum ada kondisi dipilih'} />
       <div className="calc-form">
         <p className="muted">
           Centang semua kondisi yang dimiliki pasien. Kelas mWHO ditentukan oleh kondisi dengan kelas tertinggi.
@@ -84,7 +102,7 @@ function KalkulatorMWHO() {
         ))}
         <button type="button" className="ghost" onClick={reset}>Atur ulang</button>
       </div>
-      <aside className="result" aria-live="polite">
+      <aside className="result" id="hasil-risiko" aria-live="polite">
         {hasil ? (
           <>
             <p className="result-label">Klasifikasi</p>
