@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   EKG,
   FAKTOR_RISIKO,
@@ -97,6 +97,21 @@ export default function PanduanKlinis() {
   const [st, setSt] = useState<State>(muat)
   const [langkah, setLangkah] = useState(0)
   const [tersalin, setTersalin] = useState(false)
+  const stepperRef = useRef<HTMLElement>(null)
+  const langkahAwal = useRef(true)
+
+  // Saat pindah langkah: geser tombol langkah aktif ke tengah (stepper bisa digulir di ponsel)
+  // dan bawa layar kembali ke awal langkah bila pengguna sudah menggulir jauh ke bawah.
+  useEffect(() => {
+    if (langkahAwal.current) {
+      langkahAwal.current = false
+      return
+    }
+    const nav = stepperRef.current
+    const aktif = nav?.querySelector<HTMLElement>('[aria-current="step"]')
+    if (nav && aktif) nav.scrollTo({ left: aktif.offsetLeft - (nav.clientWidth - aktif.offsetWidth) / 2, behavior: 'smooth' })
+    if (nav && nav.getBoundingClientRect().top < 0) nav.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [langkah])
 
   useEffect(() => {
     try {
@@ -139,7 +154,7 @@ export default function PanduanKlinis() {
         <button type="button" className="link" onClick={() => setLangkah(5)}>Lihat hasil →</button>
       </div>
 
-      <nav className="stepper" aria-label="Langkah pemeriksaan">
+      <nav className="stepper" aria-label="Langkah pemeriksaan" ref={stepperRef}>
         {LANGKAH.map((l, i) => (
           <button key={l} type="button" aria-current={langkah === i ? 'step' : undefined} onClick={() => setLangkah(i)}>
             <span className="step-no">{i + 1}</span>
