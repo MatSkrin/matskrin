@@ -114,3 +114,21 @@ legend { font-weight: 700; padding: 0 6px; }
 .result dt { font-weight: 700; margin-top: 8px; }
 .result dd { margin: 0; color: var(--muted); }
 .source { font-size: 0.78rem; color: var(--muted); margin-top: 12px !important; }
+
+/* Gambar, judul tabel, dan kotak rekomendasi di dalam bab */
+.prose .judul-tabel { margin: 1.6em 0 0.4em; font-size: 0.95rem; }
+.prose figure.gambar { margin: 1.6em 0; padding: 16px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.prose figure.gambar figcaption { font-size: 0.95rem; margin-bottom: 12px; }
+.prose .catatan { font-size: 0.85rem; color: var(--muted); margin: 12px 0 0; }
+.bar-chart { display: grid; gap: 10px; }
+.bar-row { display: grid; grid-template-columns: minmax(120px, 200px) 1fr 3.2em; gap: 10px; align-items: center; font-size: 0.92rem; }
+.bar { background: var(--accent-soft); border-radius: 6px; height: 14px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 6px; }
+.bar-row b { text-align: right; font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .bar-row { grid-template-columns: 1fr 3.2em; } .bar-row span { grid-column: 1 / -1; } }
+.prose .rekomendasi { margin: 1.6em 0; }
+.prose .rekomendasi table { display: table; }
+.prose .rekomendasi th { background: #2c4a7a; color: #fff; }
+.prose .rekomendasi th:not(:first-child), .prose .rekomendasi td:not(:first-child) { text-align: center; width: 4.5em; font-weight: 700; padding-left: 4px; padding-right: 4px; }
+.prose .rekomendasi td.kelas-i { background: #d9efe2; color: #1d5a3c; }
+.prose ol li { margin-bottom: 0.4em; }

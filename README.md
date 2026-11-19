@@ -23,7 +23,7 @@ ringkasan: Satu kalimat untuk daftar modul.
 ---
 ```
 
-Kotak **Poin Klinis** dibuat dengan blockquote yang diawali tulisan tebal `**Poin Klinis 4.1**`. Lihat `00-contoh-format.md`.
+Kotak **Poin Klinis** dibuat dengan blockquote yang diawali tulisan tebal `**Poin Klinis 4.1**`. Lihat `docs/contoh-format-bab.md`.
 
 ## Skor risiko
 
