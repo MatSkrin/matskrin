@@ -1,0 +1,26 @@
+---
+nomor: 0
+judul: Contoh Format Bab
+ringkasan: Halaman contoh. Akan diganti dengan materi modul yang sebenarnya.
+---
+
+Halaman ini hanya contoh format. Setiap bab modul ditulis sebagai satu berkas Markdown di folder `src/content/bab/`. Salin berkas ini ke folder tersebut sebagai titik awal, dengan nama berkas diawali nomor bab (mis. `04-deteksi-dini.md`).
+
+## 0.1 Judul Subbab
+
+Paragraf biasa ditulis langsung. Sitasi memakai format drafting [1, De Backer].
+
+### 0.1.1 Sub-subbab
+
+| Kolom A | Kolom B |
+|---|---|
+| Isi | Isi |
+
+> **Poin Klinis 0.1**
+>
+> - Blockquote yang diawali tulisan tebal "Poin Klinis" otomatis tampil sebagai kotak Poin Klinis.
+> - Isinya berupa daftar butir singkat.
+
+## Daftar Pustaka
+
+1. De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46:4462–568. doi:10.1093/eurheartj/ehaf193
