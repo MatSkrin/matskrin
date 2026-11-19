@@ -1,36 +1,38 @@
 ---
 nomor: 1
 judul: Gambaran Umum Penyakit Jantung pada Kehamilan
-ringkasan: Epidemiologi global dan Indonesia, spektrum penyakit, serta tantangan pelayanan di Indonesia.
+ringkasan: Seberapa sering, penyakit apa saja, dan mengapa ini penting untuk pelayanan di Indonesia.
 ---
 
-Penyakit jantung pada kehamilan merupakan tantangan klinis yang memerlukan pemahaman mengenai interaksi antara perubahan fisiologis kehamilan dan kondisi kardiovaskular maternal. Perkembangan ilmu kedokteran dan pelayanan kesehatan telah memungkinkan semakin banyak perempuan dengan penyakit jantung menjalani kehamilan. Namun, kondisi tersebut juga menghadirkan tantangan dalam penilaian risiko, deteksi dini, dan penatalaksanaan untuk menjaga keselamatan ibu serta janin.
-
-Bab ini membahas gambaran umum penyakit jantung pada kehamilan, meliputi epidemiologi global dan Indonesia, spektrum penyakit kardiovaskular, faktor-faktor yang memengaruhi beban penyakit, serta dampaknya terhadap luaran maternal dan perinatal. Pembahasan juga mencakup tantangan pelayanan kesehatan di Indonesia dan pentingnya pelayanan berkesinambungan sejak masa prakonsepsi hingga pascapersalinan sebagai landasan untuk memahami pendekatan klinis pada bab-bab selanjutnya.
+<div class="ringkasan">
+<p class="ringkasan-judul">Inti bab ini</p>
+<ul>
+<li>Kehamilan menambah beban hemodinamik. Pada ibu dengan penyakit jantung, beban ini dapat memicu gagal jantung, aritmia, tromboemboli, bahkan kematian [1].</li>
+<li>Di registri internasional ROPAC, penyakit jantung bawaan (57%) dan penyakit katup (29%) adalah kelompok terbanyak [3].</li>
+<li>Di Indonesia, porsi kematian ibu akibat penyebab nonobstetrik naik dari 10% menjadi 49% (1990–2020) [4].</li>
+<li>Dokter di layanan primer berperan menemukan kasus sejak dini dan merujuk tepat waktu [1].</li>
+</ul>
+</div>
 
 ## 1.1 Latar Belakang
 
-Penyakit kardiovaskular merupakan salah satu penyebab penting morbiditas dan mortalitas maternal di dunia. Kehamilan menyebabkan perubahan fisiologis yang bermakna pada sistem kardiovaskular untuk memenuhi kebutuhan metabolik ibu serta menunjang pertumbuhan dan perkembangan janin. Perubahan tersebut meliputi peningkatan volume darah, curah jantung, dan frekuensi denyut jantung, disertai penurunan resistensi vaskular sistemik. Pada perempuan dengan penyakit jantung yang telah ada sebelumnya, peningkatan beban hemodinamik selama kehamilan dapat memperberat gangguan fungsi kardiovaskular dan memicu terjadinya komplikasi. Manifestasi penyakit kardiovaskular juga dapat pertama kali muncul selama kehamilan atau periode pascapersalinan [1].
+Kehamilan mengubah sistem kardiovaskular secara bermakna: volume darah, curah jantung, dan denyut jantung meningkat, sedangkan resistensi vaskular sistemik menurun. Pada perempuan yang sudah memiliki penyakit jantung, tambahan beban ini dapat memperberat gangguan fungsi jantung. Sebagian penyakit kardiovaskular bahkan baru muncul pertama kali saat hamil atau setelah persalinan [1].
 
-Perkembangan pelayanan kesehatan telah mengubah karakteristik penyakit kardiovaskular pada perempuan usia reproduktif. Kemajuan diagnosis dan tata laksana penyakit jantung bawaan memungkinkan semakin banyak perempuan dengan kelainan jantung struktural mencapai usia dewasa dan merencanakan kehamilan. Pada saat yang sama, kecenderungan kehamilan pada usia maternal yang lebih tinggi serta meningkatnya prevalensi obesitas, hipertensi, diabetes melitus, dan faktor risiko kardiometabolik lainnya turut memengaruhi beban penyakit kardiovaskular selama kehamilan. Perubahan ini menyebabkan tenaga kesehatan menghadapi spektrum penyakit yang semakin beragam, baik dari segi etiologi maupun kompleksitas penanganannya [1,2].
+Karakteristik pasien juga berubah. Makin banyak perempuan dengan penyakit jantung bawaan yang mencapai usia dewasa dan merencanakan kehamilan berkat kemajuan diagnosis dan tata laksana. Di sisi lain, kehamilan di usia lebih tua serta meningkatnya obesitas, hipertensi, dan diabetes menambah beban penyakit kardiovaskular [1,2].
 
-Penyakit kardiovaskular pada kehamilan mencakup berbagai kondisi, antara lain penyakit jantung bawaan, penyakit katup jantung, kardiomiopati, aritmia, penyakit arteri koroner, hipertensi pulmonal, serta penyakit aorta. Masing-masing memiliki karakteristik klinis dan risiko komplikasi yang berbeda. Perjalanan penyakit selama kehamilan dipengaruhi oleh jenis dan derajat keparahan kelainan, fungsi ventrikel, status fungsional, kondisi hemodinamik, serta penyakit penyerta. Oleh karena itu, pengenalan karakteristik penyakit dan penilaian risiko secara individual menjadi landasan dalam perencanaan pelayanan maternal [1,3].
+Penyakitnya pun beragam: penyakit jantung bawaan, penyakit katup, kardiomiopati, aritmia, penyakit koroner, hipertensi pulmonal, dan penyakit aorta. Perjalanan penyakit selama hamil bergantung pada jenis dan derajat kelainan, fungsi ventrikel, status fungsional, dan penyakit penyerta. Karena itu, risiko perlu dinilai secara individual [1,3].
 
-Dampak penyakit kardiovaskular selama kehamilan mencakup kesehatan ibu, janin, dan neonatus. Komplikasi maternal dapat berupa gagal jantung, aritmia, kejadian tromboemboli, hingga kematian. Gangguan hemodinamik maternal juga dapat memengaruhi perfusi uteroplasenta dan meningkatkan risiko gangguan pertumbuhan janin, persalinan prematur, serta komplikasi neonatal. Pada sebagian kondisi berisiko tinggi, perubahan fisiologis selama kehamilan dapat menyebabkan perburukan klinis yang memerlukan pemantauan intensif dan penanganan oleh tim multidisiplin [1,3].
+Dampaknya mengenai ibu sekaligus janin. Gangguan hemodinamik maternal dapat mengurangi perfusi uteroplasenta sehingga meningkatkan risiko gangguan pertumbuhan janin, persalinan prematur, dan komplikasi neonatal [1,3].
 
-Di Indonesia, penyakit kardiovaskular pada kehamilan menjadi tantangan penting dalam pelayanan kesehatan maternal. Beban penyakit ini berkaitan dengan perubahan pola penyakit, variasi akses terhadap pelayanan kesehatan, serta perbedaan ketersediaan fasilitas diagnostik dan tenaga kesehatan antarwilayah. Tinjauan sistematis terhadap penyebab kematian maternal di Indonesia menunjukkan peningkatan proporsi kematian yang berkaitan dengan penyakit nonobstetrik dan gangguan hipertensi selama beberapa dekade terakhir. Temuan tersebut memperlihatkan pentingnya penguatan pelayanan maternal yang turut memperhatikan penyakit kronis dan kondisi medis penyerta [4].
+Pedoman ESC 2025 menekankan pelayanan berkesinambungan sejak prakonsepsi hingga pascapersalinan, dengan penilaian risiko dan keterlibatan *Pregnancy Heart Team* bila diperlukan [1].
 
-Penanganan penyakit kardiovaskular pada kehamilan memerlukan pelayanan berkesinambungan sejak masa prakonsepsi, antenatal, persalinan, hingga pascapersalinan. Pedoman *European Society of Cardiology* (ESC) tahun 2025 menekankan pentingnya penilaian risiko kardiovaskular serta keterlibatan *Pregnancy Heart Team* pada perempuan dengan penyakit kardiovaskular yang memerlukan penanganan khusus. Pendekatan multidisiplin memungkinkan perencanaan pemeriksaan, pemantauan, dan tata laksana yang disesuaikan dengan kondisi klinis serta kebutuhan pasien [1].
+## 1.2 Epidemiologi
 
-Dokter umum dan tenaga kesehatan di fasilitas pelayanan kesehatan primer memiliki peran penting dalam mendeteksi kemungkinan penyakit kardiovaskular pada perempuan usia reproduktif dan ibu hamil. Pengenalan gejala dan tanda klinis, pemeriksaan awal, identifikasi kondisi berisiko tinggi, serta rujukan yang tepat waktu merupakan bagian dari upaya pencegahan komplikasi. Pemahaman mengenai epidemiologi, spektrum penyakit, dan dampaknya terhadap kehamilan diperlukan untuk mendukung pelayanan kesehatan maternal yang komprehensif [1].
+### 1.2.1 Gambaran Global
 
-## 1.2 Epidemiologi Penyakit Kardiovaskular pada Kehamilan
+Pola penyakit berbeda antarwilayah. Di negara berpendapatan tinggi, penyakit jantung bawaan paling menonjol. Di negara berpendapatan rendah dan menengah, penyakit katup, termasuk penyakit jantung rematik, masih menjadi masalah utama [1,5].
 
-### 1.2.1 Epidemiologi Global
-
-Penyakit kardiovaskular merupakan masalah kesehatan maternal dengan distribusi dan karakteristik yang berbeda antarwilayah. Beban penyakit dipengaruhi oleh faktor demografi, transisi epidemiologi, prevalensi penyakit kardiovaskular pada populasi usia reproduktif, serta ketersediaan pelayanan kesehatan. Penyakit jantung bawaan merupakan kelompok diagnosis yang menonjol pada populasi kehamilan dengan penyakit jantung di negara berpendapatan tinggi, sedangkan penyakit katup jantung, termasuk penyakit jantung rematik, masih menjadi masalah penting di berbagai negara berpendapatan rendah dan menengah [1,5].
-
-Data dari *Registry of Pregnancy and Cardiac Disease* (ROPAC), suatu registri internasional yang diselenggarakan oleh ESC, memberikan gambaran mengenai karakteristik dan luaran kehamilan pada perempuan dengan penyakit kardiovaskular. Analisis terhadap 5.739 kehamilan yang direkrut selama periode 2007–2018 menunjukkan bahwa penyakit jantung bawaan merupakan kelompok diagnosis terbanyak, yaitu sekitar 57%, diikuti penyakit katup jantung sebesar 29%. Kelompok penyakit lainnya mencakup sekitar 14% dari populasi registri [3].
+Data terbesar berasal dari *Registry of Pregnancy and Cardiac Disease* (ROPAC) milik ESC, yang mencatat 5.739 kehamilan pada 2007–2018 [3].
 
 <figure class="gambar">
 <figcaption><strong>Gambar 1.1.</strong> Distribusi kelompok penyakit kardiovaskular pada kehamilan dalam registri ROPAC</figcaption>
@@ -42,89 +44,91 @@ Data dari *Registry of Pregnancy and Cardiac Disease* (ROPAC), suatu registri in
 <p class="catatan">Data ROPAC berasal dari 5.739 kehamilan yang tercatat selama 2007–2018. Kelompok lainnya merupakan gabungan diagnosis di luar dua kategori utama.</p>
 </figure>
 
-Luaran kehamilan dalam registri ROPAC menunjukkan bahwa penyakit kardiovaskular dapat berkaitan dengan komplikasi maternal, obstetri, dan janin. Mortalitas maternal dilaporkan sebesar 0,6%, sedangkan gagal jantung terjadi pada sekitar 11% kehamilan. Aritmia ditemukan pada sekitar 2% pasien, komplikasi obstetri pada 17%, dan komplikasi janin pada 21% kehamilan. Persalinan melalui seksio sesarea dilakukan pada sekitar 44% pasien [3].
+Luaran kehamilan di ROPAC [3]:
 
-Temuan ROPAC menunjukkan bahwa sebagian besar perempuan dengan penyakit jantung dapat menjalani kehamilan dengan luaran yang baik, tetapi komplikasi serius tetap ditemukan, terutama pada kelompok dengan penyakit kardiovaskular berisiko tinggi. Risiko tersebut dipengaruhi oleh diagnosis dasar, kondisi klinis sebelum kehamilan, serta kemampuan fasilitas kesehatan dalam memberikan pelayanan yang sesuai. Dalam analisis perubahan karakteristik pasien selama periode registri, proporsi kehamilan dengan klasifikasi risiko *modified World Health Organization* (mWHO) kelas IV meningkat dari 0,7% pada periode 2007–2010 menjadi 10,9% pada periode 2015–2018.
+<div class="stats">
+<div class="stat"><b>0,6%</b><span>mortalitas maternal</span></div>
+<div class="stat"><b>11%</b><span>gagal jantung</span></div>
+<div class="stat"><b>17%</b><span>komplikasi obstetri</span></div>
+<div class="stat"><b>21%</b><span>komplikasi janin</span></div>
+<div class="stat"><b>44%</b><span>seksio sesarea</span></div>
+<div class="stat"><b>2%</b><span>aritmia</span></div>
+</div>
 
-Perbedaan epidemiologi antarwilayah juga terlihat dalam analisis ROPAC yang membandingkan karakteristik pasien dari negara maju dan negara berkembang. Penyakit jantung bawaan lebih sering ditemukan pada kelompok pasien dari negara maju, sedangkan penyakit katup jantung lebih dominan pada kelompok dari negara berkembang. Analisis tersebut juga menunjukkan bahwa kejadian komplikasi kardiovaskular lebih tinggi pada kelompok pasien dari negara berkembang.
+Sebagian besar ibu dengan penyakit jantung dapat melalui kehamilan dengan baik, tetapi komplikasi serius tetap terjadi, terutama pada kelompok berisiko tinggi. Proporsi kehamilan dengan risiko mWHO kelas IV di ROPAC bahkan meningkat dari 0,7% (2007–2010) menjadi 10,9% (2015–2018).
+
+Perbedaan antara negara maju dan berkembang terlihat jelas:
 
 <p class="judul-tabel"><strong>Tabel 1.1.</strong> Perbandingan karakteristik penyakit jantung pada kehamilan antara negara maju dan negara berkembang</p>
 
+| Aspek | Negara maju | Negara berkembang |
+|---|---|---|
+| Kelompok penyakit dominan (ROPAC) | Penyakit jantung bawaan | Penyakit katup jantung |
+| Komplikasi kardiovaskular | 12,8% | 36,3% |
+| Karakteristik pelayanan | Akses koreksi PJB dan layanan spesialistik lebih luas | Beban penyakit katup, termasuk rematik, masih penting |
+| Implikasi | Pantau kelainan residual dan komplikasi jangka panjang | Deteksi penyakit katup, nilai keparahan, buka akses spesialistik |
 
-| Aspek                                                | Negara Maju                                                                         | Negara Berkembang                                                             |
-|------------------------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **Kelompok penyakit yang lebih dominan dalam ROPAC** | Penyakit jantung bawaan                                                             | Penyakit katup jantung                                                        |
-| **Kejadian komplikasi kardiovaskular**               | 12,8%                                                                               | 36,3%                                                                         |
-| **Karakteristik pelayanan**                          | Akses koreksi penyakit jantung bawaan dan pelayanan spesialistik relatif lebih luas | Beban penyakit katup, termasuk penyakit jantung rematik, masih penting        |
-| **Implikasi pelayanan**                              | Pemantauan kelainan struktural residual dan komplikasi jangka panjang               | Deteksi penyakit katup, penilaian keparahan, dan akses pelayanan spesialistik |
+Secara global, penyebab obstetrik tidak langsung, termasuk penyakit kardiovaskular, menyumbang sekitar 23% kematian maternal pada 2009–2020 [6]. Artinya, menurunkan kematian ibu tidak cukup dengan menangani komplikasi obstetri saja; penyakit medis penyerta harus dikenali sejak sebelum hamil [1,6].
 
-Selain berkontribusi terhadap morbiditas maternal, penyakit kardiovaskular merupakan bagian penting dari penyebab kematian maternal akibat kondisi medis penyerta. Analisis sistematis WHO terhadap penyebab kematian maternal global selama 2009–2020 menunjukkan bahwa penyebab obstetrik tidak langsung menyumbang sekitar 23% kematian maternal. Kelompok tersebut mencakup berbagai penyakit yang telah ada sebelumnya atau berkembang selama kehamilan dan diperberat oleh perubahan fisiologis kehamilan, termasuk penyakit kardiovaskular [6].
+### 1.2.2 Gambaran di Indonesia
 
-Data tersebut menegaskan perlunya pendekatan kesehatan maternal yang mencakup penanganan komplikasi obstetri sekaligus pengenalan dan pengelolaan penyakit medis penyerta. Upaya penurunan mortalitas maternal memerlukan pelayanan yang mampu mengidentifikasi risiko sejak sebelum kehamilan, memantau perubahan kondisi klinis selama kehamilan, dan memberikan tata laksana tepat waktu ketika terjadi komplikasi [1,6].
+Tinjauan sistematis Syairaji dkk. (2024) atas 63 penelitian menunjukkan rasio kematian ibu turun dari sekitar 450 menjadi 249 per 100.000 kelahiran hidup (1990–2020). Namun, polanya bergeser [4]:
 
-### 1.2.2 Epidemiologi di Indonesia
+- Kematian akibat perdarahan dan sepsis **menurun**.
+- Kematian akibat hipertensi dan penyebab nonobstetrik **meningkat**. Penyebab nonobstetrik naik dari **10% menjadi 49%**.
 
-Indonesia menghadapi tantangan kesehatan maternal yang dipengaruhi oleh perubahan pola penyakit dan kesenjangan pelayanan kesehatan antarwilayah. Meskipun kematian maternal secara umum menunjukkan kecenderungan menurun dalam beberapa dekade terakhir, kontribusi penyakit nonobstetrik terhadap kematian maternal semakin mendapat perhatian. Kondisi ini mencerminkan perlunya penguatan pelayanan kesehatan ibu yang mengintegrasikan penanganan komplikasi obstetri dan penyakit medis penyerta [4].
+Data penyakit jantung pada kehamilan di Indonesia sebagian besar berasal dari rumah sakit rujukan, sehingga cenderung menggambarkan kasus yang lebih berat [7]. Salah satu kelompok yang menonjol adalah penyakit jantung bawaan dengan hipertensi pulmonal, yang masih berkaitan dengan komplikasi ibu dan janin yang bermakna. Ini menegaskan pentingnya deteksi sebelum hamil, konseling risiko, dan perencanaan oleh tim multidisiplin [7].
 
-Tinjauan sistematis oleh Syairaji dan kolega yang diterbitkan pada tahun 2024 menganalisis 63 penelitian mengenai mortalitas maternal di Indonesia. Penelitian tersebut melaporkan penurunan rasio kematian maternal nasional dari sekitar 450 menjadi 249 per 100.000 kelahiran hidup antara tahun 1990 dan 2020. Pada periode yang dikaji, proporsi kematian akibat perdarahan dan sepsis mengalami penurunan, sedangkan proporsi kematian akibat gangguan hipertensi dan penyebab nonobstetrik meningkat. Proporsi kematian akibat penyebab nonobstetrik dilaporkan meningkat dari 10% menjadi 49% [4].
+Registri, pencatatan yang terstandar, dan penelitian multisenter masih diperlukan agar gambaran nasional lebih representatif [4,7].
 
-Penelitian mengenai penyakit kardiovaskular pada kehamilan di Indonesia sebagian besar berasal dari rumah sakit rujukan dan pusat pelayanan tersier. Karakteristik tersebut memberikan informasi mengenai spektrum penyakit serta komplikasi pada pasien yang memerlukan penanganan khusus. Namun, data dari rumah sakit rujukan cenderung mencakup pasien dengan kondisi yang lebih berat sehingga perlu dibedakan dari gambaran epidemiologi pada populasi umum [7].
+## 1.3 Spektrum Penyakit
 
-Salah satu kelompok penyakit yang menjadi perhatian di Indonesia adalah penyakit jantung bawaan dengan hipertensi pulmonal. Penelitian multisenter yang melibatkan sejumlah rumah sakit rujukan di Indonesia menunjukkan bahwa kehamilan pada perempuan dengan penyakit jantung bawaan dan hipertensi pulmonal masih berkaitan dengan risiko komplikasi maternal dan janin yang bermakna. Kondisi ini menegaskan pentingnya identifikasi penyakit jantung sebelum kehamilan, konseling risiko reproduksi, dan perencanaan pelayanan oleh tim multidisiplin [7].
-
-Secara keseluruhan, data yang tersedia menunjukkan bahwa penyakit kardiovaskular merupakan komponen penting dalam pelayanan kesehatan maternal di Indonesia. Penguatan sistem pencatatan, pengembangan registri, dan penelitian multisenter diperlukan untuk memperoleh gambaran epidemiologi yang lebih representatif, termasuk mengenai distribusi diagnosis, faktor risiko, dan luaran kehamilan pada berbagai tingkat pelayanan kesehatan [4,7].
-
-## 1.3 Spektrum Penyakit Kardiovaskular pada Kehamilan
-
-Penyakit kardiovaskular pada kehamilan mencakup berbagai kelainan struktural, fungsional, dan elektrik jantung serta gangguan pada sistem vaskular. Setiap kelompok penyakit memiliki karakteristik klinis dan perjalanan penyakit yang berbeda selama kehamilan. Perubahan hemodinamik maternal dapat memengaruhi manifestasi penyakit yang telah ada sebelumnya, sedangkan beberapa kondisi kardiovaskular dapat pertama kali muncul selama kehamilan atau periode pascapersalinan. Keberagaman tersebut memerlukan pendekatan klinis yang mempertimbangkan diagnosis dasar, derajat keparahan penyakit, dan kondisi maternal secara individual [1,2].
+Setiap kelompok penyakit membawa risiko dan perhatian klinis yang berbeda [1,2].
 
 <p class="judul-tabel"><strong>Tabel 1.2.</strong> Spektrum penyakit kardiovaskular pada kehamilan dan karakteristik klinis</p>
 
+| Kelompok | Contoh | Yang perlu diperhatikan |
+|---|---|---|
+| Penyakit jantung bawaan | ASD, VSD, tetralogi Fallot | Risiko bergantung pada jenis kelainan, status koreksi, fungsi ventrikel, dan lesi residual |
+| Penyakit katup | Stenosis mitral, stenosis aorta, regurgitasi | Lesi stenotik berat paling mudah memburuk akibat beban hemodinamik |
+| Kardiomiopati | Dilatasi, hipertrofik, peripartum | Disfungsi ventrikel, gagal jantung, gangguan irama |
+| Aritmia | SVT, fibrilasi atrium, aritmia ventrikel | Risiko bergantung pada jenis aritmia, hemodinamik, dan penyakit dasar |
+| Hipertensi pulmonal | PAH idiopatik, PAH terkait PJB | Risiko maternal sangat tinggi, terutama bila ada disfungsi ventrikel kanan |
+| Penyakit koroner | Aterosklerotik, SCAD | Sindrom koroner akut saat hamil atau pascapersalinan |
+| Penyakit aorta | Marfan, aortopati katup bikuspid, Loeys–Dietz | Dilatasi dan diseksi aorta |
+| Hipertensi dalam kehamilan | Hipertensi kronis, gestasional, preeklamsia | Komplikasi ibu-janin dan risiko kardiovaskular jangka panjang |
 
-| Kelompok Penyakit                   | Contoh Kondisi                                                                                   | Karakteristik dan Perhatian Klinis                                                                                |
-|-------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Penyakit jantung bawaan             | Defek septum atrium, defek septum ventrikel, tetralogi Fallot                                    | Risiko dipengaruhi oleh jenis kelainan, status koreksi, fungsi ventrikel, dan keberadaan lesi residual.           |
-| Penyakit katup jantung              | Stenosis mitral, stenosis aorta, regurgitasi katup                                               | Peningkatan beban hemodinamik selama kehamilan dapat memperberat kelainan katup, terutama lesi stenotik berat.    |
-| Kardiomiopati                       | Kardiomiopati dilatasi, hipertrofik, dan peripartum                                              | Dapat menyebabkan disfungsi ventrikel, gagal jantung, serta gangguan irama.                                       |
-| Aritmia                             | Takikardia supraventrikular, fibrilasi atrium, aritmia ventrikel                                 | Manifestasi dan risiko bergantung pada jenis aritmia, kondisi hemodinamik, serta penyakit jantung yang mendasari. |
-| Hipertensi pulmonal                 | Hipertensi arteri pulmonal idiopatik, hipertensi arteri pulmonal terkait penyakit jantung bawaan | Berhubungan dengan risiko maternal yang sangat tinggi, terutama apabila disertai disfungsi ventrikel kanan.       |
-| Penyakit arteri koroner             | Penyakit arteri koroner aterosklerotik, diseksi arteri koroner spontan                           | Dapat menyebabkan sindrom koroner akut selama kehamilan atau periode pascapersalinan.                             |
-| Penyakit aorta                      | Sindrom Marfan, aortopati terkait katup aorta bikuspid, sindrom Loeys–Dietz                      | Berhubungan dengan risiko dilatasi dan diseksi aorta, terutama pada pasien dengan aortopati bermakna.             |
-| Gangguan hipertensi dalam kehamilan | Hipertensi kronis, hipertensi gestasional, preeklamsia                                           | Berkaitan dengan komplikasi maternal dan perinatal serta peningkatan risiko kardiovaskular jangka panjang.        |
+Sebagian perempuan dengan kelainan ringan cukup dipantau rutin, sedangkan kondisi tertentu memerlukan tim multidisiplin. Penilaian risiko individual menentukan jenis pemeriksaan, frekuensi pemantauan, dan rencana persalinan [1].
 
-Perkembangan pelayanan kardiovaskular turut memengaruhi karakteristik pasien yang menjalani kehamilan. Kemajuan diagnosis, intervensi, dan pembedahan penyakit jantung bawaan memungkinkan semakin banyak perempuan dengan kelainan jantung struktural mencapai usia reproduktif. Pada kelompok ini, kondisi hemodinamik setelah koreksi dan keberadaan komplikasi residual menjadi pertimbangan penting dalam perencanaan kehamilan. Sementara itu, penyakit jantung rematik masih berkontribusi terhadap beban penyakit katup di berbagai negara berpendapatan rendah dan menengah [1,5].
+## 1.4 Tantangan Pelayanan di Indonesia
 
-Perbedaan tingkat risiko antarpenyakit juga perlu diperhatikan. Sebagian perempuan dengan kelainan jantung ringan dapat menjalani kehamilan dengan pemantauan rutin, sedangkan kondisi tertentu memerlukan penanganan intensif oleh tim multidisiplin. Penilaian risiko individual menjadi dasar dalam menentukan kebutuhan pemeriksaan, frekuensi pemantauan, dan perencanaan persalinan. Karakteristik serta tata laksana masing-masing kelompok penyakit akan dibahas lebih lanjut pada bab-bab berikutnya [1].
-
-## 1.4 Tantangan dan Arah Pelayanan Kesehatan di Indonesia
-
-Pelayanan penyakit jantung pada kehamilan di Indonesia menghadapi tantangan yang berkaitan dengan deteksi dini, akses terhadap pemeriksaan diagnostik, ketersediaan tenaga kesehatan, dan koordinasi sistem rujukan. Kondisi geografis Indonesia serta perbedaan kapasitas fasilitas pelayanan kesehatan antarwilayah dapat memengaruhi kesinambungan pelayanan maternal, terutama bagi perempuan dengan penyakit kardiovaskular yang memerlukan pemantauan dan penanganan khusus.
-
-Tinjauan sistematis oleh Syairaji dan kolega menunjukkan adanya disparitas mortalitas maternal yang bermakna antarwilayah di Indonesia. Perbedaan tersebut mencerminkan kompleksitas masalah kesehatan maternal yang melibatkan kondisi sosial ekonomi, akses pelayanan kesehatan, dan kapasitas fasilitas kesehatan. Penyakit nonobstetrik menjadi salah satu kelompok penyebab kematian maternal yang perlu mendapat perhatian dalam pengembangan pelayanan kesehatan ibu [1]
-
-Upaya peningkatan pelayanan memerlukan pendekatan yang mencakup seluruh tahapan reproduksi, mulai dari perencanaan kehamilan hingga pemantauan pascapersalinan. Penguatan pelayanan kesehatan primer dan jejaring rujukan menjadi bagian penting dalam mendukung identifikasi penyakit, penilaian risiko, dan kesinambungan pelayanan. Berbagai tantangan serta arah penguatan pelayanan dirangkum pada tabel berikut.
+Kondisi geografis dan perbedaan kapasitas fasilitas antarwilayah memengaruhi kesinambungan pelayanan. Disparitas kematian ibu antarwilayah juga masih besar [4].
 
 <p class="judul-tabel"><strong>Tabel 1.3.</strong> Tantangan dan arah penguatan pelayanan penyakit jantung pada kehamilan di Indonesia</p>
 
-
-| Aspek pelayanan                           | Tantangan                                                                                            | Arah penguatan                                                                                                    |
-|-------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Deteksi dini                              | Gejala penyakit jantung dapat menyerupai perubahan fisiologis kehamilan.                             | Penguatan anamnesis, pemeriksaan fisik, dan identifikasi tanda bahaya pada pelayanan antenatal.                   |
-| Pemeriksaan diagnostik                    | Ketersediaan ekokardiografi dan pemeriksaan kardiovaskular lanjutan bervariasi antarwilayah.         | Pengembangan akses pemeriksaan diagnostik melalui jejaring rujukan.                                               |
-| Penilaian risiko                          | Identifikasi risiko maternal dan janin memerlukan pengetahuan serta keterampilan klinis yang sesuai. | Penerapan penilaian risiko terstruktur dan peningkatan kompetensi tenaga kesehatan.                               |
-| Sistem rujukan                            | Perbedaan kapasitas fasilitas dan jarak geografis dapat memengaruhi ketepatan waktu penanganan.      | Penguatan koordinasi antara fasilitas kesehatan primer, rumah sakit rujukan, dan pusat pelayanan tersier.         |
-| Pelayanan multidisiplin                   | Ketersediaan tenaga spesialistik dan koordinasi antarbidang belum merata.                            | Pengembangan jejaring Pregnancy Heart Team sesuai kapasitas regional.                                             |
-| Pelayanan prakonsepsi dan pascapersalinan | Kesinambungan pemantauan dapat terhambat oleh keterbatasan akses dan koordinasi pelayanan.           | Integrasi konseling prakonsepsi, pemantauan antenatal, perencanaan persalinan, dan tindak lanjut pascapersalinan. |
-| Pencatatan dan penelitian                 | Data klinis dan luaran kehamilan belum sepenuhnya terintegrasi antarfasilitas.                       | Pengembangan registri, standardisasi pencatatan, dan penelitian multisenter.                                      |
-
-Pedoman ESC 2025 merekomendasikan keterlibatan Pregnancy Heart Team sejak masa prakonsepsi hingga pascapersalinan pada perempuan dengan penyakit kardiovaskular yang termasuk klasifikasi risiko mWHO 2.0 kelas II–III atau lebih tinggi (Kelas I, Tingkat Bukti C). Penerapan pendekatan tersebut memerlukan penyesuaian dengan kapasitas fasilitas kesehatan dan jejaring pelayanan yang tersedia. Kolaborasi antara dokter umum, dokter spesialis obstetri dan ginekologi, dokter spesialis jantung dan pembuluh darah, serta tenaga kesehatan lainnya menjadi bagian penting dalam mendukung pengambilan keputusan klinis yang terkoordinasi [1].
+| Aspek | Tantangan | Arah penguatan |
+|---|---|---|
+| Deteksi dini | Gejala penyakit jantung mirip perubahan fisiologis kehamilan | Anamnesis, pemeriksaan fisik, dan tanda bahaya saat ANC |
+| Pemeriksaan diagnostik | Akses ekokardiografi tidak merata | Akses melalui jejaring rujukan |
+| Penilaian risiko | Butuh pengetahuan dan keterampilan khusus | Penilaian risiko terstruktur dan pelatihan |
+| Sistem rujukan | Jarak dan kapasitas fasilitas berbeda | Koordinasi FKTP, RS rujukan, dan pusat tersier |
+| Layanan multidisiplin | Tenaga spesialis belum merata | Jejaring *Pregnancy Heart Team* regional |
+| Prakonsepsi & pascapersalinan | Pemantauan sering terputus | Integrasi konseling, ANC, rencana persalinan, dan tindak lanjut nifas |
+| Pencatatan & penelitian | Data belum terintegrasi | Registri, standardisasi pencatatan, penelitian multisenter |
 
 <div class="rekomendasi">
 <table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
 <tbody><tr><td>Perempuan dengan penyakit kardiovaskular yang termasuk klasifikasi mWHO 2.0 kelas II–III atau lebih tinggi direkomendasikan untuk menjalani evaluasi dan penatalaksanaan oleh <em>Pregnancy Heart Team</em> sejak masa prakonsepsi, selama kehamilan, hingga pascapersalinan.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
 </div>
 
-Pengembangan pelayanan penyakit jantung pada kehamilan di Indonesia perlu didukung oleh pencatatan klinis dan penelitian berkelanjutan. Data karakteristik penyakit, komplikasi, dan luaran kehamilan dapat menjadi dasar evaluasi mutu pelayanan serta pengembangan kebijakan kesehatan maternal. Kolaborasi antarfasilitas kesehatan dan pemanfaatan data klinis diharapkan dapat meningkatkan kualitas pelayanan sesuai kebutuhan pasien dan karakteristik wilayah.
+Penerapannya perlu disesuaikan dengan kapasitas setempat. Kolaborasi dokter umum, SpOG, SpJP, dan tenaga kesehatan lain menjadi kunci keputusan klinis yang terkoordinasi [1].
+
+> **Poin Klinis 1.1**
+>
+> - Penyakit jantung adalah penyebab penting kematian ibu yang makin menonjol di Indonesia.
+> - PJB dan penyakit katup (termasuk rematik) adalah kelompok terbanyak.
+> - Banyak gejala penyakit jantung mirip keluhan hamil normal; tanda bahaya perlu dicari aktif saat ANC.
+> - Ibu dengan risiko mWHO II–III ke atas perlu ditangani *Pregnancy Heart Team* sejak prakonsepsi.
 
 ## Daftar Pustaka
 

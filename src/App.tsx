@@ -3,6 +3,7 @@ import Beranda from './pages/Beranda'
 import DaftarModul from './pages/DaftarModul'
 import HalamanBab from './pages/HalamanBab'
 import PenilaianRisiko from './pages/PenilaianRisiko'
+import PanduanKlinis from './pages/checklist/PanduanKlinis'
 import Tentang from './pages/Tentang'
 
 export default function App() {
@@ -16,7 +17,8 @@ export default function App() {
           </NavLink>
           <nav>
             <NavLink to="/modul">Modul</NavLink>
-            <NavLink to="/risiko">Penilaian Risiko</NavLink>
+            <NavLink to="/checklist">Checklist</NavLink>
+            <NavLink to="/risiko">Skor Risiko</NavLink>
             <NavLink to="/tentang">Tentang</NavLink>
           </nav>
         </div>
@@ -26,6 +28,7 @@ export default function App() {
           <Route path="/" element={<Beranda />} />
           <Route path="/modul" element={<DaftarModul />} />
           <Route path="/modul/:slug" element={<HalamanBab />} />
+          <Route path="/checklist" element={<PanduanKlinis />} />
           <Route path="/risiko" element={<PenilaianRisiko />} />
           <Route path="/tentang" element={<Tentang />} />
           <Route path="*" element={<p>Halaman tidak ditemukan.</p>} />

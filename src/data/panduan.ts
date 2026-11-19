@@ -1,0 +1,155 @@
+/**
+ * Panduan klinis deteksi dini penyakit jantung pada ibu hamil di FKTP/puskesmas.
+ *
+ * Sumber: materi "Auskultasi Terstruktur, Varian Normal EKG Kehamilan, dan Kriteria Rujukan
+ * Ekokardiografi" (Bintang Kusuma Prabowo, FK-KMK UGM/RSUP Dr. Sardjito, Nov 2026), yang
+ * mengadaptasi algoritma ACOG 2023 (red flags) dan CMQCC/CDPH CVD in Pregnancy Toolkit 2017.
+ */
+
+export type Tingkat = 'merah' | 'kuning'
+
+export type Temuan = {
+  id: string
+  label: string
+  detail?: string
+  tingkat: Tingkat
+  /** Naik menjadi merah bila ibu datang dengan keluhan (gejala waspada). */
+  merahBilaGejala?: boolean
+  /** Hanya dihitung bila ibu datang dengan keluhan (mis. S3). */
+  hanyaBilaGejala?: boolean
+}
+
+export type Kategori = 'riwayat' | 'faktor' | 'gejala' | 'vital' | 'fisik' | 'ekg'
+
+export const RIWAYAT: Temuan[] = [
+  { id: 'r-pjb', label: 'Penyakit jantung bawaan, termasuk yang sudah dioperasi/dikoreksi', tingkat: 'kuning' },
+  { id: 'r-katup', label: 'Penyakit katup jantung atau riwayat demam rematik', tingkat: 'kuning' },
+  { id: 'r-kardiomiopati', label: 'Kardiomiopati, termasuk riwayat PPCM', tingkat: 'kuning' },
+  { id: 'r-aorta', label: 'Aortopati (mis. sindrom Marfan)', tingkat: 'kuning' },
+  { id: 'r-hp', label: 'Hipertensi pulmonal atau desaturasi yang tidak terjelaskan', tingkat: 'kuning' },
+  { id: 'r-kemo', label: 'Riwayat kemoterapi kardiotoksik (mis. doksorubisin)', tingkat: 'kuning' },
+  { id: 'r-keluarga', label: 'Keluarga dengan penyakit jantung herediter atau kematian mendadak usia muda', tingkat: 'kuning' },
+]
+
+export const FAKTOR_RISIKO: Temuan[] = [
+  { id: 'f-usia', label: 'Usia ≥ 40 tahun', tingkat: 'kuning' },
+  { id: 'f-imt', label: 'IMT ≥ 35', tingkat: 'kuning' },
+  { id: 'f-dm', label: 'Diabetes melitus', tingkat: 'kuning' },
+  { id: 'f-ht', label: 'Hipertensi', tingkat: 'kuning' },
+  { id: 'f-rokok', label: 'Merokok atau penggunaan zat', tingkat: 'kuning' },
+]
+
+export const KELUHAN_WAJAR = [
+  'Sesak ringan saat aktivitas, membaik dengan istirahat',
+  'Mudah lelah',
+  'Edema tungkai ringan yang dependen',
+  'Berdebar sesaat tanpa pusing atau pingsan',
+  'Pusing saat lama telentang, membaik bila miring kiri',
+]
+
+export const GEJALA: Temuan[] = [
+  { id: 'g-sesak-istirahat', label: 'Sesak saat istirahat atau ortopnea berat', tingkat: 'merah' },
+  {
+    id: 'g-nyeri-dada-berat',
+    label: 'Nyeri dada saat istirahat/aktivitas ringan, atau terasa seperti robek',
+    tingkat: 'merah',
+  },
+  { id: 'g-sinkop', label: 'Sinkop, atau palpitasi disertai hampir pingsan', tingkat: 'merah' },
+  { id: 'g-sesak', label: 'Sesak yang progresif atau tidak sebanding dengan usia kehamilan', tingkat: 'kuning' },
+  { id: 'g-ortopnea', label: 'Ortopnea atau PND (terbangun karena sesak)', tingkat: 'kuning' },
+  { id: 'g-nyeri-dada', label: 'Nyeri dada', tingkat: 'kuning' },
+  { id: 'g-batuk', label: 'Batuk atau mengi baru, termasuk pada masa nifas', tingkat: 'kuning' },
+]
+
+export const VITAL_TAMBAHAN: Temuan[] = [
+  { id: 'v-takikardia', label: 'Takikardia sinus > 100 kali/menit yang menetap tanpa sebab jelas', tingkat: 'kuning' },
+  { id: 'v-desaturasi', label: 'Desaturasi saat berjalan', tingkat: 'kuning' },
+]
+
+export const FISIK: Temuan[] = [
+  { id: 'p-diastolik', label: 'Bising diastolik apa pun', tingkat: 'kuning', merahBilaGejala: true },
+  { id: 'p-keras', label: 'Bising ≥ 3/6 atau teraba thrill', tingkat: 'kuning', merahBilaGejala: true },
+  { id: 'p-holosistolik', label: 'Bising holosistolik atau sistolik akhir', tingkat: 'kuning' },
+  {
+    id: 'p-kontinu',
+    label: 'Bising kontinu',
+    detail: 'Kecuali venous hum atau mammary souffle yang khas',
+    tingkat: 'kuning',
+  },
+  { id: 'p-jalar', label: 'Bising menjalar ke leher atau punggung', tingkat: 'kuning' },
+  {
+    id: 'p-s2',
+    label: 'Klik ejeksi, opening snap, split S2 lebar menetap, atau P2 keras',
+    tingkat: 'kuning',
+  },
+  { id: 'p-s4', label: 'S4', tingkat: 'kuning', merahBilaGejala: true },
+  {
+    id: 'p-s3',
+    label: 'S3',
+    detail: 'Dihitung hanya bila ibu datang dengan keluhan',
+    tingkat: 'merah',
+    hanyaBilaGejala: true,
+  },
+  { id: 'p-heave', label: 'Heave parasternal', tingkat: 'kuning' },
+  { id: 'p-ronki', label: 'Ronki basal atau mengi', tingkat: 'merah' },
+  { id: 'p-jvp', label: 'Distensi vena leher menetap', tingkat: 'merah' },
+  { id: 'p-sianosis', label: 'Sianosis atau jari tabuh', tingkat: 'kuning' },
+]
+
+export const EKG: Temuan[] = [
+  { id: 'e-rad', label: 'Aksis ke kanan (RAD, > +90°) atau R dominan di V1', detail: 'Beban ventrikel kanan: ASD, HP, MS', tingkat: 'kuning' },
+  { id: 'e-rbbb', label: 'RBBB (inkomplet/komplet) disertai RAD', detail: 'Curigai ASD sekundum', tingkat: 'kuning' },
+  { id: 'e-aritmia', label: 'AF, flutter, SVT, atau VT', detail: 'Pada ibu hamil dengan AF, pikirkan stenosis mitral rematik', tingkat: 'kuning' },
+  { id: 'e-ektopik', label: 'Ekstrasistol sering, berpasangan, beruntun, atau bergejala', tingkat: 'kuning' },
+  { id: 'e-delta', label: 'PR pendek dengan gelombang delta (preeksitasi)', tingkat: 'kuning' },
+  { id: 'e-blok', label: 'Blok AV derajat 2–3', tingkat: 'kuning' },
+  { id: 'e-lbbb', label: 'LBBB atau QRS ≥ 120 ms', detail: 'Pikirkan kardiomiopati, termasuk PPCM', tingkat: 'kuning' },
+  {
+    id: 'e-iskemia',
+    label: 'Q patologis, ST elevasi/depresi bermakna, atau T inversi dalam di lateral',
+    tingkat: 'kuning',
+  },
+  { id: 'e-qtc', label: 'QTc ≥ 460 ms', tingkat: 'kuning' },
+  { id: 'e-hipertrofi', label: 'LVH/RVH dengan strain, atau P mitral/pulmonal', tingkat: 'kuning' },
+  {
+    id: 'e-np',
+    label: 'BNP ≥ 100 atau NT-proBNP ≥ 300 pg/mL (bila tersedia)',
+    detail: 'Nilai di bawah ambang ini membantu menyingkirkan gagal jantung',
+    tingkat: 'kuning',
+  },
+]
+
+export type Vital = { nadi?: number; tds?: number; rr?: number; spo2?: number }
+
+export type HasilVital = { label: string; nilai: string; tingkat: Tingkat }
+
+/** Ambang tanda vital istirahat (adaptasi ACOG 2023 dan CMQCC). */
+export function nilaiVital(v: Vital): HasilVital[] {
+  const out: HasilVital[] = []
+  if (v.nadi != null) {
+    if (v.nadi >= 120) out.push({ label: 'Nadi ≥ 120', nilai: `${v.nadi}/menit`, tingkat: 'merah' })
+    else if (v.nadi >= 110) out.push({ label: 'Nadi ≥ 110', nilai: `${v.nadi}/menit`, tingkat: 'kuning' })
+  }
+  if (v.tds != null) {
+    if (v.tds >= 160) out.push({ label: 'TD sistolik ≥ 160', nilai: `${v.tds} mmHg`, tingkat: 'merah' })
+    else if (v.tds < 90) out.push({ label: 'TD sistolik < 90', nilai: `${v.tds} mmHg`, tingkat: 'merah' })
+    else if (v.tds >= 140) out.push({ label: 'TD sistolik ≥ 140', nilai: `${v.tds} mmHg`, tingkat: 'kuning' })
+  }
+  if (v.rr != null) {
+    if (v.rr >= 25) out.push({ label: 'Laju napas ≥ 25', nilai: `${v.rr}/menit`, tingkat: 'merah' })
+    else if (v.rr >= 24) out.push({ label: 'Laju napas ≥ 24', nilai: `${v.rr}/menit`, tingkat: 'kuning' })
+  }
+  if (v.spo2 != null) {
+    if (v.spo2 <= 94) out.push({ label: 'SpO₂ ≤ 94%', nilai: `${v.spo2}%`, tingkat: 'merah' })
+    else if (v.spo2 <= 96) out.push({ label: 'SpO₂ ≤ 96%', nilai: `${v.spo2}%`, tingkat: 'kuning' })
+  }
+  return out
+}
+
+export const SUMBER_PANDUAN = [
+  'Prabowo BK. Auskultasi Terstruktur, Varian Normal EKG Kehamilan, dan Kriteria Rujukan Ekokardiografi. FK-KMK UGM/RSUP Dr. Sardjito; November 2026.',
+  'American College of Obstetricians and Gynecologists. Cardiovascular Disease in Pregnancy and Postpartum Algorithm; 2023.',
+  'California Maternal Quality Care Collaborative/CDPH. Cardiovascular Disease in Pregnancy and Postpartum Toolkit; 2017.',
+  'ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133:e320–56.',
+  'De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46:4462–568.',
+]

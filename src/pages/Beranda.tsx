@@ -17,8 +17,13 @@ export default function Beranda() {
           <p>Baca materi per bab, lengkap dengan Poin Klinis dan daftar pustaka.</p>
           <span className="card-cta">Buka modul →</span>
         </Link>
+        <Link to="/checklist" className="card">
+          <h2>Checklist puskesmas</h2>
+          <p>Panduan langkah demi langkah: riwayat, gejala, tanda vital, auskultasi, EKG, sampai triase dan surat rujukan.</p>
+          <span className="card-cta">Mulai checklist →</span>
+        </Link>
         <Link to="/risiko" className="card">
-          <h2>Penilaian risiko</h2>
+          <h2>Skor risiko</h2>
           <p>Hitung klasifikasi mWHO, skor CARPREG II, dan skor ZAHARA untuk pasien Anda.</p>
           <span className="card-cta">Mulai menilai →</span>
         </Link>
