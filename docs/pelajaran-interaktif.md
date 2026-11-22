@@ -7,4 +7,4 @@ Bab yang punya file `src/content/pelajaran/<slug>.mdx` otomatis tampil sebagai p
 - Komponen yang tersedia di MDX: `Ringkasan`, `LessonCard` (satu subbab), `PoinKlinis`, `RekomendasiESC`, `TabelBukti`, `TanggaMWHO`, `SkorCarpreg`, `Kuis`.
 - Elemen yang tetap tampil di mode **Ringkas klinis** diberi kelas `kunci` (Poin Klinis, rekomendasi ESC, tabel, ilustrasi). Paragraf narasi dan kuis disembunyikan.
 - Progres (kartu selesai, jawaban kuis) disimpan di `localStorage` peramban dengan kunci `matskrin:progres:v1`. Tidak ada akun atau server.
-- Aturan isi: teks klinis disalin apa adanya dari bab; soal kuis hanya bersandar pada kalimat/tabel bab itu dengan nomor sitasi yang sama, dan ditinjau penulis sebelum terbit.
+- Aturan isi: teks klinis disalin apa adanya dari bab. Komponen `Kuis` sudah tersedia tetapi belum dipakai (keputusan Faiz, 23 Nov 2026); soal kuis nanti hanya bersandar pada isi bab dengan nomor sitasi yang sama dan ditinjau penulis.
