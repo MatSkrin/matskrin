@@ -4,6 +4,9 @@
  * Sumber: materi "Auskultasi Terstruktur, Varian Normal EKG Kehamilan, dan Kriteria Rujukan
  * Ekokardiografi" (Bintang Kusuma Prabowo, FK-KMK UGM/RSUP Dr. Sardjito, Nov 2026), yang
  * mengadaptasi algoritma ACOG 2023 (red flags) dan CMQCC/CDPH CVD in Pregnancy Toolkit 2017.
+ * Ambang tanda vital dan aturan triase berasal dari ACOG/CMQCC, bukan dari ESC 2025 (ESC tidak
+ * menetapkan ambang triase antenatal). Butir riwayat, EKG, biomarker, dan katup mekanik
+ * diselaraskan dengan ESC 2025 (verifikasi 23 Nov 2026).
  */
 
 export type Tingkat = 'merah' | 'kuning'
@@ -28,6 +31,15 @@ export const RIWAYAT: Temuan[] = [
   { id: 'r-aorta', label: 'Aortopati (mis. sindrom Marfan)', tingkat: 'kuning' },
   { id: 'r-hp', label: 'Hipertensi pulmonal atau desaturasi yang tidak terjelaskan', tingkat: 'kuning' },
   { id: 'r-kemo', label: 'Riwayat kemoterapi kardiotoksik (mis. doksorubisin)', tingkat: 'kuning' },
+  { id: 'r-koroner', label: 'Riwayat SCAD atau sindrom koroner akut (STEMI/NSTE-ACS)', tingkat: 'kuning' },
+  {
+    id: 'r-kanalopati',
+    label: 'Kanalopati (sindrom QT panjang, sindrom Brugada, CPVT) atau aritmia yang pernah diterapi',
+    tingkat: 'kuning',
+  },
+  { id: 'r-pacu', label: 'Memakai pacu jantung', tingkat: 'kuning' },
+  { id: 'r-katup-mekanik', label: 'Katup jantung mekanik (minum antikoagulan)', tingkat: 'kuning' },
+  { id: 'r-hamil', label: 'Rawat inap karena masalah jantung pada kehamilan sebelumnya', tingkat: 'kuning' },
   { id: 'r-keluarga', label: 'Keluarga dengan penyakit jantung herediter atau kematian mendadak usia muda', tingkat: 'kuning' },
 ]
 
@@ -90,6 +102,13 @@ export const FISIK: Temuan[] = [
     tingkat: 'merah',
     hanyaBilaGejala: true,
   },
+  {
+    id: 'p-klik',
+    label: 'Pada ibu dengan katup mekanik: bunyi klik katup berubah atau melemah, atau ada bising baru',
+    detail: 'Curigai trombosis katup. Bila disertai sesak, tanda emboli, atau sinkop, perlu penilaian segera',
+    tingkat: 'kuning',
+    merahBilaGejala: true,
+  },
   { id: 'p-heave', label: 'Heave parasternal', tingkat: 'kuning' },
   { id: 'p-ronki', label: 'Ronki basal atau mengi', tingkat: 'merah' },
   { id: 'p-jvp', label: 'Distensi vena leher menetap', tingkat: 'merah' },
@@ -109,12 +128,13 @@ export const EKG: Temuan[] = [
     label: 'Q patologis, ST elevasi/depresi bermakna, atau T inversi dalam di lateral',
     tingkat: 'kuning',
   },
-  { id: 'e-qtc', label: 'QTc ≥ 460 ms', tingkat: 'kuning' },
+  { id: 'e-qtc', label: 'QTc ≥ 460 ms', detail: 'Ambang menurut materi Prabowo (2026)', tingkat: 'kuning' },
   { id: 'e-hipertrofi', label: 'LVH/RVH dengan strain, atau P mitral/pulmonal', tingkat: 'kuning' },
   {
     id: 'e-np',
-    label: 'BNP ≥ 100 atau NT-proBNP ≥ 300 pg/mL (bila tersedia)',
-    detail: 'Nilai di bawah ambang ini membantu menyingkirkan gagal jantung',
+    label: 'BNP atau NT-proBNP meningkat (bila tersedia)',
+    detail:
+      'ESC 2025: belum ada titik potong yang jelas selama kehamilan; nilai normal memiliki nilai prediksi negatif tinggi untuk gagal jantung',
     tingkat: 'kuning',
   },
 ]
@@ -151,5 +171,5 @@ export const SUMBER_PANDUAN = [
   'American College of Obstetricians and Gynecologists. Cardiovascular Disease in Pregnancy and Postpartum Algorithm; 2023.',
   'California Maternal Quality Care Collaborative/CDPH. Cardiovascular Disease in Pregnancy and Postpartum Toolkit; 2017.',
   'ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133:e320–56.',
-  'De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46:4462–568.',
+  'De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462–568. doi:10.1093/eurheartj/ehaf193',
 ]

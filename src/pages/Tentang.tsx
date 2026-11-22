@@ -1,4 +1,4 @@
-import { CARPREG2, SUMBER_MWHO, ZAHARA } from '../data/risk'
+import { CARPREG2, SUMBER_KEJADIAN } from '../data/risk'
 
 export default function Tentang() {
   return (
@@ -17,9 +17,9 @@ export default function Tentang() {
       </ol>
       <h2>Sumber skor risiko</h2>
       <ol>
-        <li>{SUMBER_MWHO}</li>
+        <li>mWHO 2.0: Tabel 6 pedoman ESC 2025 di atas.</li>
         <li>{CARPREG2.sumber}</li>
-        <li>{ZAHARA.sumber}</li>
+        <li>{SUMBER_KEJADIAN.vanHagen}</li>
       </ol>
     </article>
   )

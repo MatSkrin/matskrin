@@ -24,7 +24,7 @@ export default function Beranda() {
         </Link>
         <Link to="/risiko" className="card">
           <h2>Skor risiko</h2>
-          <p>Hitung klasifikasi mWHO, skor CARPREG II, dan skor ZAHARA untuk pasien Anda.</p>
+          <p>Tentukan kelas mWHO 2.0 dan skor CARPREG II sesuai pedoman ESC 2025.</p>
           <span className="card-cta">Mulai menilai →</span>
         </Link>
       </div>

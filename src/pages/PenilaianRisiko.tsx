@@ -1,8 +1,40 @@
 import { useMemo, useState } from 'react'
-import { CARPREG2, MWHO, SUMBER_MWHO, ZAHARA, type SkorRisiko } from '../data/risk'
+import {
+  CARPREG2,
+  DEFINISI_KEJADIAN,
+  MWHO,
+  SUMBER_KEJADIAN,
+  SUMBER_MWHO,
+  type KelompokMWHO,
+  type KondisiMWHO,
+  type SkorRisiko,
+} from '../data/risk'
 import { hitungSkor, kategoriSkor, kelasMWHO } from '../lib/risk'
 
-type Tab = 'mwho' | 'carpreg2' | 'zahara'
+type Tab = 'mwho' | 'carpreg2'
+
+// Kondisi dikelompokkan menurut diagnosis seperti di Tabel 6 ESC 2025; kelas tiap kondisi ditampilkan di kanan.
+const KELOMPOK_MWHO: { kelompok: KelompokMWHO; kondisi: (KondisiMWHO & { kelas: string })[] }[] = []
+for (const k of MWHO) {
+  for (const c of k.kondisi) {
+    let g = KELOMPOK_MWHO.find((x) => x.kelompok === c.kelompok)
+    if (!g) {
+      g = { kelompok: c.kelompok, kondisi: [] }
+      KELOMPOK_MWHO.push(g)
+    }
+    g.kondisi.push({ ...c, kelas: k.kelas })
+  }
+}
+const URUTAN_KELOMPOK: KelompokMWHO[] = [
+  'Fungsi ventrikel dan hipertensi pulmonal',
+  'Aritmia',
+  'Kardiomiopati',
+  'Penyakit jantung bawaan',
+  'Penyakit katup jantung',
+  'Aortopati',
+  'Penyakit didapat, koroner, dan lainnya',
+]
+KELOMPOK_MWHO.sort((a, b) => URUTAN_KELOMPOK.indexOf(a.kelompok) - URUTAN_KELOMPOK.indexOf(b.kelompok))
 
 function useToggleSet() {
   const [set, setSet] = useState<Set<string>>(new Set())
@@ -84,18 +116,23 @@ function KalkulatorMWHO() {
   const hasil = useMemo(() => kelasMWHO(dipilih), [dipilih])
   return (
     <div className="calc">
-      <RingkasHasil judul={hasil ? `mWHO ${hasil.kelas}` : 'mWHO'} isi={hasil ? hasil.kejadian : 'Belum ada kondisi dipilih'} />
+      <RingkasHasil
+        judul={hasil ? `mWHO ${hasil.kelas}` : 'mWHO 2.0'}
+        isi={hasil ? `${hasil.kejadian.vanHagen} / ${hasil.kejadian.silversides}` : 'Belum ada kondisi dipilih'}
+      />
       <div className="calc-form">
         <p className="muted">
-          Centang semua kondisi yang dimiliki pasien. Kelas mWHO ditentukan oleh kondisi dengan kelas tertinggi.
+          Centang semua kondisi yang dimiliki pasien. Kelas mWHO 2.0 ditentukan oleh kondisi dengan kelas tertinggi,
+          lalu disesuaikan per pasien dengan prediktor CARPREG II.
         </p>
-        {MWHO.map((k) => (
-          <fieldset key={k.kelas}>
-            <legend>mWHO {k.kelas}</legend>
-            {k.kondisi.map((c) => (
+        {KELOMPOK_MWHO.map((g) => (
+          <fieldset key={g.kelompok}>
+            <legend>{g.kelompok}</legend>
+            {g.kondisi.map((c) => (
               <label key={c.id} className="check">
                 <input type="checkbox" checked={dipilih.has(c.id)} onChange={() => toggle(c.id)} />
                 <span>{c.label}</span>
+                <span className={`poin kelas-tag kelas-${c.kelas.replace('–', '-')}`}>{c.kelas}</span>
               </label>
             ))}
           </fieldset>
@@ -106,24 +143,40 @@ function KalkulatorMWHO() {
         {hasil ? (
           <>
             <p className="result-label">Klasifikasi</p>
-            <p className={`result-num kelas-${hasil.kelas.replace('–', '-')}`}>mWHO {hasil.kelas}</p>
-            <p className="result-label">Angka kejadian kardiak maternal</p>
-            <p className="result-risk">{hasil.kejadian}</p>
+            <p className={`result-num kelas-${hasil.kelas.replace('–', '-')}`}>mWHO 2.0 {hasil.kelas}</p>
+            <p className="result-label">Rerata angka kejadian kardiak maternal</p>
+            <table className="ranges">
+              <tbody>
+                <tr>
+                  <td>van Hagen dkk. (2016)</td>
+                  <td>{hasil.kejadian.vanHagen}</td>
+                </tr>
+                <tr>
+                  <td>Silversides dkk. (2018)</td>
+                  <td>{hasil.kejadian.silversides}</td>
+                </tr>
+              </tbody>
+            </table>
             <dl>
               <dt>Risiko</dt>
               <dd>{hasil.risiko}</dd>
+              <dt>Keterlibatan Pregnancy Heart Team</dt>
+              <dd>{hasil.pht}</dd>
               <dt>Konseling</dt>
               <dd>{hasil.konseling}</dd>
-              <dt>Tempat perawatan</dt>
-              <dd>{hasil.pusat}</dd>
-              <dt>Kontrol minimal</dt>
-              <dd>{hasil.kontrol}</dd>
+              <dt>Perawatan selama kehamilan</dt>
+              <dd>{hasil.perawatan}</dd>
+              <dt>Tempat persalinan</dt>
+              <dd>{hasil.persalinan}</dd>
             </dl>
           </>
         ) : (
           <p className="muted">Belum ada kondisi yang dipilih.</p>
         )}
+        <p className="source">{DEFINISI_KEJADIAN}</p>
         <p className="source">{SUMBER_MWHO}</p>
+        <p className="source">{SUMBER_KEJADIAN.vanHagen}</p>
+        <p className="source">{SUMBER_KEJADIAN.silversides}</p>
       </aside>
     </div>
   )
@@ -134,16 +187,15 @@ export default function PenilaianRisiko() {
   return (
     <>
       <h1>Penilaian Risiko</h1>
-      <p className="warn">
-        Kriteria belum diverifikasi terhadap pedoman ESC 2025. Gunakan hanya untuk pembelajaran sampai verifikasi
-        selesai.
+      <p className="muted">
+        Klasifikasi mWHO 2.0 dan prediktor CARPREG II mengikuti Tabel 6 pedoman ESC 2025. Hasil kalkulator membantu
+        stratifikasi risiko dan tidak menggantikan penilaian klinis.
       </p>
       <div className="tabs" role="tablist">
         {(
           [
             ['mwho', 'mWHO'],
             ['carpreg2', 'CARPREG II'],
-            ['zahara', 'ZAHARA'],
           ] as const
         ).map(([id, label]) => (
           <button key={id} role="tab" aria-selected={tab === id} onClick={() => setTab(id)}>
@@ -153,7 +205,6 @@ export default function PenilaianRisiko() {
       </div>
       {tab === 'mwho' && <KalkulatorMWHO />}
       {tab === 'carpreg2' && <KalkulatorSkor key="c" skor={CARPREG2} />}
-      {tab === 'zahara' && <KalkulatorSkor key="z" skor={ZAHARA} />}
     </>
   )
 }

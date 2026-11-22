@@ -48,7 +48,15 @@ export function AcuanVital() {
           <tr><td>SpO₂</td><td>≤ 96%</td><td>≤ 94%</td></tr>
         </tbody>
       </table>
-      <p className="muted">Ambang kuning dinilai dalam kombinasi, bukan pemicu tunggal. Beberapa sumber memakai RR ≥ 30 untuk merah.</p>
+      <p className="muted">
+        Ambang kuning dinilai dalam kombinasi, bukan pemicu tunggal. Beberapa sumber memakai RR ≥ 30 untuk merah. Ambang
+        ini diadaptasi dari ACOG 2023 dan CMQCC 2017; pedoman ESC 2025 tidak menetapkan ambang triase antenatal.
+      </p>
+      <p>
+        <strong>Tanda gagal jantung akut berat menurut ESC 2025:</strong> TD sistolik &lt; 90 mmHg, nadi &gt; 130 atau
+        &lt; 45 kali/menit, laju napas &gt; 25 kali/menit, SpO₂ &lt; 90%, atau laktat &gt; 2 mmol/L. Stabilisasi dan rujuk
+        segera.
+      </p>
     </Acuan>
   )
 }
@@ -157,7 +165,7 @@ export function AcuanEKG() {
           <li><strong>Aksis</strong>: −30° s/d +90°; bergeser ke kiri boleh, RAD tidak</li>
           <li><strong>Interval</strong>: PR, QRS, QTc</li>
           <li><strong>Morfologi</strong>: P mitral/pulmonal, voltase hipertrofi, Q patologis</li>
-          <li><strong>ST-T</strong>: T inversi III/aVF/V1–V2 boleh; ST elevasi/depresi tidak</li>
+          <li><strong>ST-T</strong>: T datar/inversi di III, aVF, V1–V3 boleh; ST elevasi/depresi tidak</li>
         </ol>
       </Acuan>
       <Acuan judul="Varian normal EKG kehamilan">
@@ -167,8 +175,8 @@ export function AcuanEKG() {
             <tr><td>Frekuensi</td><td>Naik 10–20 kali/menit</td><td>≥ 110 menetap</td></tr>
             <tr><td>PR</td><td>Sedikit memendek (±20 ms)</td><td>PR pendek + gelombang delta</td></tr>
             <tr><td>Aksis</td><td>Bergeser ke kiri 15–20°</td><td>Di luar −30° s/d +90°</td></tr>
-            <tr><td>Gelombang Q</td><td>Q kecil di III (dapat II, aVF)</td><td>Q lebar/dalam di sadapan lain</td></tr>
-            <tr><td>Gelombang T</td><td>Datar/inversi di III, aVF, V1–V2</td><td>Inversi dalam di I, aVL, V5–V6</td></tr>
+            <tr><td>Gelombang Q</td><td>Q dapat tampak jelas di II, III, aVF</td><td>Q lebar/dalam di sadapan lain</td></tr>
+            <tr><td>Gelombang T</td><td>Datar/inversi di III, aVF, V1, V2, V3</td><td>Inversi dalam di I, aVL, V5–V6</td></tr>
             <tr><td>ST-T</td><td>Perubahan nonspesifik ringan</td><td>ST elevasi/depresi bermakna</td></tr>
             <tr><td>QTc</td><td>Umumnya tidak berubah</td><td>≥ 460 ms</td></tr>
             <tr><td>Irama</td><td>Sinus; ekstrasistol terisolasi</td><td>AF, flutter, SVT, VT</td></tr>
@@ -177,7 +185,7 @@ export function AcuanEKG() {
       </Acuan>
       <Acuan judul="Palpitasi dan ekstrasistol: edukasi atau rujuk?">
         <p><strong>Cukup edukasi dan evaluasi ulang</strong> bila semua terpenuhi: ekstrasistol terisolasi, tanpa presinkop/sinkop, tanpa penyakit jantung struktural, auskultasi dan SpO₂ normal, EKG lain normal.</p>
-        <p><strong>Rujuk/konsultasi SpJP (Holter)</strong> bila: palpitasi dengan hampir pingsan atau sinkop, takikardia reguler cepat berulang, ekstrasistol sangat sering/berpasangan/beruntun, ada penyakit jantung struktural atau riwayat keluarga kematian mendadak, atau EKG lain abnormal.</p>
+        <p><strong>Rujuk/konsultasi SpJP (Holter)</strong>, dengan ambang rendah untuk Holter jangka panjang pada sinkop atau palpitasi (ESC 2025), bila: palpitasi dengan hampir pingsan atau sinkop, takikardia reguler cepat berulang, ekstrasistol sangat sering/berpasangan/beruntun, ada penyakit jantung struktural atau riwayat keluarga kematian mendadak, atau EKG lain abnormal.</p>
       </Acuan>
     </>
   )
