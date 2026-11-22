@@ -47,8 +47,10 @@ h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin: 0.4em 0 0.5em; }
 
 .topbar { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
 .topbar-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 60px; flex-wrap: wrap; }
-.brand { font-weight: 700; color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: 8px; }
-.brand-mark { color: var(--accent); font-size: 1.2em; }
+.brand { color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.brand-mark { color: var(--accent); width: 28px; height: 28px; flex: none; }
+.brand-nama { font-size: 1.3rem; font-weight: 400; letter-spacing: -0.01em; line-height: 1; }
+.brand-nama b { font-weight: 800; }
 .topbar nav { display: flex; gap: 4px; flex-wrap: wrap; }
 .topbar nav a { color: var(--muted); text-decoration: none; padding: 6px 10px; border-radius: 8px; font-size: 0.95rem; }
 .topbar nav a.active { color: var(--accent); background: var(--accent-soft); }

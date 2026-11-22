@@ -5,6 +5,7 @@ import HalamanBab from './pages/HalamanBab'
 import PenilaianRisiko from './pages/PenilaianRisiko'
 import PanduanKlinis from './pages/checklist/PanduanKlinis'
 import Tentang from './pages/Tentang'
+import Logo from './components/Logo'
 
 // Di ponsel, menu ini menjadi bilah tab di bawah layar (lihat .nav-utama di index.css).
 const MENU = [
@@ -19,9 +20,11 @@ export default function App() {
     <HashRouter>
       <header className="topbar">
         <div className="wrap topbar-inner">
-          <NavLink to="/" className="brand">
-            <span className="brand-mark" aria-hidden>♥</span>
-            Jantung &amp; Kehamilan
+          <NavLink to="/" className="brand" aria-label="MatSkrin, ke beranda">
+            <Logo className="brand-mark" />
+            <span className="brand-nama">
+              <b>Mat</b>Skrin
+            </span>
           </NavLink>
           <nav className="nav-utama" aria-label="Menu utama">
             {MENU.map((m) => (
