@@ -212,6 +212,14 @@ Palpitasi sering dikeluhkan selama kehamilan. Lebih dari separuh ibu hamil yang 
 <p class="catatan">Sumber: Angeli dkk. [27]. Dipakai di bawah lisensi CC BY.</p>
 </figure>
 
+<figure class="gambar">
+<figcaption><strong>Gambar 5.2.</strong> Contoh EKG dengan Pola Strain Ventrikel Kanan pada Emboli Paru</figcaption>
+<a href="figures/bab05-gambar-5.2-ekg-emboli-paru.webp" target="_blank" rel="noopener"><img src="figures/bab05-gambar-5.2-ekg-emboli-paru.webp" alt="Contoh EKG dengan Pola Strain Ventrikel Kanan pada Emboli Paru" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Gambaran dapat berupa deviasi aksis kanan, gelombang S yang menonjol pada sadapan I, serta inversi gelombang T pada sadapan prekordial kanan (V1–V3). Pola S1Q3T3 juga dapat ditemukan. Perubahan ini dapat dijumpai pada hipertensi pulmonal atau emboli paru, tetapi tidak bersifat spesifik.</p>
+<p class="catatan">Sumber: Koster RW. ECG pada emboli paru [gambar]. ECGpedia; 2010. Tersedia di: <a href="https://commons.wikimedia.org/wiki/File:Pulm_embolism.jpg">Wikimedia Commons</a>. Lisensi CC BY 3.0.</p>
+</figure>
+
 ### 5.2.2 Ekokardiografi
 
 Ekokardiografi transtorakal (TTE) merupakan pencitraan lini pertama untuk menilai struktur dan fungsi jantung selama kehamilan. TTE memungkinkan evaluasi ruang jantung, fungsi ventrikel, kelainan katup, penyakit jantung bawaan, serta probabilitas hipertensi pulmonal. Interpretasi perlu mempertimbangkan peningkatan volume darah dan curah jantung yang dapat mengubah ukuran ruang dan kecepatan aliran transvalvular [1,3].
@@ -285,6 +293,13 @@ Pemilihan pemeriksaan didasarkan pada gejala, temuan fisik, kemungkinan diagnosi
 > - Biomarker diinterpretasikan bersama kondisi klinis, bukan sebagai pemeriksaan tunggal.
 > - Pemeriksaan dengan radiasi dapat dilakukan bila diperlukan untuk diagnosis dan tata laksana maternal.
 > - Kateterisasi jantung hanya dilakukan bila informasi yang dibutuhkan tidak dapat diperoleh secara noninvasif, oleh tim berpengalaman.
+
+<figure class="gambar">
+<figcaption><strong>Gambar 5.3.</strong> Algoritma Evaluasi Ibu Hamil dengan Keluhan Sesak Napas</figcaption>
+<a href="figures/bab05-gambar-5.3-algoritma-ibu-hamil-dengan-sesak.webp" target="_blank" rel="noopener"><img src="figures/bab05-gambar-5.3-algoritma-ibu-hamil-dengan-sesak.webp" alt="Algoritma Evaluasi Ibu Hamil dengan Keluhan Sesak Napas" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: [1,30,31,33].</p>
+</figure>
 
 ## Daftar Pustaka
 

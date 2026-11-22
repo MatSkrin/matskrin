@@ -132,6 +132,13 @@ Penerapannya perlu disesuaikan dengan kapasitas setempat. Kolaborasi dokter umum
 > - Banyak gejala penyakit jantung mirip keluhan hamil normal; tanda bahaya perlu dicari aktif saat ANC.
 > - Ibu dengan risiko mWHO II–III ke atas perlu ditangani *Pregnancy Heart Team* sejak prakonsepsi.
 
+<figure class="gambar">
+<figcaption><strong>Gambar 1.2.</strong> Pelayanan berkesinambungan oleh Pregnancy Heart Team dari prakonsepsi hingga jangka panjang</figcaption>
+<a href="figures/bab01-gambar-1.2-alur-pelayanan-pregnancy-heart-team.webp" target="_blank" rel="noopener"><img src="figures/bab01-gambar-1.2-alur-pelayanan-pregnancy-heart-team.webp" alt="Pelayanan berkesinambungan oleh Pregnancy Heart Team dari prakonsepsi hingga jangka panjang" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
+</figure>
+
 ## Daftar Pustaka
 
 1. De Backer J, Haugaa KH, Hasselberg NE, De Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. European Heart Journal 2025;46:4462–568. <https://doi.org/10.1093/eurheartj/ehaf193>

@@ -100,6 +100,13 @@ Statin umumnya dihentikan selama kehamilan. Namun, pada perempuan dengan penyaki
 
 <p class="catatan">Sumber: Diadaptasi dari [1,6,8].</p>
 
+<figure class="gambar">
+<figcaption><strong>Gambar 15.1.</strong> Pilihan Obat Kardiovaskular selama Kehamilan dan Menyusui</figcaption>
+<a href="figures/bab15-gambar-15.1-pilihan-obat-kardiovaskular-kehamilan-dan-menyusui.webp" target="_blank" rel="noopener"><img src="figures/bab15-gambar-15.1-pilihan-obat-kardiovaskular-kehamilan-dan-menyusui.webp" alt="Pilihan Obat Kardiovaskular selama Kehamilan dan Menyusui" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
+</figure>
+
 ## 15.3 Antikoagulasi pada Kehamilan
 
 Kehamilan merupakan keadaan hiperkoagulabel yang ditandai dengan peningkatan aktivitas faktor koagulasi, penurunan fibrinolisis, dan stasis vena. Perubahan tersebut meningkatkan risiko tromboemboli vena, terutama pada perempuan dengan riwayat tromboemboli, trombofilia, atau penyakit jantung tertentu. Risiko tromboemboli tetap meningkat selama periode postpartum, terutama dalam enam minggu pertama [1,10].
@@ -162,6 +169,8 @@ Setelah trimester pertama, VKA dapat digunakan kembali atau dilanjutkan berdasar
 <table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
 <tbody><tr><td>Pada trimester kedua dan ketiga hingga minggu ke-36, melanjutkan VKA sebaiknya dipertimbangkan pada katup prostetik dengan risiko trombosis lebih tinggi.</td><td class="kelas-iia">IIa</td><td>C</td></tr><tr><td>Pada trimester kedua dan ketiga, melanjutkan LMWH dengan pemantauan anti-faktor Xa dan penyesuaian dosis dapat dipertimbangkan pada risiko trombosis lebih rendah.</td><td class="kelas-iib">IIb</td><td>C</td></tr></tbody></table>
 </div>
+
+Ringkasan pengaturan antikoagulasi menurut fase kehamilan, dari trimester pertama sampai pascapersalinan, ditampilkan pada Gambar 9.2 (Bab 9).
 
 ### 15.4.2 Pemantauan Antikoagulasi
 

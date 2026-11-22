@@ -36,6 +36,13 @@ Ekokardiografi merupakan pemeriksaan utama untuk menilai luas katup mitral, grad
 
 Penatalaksanaan bertujuan mengurangi kongesti dan mengendalikan frekuensi jantung. Beta-blocker yang sesuai untuk kehamilan dapat digunakan untuk memperpanjang waktu pengisian diastolik, sedangkan diuretik diberikan secara hati-hati apabila terdapat kongesti paru. Pada stenosis mitral berat dengan gejala menetap meskipun telah mendapat terapi optimal, komisurotomi mitral perkutan dapat dipertimbangkan apabila anatomi katup sesuai dan tidak terdapat kontraindikasi [1,4].
 
+<figure class="gambar">
+<figcaption><strong>Gambar 9.1.</strong> Mekanisme perburukan stenosis mitral selama kehamilan dan prinsip tata laksananya</figcaption>
+<a href="figures/bab09-gambar-9.1-hemodinamik-stenosis-mitral-pada-kehamilan.webp" target="_blank" rel="noopener"><img src="figures/bab09-gambar-9.1-hemodinamik-stenosis-mitral-pada-kehamilan.webp" alt="Mekanisme perburukan stenosis mitral selama kehamilan dan prinsip tata laksananya" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: [1].</p>
+</figure>
+
 ### 9.2.2 Stenosis Aorta
 
 Stenosis aorta menyebabkan hambatan aliran keluar ventrikel kiri. Pada perempuan usia reproduktif, penyebab yang penting adalah katup aorta bikuspid dan kelainan kongenital lainnya. Peningkatan kebutuhan curah jantung selama kehamilan dapat menimbulkan gejala pada pasien yang sebelumnya asimtomatik [1,5].
@@ -133,6 +140,13 @@ Pemilihan regimen mempertimbangkan dosis VKA yang dibutuhkan untuk mencapai INR 
 | Penggunaan                 | Berdasarkan dosis dan risiko individual | Alternatif terutama pada trimester pertama dan menjelang persalinan |
 
 <p class="catatan">Sumber: Diadaptasi dari [1,8,11].</p>
+
+<figure class="gambar">
+<figcaption><strong>Gambar 9.2.</strong> Pengaturan antikoagulasi pada katup jantung mekanik selama kehamilan</figcaption>
+<a href="figures/bab09-gambar-9.2-antikoagulasi-katup-mekanik-selama-kehamilan.webp" target="_blank" rel="noopener"><img src="figures/bab09-gambar-9.2-antikoagulasi-katup-mekanik-selama-kehamilan.webp" alt="Pengaturan antikoagulasi pada katup jantung mekanik selama kehamilan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
+</figure>
 
 Pada pasien yang menggunakan LMWH untuk katup mekanik, dosis diberikan dua kali sehari dan disesuaikan berdasarkan pemeriksaan anti-faktor Xa. Target kadar puncak ditentukan secara individual menurut risiko trombosis, umumnya 1,0–1,2 IU/mL. Pemeriksaan dilakukan setidaknya setiap minggu hingga target tercapai, kemudian secara berkala setiap 2–4 minggu apabila stabil. Pemantauan INR pada pasien yang menggunakan VKA dilakukan setiap minggu atau paling sedikit setiap dua minggu [1].
 

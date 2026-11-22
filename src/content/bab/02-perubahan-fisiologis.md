@@ -51,6 +51,13 @@ Volume darah meningkat untuk mendukung sirkulasi ibu dan janin serta mempersiapk
 
 <p class="catatan">Sumber: [1–4,6,7].</p>
 
+<figure class="gambar">
+<figcaption><strong>Gambar 2.1.</strong> Perubahan Hemodinamik selama Kehamilan, Persalinan, dan Pascapersalinan</figcaption>
+<a href="figures/bab02-gambar-2.1-perubahan-hemodinamik-kehamilan.webp" target="_blank" rel="noopener"><img src="figures/bab02-gambar-2.1-perubahan-hemodinamik-kehamilan.webp" alt="Perubahan Hemodinamik selama Kehamilan, Persalinan, dan Pascapersalinan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
+</figure>
+
 > **Poin Klinis 2.1. Perubahan Volume Darah**
 >
 > - **Perubahan fisiologis:** Frekuensi jantung meningkat dan tekanan darah dapat sedikit menurun.
@@ -137,18 +144,12 @@ Perubahan normal selama kehamilan dapat menyerupai gejala penyakit jantung. Yang
 
 Mudah lelah, sesak ringan saat beraktivitas, palpitasi sesaat, dan edema tungkai bilateral dapat ditemukan pada kehamilan normal. Sebaliknya, sesak saat istirahat, ortopnea, nyeri dada, sinkop, atau palpitasi menetap disertai gejala lain memerlukan evaluasi [1,3].
 
-<p class="judul-tabel"><strong>Tabel 2.3.</strong> Manifestasi Fisiologis dan Tanda yang Memerlukan Evaluasi</p>
-
-| Manifestasi       | Dapat bersifat fisiologis              | Perlu evaluasi                              |
-|-------------------|----------------------------------------|---------------------------------------------|
-| Sesak napas       | Ringan saat aktivitas                  | Saat istirahat, ortopnea, memburuk cepat    |
-| Palpitasi         | Sesaat, tanpa gejala penyerta          | Menetap, disertai sinkop atau nyeri dada    |
-| Edema tungkai     | Ringan dan bilateral                   | Unilateral, nyeri, mendadak                 |
-| Frekuensi jantung | Meningkat ringan                       | Takikardia menetap, terutama bergejala      |
-| Nyeri dada        | Dapat berasal dari muskuloskeletal     | Dicurigai penyebab kardiovaskular           |
-| Sinkop            | Presinkop terkait posisi dapat terjadi | Sinkop saat aktivitas atau dengan palpitasi |
-
+<figure class="gambar">
+<figcaption><strong>Gambar 2.2.</strong> Manifestasi Fisiologis dan Tanda yang Memerlukan Evaluasi</figcaption>
+<a href="figures/bab02-gambar-2.2-fisiologis-vs-perlu-evaluasi.webp" target="_blank" rel="noopener"><img src="figures/bab02-gambar-2.2-fisiologis-vs-perlu-evaluasi.webp" alt="Manifestasi Fisiologis dan Tanda yang Memerlukan Evaluasi" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
 <p class="catatan">Sumber: [1–3,13].</p>
+</figure>
 
 Beban hemodinamik tidak merata sepanjang kehamilan. Volume plasma dan curah jantung mencapai puncaknya sekitar usia kehamilan 32 minggu, sehingga lesi stenotik dan disfungsi ventrikel sering mulai bergejala pada usia kehamilan 28–34 minggu. Persalinan kembali meningkatkan tekanan darah dan curah jantung akibat kontraksi, nyeri, perdarahan, dan anestesi, sedangkan kardiomiopati peripartum dapat muncul sejak akhir kehamilan hingga beberapa bulan setelah persalinan [1,16,17]. Oleh karena itu, skrining satu kali pada awal kehamilan tidak cukup; penilaian perlu diulang menjelang puncak beban dan pada masa nifas. Pada ibu dengan penyakit katup yang telah diketahui, ekokardiografi dapat diulang pada usia kehamilan 28–32 minggu [18].
 
