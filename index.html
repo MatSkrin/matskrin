@@ -7,6 +7,15 @@
     <meta name="theme-color" content="#fbf8f6" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#171315" media="(prefers-color-scheme: dark)" />
     <title>MatSkrin</title>
+    <script>
+      // Pasang tema sebelum halaman digambar agar tidak berkedip. Tanpa pilihan tersimpan, ikuti sistem.
+      (function () {
+        var t = null
+        try { t = localStorage.getItem('matskrin:tema') } catch (e) {}
+        if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+        document.documentElement.dataset.theme = t
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

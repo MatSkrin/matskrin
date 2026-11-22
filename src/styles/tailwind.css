@@ -59,13 +59,10 @@
 .pager-kartu small { display: block; font-size: 0.75rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; }
 .pager-kartu svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--muted); }
 
-/* Daftar kartu di ponsel (sidebar disembunyikan ≤ 960px oleh index.css) */
-.nav-kartu-ponsel { display: none; }
-.nav-kartu-ponsel-isi { margin-top: 10px; max-height: 55vh; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 0; box-shadow: 0 10px 28px rgb(0 0 0 / 0.12); }
+/* Sidebar kartu disembunyikan ≤ 960px oleh index.css; di sana daftar kartu dibuka lewat tombol melayang. */
 .toc li button { line-height: 1.4; }
 
 @media (max-width: 960px) {
-  .nav-kartu-ponsel { display: inline-flex; }
   .bab-layout { grid-template-columns: minmax(0, 1fr); }
   .pelajaran { min-width: 0; }
 }

@@ -8,6 +8,8 @@ import PenilaianRisiko from './pages/PenilaianRisiko'
 import PanduanKlinis from './pages/checklist/PanduanKlinis'
 import Tentang from './pages/Tentang'
 import Logo from './components/Logo'
+import KeAtas from './components/KeAtas'
+import TombolTema from './components/TombolTema'
 
 // Di ponsel, menu ini menjadi bilah tab di bawah layar (lihat .nav-utama di index.css).
 const MENU = [
@@ -55,6 +57,7 @@ export default function App() {
               </NavLink>
             ))}
           </nav>
+          <TombolTema />
         </div>
       </header>
       <main className="wrap" id="konten" tabIndex={-1}>
@@ -71,6 +74,9 @@ export default function App() {
       <footer className="wrap footer">
         Alat bantu edukasi untuk tenaga kesehatan. Tidak menggantikan penilaian klinis dan konsultasi spesialis.
       </footer>
+      <div className="fab-grup">
+        <KeAtas />
+      </div>
     </HashRouter>
   )
 }

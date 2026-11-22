@@ -22,8 +22,9 @@
   -webkit-font-smoothing: antialiased;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Mode gelap: atribut data-theme di <html> diatur oleh skrip di index.html dan tombol tema. */
+:root[data-theme='dark'] {
+  color-scheme: dark;
     --bg: #171315;
     --surface: #211b1e;
     --ink: #f1eaec;
@@ -37,7 +38,6 @@
     --poin-line: #5fbf92;
     --on-accent: #1d1014;
   }
-}
 
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); }
@@ -146,8 +146,8 @@ legend { font-weight: 700; padding: 0 6px; }
 
 /* ---------- Bacaan bab: layout dengan daftar isi ---------- */
 :root { --red: #c0392b; --red-bg: #fdecea; --yellow: #845400; --yellow-bg: #fff4d6; --green: #276b4d; --green-bg: #e7f4ec; }
-@media (prefers-color-scheme: dark) {
-  :root { --red: #f08a7e; --red-bg: #3b1f1c; --yellow: #f2c062; --yellow-bg: #3a2f14; --green: #6fcf9f; --green-bg: #18301f; }
+@media all {
+  :root[data-theme='dark'] { --red: #f08a7e; --red-bg: #3b1f1c; --yellow: #f2c062; --yellow-bg: #3a2f14; --green: #6fcf9f; --green-bg: #18301f; }
 }
 .bab-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 40px; align-items: start; }
 .toc-side { position: sticky; top: 80px; max-height: calc(100vh - 100px); overflow: auto; padding-top: 28px; }
@@ -362,11 +362,11 @@ input, textarea, select, button { -webkit-tap-highlight-color: transparent; }
 .prose .rekomendasi td.kelas-iia { background: #e6f2d9; color: #3d5a1d; }
 .prose .rekomendasi td.kelas-iib { background: #fff1cc; color: #7a5300; }
 .prose .rekomendasi td.kelas-iii { background: #fde2df; color: #9b2c22; }
-@media (prefers-color-scheme: dark) {
-  .prose .rekomendasi td.kelas-i { background: #1b3326; color: #8fdcb1; }
-  .prose .rekomendasi td.kelas-iia { background: #26331b; color: #b8de8f; }
-  .prose .rekomendasi td.kelas-iib { background: #3a2f14; color: #f2cf7d; }
-  .prose .rekomendasi td.kelas-iii { background: #3b1f1c; color: #f0a59b; }
+@media all {
+  :root[data-theme='dark'] .prose .rekomendasi td.kelas-i { background: #1b3326; color: #8fdcb1; }
+  :root[data-theme='dark'] .prose .rekomendasi td.kelas-iia { background: #26331b; color: #b8de8f; }
+  :root[data-theme='dark'] .prose .rekomendasi td.kelas-iib { background: #3a2f14; color: #f2cf7d; }
+  :root[data-theme='dark'] .prose .rekomendasi td.kelas-iii { background: #3b1f1c; color: #f0a59b; }
 }
 .prose .rekomendasi tr + tr td { border-top: 1px solid var(--line); }
 .prose figure.gambar img { display: block; width: 100%; height: auto; border-radius: 8px; background: #fff; }
@@ -393,3 +393,40 @@ main:focus { outline: none; }
 .eyebrow, .toc-title, .pager-kartu small { text-transform: none; letter-spacing: 0; }
 .eyebrow { font-size: 0.85rem; }
 .toc-title { font-size: 0.8rem; }
+
+/* ---------- Edit UI (anotasi Faiz, 23 Nov) ---------- */
+/* Jarak: tombol "Atur ulang" dan footer tidak menempel. */
+.calc-form > button.ghost { margin-top: 8px; }
+.footer { margin-top: 32px; }
+
+/* Tombol tema di topbar */
+.tombol-tema { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; margin-left: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.tombol-tema:hover { border-color: var(--accent); color: var(--accent); }
+.tombol-tema svg { width: 18px; height: 18px; }
+.topbar nav.nav-utama { margin-left: auto; }
+.topbar nav.nav-utama + .tombol-tema { margin-left: 4px; }
+
+/* Tombol melayang: daftar kartu dan kembali ke atas */
+.fab-grup { position: fixed; right: 20px; bottom: calc(var(--tabbar-h) + 20px); z-index: 30; }
+body:has(.fab-kartu) .fab-grup { bottom: calc(var(--tabbar-h) + 80px); }
+.fab { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-width: 48px; height: 48px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-weight: 600; font-size: 0.92rem; cursor: pointer; box-shadow: 0 6px 20px rgb(0 0 0 / 0.14); }
+.fab:hover { border-color: var(--accent); color: var(--accent); }
+.fab svg { width: 20px; height: 20px; }
+.fab-kartu { position: fixed; right: 20px; bottom: calc(var(--tabbar-h) + 20px); z-index: 30; background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.fab-kartu:hover { color: var(--on-accent); filter: brightness(1.08); }
+.panel-kartu-melayang { position: fixed; right: 20px; bottom: calc(var(--tabbar-h) + 80px); z-index: 31; width: min(340px, calc(100vw - 32px)); max-height: min(60vh, 520px); overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 8px 8px; box-shadow: 0 14px 36px rgb(0 0 0 / 0.18); }
+.panel-kartu-melayang .toc-title { padding: 0 10px; }
+body:has(.panel-kartu-melayang) .fab-grup { display: none; }
+@media (max-width: 640px) {
+  .fab-grup, .fab-kartu, .panel-kartu-melayang { right: 16px; }
+  .tombol-tema { width: 36px; height: 36px; }
+}
+
+/* Singkatan */
+abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+.daftar-singkatan { margin: 20px 0 16px; padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.daftar-singkatan h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 0 0 8px; }
+.daftar-singkatan dl { margin: 0; display: grid; gap: 4px; font-size: 0.88rem; }
+.daftar-singkatan dl > div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 8px; }
+.daftar-singkatan dt { font-weight: 700; }
+.daftar-singkatan dd { margin: 0; color: var(--muted); }
