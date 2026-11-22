@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { DAFTAR_BAB, type Judul } from '../lib/content'
+import { PELAJARAN } from '../content/pelajaran'
+import HalamanPelajaran from './HalamanPelajaran'
 
 function gulirKe(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -27,7 +29,15 @@ function DaftarIsi({ toc, aktif, onPilih }: { toc: Judul[]; aktif: string; onPil
 }
 
 export default function HalamanBab() {
-  const { slug } = useParams()
+  const { slug = '' } = useParams()
+  const i = DAFTAR_BAB.findIndex((b) => b.slug === slug)
+  // Bab yang sudah punya versi pelajaran interaktif (MDX) memakai halaman pelajaran.
+  const pelajaran = PELAJARAN[slug]
+  if (pelajaran) return <HalamanPelajaran pelajaran={pelajaran} prev={DAFTAR_BAB[i - 1]} next={DAFTAR_BAB[i + 1]} />
+  return <HalamanBabMarkdown slug={slug} />
+}
+
+function HalamanBabMarkdown({ slug }: { slug: string }) {
   const i = DAFTAR_BAB.findIndex((b) => b.slug === slug)
   const bab = DAFTAR_BAB[i]
   const [aktif, setAktif] = useState('')
