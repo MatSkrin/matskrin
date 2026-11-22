@@ -60,11 +60,6 @@ Interpretasi EKG dilakukan secara sistematis: frekuensi, irama, aksis, gelombang
 
 Pada palpitasi atau sinkop yang belum terjelaskan melalui EKG standar, pemantauan EKG ambulatory dapat digunakan. Holter 24–48 jam sesuai untuk keluhan yang sering, sedangkan pemantauan lebih panjang dapat dipilih bila gejala jarang muncul [3].
 
-<figure class="gambar">
-<figcaption><strong>Gambar 5.1.</strong> Ilustrasi skematis EKG: (A) irama sinus dan variasi yang dapat dijumpai selama kehamilan; (B) gambaran yang mengarah pada beban ventrikel kanan</figcaption>
-<a href="img/bab5-1.png" target="_blank" rel="noopener"><img src="img/bab5-1.png" alt="Ilustrasi skematis EKG: (A) irama sinus dan variasi yang dapat dijumpai selama kehamilan; (B) gambaran yang mengarah pada beban ventrikel kanan" loading="lazy" /></a>
-<p class="catatan">Ketuk gambar untuk memperbesar.</p>
-</figure>
 
 Pola S1Q3T3 tidak identik dengan strain ventrikel kanan dan tidak spesifik untuk emboli paru.
 
