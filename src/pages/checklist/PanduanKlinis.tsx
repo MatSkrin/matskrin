@@ -1,3 +1,4 @@
+import { perilakuGulir } from '@/lib/utils'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
   EKG,
@@ -109,8 +110,8 @@ export default function PanduanKlinis() {
     }
     const nav = stepperRef.current
     const aktif = nav?.querySelector<HTMLElement>('[aria-current="step"]')
-    if (nav && aktif) nav.scrollTo({ left: aktif.offsetLeft - (nav.clientWidth - aktif.offsetWidth) / 2, behavior: 'smooth' })
-    if (nav && nav.getBoundingClientRect().top < 0) nav.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    if (nav && aktif) nav.scrollTo({ left: aktif.offsetLeft - (nav.clientWidth - aktif.offsetWidth) / 2, behavior: perilakuGulir() })
+    if (nav && nav.getBoundingClientRect().top < 0) nav.scrollIntoView({ behavior: perilakuGulir(), block: 'start' })
   }, [langkah])
 
   useEffect(() => {
@@ -142,7 +143,7 @@ export default function PanduanKlinis() {
 
   return (
     <>
-      <h1>Panduan Klinis Puskesmas</h1>
+      <h1>Checklist Puskesmas</h1>
       <p className="lead-sm">
         Checklist deteksi dini penyakit jantung pada ibu hamil saat ANC: riwayat, gejala, tanda vital, auskultasi, dan
         EKG. Hasil triase diperbarui otomatis.

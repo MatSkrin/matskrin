@@ -4,8 +4,8 @@ import { TeksSitasi } from './Cite'
 
 export type BarisMWHO = { kelas: string; contoh: string; implikasi: string }
 
-// Gradasi risiko hijau → merah; sama di mode terang/gelap.
-const WARNA = ['#2f7d5b', '#5b9a3c', '#c99a12', '#d9692b', '#b2384a']
+// Gradasi risiko hijau → merah; cukup gelap agar teks putih kontras ≥ 4.5:1 (WCAG AA).
+const WARNA = ['#276b4d', '#3f6f22', '#7f5a00', '#a8461a', '#a8323f']
 
 /** Ilustrasi interaktif: tangga risiko mWHO 2.0. Pilih anak tangga untuk melihat contoh & implikasi. */
 export function TanggaMWHO({ data, sumber }: { data: BarisMWHO[]; sumber: string }) {
@@ -13,9 +13,9 @@ export function TanggaMWHO({ data, sumber }: { data: BarisMWHO[]; sumber: string
   const id = useId()
   const b = data[i]
   return (
-    <figure className="kunci my-6 rounded-card border border-line bg-bg p-4 sm:p-5">
+    <figure className="kunci my-6 rounded-card border border-line bg-bg p-3 sm:p-5">
       <figcaption className="mb-3 text-sm font-semibold">Tangga risiko mWHO 2.0 · pilih kelas</figcaption>
-      <div role="tablist" aria-label="Kelas mWHO 2.0" className="grid grid-cols-5 items-end gap-1.5 sm:gap-2">
+      <div role="tablist" aria-label="Kelas mWHO 2.0" className="grid grid-cols-5 items-end gap-1 sm:gap-2">
         {data.map((d, k) => (
           <button
             key={d.kelas}
@@ -24,13 +24,18 @@ export function TanggaMWHO({ data, sumber }: { data: BarisMWHO[]; sumber: string
             aria-selected={i === k}
             aria-controls={`${id}-p`}
             onClick={() => setI(k)}
+            tabIndex={i === k ? 0 : -1}
             onKeyDown={(e) => {
-              if (e.key === 'ArrowRight') setI(Math.min(data.length - 1, k + 1))
-              if (e.key === 'ArrowLeft') setI(Math.max(0, k - 1))
+              const ke = { ArrowRight: k + 1, ArrowLeft: k - 1, Home: 0, End: data.length - 1 }[e.key]
+              if (ke === undefined) return
+              e.preventDefault()
+              const n = Math.max(0, Math.min(data.length - 1, ke))
+              setI(n)
+              document.getElementById(`${id}-t${n}`)?.focus()
             }}
             className={cn(
               'flex cursor-pointer flex-col items-center justify-end rounded-t-lg border-0 pb-2 font-[inherit] text-sm font-bold text-white transition-all sm:text-base',
-              i === k ? 'opacity-100 ring-2 ring-ink ring-offset-2 ring-offset-bg' : 'opacity-55 hover:opacity-85',
+              i === k ? 'ring-[3px] ring-ink ring-offset-2 ring-offset-bg' : 'saturate-[.85] hover:saturate-100',
             )}
             style={{ background: WARNA[k], height: `${48 + k * 22}px` }}
           >
@@ -51,11 +56,11 @@ export function TanggaMWHO({ data, sumber }: { data: BarisMWHO[]; sumber: string
         style={{ borderColor: WARNA[i] }}
       >
         <div>
-          <p className="m-0 text-xs font-bold tracking-wider text-muted uppercase">Contoh kondisi (kelas {b.kelas})</p>
+          <p className="m-0 text-xs font-bold text-muted">Contoh kondisi (kelas {b.kelas})</p>
           <p className="m-0 mt-1 text-[0.95rem]">{b.contoh}</p>
         </div>
         <div>
-          <p className="m-0 text-xs font-bold tracking-wider text-muted uppercase">Implikasi pelayanan</p>
+          <p className="m-0 text-xs font-bold text-muted">Implikasi pelayanan</p>
           <p className="m-0 mt-1 text-[0.95rem]">{b.implikasi}</p>
         </div>
       </div>
@@ -68,7 +73,7 @@ export function TanggaMWHO({ data, sumber }: { data: BarisMWHO[]; sumber: string
 
 export function TabelMWHO({ data }: { data: BarisMWHO[] }) {
   return (
-    <table>
+    <table tabIndex={0}>
       <thead>
         <tr>
           <th>Kelas</th>
@@ -98,7 +103,7 @@ export function SkorCarpreg({ data, sumber }: { data: SkorRisiko[]; sumber: stri
   const d = data[i]
   const maks = Math.max(...data.map((x) => x.risiko))
   return (
-    <figure className="kunci my-6 rounded-card border border-line bg-bg p-4 sm:p-5">
+    <figure className="kunci my-6 rounded-card border border-line bg-bg p-3 sm:p-5">
       <figcaption className="mb-3 text-sm font-semibold">
         <label htmlFor={id}>Geser skor CARPREG II</label>
       </figcaption>
@@ -112,7 +117,7 @@ export function SkorCarpreg({ data, sumber }: { data: SkorRisiko[]; sumber: stri
           value={i}
           onChange={(e) => setI(Number(e.target.value))}
           aria-valuetext={`Skor ${d.skor}: risiko ${d.risiko}%`}
-          className="w-full accent-[var(--accent)]"
+          className="h-6 w-full cursor-pointer accent-[var(--accent)]"
         />
         <output htmlFor={id} className="min-w-24 text-right" aria-live="polite">
           <span className="block text-xs text-muted">Skor {d.skor}</span>
@@ -127,7 +132,7 @@ export function SkorCarpreg({ data, sumber }: { data: SkorRisiko[]; sumber: stri
             onClick={() => setI(k)}
             className={cn(
               'flex flex-1 cursor-pointer flex-col items-center justify-end rounded-t-md border-0 p-0 font-[inherit] text-[0.7rem] transition-colors',
-              k === i ? 'bg-accent text-white' : 'bg-line text-muted hover:bg-accent-soft',
+              k === i ? 'bg-accent text-[var(--on-accent)]' : 'bg-line text-muted hover:bg-accent-soft',
             )}
             style={{ height: `${Math.max(18, (x.risiko / maks) * 100)}%` }}
           >
