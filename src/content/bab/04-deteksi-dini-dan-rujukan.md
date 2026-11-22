@@ -167,6 +167,13 @@ Tingkat urgensi rujukan dapat dibagi menjadi tiga kategori. Kategori merah memer
 
 <p class="catatan">Sumber: Diadaptasi dari ACOG dan CMQCC [2,8,9].</p>
 
+<figure class="gambar">
+<figcaption><strong>Gambar 4.1.</strong> Alur Skrining dan Kategori Urgensi Rujukan Ibu Hamil dengan Dugaan Penyakit Jantung</figcaption>
+<a href="figures/bab04-gambar-4.1-alur-skrining-dan-rujukan.webp" target="_blank" rel="noopener"><img src="figures/bab04-gambar-4.1-alur-skrining-dan-rujukan.webp" alt="Alur Skrining dan Kategori Urgensi Rujukan Ibu Hamil dengan Dugaan Penyakit Jantung" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Diadaptasi dari ACOG dan CMQCC [2,8,9]; klasifikasi mWHO 2.0 dari [1].</p>
+</figure>
+
 Perempuan dengan penyakit kardiovaskular kelas mWHO 2.0 II–III atau lebih tinggi memerlukan evaluasi dan penatalaksanaan oleh Pregnancy Heart Team [1]. Surat rujukan mencantumkan usia kehamilan, gejala, tanda vital, hasil pemeriksaan, terapi yang telah diberikan, dan alasan rujukan.
 
 Surat rujukan yang informatif memuat identitas, usia kehamilan berdasarkan HPHT atau USG, status obstetri, keluhan utama beserta onset dan progresivitasnya, riwayat penyakit jantung, demam rematik, operasi jantung, atau riwayat keluarga, tanda vital lengkap dengan SpO₂, hasil auskultasi dalam format baku, rekaman EKG 12 sadapan beserta interpretasinya, obat yang sedang digunakan, serta kategori urgensi. Permintaan singkat seperti "mohon ekokardiografi, ada bising" kurang membantu. Contoh yang lebih informatif: "G2P1, usia kehamilan 30 minggu. Sesak memberat sejak 2 minggu, ortopnea 3 bantal. Nadi 118 kali/menit ireguler, SpO₂ 95%. S1 keras dan opening snap; EKG menunjukkan fibrilasi atrium. Mohon evaluasi kecurigaan stenosis mitral serta rekomendasi tata laksana dan tempat persalinan." [1,8,9]

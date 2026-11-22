@@ -368,3 +368,9 @@ input, textarea, select, button { -webkit-tap-highlight-color: transparent; }
 }
 .prose .rekomendasi tr + tr td { border-top: 1px solid var(--line); }
 .prose figure.gambar img { display: block; width: 100%; height: auto; border-radius: 8px; background: #fff; }
+.prose figure.gambar > a { display: block; cursor: zoom-in; }
+.prose figure.gambar.sempit img { max-width: 440px; margin: 0 auto; }
+.prose figure.gambar .perbesar { display: none; }
+@media (max-width: 640px) {
+  .prose figure.gambar .perbesar { display: block; margin-top: 6px; }
+}

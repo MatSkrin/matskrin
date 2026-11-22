@@ -124,6 +124,13 @@ Uji klinis CHAP menunjukkan bahwa terapi aktif pada hipertensi kronis ringan den
 
 Pemilihan antihipertensi disesuaikan dengan kondisi klinis dan komorbiditas. Pada pasien dengan penyakit jantung yang telah diketahui, perubahan terapi perlu direncanakan sejak prakonsepsi atau segera setelah kehamilan teridentifikasi. Obat yang memiliki risiko terhadap janin harus dievaluasi dan diganti dengan alternatif yang sesuai [1].
 
+<figure class="gambar">
+<figcaption><strong>Gambar 14.1.</strong> Tata Laksana Tekanan Darah pada Kehamilan dan Tindak Lanjut Risiko Kardiovaskular setelah Persalinan</figcaption>
+<a href="figures/bab14-gambar-14.1-algoritma-tekanan-darah-dan-tindak-lanjut.webp" target="_blank" rel="noopener"><img src="figures/bab14-gambar-14.1-algoritma-tekanan-darah-dan-tindak-lanjut.webp" alt="Tata Laksana Tekanan Darah pada Kehamilan dan Tindak Lanjut Risiko Kardiovaskular setelah Persalinan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: [1,2].</p>
+</figure>
+
 ### 14.5.2 Penanganan Hipertensi Berat
 
 Hipertensi berat, yaitu tekanan darah sistolik ≥160 mmHg dan/atau diastolik ≥110 mmHg yang menetap setelah konfirmasi segera, merupakan kondisi yang memerlukan penanganan emergensi. Penurunan tekanan darah dilakukan secara terkontrol untuk mengurangi risiko stroke dan komplikasi vaskular tanpa menyebabkan hipotensi berlebihan [1,2].
