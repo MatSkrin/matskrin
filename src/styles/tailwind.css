@@ -93,3 +93,7 @@
   .toc-side[hidden] { display: none; }
 }
 .toc-side .toc-title { margin: 0; }
+
+/* Daftar isi modul */
+.daftar-modul a { color: inherit; text-decoration: none; }
+.daftar-modul h1 { margin: 0.4em 0 0.15em; }
