@@ -265,7 +265,14 @@ export default function PanduanKlinis() {
                   <li><strong>Kuning</strong>: ≥ 1 gejala + ≥ 1 tanda vital kuning + ≥ 1 faktor risiko, atau ≥ 4 temuan kuning, atau bising patologis/EKG abnormal pada ibu stabil, atau riwayat penyakit jantung yang belum dievaluasi pada kehamilan ini.</li>
                   <li><strong>Hijau</strong>: selain itu.</li>
                 </ul>
-                <p className="muted">Diadaptasi dari red flags algoritma ACOG 2023 dan CMQCC toolkit 2017.</p>
+                <p>
+                  Pemeriksaan lanjutan: ekokardiografi transtorakal adalah pencitraan lini pertama. Foto toraks
+                  dipertimbangkan hanya bila pemeriksaan lain belum memberi jawaban (ESC 2025).
+                </p>
+                <p className="muted">
+                  Ambang dan aturan triase diadaptasi dari red flags algoritma ACOG 2023 dan CMQCC toolkit 2017. Pedoman
+                  ESC 2025 tidak menetapkan ambang triase untuk pelayanan antenatal.
+                </p>
               </div>
             </details>
 
