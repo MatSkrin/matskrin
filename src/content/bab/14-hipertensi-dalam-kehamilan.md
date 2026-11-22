@@ -1,0 +1,189 @@
+---
+nomor: 14
+judul: Gangguan Hipertensi dalam Kehamilan
+ringkasan: Klasifikasi hipertensi dalam kehamilan, dampaknya pada jantung, terapi, dan pemantauan jangka panjang.
+---
+
+<div class="ringkasan">
+<p class="ringkasan-judul">Inti bab ini</p>
+<ul>
+<li>Terapi antihipertensi dimulai pada TD ≥140/90 mmHg dengan target <140/90 mmHg sesuai ESC 2025.</li>
+<li>Labetalol, nifedipin, dan metildopa adalah pilihan utama; ACE inhibitor dan ARB tidak dipakai selama hamil.</li>
+<li>Fraksi ejeksi normal tidak menyingkirkan disfungsi diastolik atau risiko edema paru.</li>
+<li>Riwayat preeklamsia adalah faktor risiko kardiovaskular jangka panjang yang perlu dipantau berkala.</li>
+</ul>
+</div>
+
+## 14.1 Definisi dan Klasifikasi
+
+Gangguan hipertensi dalam kehamilan (hypertensive disorders of pregnancy, HDP) termasuk penyebab utama kesakitan dan kematian ibu, dan dampaknya pada jantung berlanjut setelah persalinan. Hipertensi selama kehamilan meningkatkan beban hemodinamik jantung, memperberat disfungsi vaskular, dan dapat menyebabkan kerusakan organ target, termasuk gagal jantung, edema paru, serta komplikasi serebrovaskular. Kondisi ini juga dapat memperburuk penyakit jantung yang telah ada sebelum kehamilan [1–3].
+
+Hipertensi dalam kehamilan ditegakkan apabila tekanan darah sistolik ≥140 mmHg dan/atau diastolik ≥90 mmHg berdasarkan pengukuran yang terkonfirmasi. Hipertensi berat didefinisikan sebagai tekanan darah sistolik ≥160 mmHg dan/atau diastolik ≥110 mmHg, yang memerlukan evaluasi serta penanganan segera karena berkaitan dengan peningkatan risiko komplikasi maternal akut [1,2].
+
+<p class="judul-tabel"><strong>Tabel 14.1.</strong> Klasifikasi Gangguan Hipertensi dalam Kehamilan</p>
+
+| Klasifikasi              | Definisi                                                                                                                      |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Hipertensi kronis        | Hipertensi yang telah ada sebelum kehamilan atau terdiagnosis sebelum usia kehamilan 20 minggu.                               |
+| Hipertensi gestasional   | Hipertensi yang pertama kali muncul pada usia kehamilan ≥20 minggu tanpa kriteria preeklamsia.                                |
+| Preeklamsia              | Hipertensi setelah usia kehamilan 20 minggu yang disertai proteinuria dan/atau disfungsi organ maternal maupun uteroplasenta. |
+| Preeklamsia superimposed | Preeklamsia yang berkembang pada pasien dengan hipertensi kronis.                                                             |
+| Hipertensi berat         | Tekanan darah sistolik ≥160 mmHg dan/atau diastolik ≥110 mmHg, terlepas dari klasifikasi dasarnya.                            |
+
+<p class="catatan">Sumber: Diadaptasi dari ESC 2025 dan AHA Scientific Statement 2022 [1,2].</p>
+
+Klasifikasi ini menentukan pemantauan dan terapi, tetapi penilaian kardiovaskular juga harus memperhitungkan derajat peningkatan tekanan darah, gejala gagal jantung, serta adanya penyakit jantung struktural atau gangguan fungsi ventrikel.
+
+## 14.2 Patofisiologi Kardiovaskular
+
+Kehamilan normal ditandai oleh peningkatan curah jantung dan volume plasma serta penurunan resistensi vaskular sistemik. Pada gangguan hipertensi dalam kehamilan, adaptasi tersebut dapat terganggu akibat peningkatan resistensi vaskular, disfungsi endotel, dan perubahan regulasi neurohormonal. Akibatnya, ventrikel kiri menghadapi peningkatan afterload yang dapat menyebabkan perubahan struktur dan fungsi miokard [2,4].
+
+Peningkatan afterload yang berlangsung terus-menerus dapat menyebabkan hipertrofi ventrikel kiri dan gangguan relaksasi miokard. Disfungsi diastolik dapat terjadi meskipun fraksi ejeksi ventrikel kiri masih dalam batas normal. Kondisi ini meningkatkan tekanan pengisian ventrikel kiri dan risiko kongesti paru, terutama ketika terjadi perubahan volume intravaskular yang cepat selama persalinan atau periode pascapersalinan [5,6].
+
+Pada preeklamsia, disfungsi endotel sistemik dan ketidakseimbangan faktor angiogenik turut menyebabkan vasokonstriksi, peningkatan permeabilitas kapiler, serta gangguan perfusi organ. Kombinasi peningkatan tekanan pengisian jantung dan permeabilitas vaskular dapat memicu edema paru, bahkan tanpa disfungsi sistolik ventrikel kiri yang berat [4].
+
+> **Poin Klinis 14.1. Patofisiologi Kardiovaskular**
+>
+> - Peningkatan afterload merupakan mekanisme penting terjadinya gangguan fungsi ventrikel kiri pada hipertensi dalam kehamilan.
+> - Fraksi ejeksi yang normal tidak menyingkirkan disfungsi diastolik maupun risiko edema paru.
+> - Perubahan hemodinamik selama persalinan dan pascapersalinan dapat memicu dekompensasi pada pasien dengan gangguan fungsi jantung.
+
+## 14.3 Manifestasi dan Komplikasi Kardiovaskular
+
+Manifestasi kardiovaskular pada gangguan hipertensi dalam kehamilan bervariasi, mulai dari peningkatan tekanan darah tanpa gejala hingga disfungsi miokard dan gagal jantung akut. Risiko komplikasi dipengaruhi oleh derajat hipertensi, penyakit kardiovaskular yang mendasari, serta perubahan hemodinamik selama kehamilan [1,3].
+
+### 14.3.1 Remodeling dan Disfungsi Ventrikel Kiri
+
+Peningkatan beban tekanan dapat menyebabkan perubahan geometri ventrikel kiri, terutama remodeling konsentris dan hipertrofi ventrikel kiri. Pada pasien dengan preeklamsia, pemeriksaan ekokardiografi dapat menunjukkan peningkatan massa ventrikel kiri, gangguan relaksasi, serta peningkatan tekanan pengisian jantung. Perubahan tersebut dapat ditemukan meskipun fungsi sistolik global masih terjaga [4,5].
+
+Disfungsi diastolik membuat pasien lebih rentan terhadap kongesti paru saat terjadi peningkatan volume sirkulasi. Sebagian perubahan struktur dan fungsi jantung dapat menetap setelah persalinan, sehingga diperlukan evaluasi lanjutan pada pasien dengan gangguan kardiovaskular selama kehamilan [6].
+
+### 14.3.2 Gagal Jantung dan Edema Paru
+
+Gagal jantung adalah komplikasi kardiovaskular yang serius pada gangguan hipertensi dalam kehamilan. Edema paru dapat terjadi akibat peningkatan tekanan pengisian ventrikel kiri, disfungsi sistolik atau diastolik, peningkatan permeabilitas kapiler, maupun kelebihan cairan intravaskular. Risiko dekompensasi meningkat pada pasien dengan penyakit jantung struktural atau gangguan fungsi ventrikel yang telah ada sebelumnya [1,4].
+
+Gejala seperti sesak napas progresif, ortopnea, hipoksemia, dan ronki paru memerlukan evaluasi segera. Pemeriksaan ekokardiografi membantu mengidentifikasi disfungsi ventrikel, kelainan katup, dan kemungkinan penyebab kardiovaskular lainnya. Diagnosis banding penting mencakup kardiomiopati peripartum, emboli paru, serta penyakit jantung yang sebelumnya belum terdiagnosis [1].
+
+### 14.3.3 Komplikasi Vaskular dan Serebrovaskular
+
+Hipertensi berat meningkatkan risiko komplikasi vaskular akut, terutama stroke hemoragik dan iskemik. Pada pasien dengan penyakit aorta, peningkatan tekanan darah juga dapat memperberat tekanan pada dinding aorta. Oleh karena itu, hipertensi berat memerlukan penanganan segera, termasuk pada pasien yang belum menunjukkan gejala kerusakan organ target [1,2].
+
+## 14.4 Evaluasi Kardiovaskular
+
+Evaluasi kardiovaskular bertujuan menentukan derajat hipertensi, mengidentifikasi kerusakan organ target, dan mendeteksi penyakit jantung yang menyertai. Pemeriksaan awal meliputi anamnesis, pengukuran tekanan darah yang tepat, pemeriksaan fisik kardiovaskular, serta pemeriksaan penunjang pada Tabel 14.2 [1,2].
+
+Pengukuran tekanan darah dilakukan menggunakan alat yang tervalidasi untuk kehamilan, dengan ukuran manset sesuai lingkar lengan. Pemantauan tekanan darah di rumah atau secara ambulatori dapat membantu mengevaluasi pola tekanan darah dan mendeteksi kemungkinan white-coat hypertension. Pemeriksaan fisik difokuskan pada tanda kongesti, gangguan perfusi, dan manifestasi kerusakan organ target [2].
+
+<p class="judul-tabel"><strong>Tabel 14.2.</strong> Pemeriksaan Kardiovaskular pada Gangguan Hipertensi dalam Kehamilan</p>
+
+| Pemeriksaan                                      | Indikasi dan temuan yang dinilai                                                                                                                            |
+|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Elektrokardiografi (EKG)                         | Evaluasi irama, hipertrofi ventrikel kiri, dan kelainan konduksi atau repolarisasi.                                                                         |
+| Ekokardiografi transtorakal                      | Dilakukan bila dicurigai kelainan struktur atau fungsi jantung, terutama pada sesak napas, tanda gagal jantung, atau penyakit jantung yang telah diketahui. |
+| BNP atau NT-proBNP                               | Membantu evaluasi pasien dengan kecurigaan gagal jantung; interpretasi mempertimbangkan kondisi klinis dan perubahan fisiologis kehamilan.                  |
+| Troponin jantung                                 | Diperiksa bila terdapat kecurigaan cedera miokard atau sindrom koroner akut.                                                                                |
+| Fungsi ginjal dan elektrolit                     | Menilai keterlibatan organ target serta keamanan pemberian obat.                                                                                            |
+| Proteinuria dan pemeriksaan laboratorium terkait | Membantu mengidentifikasi preeklamsia dan menentukan kebutuhan evaluasi obstetri segera.                                                                    |
+
+<p class="catatan">Sumber: ESC 2025 dan AHA Scientific Statement 2022 [1,2].</p>
+
+Ekokardiografi tidak diperlukan secara rutin pada seluruh pasien dengan hipertensi gestasional tanpa komplikasi. Pemeriksaan ini lebih bermanfaat apabila terdapat kecurigaan disfungsi jantung, hipertensi kronis dengan kemungkinan kerusakan organ target, atau kelainan kardiovaskular yang menyertai.
+
+> **Poin Klinis 14.2. Evaluasi Kardiovaskular**
+>
+> - Sesak napas progresif, ortopnea, hipoksemia, dan tanda kongesti merupakan indikasi evaluasi kardiovaskular segera.
+> - Ekokardiografi menjadi pemeriksaan utama untuk menilai struktur dan fungsi jantung apabila dicurigai komplikasi kardiovaskular.
+> - BNP/NT-proBNP diperiksa bila dicurigai gagal jantung dan troponin bila dicurigai cedera miokard; troponin dapat meningkat pada preeklamsia.
+
+## 14.5 Tata Laksana Kardiovaskular
+
+Tujuan tata laksana adalah mengendalikan tekanan darah dan mencegah kerusakan organ target. Obat dipilih berdasarkan keamanannya bagi janin dan kondisi jantung ibu [1,2].
+
+### 14.5.1 Target Tekanan Darah dan Terapi Antihipertensi
+
+Pedoman ESC 2025 merekomendasikan terapi antihipertensi pada tekanan darah ≥140/90 mmHg, dengan target tekanan darah selama pengobatan kurang dari 140/90 mmHg. Pengendalian tekanan darah perlu dilakukan secara bertahap dengan memperhatikan toleransi klinis dan menghindari hipotensi maternal [1].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>Pada hipertensi gestasional, terapi obat dimulai pada tekanan darah sistolik ≥140 mmHg atau diastolik ≥90 mmHg.</td><td class="kelas-i">I</td><td>B</td></tr><tr><td>Target tekanan darah sistolik \<140 mmHg dan diastolik \<90 mmHg pada ibu hamil.</td><td class="kelas-i">I</td><td>B</td></tr></tbody></table>
+</div>
+
+Uji klinis CHAP menunjukkan bahwa terapi aktif pada hipertensi kronis ringan dengan target tekanan darah kurang dari 140/90 mmHg menurunkan kejadian luaran kehamilan yang merugikan dibandingkan strategi yang menunda pemberian atau intensifikasi terapi hingga terjadi hipertensi berat. Sementara itu, penelitian CHIPS menunjukkan bahwa pengendalian tekanan darah yang lebih ketat mengurangi kejadian hipertensi berat, tanpa perbedaan bermakna pada luaran perinatal primer [7,8].
+
+<p class="judul-tabel"><strong>Tabel 14.3.</strong> Obat Antihipertensi pada Kehamilan</p>
+
+| Obat                   | Pertimbangan klinis                                                                                           |
+|------------------------|---------------------------------------------------------------------------------------------------------------|
+| Labetalol              | Pilihan lini pertama; perlu kehati-hatian pada pasien dengan bradikardia, blok atrioventrikular, atau asma.   |
+| Nifedipin lepas lambat | Pilihan lini pertama untuk terapi pemeliharaan; dapat menyebabkan sakit kepala, flushing, atau edema perifer. |
+| Metildopa              | Alternatif dengan riwayat penggunaan luas dalam kehamilan; efek samping meliputi sedasi dan kelelahan.        |
+| Hidralazin intravena   | Salah satu pilihan pada hipertensi berat akut; memerlukan pemantauan respons tekanan darah.                   |
+| ACE inhibitor dan ARB  | Kontraindikasi selama kehamilan karena risiko toksisitas janin.                                               |
+
+<p class="catatan">Sumber: Diadaptasi dari ESC 2025 dan AHA Scientific Statement 2022 [1,2].</p>
+
+Pemilihan antihipertensi disesuaikan dengan kondisi klinis dan komorbiditas. Pada pasien dengan penyakit jantung yang telah diketahui, perubahan terapi perlu direncanakan sejak prakonsepsi atau segera setelah kehamilan teridentifikasi. Obat yang memiliki risiko terhadap janin harus dievaluasi dan diganti dengan alternatif yang sesuai [1].
+
+### 14.5.2 Penanganan Hipertensi Berat
+
+Hipertensi berat, yaitu tekanan darah sistolik ≥160 mmHg dan/atau diastolik ≥110 mmHg yang menetap setelah konfirmasi segera, merupakan kondisi yang memerlukan penanganan emergensi. Penurunan tekanan darah dilakukan secara terkontrol untuk mengurangi risiko stroke dan komplikasi vaskular tanpa menyebabkan hipotensi berlebihan [1,2].
+
+Obat yang dapat digunakan meliputi labetalol intravena atau nifedipin oral kerja cepat, sedangkan hidralazin intravena merupakan pilihan lini kedua; pilihannya bergantung pada ketersediaan obat dan protokol setempat. Selama terapi diperlukan pemantauan tekanan darah, frekuensi jantung, status neurologis, serta tanda gangguan perfusi organ [1].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>Tekanan darah sistolik ≥160 mmHg atau diastolik ≥110 mmHg pada ibu hamil merupakan kegawatan dan ditangani di rumah sakit.</td><td class="kelas-i">I</td><td>C</td></tr><tr><td>Pada hipertensi berat, penurunan tekanan darah akut menggunakan labetalol, urapidil, atau nikardipin intravena, atau nifedipin oral kerja pendek atau metildopa; hidralazin intravena merupakan pilihan lini kedua.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
+</div>
+
+Pada pasien dengan gejala neurologis, nyeri dada, sesak napas berat, atau tanda kerusakan organ target, evaluasi dan stabilisasi dilakukan segera bersama tim multidisiplin.
+
+### 14.5.3 Penanganan Gagal Jantung dan Edema Paru
+
+Gagal jantung akut dan edema paru pada pasien dengan gangguan hipertensi memerlukan stabilisasi hemodinamik dan penilaian penyebab dekompensasi. Tata laksana meliputi pemberian oksigen bila terdapat hipoksemia, diuretik pada kondisi kongesti, serta pengendalian tekanan darah sesuai profil hemodinamik pasien [1].
+
+Furosemid dapat digunakan apabila terdapat edema paru atau kelebihan cairan yang bermakna, dengan pemantauan ketat terhadap tekanan darah, fungsi ginjal, elektrolit, dan status volume. Pemberian cairan intravena perlu dilakukan secara hati-hati karena peningkatan tekanan pengisian jantung dan permeabilitas kapiler dapat memperburuk kongesti paru [1,4].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>Pada preeklamsia dengan edema paru, nitrogliserin infus intravena direkomendasikan.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
+</div>
+
+Pasien dengan disfungsi ventrikel kiri memerlukan evaluasi untuk membedakan gangguan fungsi jantung akibat hipertensi, kardiomiopati peripartum, dan penyebab gagal jantung lainnya. Pemilihan terapi gagal jantung harus mempertimbangkan keamanan obat selama kehamilan.
+
+> **Poin Klinis 14.3. Penanganan Gagal Jantung dan Edema Paru**
+>
+> - Terapi antihipertensi direkomendasikan mulai tekanan darah ≥140/90 mmHg, dengan target kurang dari 140/90 mmHg sesuai ESC 2025.
+> - Hipertensi berat yang menetap memerlukan terapi segera untuk mencegah komplikasi vaskular akut.
+> - Labetalol, nifedipin, dan metildopa merupakan pilihan utama terapi hipertensi selama kehamilan.
+> - Pada edema paru, turunkan tekanan darah, atasi kongesti dengan diuretik, dan batasi cairan intravena.
+> - ACE inhibitor dan ARB tidak digunakan selama kehamilan.
+
+## 14.6 Pemantauan Pascapersalinan dan Risiko Kardiovaskular Jangka Panjang
+
+Pada periode pascapersalinan awal, perubahan volume sirkulasi dan mobilisasi cairan ekstravaskular dapat meningkatkan beban jantung serta memicu kongesti pada pasien dengan disfungsi miokard. Tekanan darah juga dapat meningkat kembali dalam beberapa hari pertama setelah persalinan, sehingga pemantauan dan penyesuaian terapi antihipertensi tetap diperlukan [1,2].
+
+Riwayat preeklamsia berhubungan dengan peningkatan risiko hipertensi kronis, penyakit jantung koroner, stroke, dan gagal jantung di kemudian hari. Meta-analisis menunjukkan bahwa perempuan dengan riwayat preeklamsia memiliki risiko kardiovaskular jangka panjang yang lebih tinggi dibandingkan perempuan dengan kehamilan normotensif [9,10].
+
+Karena itu, riwayat preeklamsia dan gangguan hipertensi kehamilan lain perlu dicatat sebagai faktor risiko pada setiap penilaian kardiovaskular perempuan. Pemantauan jangka panjang mencakup evaluasi tekanan darah, profil lipid, glukosa darah, berat badan, dan faktor risiko kardiometabolik lainnya. Pemeriksaan ekokardiografi lanjutan dipertimbangkan pada pasien dengan disfungsi jantung yang ditemukan selama kehamilan atau gejala kardiovaskular yang menetap [11,12].
+
+> **Poin Klinis 14.4. Pemantauan Pascapersalinan dan Risiko Kardiovaskular Jangka Panjang**
+>
+> - Catat riwayat hipertensi dalam kehamilan sebagai faktor risiko kardiovaskular jangka panjang.
+> - Pemantauan tekanan darah tetap diperlukan setelah persalinan, termasuk pada pasien yang sebelumnya normotensif.
+> - Pasien dengan riwayat preeklamsia memerlukan evaluasi berkala terhadap faktor risiko kardiovaskular.
+> - Kelainan fungsi jantung yang ditemukan selama kehamilan perlu dievaluasi kembali setelah persalinan.
+
+## Daftar Pustaka
+
+1. De Backer J, Haugaa KH, Hasselberg NE, de Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462-568.
+2. Garovic VD, Dechend R, Easterling T, Karumanchi SA, McMurtry Baird S, Magee LA, et al. Hypertension in Pregnancy: Diagnosis, Blood Pressure Goals, and Pharmacotherapy: A Scientific Statement From the American Heart Association. Hypertension. 2022;79(2):e21-e41.
+3. Ramlakhan KP, Malhamé I, Marelli A, Rutz T, Goland S, Franx A, et al. Hypertensive disorders of pregnant women with heart disease: the ESC EORP ROPAC Registry. Eur Heart J. 2022;43(38):3749-61.
+4. Melchiorre K, Sharma R, Thilaganathan B. Cardiovascular implications in preeclampsia: an overview. Circulation. 2014;130(8):703-14.
+5. Melchiorre K, Sutherland GR, Baltabaeva A, Liberati M, Thilaganathan B. Maternal cardiac dysfunction and remodeling in women with preeclampsia at term. Hypertension. 2011;57(1):85-93.
+6. Melchiorre K, Sutherland GR, Liberati M, Thilaganathan B. Preeclampsia is associated with persistent postpartum cardiovascular impairment. Hypertension. 2011;58(4):709-15.
+7. Tita AT, Szychowski JM, Boggess K, Dugoff L, Sibai B, Lawrence K, et al. Treatment for Mild Chronic Hypertension during Pregnancy. N Engl J Med. 2022;386(19):1781-92.
+8. Magee LA, von Dadelszen P, Rey E, Ross S, Asztalos E, Murphy KE, et al. Less-tight versus tight control of hypertension in pregnancy. N Engl J Med. 2015;372(5):407-17.
+9. Wu P, Haththotuwa R, Kwok CS, Babu A, Kotronias RA, Rushton C, et al. Preeclampsia and Future Cardiovascular Health: A Systematic Review and Meta-Analysis. Circ Cardiovasc Qual Outcomes. 2017;10(2):e003497.
+10. Brown MC, Best KE, Pearce MS, Waugh J, Robson SC, Bell R. Cardiovascular disease risk in women with pre-eclampsia: systematic review and meta-analysis. Eur J Epidemiol. 2013;28(1):1-19.
+11. Lewey J, Beckie TM, Brown HL, Brown SD, Garovic VD, Khan SS, et al. Opportunities in the Postpartum Period to Reduce Cardiovascular Disease Risk After Adverse Pregnancy Outcomes: A Scientific Statement From the American Heart Association. Circulation. 2024;149(7):e330-e46.
+12. McEvoy JW, McCarthy CP, Bruno RM, Brouwers S, Canavan MD, Ceconi C, et al. 2024 ESC Guidelines for the management of elevated blood pressure and hypertension. Eur Heart J. 2024;45(38):3912-4018.

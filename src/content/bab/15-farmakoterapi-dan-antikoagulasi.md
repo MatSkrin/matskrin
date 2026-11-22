@@ -1,0 +1,256 @@
+---
+nomor: 15
+judul: Farmakoterapi, Antikoagulasi, dan Keamanan Obat
+ringkasan: Prinsip memilih obat kardiovaskular, mengatur antikoagulasi, dan keamanan obat saat hamil dan menyusui.
+---
+
+<div class="ringkasan">
+<p class="ringkasan-judul">Inti bab ini</p>
+<ul>
+<li>Tinjau semua obat sebelum dan selama hamil; utamakan obat yang sudah lama dipakai pada kehamilan.</li>
+<li>Jangan hentikan obat secara mendadak, terutama antikoagulan dan terapi gagal jantung.</li>
+<li>Pada katup mekanik, antikoagulasi terapeutik dipertahankan sepanjang kehamilan dengan pemantauan INR atau anti-faktor Xa.</li>
+<li>Rencana antikoagulasi peripartum dan postpartum disusun sebelum persalinan bersama tim spesialis.</li>
+</ul>
+</div>
+
+Perubahan fisiologis kehamilan memengaruhi respons terhadap obat, dan beberapa obat kardiovaskular berisiko bagi perkembangan janin. Namun, menghentikan obat jantung karena khawatir akan efeknya pada janin dapat lebih berbahaya bagi ibu, terutama pada pasien dengan gagal jantung, aritmia, atau katup jantung mekanik.
+
+Pemilihan terapi didasarkan pada jenis penyakit, kondisi hemodinamik, usia kehamilan, serta risiko maternal dan fetal. Bab ini membahas obat kardiovaskular, antikoagulan dan antiplatelet, serta keamanan obat selama kehamilan dan menyusui, dengan fokus pada kebutuhan dokter umum [1].
+
+## 15.1 Prinsip Farmakoterapi pada Kehamilan
+
+Kehamilan menyebabkan peningkatan volume plasma, curah jantung, dan aliran darah ginjal, disertai penurunan konsentrasi albumin serta perubahan aktivitas enzim metabolisme obat. Perubahan ini dapat memengaruhi distribusi, metabolisme, dan eliminasi obat sehingga konsentrasi obat dalam darah dan respons terhadap terapi dapat berbeda dibandingkan dengan kondisi sebelum kehamilan [1].
+
+Obat dengan pengalaman penggunaan yang luas selama kehamilan lebih diutamakan apabila memiliki efektivitas yang sebanding. Penyesuaian dosis dilakukan berdasarkan respons klinis, fungsi organ, dan parameter pemantauan yang relevan.
+
+Informasi keamanan obat selama kehamilan umumnya berasal dari studi observasional, registri, dan pengalaman klinis karena keterlibatan perempuan hamil dalam uji klinis masih terbatas. Data yang terbatas bukan bukti bahaya, dan risiko penyakit ibu yang tidak diobati juga harus diperhitungkan.
+
+> **Poin Klinis 15.1. Prinsip Penggunaan Obat Kardiovaskular**
+>
+> - Evaluasi seluruh obat yang digunakan sebelum dan selama kehamilan.
+> - Utamakan obat yang sudah lama dipakai pada kehamilan bila efektivitasnya sebanding.
+> - Sesuaikan dosis dengan respons klinis; kebutuhan dosis dapat berubah seiring usia kehamilan.
+> - Hindari penghentian obat secara mendadak, terutama antikoagulan dan terapi gagal jantung.
+> - Rencanakan penyesuaian terapi menjelang persalinan dan selama menyusui.
+
+## 15.2 Obat Kardiovaskular Selama Kehamilan
+
+### 15.2.1 Antihipertensi
+
+Labetalol, nifedipin lepas lambat, dan metildopa merupakan obat antihipertensi yang umum digunakan selama kehamilan. Pemilihan obat disesuaikan dengan derajat hipertensi, frekuensi jantung, penyakit penyerta, dan toleransi pasien. Pada hipertensi kronis, pengobatan untuk mempertahankan tekanan darah di bawah 140/90 mmHg terbukti mengurangi komplikasi kehamilan tanpa meningkatkan kejadian hambatan pertumbuhan janin [1,2].
+
+Pada hipertensi berat, yaitu tekanan darah sistolik ≥160 mmHg atau diastolik ≥110 mmHg yang menetap, diperlukan penanganan segera. Nifedipin oral atau labetalol intravena dapat digunakan; hidralazin intravena merupakan pilihan lini kedua. ACE inhibitor dan angiotensin receptor blocker (ARB) dikontraindikasikan selama kehamilan karena risiko gangguan perkembangan ginjal janin, oligohidramnion, dan komplikasi neonatal [1].
+
+### 15.2.2 Terapi Gagal Jantung
+
+Pengobatan gagal jantung selama kehamilan disesuaikan dengan kondisi hemodinamik dan fraksi ejeksi ventrikel kiri. Pada pasien dengan kongesti, furosemid dapat digunakan untuk mengurangi kelebihan cairan dengan pemantauan tekanan darah, fungsi ginjal, dan elektrolit. Diuresis berlebihan perlu dihindari karena dapat mengurangi perfusi uteroplasenta.
+
+Metoprolol suksinat dapat dipertimbangkan pada gagal jantung dengan penurunan fraksi ejeksi apabila kondisi hemodinamik stabil. Hidralazin dan nitrat dapat digunakan sebagai alternatif vasodilator. ACE inhibitor, ARB, angiotensin receptor-neprilysin inhibitor (ARNI), mineralocorticoid receptor antagonist (MRA), dan sodium-glucose cotransporter-2 inhibitor (SGLT2 inhibitor) tidak digunakan selama kehamilan karena risiko terhadap janin atau keterbatasan data keamanan [1,3,4].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>ACE inhibitor, ARB, ARNI, MRA, ivabradin, dan SGLT2 inhibitor tidak direkomendasikan selama kehamilan karena efek merugikan pada janin.</td><td class="kelas-iii">III</td><td>C</td></tr></tbody></table>
+</div>
+
+Pada kardiomiopati peripartum, bromokriptin dapat dipertimbangkan sebagai terapi tambahan pada pasien tertentu di pusat rujukan. Obat ini menghambat sekresi prolaktin dan menyebabkan penghentian produksi ASI. Penggunaannya memerlukan pertimbangan risiko tromboemboli dan pemberian antikoagulasi sesuai kondisi klinis [5].
+
+### 15.2.3 Antiaritmia
+
+Pemilihan obat antiaritmia ditentukan oleh jenis aritmia, stabilitas hemodinamik, dan adanya penyakit jantung struktural. Adenosin intravena merupakan pilihan utama pada takikardia supraventrikular reguler dengan kompleks QRS sempit yang stabil apabila manuver vagal tidak berhasil. Metoprolol atau propranolol dapat digunakan untuk mengendalikan frekuensi jantung dan mencegah kekambuhan pada indikasi tertentu.
+
+Flekainid dan sotalol dapat dipertimbangkan pada aritmia tertentu dengan pengawasan spesialis. Penggunaan sotalol memerlukan pemantauan interval QT dan fungsi ginjal. Amiodaron umumnya dihindari karena berisiko menyebabkan gangguan tiroid dan efek merugikan lainnya pada janin, tetapi dapat digunakan pada aritmia yang mengancam jiwa apabila terapi alternatif tidak efektif [1,6,7].
+
+Kardioversi listrik tersinkronisasi dapat dilakukan selama kehamilan apabila terdapat aritmia yang menyebabkan instabilitas hemodinamik. Tindakan ini tidak boleh ditunda ketika diperlukan untuk menyelamatkan kondisi ibu [6].
+
+### 15.2.4 Terapi Hipertensi Arteri Pulmonal
+
+Hipertensi arteri pulmonal (pulmonary arterial hypertension/PAH) termasuk mWHO 2.0 kelas IV dan harus ditangani tim multidisiplin di pusat rujukan. Terapi spesifik PAH dipilih berdasarkan tingkat risiko, kondisi hemodinamik, dan respons pengobatan.
+
+Sildenafil dan terapi prostasiklin, seperti iloprost atau epoprostenol, dapat digunakan pada indikasi tertentu di bawah pengawasan spesialis. Antagonis reseptor endotelin, seperti bosentan, ambrisentan, dan macitentan, serta riociguat dikontraindikasikan selama kehamilan karena risiko terhadap perkembangan janin. Penyesuaian terapi sebaiknya dilakukan sejak perencanaan kehamilan [1,8].
+
+### 15.2.5 Antiplatelet dan Terapi Penyakit Arteri Koroner
+
+Aspirin dosis rendah dapat digunakan selama kehamilan pada indikasi tertentu, termasuk pencegahan preeklamsia dan penyakit arteri koroner. Pada pasien dengan sindrom koroner akut yang menjalani intervensi koroner perkutan (percutaneous coronary intervention/PCI), terapi antiplatelet ganda (dual antiplatelet therapy/DAPT) dapat diperlukan untuk mencegah trombosis stent.
+
+Clopidogrel merupakan penghambat reseptor P2Y12 yang paling banyak digunakan selama kehamilan. Durasi DAPT ditentukan berdasarkan jenis sindrom koroner, waktu pemasangan stent, dan risiko perdarahan. Penghentian antiplatelet menjelang persalinan perlu direncanakan bersama tim kardiologi, obstetri, dan anestesi [1,9].
+
+Statin umumnya dihentikan selama kehamilan. Namun, pada perempuan dengan penyakit kardiovaskular aterosklerotik yang telah diketahui, kelanjutan statin dapat dipertimbangkan secara individual. Keputusan tersebut memerlukan penilaian spesialis karena data keamanan kehamilan masih terbatas [1].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>Kelanjutan statin dapat dipertimbangkan secara individual pada perempuan dengan penyakit kardiovaskular aterosklerotik yang telah diketahui.</td><td class="kelas-iib">IIb</td><td>C</td></tr></tbody></table>
+</div>
+
+<p class="judul-tabel"><strong>Tabel 15.1.</strong> Ringkasan Penggunaan Obat Kardiovaskular Selama Kehamilan</p>
+
+| Kelompok obat                | Contoh                            | Pertimbangan                               |
+|------------------------------|-----------------------------------|--------------------------------------------|
+| Antihipertensi               | Labetalol, nifedipin, metildopa   | Umumnya dapat digunakan                    |
+| Beta-blocker                 | Metoprolol, propranolol           | Pantau pertumbuhan janin dan efek neonatal |
+| Diuretik                     | Furosemid                         | Digunakan bila terdapat kongesti           |
+| Vasodilator gagal jantung    | Hidralazin, nitrat                | Alternatif pada indikasi tertentu          |
+| Antiaritmia                  | Adenosin, digoksin, flekainid     | Sesuai jenis aritmia                       |
+| Terapi PAH                   | Sildenafil, prostasiklin          | Pengawasan spesialis                       |
+| Antiplatelet                 | Aspirin dosis rendah, clopidogrel | Sesuai indikasi kardiovaskular             |
+| Penghambat RAAS              | ACE inhibitor, ARB, ARNI          | Kontraindikasi selama kehamilan            |
+| Terapi gagal jantung lainnya | MRA, SGLT2 inhibitor              | Tidak direkomendasikan                     |
+| Antiaritmia tertentu         | Amiodaron                         | Dihindari kecuali keadaan mengancam jiwa   |
+| Terapi PAH tertentu          | ERA, riociguat                    | Kontraindikasi selama kehamilan            |
+
+<p class="catatan">Sumber: Diadaptasi dari [1,6,8].</p>
+
+## 15.3 Antikoagulasi pada Kehamilan
+
+Kehamilan merupakan keadaan hiperkoagulabel yang ditandai dengan peningkatan aktivitas faktor koagulasi, penurunan fibrinolisis, dan stasis vena. Perubahan tersebut meningkatkan risiko tromboemboli vena, terutama pada perempuan dengan riwayat tromboemboli, trombofilia, atau penyakit jantung tertentu. Risiko tromboemboli tetap meningkat selama periode postpartum, terutama dalam enam minggu pertama [1,10].
+
+Antikoagulasi pada pasien dengan penyakit jantung dapat diperlukan untuk pencegahan atau pengobatan tromboemboli vena, fibrilasi atrium dengan risiko tromboemboli tinggi, trombus intrakardiak, dan katup jantung mekanik. Pemilihan antikoagulan mempertimbangkan efektivitas, keamanan janin, risiko perdarahan, serta kebutuhan pemantauan.
+
+### 15.3.1 Low-Molecular-Weight Heparin
+
+Low-molecular-weight heparin (LMWH), seperti enoksaparin, merupakan pilihan utama untuk sebagian besar indikasi antikoagulasi selama kehamilan. LMWH tidak melewati plasenta sehingga tidak menyebabkan efek antikoagulasi langsung pada janin. Dibandingkan dengan unfractionated heparin (UFH), LMWH memiliki respons antikoagulasi yang lebih dapat diprediksi serta risiko trombositopenia dan osteoporosis yang lebih rendah [10].
+
+Dosis LMWH ditentukan berdasarkan indikasi profilaksis atau terapeutik. Pada tromboemboli vena akut, enoksaparin terapeutik umumnya diberikan dengan dosis awal 1 mg/kg berat badan secara subkutan setiap 12 jam, kemudian disesuaikan berdasarkan kondisi klinis dan fungsi ginjal. Pemantauan anti-factor Xa secara rutin tidak diperlukan pada sebagian besar pasien dengan tromboemboli vena, tetapi dapat dipertimbangkan pada kondisi khusus. Pada pasien dengan katup mekanik, pemantauan anti-factor Xa diperlukan untuk memastikan kecukupan antikoagulasi [1,10].
+
+### 15.3.2 Unfractionated Heparin
+
+UFH dapat diberikan secara intravena atau subkutan pada kondisi tertentu, terutama ketika diperlukan pengaturan efek antikoagulasi secara cepat. Penggunaan UFH intravena bermanfaat pada pasien berisiko trombosis tinggi menjelang persalinan karena memiliki waktu paruh pendek dan efeknya dapat dinetralkan menggunakan protamin.
+
+Pemantauan UFH terapeutik dilakukan menggunakan activated partial thromboplastin time (aPTT) atau anti-factor Xa sesuai protokol fasilitas. Penggunaan jangka panjang memerlukan perhatian terhadap risiko heparin-induced thrombocytopenia dan osteoporosis [1,10].
+
+### 15.3.3 Antagonis Vitamin K
+
+Antagonis vitamin K (vitamin K antagonist/VKA), terutama warfarin, efektif dalam mencegah tromboemboli pada pasien dengan katup mekanik. Namun, warfarin melewati plasenta dan dapat menyebabkan embriopati, perdarahan janin, serta komplikasi kehamilan lainnya. Risiko embriopati terutama berkaitan dengan paparan pada periode organogenesis dan meningkat seiring kebutuhan dosis, meskipun dosis rendah tidak sepenuhnya menghilangkan risiko [1,11].
+
+Penggunaan VKA selama kehamilan terutama dipertimbangkan pada pasien dengan katup mekanik karena efektivitasnya dalam mencegah trombosis katup. Pilihan antara VKA dan LMWH pada katup mekanik dibahas pada subbab 15.4.
+
+### 15.3.4 Direct Oral Anticoagulant
+
+Direct oral anticoagulant (DOAC), seperti rivaroksaban, apiksaban, dabigatran, dan edoksaban, tidak direkomendasikan selama kehamilan karena keterbatasan data keamanan dan potensi paparan janin. Pasien yang menggunakan DOAC sebelum kehamilan perlu menjalani evaluasi untuk penggantian dengan antikoagulan yang sesuai, umumnya LMWH [1].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>DOAC tidak direkomendasikan selama kehamilan.</td><td class="kelas-iii">III</td><td>C</td></tr></tbody></table>
+</div>
+
+Perubahan antikoagulan harus dilakukan secara terencana untuk menghindari periode tanpa perlindungan antitrombotik, terutama pada pasien dengan risiko tromboemboli tinggi.
+
+<p class="judul-tabel"><strong>Tabel 15.2.</strong> Perbandingan Antikoagulan pada Kehamilan</p>
+
+| Antikoagulan | Penggunaan                                             | Pemantauan                                    |
+|--------------|--------------------------------------------------------|-----------------------------------------------|
+| LMWH         | Pilihan utama pada sebagian besar indikasi             | Fungsi ginjal; anti-Xa pada indikasi tertentu |
+| UFH          | Alternatif pada kondisi khusus dan peripartum          | aPTT atau anti-Xa                             |
+| Warfarin     | Terutama pada katup mekanik dengan pertimbangan khusus | INR                                           |
+| DOAC         | Tidak direkomendasikan selama kehamilan                | Penggantian terapi bila kehamilan diketahui   |
+
+<p class="catatan">Sumber: Diadaptasi dari [1,10].</p>
+
+## 15.4 Antikoagulasi pada Katup Jantung Mekanik
+
+Katup jantung mekanik termasuk kondisi dengan risiko tromboemboli tertinggi selama kehamilan. Keadaan hiperkoagulabel meningkatkan risiko trombosis katup, yang dapat menyebabkan obstruksi katup akut, emboli sistemik, gagal jantung, hingga kematian maternal. Oleh karena itu, antikoagulasi terapeutik harus dipertahankan sepanjang kehamilan dengan pemantauan yang memadai [1,12].
+
+VKA memberikan perlindungan lebih baik terhadap trombosis katup dibandingkan regimen berbasis heparin, tetapi memiliki risiko lebih besar terhadap janin. Sebaliknya, LMWH tidak melewati plasenta, tetapi penggunaannya pada katup mekanik memerlukan pemantauan ketat karena perubahan farmakokinetik selama kehamilan dapat menyebabkan kadar antikoagulan yang tidak mencukupi [11,13].
+
+### 15.4.1 Pemilihan Antikoagulan Berdasarkan Trimester
+
+Pada trimester pertama, strategi antikoagulasi mempertimbangkan dosis VKA yang diperlukan untuk mencapai target INR. Penggunaan VKA dapat dipertimbangkan pada pasien dengan kebutuhan dosis rendah, misalnya warfarin ≤5 mg/hari, setelah konseling mengenai risiko maternal dan fetal. Pada pasien dengan kebutuhan dosis lebih tinggi, umumnya dianjurkan beralih ke LMWH terapeutik dengan pemantauan anti-factor Xa.
+
+Setelah trimester pertama, VKA dapat digunakan kembali atau dilanjutkan berdasarkan penilaian risiko trombosis dan preferensi pasien. LMWH juga dapat digunakan sepanjang kehamilan apabila tersedia pemantauan anti-factor Xa yang memadai. Keputusan ini perlu melibatkan Pregnancy Heart Team dan mempertimbangkan posisi serta jenis katup, riwayat trombosis, fungsi ventrikel, dan kemampuan pemantauan [1,12].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>Pada trimester kedua dan ketiga hingga minggu ke-36, melanjutkan VKA sebaiknya dipertimbangkan pada katup prostetik dengan risiko trombosis lebih tinggi.</td><td class="kelas-iia">IIa</td><td>C</td></tr><tr><td>Pada trimester kedua dan ketiga, melanjutkan LMWH dengan pemantauan anti-faktor Xa dan penyesuaian dosis dapat dipertimbangkan pada risiko trombosis lebih rendah.</td><td class="kelas-iib">IIb</td><td>C</td></tr></tbody></table>
+</div>
+
+### 15.4.2 Pemantauan Antikoagulasi
+
+Pada penggunaan VKA, target INR mengikuti jenis dan posisi katup mekanik serta faktor risiko tromboemboli. Pemeriksaan INR dilakukan secara berkala, umumnya setiap satu hingga dua minggu selama kehamilan.
+
+Pada penggunaan LMWH, dosis terapeutik diberikan dua kali sehari dan disesuaikan berdasarkan kadar puncak anti-factor Xa yang diperiksa 4–6 jam setelah penyuntikan. Target kadar puncak umumnya berkisar 1,0–1,2 IU/mL, dengan individualisasi berdasarkan risiko trombosis. Pemantauan dilakukan berulang selama kehamilan karena kebutuhan dosis dapat berubah. Penggunaan LMWH pada katup mekanik tanpa ketersediaan pemantauan anti-factor Xa tidak direkomendasikan [1].
+
+<div class="rekomendasi">
+<table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
+<tbody><tr><td>Pada katup mekanik dengan LMWH dosis terapeutik, kadar puncak anti-faktor Xa diperiksa dan targetnya ditentukan menurut risiko individual.</td><td class="kelas-i">I</td><td>C</td></tr><tr><td>LMWH tidak direkomendasikan bila pemantauan anti-faktor Xa tidak tersedia.</td><td class="kelas-iii">III</td><td>C</td></tr></tbody></table>
+</div>
+
+> **Poin Klinis 15.2. Antikoagulasi pada Katup Mekanik**
+>
+> - Antikoagulasi terapeutik harus dipertahankan sepanjang kehamilan.
+> - Pemilihan VKA atau LMWH mempertimbangkan risiko trombosis maternal dan komplikasi janin.
+> - Penggunaan VKA memerlukan pemantauan INR sesuai target katup.
+> - Penggunaan LMWH memerlukan pemantauan anti-factor Xa dan penyesuaian dosis.
+> - Perubahan regimen antikoagulasi dilakukan di bawah pengawasan tim spesialis.
+
+## 15.5 Manajemen Antitrombotik Menjelang Persalinan dan Postpartum
+
+Perencanaan persalinan pada pasien yang menggunakan antikoagulan bertujuan mengurangi risiko perdarahan maternal, trombosis, dan komplikasi anestesi. Waktu penghentian serta pemberian ulang antikoagulan disesuaikan dengan indikasi, dosis, fungsi ginjal, dan rencana persalinan.
+
+Pada pasien yang menggunakan LMWH terapeutik, persalinan terencana umumnya memerlukan penghentian obat setidaknya 24 jam sebelum tindakan atau anestesi neuraksial. LMWH dosis profilaksis umumnya dihentikan setidaknya 12 jam sebelum anestesi neuraksial, dengan interval lebih panjang pada regimen tertentu. Pada pasien dengan risiko trombosis sangat tinggi, seperti katup mekanik, UFH intravena dapat digunakan menjelang persalinan karena dapat dihentikan dalam waktu lebih singkat [1,13].
+
+Pasien dengan katup mekanik yang menggunakan VKA memerlukan perencanaan transisi ke heparin sebelum persalinan. Strategi tersebut ditetapkan oleh tim spesialis untuk mempertahankan perlindungan antitrombotik sekaligus mengurangi risiko perdarahan maternal dan janin.
+
+Setelah persalinan, antikoagulasi dimulai kembali setelah hemostasis memadai, dengan mempertimbangkan risiko perdarahan dan penggunaan anestesi neuraksial. Pada tromboemboli vena akut selama kehamilan, antikoagulasi terapeutik dilanjutkan setidaknya enam minggu postpartum dengan total durasi pengobatan minimal tiga bulan [1,10].
+
+> **Poin Klinis 15.3. Antikoagulasi Peripartum**
+>
+> - Rencanakan persalinan pada pasien yang menggunakan antikoagulasi terapeutik.
+> - Tentukan waktu penghentian antikoagulan berdasarkan dosis dan jenis obat.
+> - Pertimbangkan UFH intravena pada pasien dengan risiko trombosis sangat tinggi.
+> - Mulai kembali antikoagulasi setelah kondisi perdarahan terkendali.
+> - Pastikan rencana antikoagulasi postpartum telah ditetapkan sebelum pasien dipulangkan.
+
+## 15.6 Keamanan Obat Selama Menyusui
+
+Keamanan obat kardiovaskular selama menyusui dipengaruhi oleh konsentrasi obat dalam ASI, kemampuan absorpsi oleh bayi, waktu paruh, serta potensi efek farmakologisnya. Obat yang dikontraindikasikan selama kehamilan belum tentu memiliki risiko yang sama selama menyusui karena paparan melalui ASI umumnya lebih rendah dibandingkan paparan melalui plasenta.
+
+Beberapa obat kardiovaskular, seperti metoprolol, labetalol, nifedipin, dan enalapril, dapat digunakan selama menyusui. Warfarin, UFH, dan LMWH juga kompatibel dengan menyusui karena paparan sistemik pada bayi sangat rendah. Furosemid dapat digunakan apabila diperlukan, meskipun dosis tinggi berpotensi mengurangi produksi ASI [1,14].
+
+Amiodaron umumnya dihindari selama menyusui karena waktu paruh yang panjang, akumulasi dalam ASI, dan potensi gangguan fungsi tiroid bayi. Keamanan DOAC bervariasi antarobat. Rivaroksaban dan dabigatran memiliki data paparan ASI yang relatif rendah, sedangkan apiksaban menunjukkan paparan yang lebih tinggi. Namun, warfarin atau heparin tetap menjadi pilihan yang lebih mapan apabila antikoagulasi diperlukan selama menyusui [1,14].
+
+<p class="judul-tabel"><strong>Tabel 15.3.</strong> Keamanan Obat Kardiovaskular Selama Menyusui</p>
+
+| Kelompok obat           | Contoh                              | Pertimbangan                                            |
+|-------------------------|-------------------------------------|---------------------------------------------------------|
+| Beta-blocker            | Metoprolol, labetalol               | Umumnya dapat digunakan                                 |
+| Calcium channel blocker | Nifedipin, amlodipin                | Umumnya dapat digunakan                                 |
+| ACE inhibitor           | Enalapril, kaptopril                | Dapat digunakan sesuai indikasi                         |
+| Diuretik                | Furosemid                           | Dosis tinggi dapat mengurangi produksi ASI              |
+| Antikoagulan            | Warfarin, LMWH, UFH                 | Kompatibel dengan menyusui                              |
+| Antiaritmia             | Amiodaron                           | Umumnya dihindari                                       |
+| DOAC                    | Rivaroksaban, dabigatran, apiksaban | Keamanan berbeda antarobat; alternatif mapan diutamakan |
+
+<p class="catatan">Sumber: Diadaptasi dari [1,14].</p>
+
+## 15.7 Penerapan Farmakoterapi di Fasilitas Kesehatan Primer
+
+Dokter umum berperan dalam mengidentifikasi obat kardiovaskular yang berisiko selama kehamilan, memantau respons pengobatan, serta memastikan keberlanjutan terapi. Pada setiap kunjungan antenatal, riwayat pengobatan perlu mencakup obat resep, obat bebas, suplemen, dan obat yang digunakan sebelum kehamilan.
+
+Pasien yang menggunakan ACE inhibitor, ARB, DOAC, atau obat lain dengan risiko terhadap janin memerlukan evaluasi segera untuk penyesuaian terapi. Pada pasien dengan katup mekanik, penghentian atau perubahan antikoagulan harus dikoordinasikan dengan dokter spesialis karena dapat meningkatkan risiko trombosis katup.
+
+Pemantauan di fasilitas kesehatan primer mencakup tekanan darah, frekuensi jantung, gejala gagal jantung, tanda perdarahan, serta kepatuhan pengobatan. Fungsi ginjal, elektrolit, dan parameter koagulasi diperiksa pada pasien yang mendapat diuretik atau antikoagulan, sejauh fasilitas memungkinkan. Pasien dengan katup mekanik, aritmia kompleks, gagal jantung berat, atau hipertensi arteri pulmonal memerlukan penanganan bersama Pregnancy Heart Team [1].
+
+> **Poin Klinis 15.4. Farmakoterapi di Layanan Primer**
+>
+> - Tinjau seluruh obat kardiovaskular pada kunjungan antenatal.
+> - Identifikasi obat yang dikontraindikasikan atau memerlukan evaluasi spesialis.
+> - Pantau efektivitas terapi dan kemungkinan efek samping.
+> - Edukasi pasien mengenai kepatuhan pengobatan dan tanda bahaya.
+> - Koordinasikan perubahan antikoagulan dan obat kardiovaskular berisiko tinggi dengan dokter spesialis.
+
+## Daftar Pustaka
+
+1. De Backer J, Haugaa KH, Hasselberg NE, de Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462-568.
+2. Tita AT, Szychowski JM, Boggess K, Dugoff L, Sibai B, Lawrence K, et al. Treatment for Mild Chronic Hypertension during Pregnancy. N Engl J Med. 2022;386(19):1781-92.
+3. McDonagh TA, Metra M, Adamo M, Gardner RS, Baumbach A, Böhm M, et al. 2023 Focused Update of the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure. Eur Heart J. 2023;44(37):3627-39.
+4. Heidenreich PA, Bozkurt B, Aguilar D, Allen LA, Byun JJ, Colvin MM, et al. 2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. J Am Coll Cardiol. 2022;79(17):e263-e421.
+5. Hilfiker-Kleiner D, Haghikia A, Berliner D, Vogel-Claussen J, Schwab J, Franke A, et al. Bromocriptine for the treatment of peripartum cardiomyopathy: a multicentre randomized study. Eur Heart J. 2017;38(35):2671-9.
+6. Joglar JA, Kapa S, Saarel EV, Dubin AM, Gorenek B, Hameed AB, et al. 2023 HRS expert consensus statement on the management of arrhythmias during pregnancy. Heart Rhythm. 2023;20(10):e175-e264.
+7. Van Gelder IC, Rienstra M, Bunting KV, Casado-Arroyo R, Caso V, Crijns HJGM, et al. 2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS). Eur Heart J. 2024;45(36):3314-414.
+8. Humbert M, Kovacs G, Hoeper MM, Badagliacca R, Berger RMF, Brida M, et al. 2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension. Eur Heart J. 2022;43(38):3618-731.
+9. Byrne RA, Rossello X, Coughlan JJ, Barbato E, Berry C, Chieffo A, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720-826.
+10. Bates SM, Rajasekhar A, Middeldorp S, McLintock C, Rodger MA, James AH, et al. American Society of Hematology 2018 guidelines for management of venous thromboembolism: venous thromboembolism in the context of pregnancy. Blood Adv. 2018;2(22):3317-59.
+11. Steinberg ZL, Dominguez-Islas CP, Otto CM, Stout KK, Krieger EV. Maternal and Fetal Outcomes of Anticoagulation in Pregnant Women With Mechanical Heart Valves. J Am Coll Cardiol. 2017;69(22):2681-91.
+12. Praz F, Borger MA, Lanz J, Marin-Cuartas M, Abreu A, Adamo M, et al. 2025 ESC/EACTS Guidelines for the management of valvular heart disease. Eur Heart J. 2025;46(44):4635-736.
+13. Society for Maternal-Fetal Medicine (SMFM); Pacheco LD, Saade G, Shrivastava V, Shree R, Elkayam U. Society for Maternal-Fetal Medicine Consult Series \#61: Anticoagulation in pregnant patients with cardiac disease. Am J Obstet Gynecol. 2022;227(2):B28-B43.
+14. Drugs and Lactation Database (LactMed®) [Internet]. Bethesda (MD): National Institute of Child Health and Human Development; 2006- [cited 2026 Nov 22]. Available from: https://www.ncbi.nlm.nih.gov/books/NBK501922/

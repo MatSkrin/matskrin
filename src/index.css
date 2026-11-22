@@ -348,3 +348,16 @@ input, textarea, select, button { -webkit-tap-highlight-color: transparent; }
   .toc-mobile .toc { position: absolute; left: 0; right: 0; max-height: 60vh; overflow: auto; box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15); }
 }
 @media (max-width: 400px) { .triase-bar span { display: none; } }
+
+/* Kelas rekomendasi ESC lain dan gambar dalam bab */
+.prose .rekomendasi td.kelas-iia { background: #e6f2d9; color: #3d5a1d; }
+.prose .rekomendasi td.kelas-iib { background: #fff1cc; color: #7a5300; }
+.prose .rekomendasi td.kelas-iii { background: #fde2df; color: #9b2c22; }
+@media (prefers-color-scheme: dark) {
+  .prose .rekomendasi td.kelas-i { background: #1b3326; color: #8fdcb1; }
+  .prose .rekomendasi td.kelas-iia { background: #26331b; color: #b8de8f; }
+  .prose .rekomendasi td.kelas-iib { background: #3a2f14; color: #f2cf7d; }
+  .prose .rekomendasi td.kelas-iii { background: #3b1f1c; color: #f0a59b; }
+}
+.prose .rekomendasi tr + tr td { border-top: 1px solid var(--line); }
+.prose figure.gambar img { display: block; width: 100%; height: auto; border-radius: 8px; background: #fff; }

@@ -32,7 +32,7 @@ export default function DaftarModul() {
           </li>
         ))}
       </ol>
-      <p className="muted">Bab lain akan ditambahkan bertahap.</p>
+      <p className="muted">Bab 10–13 akan ditambahkan menyusul.</p>
     </>
   )
 }
