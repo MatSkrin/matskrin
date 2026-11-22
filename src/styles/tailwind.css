@@ -83,3 +83,13 @@
 .prose [data-slot='tabel-bukti'] td:first-child,
 .prose [data-slot='tabel-bukti'] th:first-child { min-width: 6rem; }
 .prose ol.pustaka { padding-left: 1.9em; }
+
+/* Sidebar kartu yang bisa disembunyikan (desktop) */
+.bab-layout.sidebar-tutup { grid-template-columns: minmax(0, 1fr); }
+.bab-layout.sidebar-tutup .pelajaran { margin-inline: auto; }
+.nav-kartu-desktop { display: inline-flex; }
+@media (max-width: 960px) {
+  .nav-kartu-desktop { display: none; }
+  .toc-side[hidden] { display: none; }
+}
+.toc-side .toc-title { margin: 0; }

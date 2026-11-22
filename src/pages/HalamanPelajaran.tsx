@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react'
-import { BookOpenText, Check, ChevronLeft, ChevronRight, List, RotateCcw, Stethoscope } from 'lucide-react'
+import { BookOpenText, Check, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import * as B from '@/components/belajar'
@@ -80,6 +80,7 @@ export default function HalamanPelajaran({
   const [ringkas, setRingkas] = usePreferensi('matskrin:mode-ringkas', false)
   const [aktif, setAktif] = useState('')
   const [navBuka, setNavBuka] = useState(false)
+  const [sidebarTutup, setSidebarTutup] = usePreferensi('matskrin:sidebar-tutup', false)
 
   // Sorot kartu yang sedang dibaca.
   useEffect(() => {
@@ -104,9 +105,21 @@ export default function HalamanPelajaran({
 
   return (
     <KonteksPelajaran.Provider value={{ pustaka, ringkas, ...prog }}>
-      <div className="bab-layout">
-        <aside className="toc-side" aria-label="Kartu pelajaran">
-          <p className="toc-title">Bab {meta.nomor} · Kartu pelajaran</p>
+      <div className={cn('bab-layout', sidebarTutup && 'sidebar-tutup')}>
+        <aside className="toc-side" aria-label="Kartu pelajaran" hidden={sidebarTutup}>
+          <div className="mb-2 flex items-center justify-between gap-2">
+            <p className="toc-title m-0">Kartu pelajaran</p>
+            <Button
+              size="icon"
+              variant="ghost"
+              className="size-7"
+              aria-label="Sembunyikan daftar kartu"
+              title="Sembunyikan daftar kartu"
+              onClick={() => setSidebarTutup(true)}
+            >
+              <PanelLeftClose />
+            </Button>
+          </div>
           <DaftarKartu bab={bab} selesai={prog.progres.selesai} aktif={aktif} />
         </aside>
 
@@ -143,6 +156,17 @@ export default function HalamanPelajaran({
                   </Button>
                 )}
               </div>
+              {sidebarTutup && (
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className="nav-kartu-desktop"
+                  aria-label="Tampilkan daftar kartu"
+                  onClick={() => setSidebarTutup(false)}
+                >
+                  <PanelLeftOpen /> Kartu
+                </Button>
+              )}
               <Button
                 size="sm"
                 variant="outline"
