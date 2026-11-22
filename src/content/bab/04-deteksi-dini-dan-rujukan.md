@@ -112,7 +112,7 @@ Poin Klinis 4.2. Penilaian Awal pada Ibu Hamil dengan Dugaan Kegawatan Kardiovas
 
 ## 4.5 Pemeriksaan Penunjang
 
-Pemeriksaan penunjang membantu mengidentifikasi kelainan kardiovaskular dan menentukan kebutuhan evaluasi lanjutan pada ibu hamil. Pemilihan pemeriksaan didasarkan pada gejala, temuan klinis, serta ketersediaan fasilitas. EKG 12 sadapan dan pemeriksaan laboratorium dasar dapat dilakukan di pelayanan primer, sedangkan pemeriksaan pencitraan jantung umumnya memerlukan fasilitas rujukan [1,7].
+Pemeriksaan penunjang membantu mengidentifikasi kelainan kardiovaskular dan menentukan kebutuhan evaluasi lanjutan pada ibu hamil. Pemilihan pemeriksaan didasarkan pada gejala, temuan klinis, serta ketersediaan fasilitas. EKG 12 sadapan dan pemeriksaan laboratorium dasar dapat dilakukan di pelayanan primer, sedangkan pemeriksaan pencitraan jantung umumnya memerlukan fasilitas rujukan [1,6].
 
 ### 4.5.1 Elektrokardiografi (EKG)
 
@@ -124,7 +124,7 @@ Di puskesmas yang memiliki perangkat EKG, dokter umum dapat melakukan perekaman 
 
 ### 4.5.2 Pemeriksaan Penunjang di Layanan Primer
 
-Pemeriksaan laboratorium dasar dapat membantu mengidentifikasi penyebab keluhan kardiovaskular dan gangguan organ lain yang menyertainya. SMFM 2025 memasukkan pemeriksaan darah dan kimia darah sebagai bagian dari evaluasi pasien dengan gejala yang mencurigakan ke arah penyakit kardiovaskular [7].
+Pemeriksaan laboratorium dasar dapat membantu mengidentifikasi penyebab keluhan kardiovaskular dan gangguan organ lain yang menyertainya. SMFM 2025 memasukkan pemeriksaan darah dan kimia darah sebagai bagian dari evaluasi pasien dengan gejala yang mencurigakan ke arah penyakit kardiovaskular [6].
 
 <p class="judul-tabel"><strong>Tabel 4.1.</strong> Pemeriksaan Penunjang yang Dapat Dilakukan di Pelayanan Primer</p>
 
@@ -136,7 +136,7 @@ Pemeriksaan laboratorium dasar dapat membantu mengidentifikasi penyebab keluhan 
 | Elektrolit serum | Evaluasi gangguan elektrolit pada pasien dengan dugaan aritmia.                                      |
 | Fungsi ginjal    | Penilaian fungsi organ pada pasien dengan gangguan hipertensi atau penyakit kardiovaskular tertentu. |
 
-<p class="catatan">Sumber: [1,7].</p>
+<p class="catatan">Sumber: [1,6].</p>
 
 Pada pasien dengan kondisi emergensi, pemeriksaan penunjang dilakukan sesuai kebutuhan tanpa menunda stabilisasi dan rujukan.
 
@@ -149,13 +149,27 @@ Ekokardiografi transtorasik (TTE) merupakan modalitas pencitraan lini pertama un
 <tbody><tr><td>TTE untuk gejala atau tanda kardiovaskular baru atau yang belum dapat dijelaskan.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
 </div>
 
-BNP atau NT-proBNP dapat digunakan dalam evaluasi pasien dengan dugaan gagal jantung. Nilai biomarker dalam batas normal memiliki nilai prediksi negatif yang tinggi terhadap gagal jantung selama kehamilan dan periode awal postpartum. Troponin diperiksa apabila terdapat kecurigaan iskemia atau cedera miokard, dengan mempertimbangkan kondisi klinis dan keterbatasan nilai rujukan selama kehamilan [1,6]. Pemeriksaan lanjutan lainnya, seperti pemantauan Holter, radiografi toraks, dan pencitraan kardiovaskular, ditentukan berdasarkan dugaan diagnosis serta hasil evaluasi awal.
+BNP atau NT-proBNP dapat digunakan dalam evaluasi pasien dengan dugaan gagal jantung. Nilai biomarker dalam batas normal memiliki nilai prediksi negatif yang tinggi terhadap gagal jantung selama kehamilan dan periode awal postpartum. Troponin diperiksa apabila terdapat kecurigaan iskemia atau cedera miokard, dengan mempertimbangkan kondisi klinis dan keterbatasan nilai rujukan selama kehamilan [1,7]. Pemeriksaan lanjutan lainnya, seperti pemantauan Holter, radiografi toraks, dan pencitraan kardiovaskular, ditentukan berdasarkan dugaan diagnosis serta hasil evaluasi awal.
 
 ## 4.6 Sistem Rujukan Berjenjang
 
 Rujukan ditentukan berdasarkan tingkat kegawatan dan kebutuhan evaluasi lanjutan. Pasien dengan ketidakstabilan hemodinamik, gagal jantung akut, atau aritmia berat memerlukan stabilisasi awal dan rujukan emergensi. Pada pasien yang stabil dengan dugaan penyakit jantung struktural atau gangguan irama, rujukan terencana dilakukan untuk pemeriksaan spesialis [1,2].
 
+Tingkat urgensi rujukan dapat dibagi menjadi tiga kategori. Kategori merah memerlukan stabilisasi dan rujukan pada hari yang sama ke rumah sakit dengan layanan obstetri dan jantung, dan pasien tidak dipulangkan. Kategori kuning memerlukan rujukan terencana yang cepat untuk telaah dokter spesialis jantung dan ekokardiografi. Kategori hijau dapat melanjutkan pelayanan antenatal dengan edukasi tanda bahaya dan penilaian ulang pada setiap kunjungan, termasuk masa nifas, dengan ambang rujukan yang rendah bila pemeriksa ragu [2,8,9].
+
+<p class="judul-tabel"><strong>Tabel 4.2.</strong> Kategori Urgensi Rujukan Ibu Hamil dengan Dugaan Penyakit Jantung</p>
+
+| Kategori | Tindakan                                                                      | Kriteria                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|----------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Merah    | Stabilisasi dan rujuk hari ini juga                                           | Sesak saat istirahat atau ortopnea berat; nyeri dada saat istirahat atau aktivitas ringan, atau nyeri seperti robek; palpitasi dengan hampir pingsan atau sinkop; nadi ≥120 kali/menit, tekanan darah sistolik ≥160 atau \<90 mmHg, laju napas ≥25 kali/menit (sebagian sumber memakai ≥30), atau SpO₂ ≤94%; bising keras atau diastolik, atau S3/S4 pada ibu dengan keluhan; ronki, mengi, atau distensi vena leher                                                |
+| Kuning   | Rujukan terencana cepat: telaah dokter spesialis jantung, lalu ekokardiografi | ≥1 gejala ditambah ≥1 tanda vital kuning dan ≥1 faktor risiko, atau ≥4 temuan kuning. Tanda vital kuning: nadi ≥110 kali/menit, tekanan darah sistolik ≥140 mmHg, laju napas ≥24 kali/menit, SpO₂ ≤96%. Faktor risiko: usia ≥40 tahun, IMT ≥35, diabetes, hipertensi, merokok atau penggunaan zat, riwayat kemoterapi kardiotoksik. Juga: bising patologis atau EKG abnormal pada ibu stabil, dan riwayat penyakit jantung yang belum dievaluasi pada kehamilan ini |
+| Hijau    | Lanjutkan pelayanan antenatal                                                 | Bising fungsional dengan seluruh ciri aman; EKG hanya menunjukkan varian kehamilan; tanda vital dan SpO₂ normal; tanpa gejala bermakna                                                                                                                                                                                                                                                                                                                              |
+
+<p class="catatan">Sumber: Diadaptasi dari ACOG dan CMQCC [2,8,9].</p>
+
 Perempuan dengan penyakit kardiovaskular kelas mWHO 2.0 II–III atau lebih tinggi memerlukan evaluasi dan penatalaksanaan oleh Pregnancy Heart Team [1]. Surat rujukan mencantumkan usia kehamilan, gejala, tanda vital, hasil pemeriksaan, terapi yang telah diberikan, dan alasan rujukan.
+
+Surat rujukan yang informatif memuat identitas, usia kehamilan berdasarkan HPHT atau USG, status obstetri, keluhan utama beserta onset dan progresivitasnya, riwayat penyakit jantung, demam rematik, operasi jantung, atau riwayat keluarga, tanda vital lengkap dengan SpO₂, hasil auskultasi dalam format baku, rekaman EKG 12 sadapan beserta interpretasinya, obat yang sedang digunakan, serta kategori urgensi. Permintaan singkat seperti "mohon ekokardiografi, ada bising" kurang membantu. Contoh yang lebih informatif: "G2P1, usia kehamilan 30 minggu. Sesak memberat sejak 2 minggu, ortopnea 3 bantal. Nadi 118 kali/menit ireguler, SpO₂ 95%. S1 keras dan opening snap; EKG menunjukkan fibrilasi atrium. Mohon evaluasi kecurigaan stenosis mitral serta rekomendasi tata laksana dan tempat persalinan." [1,8,9]
 
 ## 4.7 Koordinasi dan Tindak Lanjut
 
@@ -172,5 +186,7 @@ Deteksi dini penyakit jantung pada kehamilan dilakukan melalui anamnesis, pemeri
 3. Bozkaya VÖ, Oskovi Kaplan ZA, Özgü E, Engin Ustun Y. Screening and evaluation of newly diagnosed cardiovascular diseases in first-trimester asymptomatic pregnant women in a tertiary antenatal care center in Turkey. Anatol J Cardiol. 2020;23(2):99-104.
 4. Dinarti LK, Nurdiati DS, Hartopo AB, Assilmi FH, Salsabila A, Dewanto V, et al. The screening of heart disease by cardiac auscultation and electrocardiography examination in pregnant women in Puskesmas Tegalrejo, Yogyakarta, Indonesia. J Community Empower Health. 2021;4(3):155.
 5. Ardiana M, Andrianto A, Nugrahita Asmarani D, Intan RE, Andira LH, Triastuti F. Knowledge upgrading of general practitioners in the community health cares in Surabaya after joining virtual training of early cardiovascular detection in pregnancy: a quasi-experimental study. Cor Vasa. 2023;65(4):610-6.
-6. Sarma AA, Aggarwal NR, Briller JE, Davis M, Economy KE, Hameed AB, et al. The Utilization and Interpretation of Cardiac Biomarkers During Pregnancy: JACC: Advances Expert Panel. JACC Adv. 2022;1(3):100064.
-7. Society for Maternal-Fetal Medicine (SMFM); Combs CA, Atallah F, Kern-Goldberger A, Chavan NR; SMFM Patient Safety and Quality Committee. Society for Maternal-Fetal Medicine Special Statement: Checklists for triage and work-up of persons with symptoms suggestive of cardiovascular disease in pregnancy and postpartum. Pregnancy (Hoboken). 2025;1(6):e70120.
+6. Society for Maternal-Fetal Medicine (SMFM); Combs CA, Atallah F, Kern-Goldberger A, Chavan NR; SMFM Patient Safety and Quality Committee. Society for Maternal-Fetal Medicine Special Statement: Checklists for triage and work-up of persons with symptoms suggestive of cardiovascular disease in pregnancy and postpartum. Pregnancy (Hoboken). 2025;1(6):e70120.
+7. Sarma AA, Aggarwal NR, Briller JE, Davis M, Economy KE, Hameed AB, et al. The Utilization and Interpretation of Cardiac Biomarkers During Pregnancy: JACC: Advances Expert Panel. JACC Adv. 2022;1(3):100064.
+8. American College of Obstetricians and Gynecologists' Presidential Task Force on Pregnancy and Heart Disease and Committee on Practice Bulletins—Obstetrics. ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133(5):e320-56.
+9. Hameed AB, Haddock A, Wolfe DS, Florio K, Drummond N, Allen C, et al. Alliance for Innovation on Maternal Health: Consensus Bundle on Cardiac Conditions in Obstetric Care. Obstet Gynecol. 2023;141(2):253-63.
