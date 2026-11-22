@@ -1,5 +1,6 @@
 import { Fragment, type ReactNode } from 'react'
 import { POLA_SITASI, uraiNomor } from '@/lib/sitasi'
+import { TeksRujukan } from './Pustaka'
 import { usePelajaran } from './konteks'
 
 /** Sitasi angka [n] dengan popover rujukan lengkap (gaya Vancouver). */
@@ -13,7 +14,7 @@ export function Cite({ r }: { r: string }) {
       <span className="cite-pop" role="tooltip">
         {nomor.map((n) => (
           <span key={n} className="cite-item">
-            <b>{n}.</b> {pustaka[n - 1]}
+            <b>{n}.</b> <TeksRujukan>{pustaka[n - 1]}</TeksRujukan>
           </span>
         ))}
       </span>

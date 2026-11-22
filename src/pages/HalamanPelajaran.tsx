@@ -1,9 +1,10 @@
 import { MDXProvider } from '@mdx-js/react'
-import { BookOpenText, Check, Stethoscope, RotateCcw } from 'lucide-react'
+import { BookOpenText, Check, ChevronLeft, ChevronRight, List, RotateCcw, Stethoscope } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import * as B from '@/components/belajar'
 import { Pelajaran as KonteksPelajaran } from '@/components/belajar/konteks'
+import { TeksRujukan } from '@/components/belajar/Pustaka'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Progress } from '@/components/ui/progress'
@@ -14,73 +15,115 @@ import { cn } from '@/lib/utils'
 
 const komponenMDX = { ...B }
 
-type Kartu = { id: string; judul: string }
+function gulirKe(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
 
-export default function HalamanPelajaran({ pelajaran, prev, next }: { pelajaran: Pelajaran; prev?: Bab; next?: Bab }) {
+function DaftarKartu({
+  bab,
+  selesai,
+  aktif,
+  onPilih,
+}: {
+  bab: Bab
+  selesai: string[]
+  aktif: string
+  onPilih?: () => void
+}) {
+  const item = [...bab.kartu, { id: 'daftar-pustaka', teks: 'Daftar Pustaka', nomor: undefined }]
+  return (
+    <ul className="toc">
+      {item.map((k) => {
+        const done = selesai.includes(k.id)
+        return (
+          <li key={k.id} className={cn('lv2', aktif === k.id && 'on')}>
+            <button
+              type="button"
+              onClick={() => {
+                gulirKe(k.id)
+                onPilih?.()
+              }}
+            >
+              <span className="flex items-start gap-2">
+                <span
+                  className={cn(
+                    'mt-px inline-flex h-[1.15rem] min-w-8 shrink-0 items-center justify-center rounded text-[0.68rem] font-bold',
+                    done ? 'bg-ok text-white' : 'bg-line/70 text-muted',
+                  )}
+                  aria-label={done ? 'Selesai' : undefined}
+                >
+                  {done ? <Check className="size-3" /> : (k.nomor ?? '·')}
+                </span>
+                <span>{k.teks}</span>
+              </span>
+            </button>
+          </li>
+        )
+      })}
+    </ul>
+  )
+}
+
+export default function HalamanPelajaran({
+  pelajaran,
+  bab,
+  prev,
+  next,
+}: {
+  pelajaran: Pelajaran
+  bab: Bab
+  prev?: Bab
+  next?: Bab
+}) {
   const { meta, pustaka, Konten, slug } = pelajaran
   const prog = useProgres(slug)
   const [ringkas, setRingkas] = usePreferensi('matskrin:mode-ringkas', false)
-  const [kartu, setKartu] = useState<Kartu[]>([])
   const [aktif, setAktif] = useState('')
+  const [navBuka, setNavBuka] = useState(false)
 
-  // Kumpulkan kartu dari DOM untuk navigasi samping dan hitungan progres.
+  // Sorot kartu yang sedang dibaca.
   useEffect(() => {
-    const els = [...document.querySelectorAll<HTMLElement>('[data-kartu]')]
-    setKartu(els.map((e) => ({ id: e.id, judul: e.dataset.kartu ?? '' })))
+    const els = [...bab.kartu.map((k) => k.id), 'daftar-pustaka']
+      .map((id) => document.getElementById(id))
+      .filter((e): e is HTMLElement => !!e)
     const obs = new IntersectionObserver(
       (en) => {
         const t = en.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
         if (t[0]) setAktif(t[0].target.id)
       },
-      { rootMargin: '-80px 0px -60% 0px' },
+      { rootMargin: '-120px 0px -60% 0px' },
     )
     els.forEach((e) => obs.observe(e))
     window.scrollTo(0, 0)
     return () => obs.disconnect()
-  }, [slug])
+  }, [bab])
 
-  const selesai = kartu.filter((k) => prog.progres.selesai.includes(k.id)).length
-  const persen = kartu.length ? (selesai / kartu.length) * 100 : 0
+  const total = bab.kartu.length
+  const selesai = bab.kartu.filter((k) => prog.progres.selesai.includes(k.id)).length
+  const persen = total ? (selesai / total) * 100 : 0
 
   return (
     <KonteksPelajaran.Provider value={{ pustaka, ringkas, ...prog }}>
       <div className="bab-layout">
         <aside className="toc-side" aria-label="Kartu pelajaran">
-          <p className="toc-title">Kartu pelajaran</p>
-          <ul className="toc">
-            {kartu.map((k) => (
-              <li key={k.id} className={cn('lv2', aktif === k.id && 'on')}>
-                <button type="button" onClick={() => document.getElementById(k.id)?.scrollIntoView({ behavior: 'smooth' })}>
-                  <span className="flex items-start gap-1.5">
-                    <Check
-                      className={cn('mt-0.5 size-3.5 shrink-0', prog.progres.selesai.includes(k.id) ? 'text-ok' : 'text-transparent')}
-                      aria-hidden
-                    />
-                    {k.judul}
-                  </span>
-                </button>
-              </li>
-            ))}
-            <li className="lv2">
-              <button type="button" onClick={() => document.getElementById('daftar-pustaka')?.scrollIntoView({ behavior: 'smooth' })}>
-                <span className="pl-5">Daftar Pustaka</span>
-              </button>
-            </li>
-          </ul>
+          <p className="toc-title">Bab {meta.nomor} · Kartu pelajaran</p>
+          <DaftarKartu bab={bab} selesai={prog.progres.selesai} aktif={aktif} />
         </aside>
 
-        <article className={cn('bab', ringkas && 'mode-ringkas')}>
-          <Link to="/modul" className="back">← Daftar modul</Link>
-          <div className="mt-2 flex flex-wrap items-center gap-2">
+        <article className={cn('bab pelajaran', ringkas && 'mode-ringkas')}>
+          <Link to="/modul" className="back">
+            ← Daftar modul
+          </Link>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
             <p className="eyebrow">Bab {meta.nomor}</p>
             <Badge variant="ok">Pelajaran interaktif</Badge>
           </div>
           <h1>{meta.judul}</h1>
-          <p className="m-0 max-w-[760px] text-muted">{meta.ringkasan}</p>
+          {meta.ringkasan && <p className="m-0 text-[1.02rem] text-muted">{meta.ringkasan}</p>}
 
-          {/* Bilah progres + pengalih mode, menempel di atas saat digulir */}
-          <div className="sticky top-[var(--topbar-h)] z-10 -mx-1 my-5 max-w-[760px] border-b border-line bg-bg/95 px-1 py-3 backdrop-blur">
-            <div className="flex flex-wrap items-center gap-3">
+          {/* Bilah alat: mode tampilan, progres, dan (di ponsel) daftar kartu. Menempel saat digulir. */}
+          <div className="alat-pelajaran sticky top-[var(--topbar-h)] z-20 mt-5 mb-6 border-b border-line bg-bg py-3">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
               <div className="inline-flex rounded-lg border border-line bg-surface p-0.5" role="group" aria-label="Mode tampilan">
                 <Button size="sm" variant={ringkas ? 'ghost' : 'default'} aria-pressed={!ringkas} onClick={() => setRingkas(false)}>
                   <BookOpenText /> Belajar
@@ -89,21 +132,36 @@ export default function HalamanPelajaran({ pelajaran, prev, next }: { pelajaran:
                   <Stethoscope /> Ringkas klinis
                 </Button>
               </div>
-              <div className="flex min-w-40 flex-1 items-center gap-2">
-                <Progress value={persen} label="Progres pelajaran" />
-                <span className="text-xs whitespace-nowrap text-muted">
-                  {selesai}/{kartu.length} kartu
+              <div className="flex min-w-36 flex-1 items-center gap-2">
+                <Progress value={persen} label={`Progres Bab ${meta.nomor}`} />
+                <span className="text-xs whitespace-nowrap text-muted tabular-nums">
+                  {selesai}/{total}
                 </span>
+                {selesai > 0 && (
+                  <Button size="icon" variant="ghost" className="size-8" aria-label="Atur ulang progres bab ini" title="Atur ulang progres" onClick={prog.reset}>
+                    <RotateCcw />
+                  </Button>
+                )}
               </div>
-              {selesai > 0 && (
-                <Button size="icon" variant="ghost" aria-label="Atur ulang progres" title="Atur ulang progres" onClick={prog.reset}>
-                  <RotateCcw />
-                </Button>
-              )}
+              <Button
+                size="sm"
+                variant="outline"
+                className="nav-kartu-ponsel"
+                aria-expanded={navBuka}
+                aria-controls="nav-kartu"
+                onClick={() => setNavBuka((v) => !v)}
+              >
+                <List /> Kartu
+              </Button>
             </div>
+            {navBuka && (
+              <div id="nav-kartu" className="nav-kartu-ponsel-isi">
+                <DaftarKartu bab={bab} selesai={prog.progres.selesai} aktif={aktif} onPilih={() => setNavBuka(false)} />
+              </div>
+            )}
             {ringkas && (
               <p className="m-0 mt-2 text-xs text-muted">
-                Mode ringkas: hanya inti bab, Poin Klinis, rekomendasi ESC, tabel, dan ilustrasi yang ditampilkan.
+                Ringkas klinis: hanya inti bab, Poin Klinis, rekomendasi ESC, tabel, dan gambar yang ditampilkan.
               </p>
             )}
           </div>
@@ -113,19 +171,39 @@ export default function HalamanPelajaran({ pelajaran, prev, next }: { pelajaran:
               <Konten />
             </MDXProvider>
 
-            <h2 id="daftar-pustaka">Daftar Pustaka</h2>
-            <ol className="pustaka">
-              {pustaka.map((r, i) => (
-                <li key={i} id={`ref-${i + 1}`}>
-                  {r}
-                </li>
-              ))}
-            </ol>
+            <section id="daftar-pustaka" className="pustaka-blok">
+              <h2>Daftar Pustaka</h2>
+              <ol className="pustaka">
+                {pustaka.map((r, i) => (
+                  <li key={i} id={`ref-${i + 1}`}>
+                    <TeksRujukan>{r}</TeksRujukan>
+                  </li>
+                ))}
+              </ol>
+            </section>
           </div>
 
-          <nav className="pager">
-            {prev ? <Link to={`/modul/${prev.slug}`}>← Bab {prev.nomor}: {prev.judul}</Link> : <span />}
-            {next && <Link to={`/modul/${next.slug}`}>Bab {next.nomor}: {next.judul} →</Link>}
+          <nav className="pager-bab" aria-label="Bab sebelumnya dan berikutnya">
+            {prev ? (
+              <Link to={`/modul/${prev.slug}`} className="pager-kartu">
+                <ChevronLeft aria-hidden />
+                <span>
+                  <small>Bab {prev.nomor}</small>
+                  {prev.judul}
+                </span>
+              </Link>
+            ) : (
+              <span />
+            )}
+            {next && (
+              <Link to={`/modul/${next.slug}`} className="pager-kartu kanan">
+                <span>
+                  <small>Bab {next.nomor}</small>
+                  {next.judul}
+                </span>
+                <ChevronRight aria-hidden />
+              </Link>
+            )}
           </nav>
         </article>
       </div>

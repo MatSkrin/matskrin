@@ -1,5 +1,5 @@
 // Data Bab 6 yang dipakai komponen interaktif. Isi diambil apa adanya dari naskah Bab 6
-// (src/content/bab/06-stratifikasi-risiko-dan-konseling.md). Jangan menambah fakta di sini.
+// (versi Markdown semula dari src/content/bab/06-*.md). Jangan menambah fakta di sini.
 import type { BarisMWHO, SkorRisiko } from '@/components/belajar/Interaktif'
 
 /** Tabel 6.1 (diadaptasi dari Tabel 6 ESC 2025 [1]). */

@@ -4,11 +4,11 @@ judul: Contoh Format Bab
 ringkasan: Halaman contoh. Akan diganti dengan materi modul yang sebenarnya.
 ---
 
-Halaman ini hanya contoh format. Setiap bab modul ditulis sebagai satu berkas Markdown di folder `src/content/bab/`. Salin berkas ini ke folder tersebut sebagai titik awal, dengan nama berkas diawali nomor bab (mis. `04-deteksi-dini.md`).
+Halaman ini hanya contoh format. Format Markdown ini adalah bahan masukan untuk `scripts/md2mdx.py`, yang mengubahnya menjadi pelajaran interaktif di `src/content/pelajaran/` (lihat README). Nama berkas diawali nomor bab (mis. `04-deteksi-dini.md`).
 
 ## 0.1 Judul Subbab
 
-Paragraf biasa ditulis langsung. Sitasi memakai format drafting [1, De Backer].
+Paragraf biasa ditulis langsung. Sitasi memakai angka Vancouver [1].
 
 ### 0.1.1 Sub-subbab
 

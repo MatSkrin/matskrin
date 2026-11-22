@@ -17,7 +17,7 @@ export function TabelBukti({
 }) {
   const [nomor, ...sisa] = judul.split('. ')
   return (
-    <Accordion type="single" collapsible defaultValue={terbuka ? 'isi' : undefined} className="kunci my-5">
+    <Accordion type="single" collapsible defaultValue={terbuka ? 'isi' : undefined} className="kunci my-5" data-slot="tabel-bukti">
       <AccordionItem value="isi">
         <AccordionTrigger>
           <span className="flex items-start gap-2">
