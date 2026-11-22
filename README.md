@@ -13,17 +13,15 @@ npm run build   # hasil statis di dist/
 
 ## Menambah atau mengubah materi
 
-Setiap bab adalah satu berkas Markdown di `src/content/bab/`, diawali frontmatter:
+Setiap bab adalah satu pelajaran interaktif (MDX) di `src/content/pelajaran/NN-slug.mdx`, berisi `meta` (nomor, judul, ringkasan), `pustaka` (daftar pustaka Vancouver), dan kartu `<LessonCard>` per subbab. Sitasi cukup ditulis `[1]`, `[1,2]`, atau `[1–3]`.
 
-```markdown
----
-nomor: 4
-judul: Deteksi Dini, Skrining, dan Rujukan
-ringkasan: Satu kalimat untuk daftar modul.
----
+Bab baru dari naskah dapat dikonversi dari Markdown (format `docs/contoh-format-bab.md`) dengan:
+
+```bash
+python3 scripts/md2mdx.py src/content/pelajaran path/ke/NN-slug.md
 ```
 
-Kotak **Poin Klinis** dibuat dengan blockquote yang diawali tulisan tebal `**Poin Klinis 4.1**`. Lihat `docs/contoh-format-bab.md`.
+Komponen yang tersedia dan aturan isinya dijelaskan di `docs/pelajaran-interaktif.md`.
 
 ## Skor risiko
 

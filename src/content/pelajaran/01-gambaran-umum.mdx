@@ -1,20 +1,32 @@
----
-nomor: 1
-judul: Gambaran Umum Penyakit Jantung pada Kehamilan
-ringkasan: Seberapa sering, penyakit apa saja, dan mengapa ini penting untuk pelayanan di Indonesia.
----
+{/* Dikonversi dari naskah bab (Markdown) tanpa mengubah teks klinis. */}
 
-<div class="ringkasan">
-<p class="ringkasan-judul">Inti bab ini</p>
-<ul>
-<li>Kehamilan menambah beban hemodinamik. Pada ibu dengan penyakit jantung, beban ini dapat memicu gagal jantung, aritmia, tromboemboli, bahkan kematian [1].</li>
-<li>Di registri internasional ROPAC, penyakit jantung bawaan (57%) dan penyakit katup (29%) adalah kelompok terbanyak [3].</li>
-<li>Di Indonesia, porsi kematian ibu akibat penyebab nonobstetrik naik dari 10% menjadi 49% (1990–2020) [4].</li>
-<li>Dokter di layanan primer berperan menemukan kasus sejak dini dan merujuk tepat waktu [1].</li>
-</ul>
-</div>
+export const meta = {
+  "nomor": 1,
+  "judul": "Gambaran Umum Penyakit Jantung pada Kehamilan",
+  "ringkasan": "Seberapa sering, penyakit apa saja, dan mengapa ini penting untuk pelayanan di Indonesia."
+}
 
-## 1.1 Latar Belakang
+export const pustaka = [
+  "De Backer J, Haugaa KH, Hasselberg NE, De Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. European Heart Journal 2025;46:4462–568. https://doi.org/10.1093/eurheartj/ehaf193",
+  "Ramlakhan KP, Johnson MR, Roos-Hesselink JW. Pregnancy and cardiovascular disease. Nat Rev Cardiol 2020;17:718–31. https://doi.org/10.1038/s41569-020-0390-z",
+  "Roos-Hesselink J, Baris L, Johnson M, De Backer J, Otto C, Marelli A, et al. Pregnancy outcomes in women with cardiovascular disease: evolving trends over 10 years in the ESC Registry Of Pregnancy And Cardiac disease (ROPAC). European Heart Journal 2019;40:3848–55. https://doi.org/10.1093/eurheartj/ehz136",
+  "Syairaji M, Nurdiati DS, Wiratama BS, Prüst ZD, Bloemenkamp KWM, Verschueren KJC. Trends and causes of maternal mortality in Indonesia: a systematic review. BMC Pregnancy Childbirth 2024;24:515. https://doi.org/10.1186/s12884-024-06687-6",
+  "Van Hagen IM, Boersma E, Johnson MR, Thorne SA, Parsonage WA, Escribano Subías P, et al. Global Cardiac Risk Assessment in the Registry of Pregnancy and Cardiac Disease: Results of a Registry from the European Society of Cardiology. European Journal of Heart Failure 2016;18:523–33. https://doi.org/10.1002/ejhf.501",
+  "Cresswell JA, Alexander M, Chong MYC, Link HM, Pejchinovska M, Gazeley U, et al. Global and regional causes of maternal deaths 2009–20: a WHO systematic analysis. The Lancet Global Health 2025;13:e626–34. https://doi.org/10.1016/S2214-109X(24)00560-6",
+  "Anggrahini DW, Nurdiati DS, Hartopo AB, Hudoyo AW, Sattwika PD, Cipta CE, et al. Pregnancy Outcomes in Adult Congenital Heart Disease Patients with Pulmonary Hypertension in Indonesia. J Asian Pac Soc Cardiol 2025;4:e35. https://doi.org/10.15420/japsc.2025.18",
+  "Dinarti LK, Hartopo AB, Kusuma AD, Satwiko MG, Hadwiono MR, Pradana AD, et al. The COngenital HeARt Disease in adult and Pulmonary Hypertension (COHARD-PH) registry: a descriptive study from single-center hospital registry of adult congenital heart disease and pulmonary hypertension in Indonesia. BMC Cardiovasc Disord. 2020;20(1):163."
+]
+
+<Ringkasan>
+
+- Kehamilan menambah beban hemodinamik. Pada ibu dengan penyakit jantung, beban ini dapat memicu gagal jantung, aritmia, tromboemboli, bahkan kematian [1].
+- Di registri internasional ROPAC, penyakit jantung bawaan (57%) dan penyakit katup (29%) adalah kelompok terbanyak [3].
+- Di Indonesia, porsi kematian ibu akibat penyebab nonobstetrik naik dari 10% menjadi 49% (1990–2020) [4].
+- Dokter di layanan primer berperan menemukan kasus sejak dini dan merujuk tepat waktu [1].
+
+</Ringkasan>
+
+<LessonCard id="latar-belakang" nomor="1.1" judul="Latar Belakang">
 
 Kehamilan mengubah sistem kardiovaskular secara bermakna: volume darah, curah jantung, dan denyut jantung meningkat, sedangkan resistensi vaskular sistemik menurun. Pada perempuan yang sudah memiliki penyakit jantung, tambahan beban ini dapat memperberat gangguan fungsi jantung. Sebagian penyakit kardiovaskular bahkan baru muncul pertama kali saat hamil atau setelah persalinan [1].
 
@@ -26,7 +38,9 @@ Dampaknya mengenai ibu sekaligus janin. Gangguan hemodinamik maternal dapat meng
 
 Pedoman ESC 2025 menekankan pelayanan berkesinambungan sejak prakonsepsi hingga pascapersalinan, dengan penilaian risiko dan keterlibatan *Pregnancy Heart Team* bila diperlukan [1].
 
-## 1.2 Epidemiologi
+</LessonCard>
+
+<LessonCard id="epidemiologi" nomor="1.2" judul="Epidemiologi">
 
 ### 1.2.1 Gambaran Global
 
@@ -34,32 +48,32 @@ Pola penyakit berbeda antarwilayah. Di negara berpendapatan tinggi, penyakit jan
 
 Data terbesar berasal dari *Registry of Pregnancy and Cardiac Disease* (ROPAC) milik ESC, yang mencatat 5.739 kehamilan pada 2007–2018 [3].
 
-<figure class="gambar">
+<figure className="gambar kunci">
 <figcaption><strong>Gambar 1.1.</strong> Distribusi kelompok penyakit kardiovaskular pada kehamilan dalam registri ROPAC</figcaption>
-<div class="bar-chart" role="img" aria-label="Penyakit jantung bawaan 57%, penyakit katup jantung 29%, kelompok penyakit lainnya 14%">
-<div class="bar-row"><span>Penyakit jantung bawaan</span><div class="bar"><i style="width:57%"></i></div><b>57%</b></div>
-<div class="bar-row"><span>Penyakit katup jantung</span><div class="bar"><i style="width:29%"></i></div><b>29%</b></div>
-<div class="bar-row"><span>Kelompok penyakit lainnya</span><div class="bar"><i style="width:14%"></i></div><b>14%</b></div>
+<div className="bar-chart" role="img" aria-label="Penyakit jantung bawaan 57%, penyakit katup jantung 29%, kelompok penyakit lainnya 14%">
+<div className="bar-row"><span>Penyakit jantung bawaan</span><div className="bar"><i style={{ width: '57%' }}></i></div><b>57%</b></div>
+<div className="bar-row"><span>Penyakit katup jantung</span><div className="bar"><i style={{ width: '29%' }}></i></div><b>29%</b></div>
+<div className="bar-row"><span>Kelompok penyakit lainnya</span><div className="bar"><i style={{ width: '14%' }}></i></div><b>14%</b></div>
 </div>
-<p class="catatan">Data ROPAC berasal dari 5.739 kehamilan yang tercatat selama 2007–2018. Kelompok lainnya merupakan gabungan diagnosis di luar dua kategori utama.</p>
+<p className="catatan">Data ROPAC berasal dari 5.739 kehamilan yang tercatat selama 2007–2018. Kelompok lainnya merupakan gabungan diagnosis di luar dua kategori utama.</p>
 </figure>
 
 Luaran kehamilan di ROPAC [3]:
 
-<div class="stats">
-<div class="stat"><b>0,6%</b><span>mortalitas maternal</span></div>
-<div class="stat"><b>11%</b><span>gagal jantung</span></div>
-<div class="stat"><b>17%</b><span>komplikasi obstetri</span></div>
-<div class="stat"><b>21%</b><span>komplikasi janin</span></div>
-<div class="stat"><b>44%</b><span>seksio sesarea</span></div>
-<div class="stat"><b>2%</b><span>aritmia</span></div>
+<div className="stats kunci">
+<div className="stat"><b>0,6%</b><span>mortalitas maternal</span></div>
+<div className="stat"><b>11%</b><span>gagal jantung</span></div>
+<div className="stat"><b>17%</b><span>komplikasi obstetri</span></div>
+<div className="stat"><b>21%</b><span>komplikasi janin</span></div>
+<div className="stat"><b>44%</b><span>seksio sesarea</span></div>
+<div className="stat"><b>2%</b><span>aritmia</span></div>
 </div>
 
 Sebagian besar ibu dengan penyakit jantung dapat melalui kehamilan dengan baik, tetapi komplikasi serius tetap terjadi, terutama pada kelompok berisiko tinggi. Proporsi kehamilan dengan risiko mWHO kelas IV di ROPAC bahkan meningkat dari 0,7% (2007–2010) menjadi 10,9% (2015–2018).
 
 Perbedaan antara negara maju dan berkembang terlihat jelas:
 
-<p class="judul-tabel"><strong>Tabel 1.1.</strong> Perbandingan karakteristik penyakit jantung pada kehamilan antara negara maju dan negara berkembang</p>
+<TabelBukti judul="Tabel 1.1. Perbandingan karakteristik penyakit jantung pada kehamilan antara negara maju dan negara berkembang" terbuka>
 
 | Aspek | Negara maju | Negara berkembang |
 |---|---|---|
@@ -67,6 +81,8 @@ Perbedaan antara negara maju dan berkembang terlihat jelas:
 | Komplikasi kardiovaskular | 12,8% | 36,3% |
 | Karakteristik pelayanan | Akses koreksi PJB dan layanan spesialistik lebih luas | Beban penyakit katup, termasuk rematik, masih penting |
 | Implikasi | Pantau kelainan residual dan komplikasi jangka panjang | Deteksi penyakit katup, nilai keparahan, buka akses spesialistik |
+
+</TabelBukti>
 
 Secara global, penyebab obstetrik tidak langsung, termasuk penyakit kardiovaskular, menyumbang sekitar 23% kematian maternal pada 2009–2020 [6]. Artinya, menurunkan kematian ibu tidak cukup dengan menangani komplikasi obstetri saja; penyakit medis penyerta harus dikenali sejak sebelum hamil [1,6].
 
@@ -83,11 +99,13 @@ Registri COHARD-PH di RSUP Dr. Sardjito, Yogyakarta, mencatat **1.012 pasien** p
 
 Registri, pencatatan yang terstandar, dan penelitian multisenter masih diperlukan agar gambaran nasional lebih representatif [4,7].
 
-## 1.3 Spektrum Penyakit
+</LessonCard>
+
+<LessonCard id="spektrum-penyakit" nomor="1.3" judul="Spektrum Penyakit">
 
 Setiap kelompok penyakit membawa risiko dan perhatian klinis yang berbeda [1,2].
 
-<p class="judul-tabel"><strong>Tabel 1.2.</strong> Spektrum penyakit kardiovaskular pada kehamilan dan karakteristik klinis</p>
+<TabelBukti judul="Tabel 1.2. Spektrum penyakit kardiovaskular pada kehamilan dan karakteristik klinis" terbuka>
 
 | Kelompok | Contoh | Yang perlu diperhatikan |
 |---|---|---|
@@ -100,13 +118,17 @@ Setiap kelompok penyakit membawa risiko dan perhatian klinis yang berbeda [1,2].
 | Penyakit aorta | Marfan, aortopati katup bikuspid, Loeys–Dietz | Dilatasi dan diseksi aorta |
 | Hipertensi dalam kehamilan | Hipertensi kronis, gestasional, preeklamsia | Komplikasi ibu-janin dan risiko kardiovaskular jangka panjang |
 
+</TabelBukti>
+
 Sebagian perempuan dengan kelainan ringan cukup dipantau rutin, sedangkan kondisi tertentu memerlukan tim multidisiplin. Penilaian risiko individual menentukan jenis pemeriksaan, frekuensi pemantauan, dan rencana persalinan [1].
 
-## 1.4 Tantangan Pelayanan di Indonesia
+</LessonCard>
+
+<LessonCard id="tantangan-pelayanan-di-indonesia" nomor="1.4" judul="Tantangan Pelayanan di Indonesia">
 
 Kondisi geografis dan perbedaan kapasitas fasilitas antarwilayah memengaruhi kesinambungan pelayanan. Disparitas kematian ibu antarwilayah juga masih besar [4].
 
-<p class="judul-tabel"><strong>Tabel 1.3.</strong> Tantangan dan arah penguatan pelayanan penyakit jantung pada kehamilan di Indonesia</p>
+<TabelBukti judul="Tabel 1.3. Tantangan dan arah penguatan pelayanan penyakit jantung pada kehamilan di Indonesia" terbuka>
 
 | Aspek | Tantangan | Arah penguatan |
 |---|---|---|
@@ -118,34 +140,29 @@ Kondisi geografis dan perbedaan kapasitas fasilitas antarwilayah memengaruhi kes
 | Prakonsepsi & pascapersalinan | Pemantauan sering terputus | Integrasi konseling, ANC, rencana persalinan, dan tindak lanjut nifas |
 | Pencatatan & penelitian | Data belum terintegrasi | Registri, standardisasi pencatatan, penelitian multisenter |
 
-<div class="rekomendasi">
+</TabelBukti>
+
+<div className="rekomendasi kunci">
 <table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
-<tbody><tr><td>Perempuan dengan penyakit kardiovaskular yang termasuk klasifikasi mWHO 2.0 kelas II–III atau lebih tinggi direkomendasikan untuk menjalani evaluasi dan penatalaksanaan oleh <em>Pregnancy Heart Team</em> sejak masa prakonsepsi, selama kehamilan, hingga pascapersalinan.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
+<tbody><tr><td>Perempuan dengan penyakit kardiovaskular yang termasuk klasifikasi mWHO 2.0 kelas II–III atau lebih tinggi direkomendasikan untuk menjalani evaluasi dan penatalaksanaan oleh <em>Pregnancy Heart Team</em> sejak masa prakonsepsi, selama kehamilan, hingga pascapersalinan.</td><td className="kelas-i">I</td><td>C</td></tr></tbody></table>
 </div>
 
 Penerapannya perlu disesuaikan dengan kapasitas setempat. Kolaborasi dokter umum, SpOG, SpJP, dan tenaga kesehatan lain menjadi kunci keputusan klinis yang terkoordinasi [1].
 
-> **Poin Klinis 1.1**
->
-> - Penyakit jantung adalah penyebab penting kematian ibu yang makin menonjol di Indonesia.
-> - PJB dan penyakit katup (termasuk rematik) adalah kelompok terbanyak.
-> - Banyak gejala penyakit jantung mirip keluhan hamil normal; tanda bahaya perlu dicari aktif saat ANC.
-> - Ibu dengan risiko mWHO II–III ke atas perlu ditangani *Pregnancy Heart Team* sejak prakonsepsi.
+<PoinKlinis judul="Poin Klinis 1.1">
 
-<figure class="gambar">
+- Penyakit jantung adalah penyebab penting kematian ibu yang makin menonjol di Indonesia.
+- PJB dan penyakit katup (termasuk rematik) adalah kelompok terbanyak.
+- Banyak gejala penyakit jantung mirip keluhan hamil normal; tanda bahaya perlu dicari aktif saat ANC.
+- Ibu dengan risiko mWHO II–III ke atas perlu ditangani *Pregnancy Heart Team* sejak prakonsepsi.
+
+</PoinKlinis>
+
+<figure className="gambar kunci">
 <figcaption><strong>Gambar 1.2.</strong> Pelayanan berkesinambungan oleh Pregnancy Heart Team dari prakonsepsi hingga jangka panjang</figcaption>
 <a href="figures/bab01-gambar-1.2-alur-pelayanan-pregnancy-heart-team.webp" target="_blank" rel="noopener"><img src="figures/bab01-gambar-1.2-alur-pelayanan-pregnancy-heart-team.webp" alt="Pelayanan berkesinambungan oleh Pregnancy Heart Team dari prakonsepsi hingga jangka panjang" loading="lazy" /></a>
-<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
-<p class="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
+<p className="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p className="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
 </figure>
 
-## Daftar Pustaka
-
-1. De Backer J, Haugaa KH, Hasselberg NE, De Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. European Heart Journal 2025;46:4462–568. <https://doi.org/10.1093/eurheartj/ehaf193>
-2. Ramlakhan KP, Johnson MR, Roos-Hesselink JW. Pregnancy and cardiovascular disease. Nat Rev Cardiol 2020;17:718–31. <https://doi.org/10.1038/s41569-020-0390-z>
-3. Roos-Hesselink J, Baris L, Johnson M, De Backer J, Otto C, Marelli A, et al. Pregnancy outcomes in women with cardiovascular disease: evolving trends over 10 years in the ESC Registry Of Pregnancy And Cardiac disease (ROPAC). European Heart Journal 2019;40:3848–55. <https://doi.org/10.1093/eurheartj/ehz136>
-4. Syairaji M, Nurdiati DS, Wiratama BS, Prüst ZD, Bloemenkamp KWM, Verschueren KJC. Trends and causes of maternal mortality in Indonesia: a systematic review. BMC Pregnancy Childbirth 2024;24:515. <https://doi.org/10.1186/s12884-024-06687-6>
-5. Van Hagen IM, Boersma E, Johnson MR, Thorne SA, Parsonage WA, Escribano Subías P, et al. Global Cardiac Risk Assessment in the Registry of Pregnancy and Cardiac Disease: Results of a Registry from the European Society of Cardiology. European Journal of Heart Failure 2016;18:523–33. <https://doi.org/10.1002/ejhf.501>
-6. Cresswell JA, Alexander M, Chong MYC, Link HM, Pejchinovska M, Gazeley U, et al. Global and regional causes of maternal deaths 2009–20: a WHO systematic analysis. The Lancet Global Health 2025;13:e626–34. <https://doi.org/10.1016/S2214-109X(24)00560-6>
-7. Anggrahini DW, Nurdiati DS, Hartopo AB, Hudoyo AW, Sattwika PD, Cipta CE, et al. Pregnancy Outcomes in Adult Congenital Heart Disease Patients with Pulmonary Hypertension in Indonesia. J Asian Pac Soc Cardiol 2025;4:e35. <https://doi.org/10.15420/japsc.2025.18>
-8. Dinarti LK, Hartopo AB, Kusuma AD, Satwiko MG, Hadwiono MR, Pradana AD, et al. The COngenital HeARt Disease in adult and Pulmonary Hypertension (COHARD-PH) registry: a descriptive study from single-center hospital registry of adult congenital heart disease and pulmonary hypertension in Indonesia. BMC Cardiovasc Disord. 2020;20(1):163.
+</LessonCard>

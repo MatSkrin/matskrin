@@ -26,7 +26,7 @@ export function LessonCard({
       id={id}
       data-kartu={judul}
       className={cn(
-        'my-6 scroll-mt-20 rounded-card border bg-surface p-5 shadow-[0_1px_2px_rgb(0_0_0/0.04)] transition-colors sm:p-7',
+        'my-6 scroll-mt-20 rounded-card border bg-surface p-4 shadow-[0_1px_2px_rgb(0_0_0/0.04)] transition-colors sm:p-7',
         selesai ? 'border-poin/50' : 'border-line',
         latihan && 'sembunyi-ringkas',
       )}

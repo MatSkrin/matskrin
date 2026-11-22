@@ -1,6 +1,6 @@
 # Pelajaran interaktif (MDX)
 
-Bab yang punya file `src/content/pelajaran/<slug>.mdx` otomatis tampil sebagai pelajaran interaktif di `/modul/<slug>`; bab lain tetap memakai Markdown di `src/content/bab/`.
+Setiap bab adalah satu file `src/content/pelajaran/<slug>.mdx` yang tampil di `/modul/<slug>`. Daftar isi dan hitungan progres dibaca dari atribut `<LessonCard id nomor judul>`. Paragraf pembuka sebelum subbab pertama ditaruh di kartu "Pendahuluan".
 
 - **Konten** (teks, tabel, data kuis) ada di `src/content/pelajaran/`. **Komponen** ada di `src/components/belajar/` dan `src/components/ui/` (gaya shadcn/ui).
 - Sitasi ditulis seperti di naskah: `[1]`, `[1,2]`, `[1–3]`. Plugin `src/lib/remark-sitasi.ts` mengubahnya menjadi popover berisi rujukan dari `export const pustaka`.

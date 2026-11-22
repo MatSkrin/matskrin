@@ -24,6 +24,8 @@ export function PoinKlinis({ judul, children }: { judul: string; children: React
   )
 }
 
+const KELAS: Record<string, string> = { I: 'kelas-i', IIa: 'kelas-iia', IIb: 'kelas-iib', III: 'kelas-iii' }
+
 export type Rekomendasi = { teks: string; kelas: string; level: string }
 
 /** Kotak Rekomendasi ESC 2025: kelas/level hanya dari naskah, tidak boleh dikarang. */
@@ -44,7 +46,7 @@ export function RekomendasiESC({ items }: { items: Rekomendasi[] }) {
               <td>
                 <TeksSitasi>{r.teks}</TeksSitasi>
               </td>
-              <td className={r.kelas === 'I' ? 'kelas-i' : undefined}>{r.kelas}</td>
+              <td className={KELAS[r.kelas]}>{r.kelas}</td>
               <td>{r.level}</td>
             </tr>
           ))}

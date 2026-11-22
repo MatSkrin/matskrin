@@ -15,7 +15,7 @@ export function AccordionTrigger({ className, children, ...props }: ComponentPro
     <A.Header className="m-0 flex">
       <A.Trigger
         className={cn(
-          'group flex flex-1 cursor-pointer items-center justify-between gap-3 border-0 bg-transparent px-4 py-3 text-left font-[inherit] text-[0.95rem] text-ink hover:text-accent',
+          'group flex flex-1 cursor-pointer items-center justify-between gap-3 border-0 bg-transparent px-3 py-3 text-left sm:px-4 font-[inherit] text-[0.95rem] text-ink hover:text-accent',
           className,
         )}
         {...props}
@@ -30,7 +30,7 @@ export function AccordionTrigger({ className, children, ...props }: ComponentPro
 export function AccordionContent({ className, children, ...props }: ComponentProps<typeof A.Content>) {
   return (
     <A.Content className="overflow-hidden" {...props}>
-      <div className={cn('px-4 pb-4', className)}>{children}</div>
+      <div className={cn('px-3 pb-3 sm:px-4 sm:pb-4', className)}>{children}</div>
     </A.Content>
   )
 }

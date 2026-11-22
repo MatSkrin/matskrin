@@ -26,3 +26,70 @@
 
 /* Judul kartu: timpa margin h2 bawaan .prose. */
 .prose .kartu-judul { margin: 0; padding: 0; text-align: left; }
+
+/* ---------- Halaman pelajaran ---------- */
+.pelajaran h1 { margin-bottom: 0.35em; }
+.pelajaran .prose > :first-child { margin-top: 0; }
+
+/* Isi kartu: ritme vertikal seragam */
+.kartu-isi > :first-child { margin-top: 0; }
+.kartu-isi > :last-child { margin-bottom: 0; }
+.prose .kartu-isi h3 { margin: 1.6em 0 0.5em; font-size: 1.05rem; }
+.prose .kartu-isi > .ringkasan,
+.prose .kartu-isi > figure.gambar,
+.prose .kartu-isi > .rekomendasi,
+.prose .kartu-isi > blockquote { margin: 1.25rem 0; }
+.prose .kartu-isi figure.gambar { background: var(--bg); }
+
+/* Tabel di dalam tabel bukti: gulir horizontal di layar sempit */
+.prose [data-slot='tabel-bukti'] table { margin: 0; }
+.prose [data-slot='tabel-bukti'] .catatan { margin-top: 10px; }
+
+/* Daftar pustaka */
+.pustaka-blok { margin-top: 2.5rem; padding-top: 0.5rem; scroll-margin-top: calc(var(--topbar-h) + 72px); }
+.pustaka-blok h2 { margin-top: 0 !important; }
+.prose ol.pustaka { padding-left: 1.4em; font-size: 0.9rem; color: var(--muted); }
+.prose ol.pustaka a { overflow-wrap: anywhere; }
+
+/* Navigasi bab sebelumnya/berikutnya */
+.pager-bab { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+.pager-kartu { display: flex; align-items: center; gap: 10px; padding: 14px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 0.95rem; line-height: 1.35; transition: border-color 0.15s; }
+.pager-kartu:hover { border-color: var(--accent); }
+.pager-kartu.kanan { justify-content: flex-end; text-align: right; grid-column: 2; }
+.pager-kartu small { display: block; font-size: 0.75rem; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; }
+.pager-kartu svg { width: 18px; height: 18px; flex-shrink: 0; color: var(--muted); }
+
+/* Daftar kartu di ponsel (sidebar disembunyikan ≤ 960px oleh index.css) */
+.nav-kartu-ponsel { display: none; }
+.nav-kartu-ponsel-isi { margin-top: 10px; max-height: 55vh; overflow: auto; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 0; box-shadow: 0 10px 28px rgb(0 0 0 / 0.12); }
+.toc li button { line-height: 1.4; }
+
+@media (max-width: 960px) {
+  .nav-kartu-ponsel { display: inline-flex; }
+  .bab-layout { grid-template-columns: minmax(0, 1fr); }
+  .pelajaran { min-width: 0; }
+}
+@media (max-width: 640px) {
+  .pager-bab { grid-template-columns: 1fr; }
+  .pager-kartu.kanan { grid-column: 1; }
+  .prose .kartu-isi > .ringkasan { padding: 14px 16px; }
+}
+
+/* Perbaikan tabel & tabel bukti */
+.prose th, .prose td { overflow-wrap: break-word; }
+.prose [data-slot='tabel-bukti'] h3 { margin: 0; padding: 0; font-size: inherit; }
+.prose [data-slot='tabel-bukti'] td,
+.prose [data-slot='tabel-bukti'] th { min-width: 7.5rem; }
+.prose [data-slot='tabel-bukti'] td:first-child,
+.prose [data-slot='tabel-bukti'] th:first-child { min-width: 6rem; }
+.prose ol.pustaka { padding-left: 1.9em; }
+
+/* Sidebar kartu yang bisa disembunyikan (desktop) */
+.bab-layout.sidebar-tutup { grid-template-columns: minmax(0, 1fr); }
+.bab-layout.sidebar-tutup .pelajaran { margin-inline: auto; }
+.nav-kartu-desktop { display: inline-flex; }
+@media (max-width: 960px) {
+  .nav-kartu-desktop { display: none; }
+  .toc-side[hidden] { display: none; }
+}
+.toc-side .toc-title { margin: 0; }
