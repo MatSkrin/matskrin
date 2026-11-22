@@ -30,6 +30,13 @@ Selain perubahan hemodinamik, peningkatan frekuensi jantung dan aktivitas neuroh
 
 Pasien dengan fungsi jantung yang relatif terjaga umumnya dapat mentoleransi perubahan tersebut, sedangkan pasien dengan gangguan hemodinamik bermakna memiliki risiko lebih tinggi mengalami dekompensasi selama kehamilan, persalinan, maupun postpartum [1,2].
 
+<figure class="gambar">
+<figcaption><strong>Gambar 3.1.</strong> Alur Patofisiologi Penyakit Jantung pada Kehamilan dan Dampaknya terhadap Ibu dan Janin</figcaption>
+<a href="figures/bab03-gambar-3.1-alur-patofisiologi-dampak-maternal-fetal.webp" target="_blank" rel="noopener"><img src="figures/bab03-gambar-3.1-alur-patofisiologi-dampak-maternal-fetal.webp" alt="Alur Patofisiologi Penyakit Jantung pada Kehamilan dan Dampaknya terhadap Ibu dan Janin" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: [1,2,5].</p>
+</figure>
+
 ## 3.2 Mekanisme Dekompensasi Kardiovaskular
 
 Dekompensasi kardiovaskular terjadi ketika kemampuan jantung mempertahankan sirkulasi yang adekuat tidak lagi sebanding dengan kebutuhan hemodinamik selama kehamilan. Kondisi ini dapat berkembang secara bertahap seiring peningkatan beban sirkulasi atau muncul secara akut akibat perubahan hemodinamik, aritmia, maupun komplikasi obstetri. Mekanismenya berbeda menurut jenis kelainan jantung, seperti diuraikan di bawah ini [1,2,5].
@@ -45,6 +52,13 @@ Gangguan fungsi diastolik juga dapat menyebabkan dekompensasi meskipun fraksi ej
 Pada kelainan katup stenotik, peningkatan curah jantung selama kehamilan menyebabkan peningkatan aliran melalui katup yang menyempit. Akibatnya, gradien tekanan dapat meningkat dan memperberat beban hemodinamik. Pada stenosis mitral, peningkatan tekanan atrium kiri dapat menyebabkan kongesti pulmonal, sedangkan pada stenosis aorta berat, hambatan aliran keluar ventrikel kiri dapat membatasi kemampuan meningkatkan curah jantung [1,2].
 
 Pada kelainan regurgitasi, penurunan resistensi vaskular sistemik dapat mengurangi fraksi regurgitasi pada sebagian pasien. Namun, peningkatan volume sirkulasi tetap dapat memperberat dilatasi ruang jantung dan meningkatkan tekanan pengisian, terutama apabila telah terdapat gangguan fungsi ventrikel [1,5].
+
+<figure class="gambar">
+<figcaption><strong>Gambar 3.2.</strong> Spektrum Toleransi Lesi Jantung terhadap Kehamilan</figcaption>
+<a href="figures/bab03-gambar-3.2-spektrum-toleransi-lesi-jantung.webp" target="_blank" rel="noopener"><img src="figures/bab03-gambar-3.2-spektrum-toleransi-lesi-jantung.webp" alt="Spektrum Toleransi Lesi Jantung terhadap Kehamilan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: [1,2].</p>
+</figure>
 
 ### 3.2.3 Gangguan Sirkulasi Pulmonal dan Fungsi Ventrikel Kanan
 

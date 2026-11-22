@@ -41,6 +41,13 @@ ESC 2025 menggunakan klasifikasi mWHO 2.0 untuk mengelompokkan risiko kardiovask
 
 <p class="catatan">Sumber: Diadaptasi dari Tabel 6 ESC Guidelines 2025 [1]. EF: fraksi ejeksi; NYHA: New York Heart Association.</p>
 
+<figure class="gambar">
+<figcaption><strong>Gambar 6.1.</strong> Klasifikasi risiko mWHO 2.0: gambaran risiko, angka kejadian jantung maternal, dan tempat pelayanan</figcaption>
+<a href="figures/bab06-gambar-6.1-tangga-risiko-mwho-2.0.webp" target="_blank" rel="noopener"><img src="figures/bab06-gambar-6.1-tangga-risiko-mwho-2.0.webp" alt="Klasifikasi risiko mWHO 2.0: gambaran risiko, angka kejadian jantung maternal, dan tempat pelayanan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Diadaptasi dari Tabel 6 De Backer et al. [1].</p>
+</figure>
+
 > **Poin Klinis 6.1. Klasifikasi Risiko mWHO 2.0**
 >
 > - Penilaian mWHO 2.0 dianjurkan pada seluruh perempuan usia reproduktif dengan penyakit kardiovaskular.
@@ -58,6 +65,13 @@ CARPREG II dikembangkan pada perempuan dengan beragam penyakit jantung, sedangka
 | Risiko | 5%  | 10% | 15% | 22% | 41% |
 
 <p class="catatan">Sumber: Silversides et al. [2]. Angka merupakan estimasi pada populasi derivasi dan bukan prediksi pasti untuk setiap pasien.</p>
+
+<figure class="gambar">
+<figcaption><strong>Gambar 6.2.</strong> Estimasi risiko kejadian jantung maternal menurut skor CARPREG II</figcaption>
+<a href="figures/bab06-gambar-6.2-risiko-menurut-skor-carpreg-ii.webp" target="_blank" rel="noopener"><img src="figures/bab06-gambar-6.2-risiko-menurut-skor-carpreg-ii.webp" alt="Estimasi risiko kejadian jantung maternal menurut skor CARPREG II" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Silversides et al. [2].</p>
+</figure>
 
 ZAHARA menggunakan prediktor seperti riwayat aritmia, pengobatan kardiovaskular sebelum hamil, status fungsional, serta kelainan katup dan obstruksi. Skor ini melengkapi, bukan menggantikan, penilaian klinis dan mWHO 2.0 [4,5].
 

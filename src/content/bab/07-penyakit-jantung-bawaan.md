@@ -35,13 +35,34 @@ Pada PJB dengan pirau, terdapat hubungan abnormal antara ruang jantung atau pemb
 
 Defek septum atrium (ASD) menyebabkan aliran darah dari atrium kiri ke kanan dan dapat menimbulkan dilatasi jantung kanan. ASD tanpa komplikasi umumnya memiliki risiko kehamilan rendah. Pada defek yang belum dikoreksi, perlu diperhatikan aritmia atrium dan emboli paradoksikal. ASD bermakna sebaiknya dievaluasi untuk penutupan sebelum konsepsi; ekokardiografi trimester ketiga dapat dipertimbangkan pada ASD tanpa koreksi [1,3].
 
+<figure class="gambar sempit">
+<figcaption><strong>Gambar 7.1.</strong> Defek septum atrium: pirau dari atrium kiri ke atrium kanan</figcaption>
+<a href="figures/bab07-asd.webp" target="_blank" rel="noopener"><img src="figures/bab07-asd.webp" alt="Defek septum atrium: pirau dari atrium kiri ke atrium kanan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Blausen.com staff. Medical gallery of Blausen Medical 2014. WikiJournal of Medicine. 2014;1(2):10. Lisensi CC BY 3.0.</p>
+</figure>
+
 ### 7.2.2 Defek Septum Ventrikel
 
 Defek septum ventrikel (VSD) memungkinkan aliran dari ventrikel kiri ke kanan. VSD kecil atau pascakoreksi dengan fungsi ventrikel normal dan tanpa hipertensi pulmonal umumnya berisiko rendah. VSD besar dapat menyebabkan beban volume dan gagal jantung serta memerlukan evaluasi hemodinamik sebelum kehamilan [1,2].
 
+<figure class="gambar sempit">
+<figcaption><strong>Gambar 7.2.</strong> Defek septum ventrikel</figcaption>
+<a href="figures/bab07-vsd.webp" target="_blank" rel="noopener"><img src="figures/bab07-vsd.webp" alt="Defek septum ventrikel" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: BruceBlaus. Ventricular septal defect [ilustrasi]. Wikimedia Commons. Tersedia di: <a href="https://commons.wikimedia.org/wiki/File:Ventricular_Septal_Defect.png">Wikimedia Commons</a>. Lisensi CC BY-SA 4.0.</p>
+</figure>
+
 ### 7.2.3 Duktus Arteriosus Persisten
 
 Patent ductus arteriosus (PDA) merupakan hubungan menetap antara aorta dan arteri pulmonalis. PDA kecil atau pascakoreksi tanpa kelainan residual umumnya berisiko rendah, sedangkan PDA besar dapat meningkatkan beban volume ventrikel kiri dan risiko gagal jantung. Evaluasi mencakup besarnya pirau, fungsi ventrikel, dan tekanan pulmonal [1,2].
+
+<figure class="gambar sempit">
+<figcaption><strong>Gambar 7.3.</strong> Duktus arteriosus persisten: aliran dari aorta ke arteri pulmonal</figcaption>
+<a href="figures/bab07-pda.webp" target="_blank" rel="noopener"><img src="figures/bab07-pda.webp" alt="Duktus arteriosus persisten: aliran dari aorta ke arteri pulmonal" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: Blausen.com staff. Medical gallery of Blausen Medical 2014. WikiJournal of Medicine. 2014;1(2):10. Lisensi CC BY 3.0.</p>
+</figure>
 
 ### 7.2.4 Defek Septum Atrioventrikular
 
@@ -80,6 +101,13 @@ Risiko pada PJB sianotik dan kompleks dipengaruhi fungsi ventrikel, saturasi oks
 
 Tetralogi Fallot terdiri atas VSD, obstruksi jalur keluar ventrikel kanan, overriding aorta, dan hipertrofi ventrikel kanan. Pasien pascakoreksi dengan fungsi ventrikel baik umumnya dapat menjalani kehamilan dengan risiko relatif rendah. Regurgitasi pulmonal, dilatasi atau disfungsi ventrikel kanan, dan aritmia meningkatkan risiko sehingga perlu dinilai sebelum konsepsi [1,6].
 
+<figure class="gambar sempit">
+<figcaption><strong>Gambar 7.4.</strong> Tetralogi Fallot: defek septum ventrikel, stenosis pulmonal, aorta overriding, dan hipertrofi ventrikel kanan</figcaption>
+<a href="figures/bab07-tof.webp" target="_blank" rel="noopener"><img src="figures/bab07-tof.webp" alt="Tetralogi Fallot: defek septum ventrikel, stenosis pulmonal, aorta overriding, dan hipertrofi ventrikel kanan" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: BruceBlaus. Tetralogy of Fallot [ilustrasi]. Wikimedia Commons. Tersedia di: <a href="https://commons.wikimedia.org/wiki/File:Tetralogy_of_Fallot_Part_1.png">Wikimedia Commons</a>. Lisensi CC BY-SA 4.0.</p>
+</figure>
+
 ### 7.4.2 Transposisi Arteri Besar
 
 Risiko transposition of the great arteries (TGA) bergantung pada jenis koreksi. Setelah arterial switch, ventrikel kiri tetap menjadi ventrikel sistemik dan luaran umumnya baik bila tidak terdapat kelainan residual bermakna [1,7]. Setelah atrial switch (Mustard atau Senning), ventrikel kanan menjadi ventrikel sistemik sehingga risiko disfungsi ventrikel, aritmia, dan gagal jantung lebih tinggi. Pada congenitally corrected TGA (ccTGA), perlu pula memperhatikan regurgitasi trikuspid dan gangguan konduksi atrioventrikular [1,2].
@@ -89,6 +117,13 @@ Risiko transposition of the great arteries (TGA) bergantung pada jenis koreksi. 
 Pada sirkulasi Fontan, darah vena sistemik menuju arteri pulmonalis tanpa ventrikel subpulmonal. Aliran pulmonal bergantung pada resistensi vaskular pulmonalis yang rendah. Kehamilan meningkatkan risiko aritmia, gagal jantung, tromboemboli, perdarahan, keguguran, hambatan pertumbuhan janin, dan prematuritas [8,9].
 
 Konseling prakonsepsi dan pemantauan di pusat PJB dewasa diperlukan. Penilaian meliputi fungsi ventrikel, saturasi oksigen, aritmia, fungsi hati, serta kebutuhan antitrombotik. Fontan tanpa komplikasi termasuk mWHO 2.0 kelas III, sedangkan Fontan dengan komplikasi termasuk kelas IV [1,9].
+
+<figure class="gambar">
+<figcaption><strong>Gambar 7.5.</strong> Sirkulasi Fontan pada atresia trikuspid: anatomi sebelum (kiri) dan sesudah (kanan) operasi</figcaption>
+<a href="figures/bab07-fontan.webp" target="_blank" rel="noopener"><img src="figures/bab07-fontan.webp" alt="Sirkulasi Fontan pada atresia trikuspid: anatomi sebelum (kiri) dan sesudah (kanan) operasi" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: RupertMillard. Fontan procedure [ilustrasi]. Wikimedia Commons; 2009. Tersedia di: <a href="https://commons.wikimedia.org/wiki/File:Fontan_procedure.svg">Wikimedia Commons</a>. Lisensi CC BY-SA 3.0.</p>
+</figure>
 
 ### 7.4.4 Sindrom Eisenmenger
 

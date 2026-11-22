@@ -52,6 +52,13 @@ Sebagian besar kematian maternal dalam systematic review terkini terjadi setelah
 > - Persalinan dan postpartum merupakan periode risiko tinggi.
 > - Fungsi ventrikel kanan perlu dievaluasi secara berkala.
 
+<figure class="gambar">
+<figcaption><strong>Gambar 8.1.</strong> Spiral gagal ventrikel kanan pada hipertensi arteri pulmonal dan periode risikonya</figcaption>
+<a href="figures/bab08-gambar-8.1-spiral-gagal-ventrikel-kanan-dan-periode-risiko.webp" target="_blank" rel="noopener"><img src="figures/bab08-gambar-8.1-spiral-gagal-ventrikel-kanan-dan-periode-risiko.webp" alt="Spiral gagal ventrikel kanan pada hipertensi arteri pulmonal dan periode risikonya" loading="lazy" /></a>
+<p class="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
+<p class="catatan">Sumber: [3,4,6].</p>
+</figure>
+
 ## 8.3 Risiko Maternal dan Fetal
 
 ### 8.3.1 Risiko Maternal
