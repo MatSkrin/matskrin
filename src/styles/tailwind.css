@@ -1,0 +1,28 @@
+/* Tailwind tanpa preflight agar gaya situs yang sudah ada (index.css) tidak berubah. */
+@layer theme, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+@source '../';
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-ok: var(--ok);
+  --color-poin: var(--poin-line);
+  --color-poin-bg: var(--poin-bg);
+  --radius-card: var(--radius);
+}
+
+/* Mode ringkas klinis: di dalam kartu pelajaran hanya elemen bertanda .kunci yang tampil. */
+.mode-ringkas .kartu-isi > :not(.kunci) { display: none; }
+.mode-ringkas .sembunyi-ringkas { display: none; }
+/* Kartu yang isinya hanya narasi tidak ditampilkan di mode ringkas. */
+.mode-ringkas [data-kartu]:not(:has(.kunci)) { display: none; }
+
+/* Judul kartu: timpa margin h2 bawaan .prose. */
+.prose .kartu-judul { margin: 0; padding: 0; text-align: left; }
