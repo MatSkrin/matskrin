@@ -26,6 +26,8 @@ Selama kehamilan, sistem kardiovaskular menyesuaikan diri melalui peningkatan cu
 
 Curah jantung (cardiac output) merupakan jumlah darah yang dipompa jantung setiap menit. Selama kehamilan normal, curah jantung meningkat sekitar 30–50%, akibat peningkatan volume sekuncup (stroke volume) dan frekuensi jantung sekitar 10–20 kali per menit [1,2].
 
+Kenaikan frekuensi jantung sudah dimulai sejak awal kehamilan. Meta-analisis Loerup dan kolega menunjukkan rerata frekuensi jantung meningkat dari sekitar 79 kali/menit pada usia kehamilan 10 minggu menjadi 87 kali/menit pada usia kehamilan 40 minggu. Kenaikan ini lebih kecil daripada yang selama ini diajarkan, sehingga frekuensi jantung istirahat \>100 kali/menit tidak boleh langsung dianggap normal karena kehamilan [5].
+
 Curah jantung meningkat sejak awal kehamilan dan umumnya mencapai nilai tertinggi pada trimester kedua hingga awal trimester ketiga, dengan variasi antarindividu [4]. Pada akhir kehamilan, uterus dapat menekan vena kava inferior saat ibu telentang, mengurangi aliran balik vena dan menyebabkan pusing atau hipotensi. Keluhan dapat membaik dengan posisi miring ke kiri [2,3].
 
 ### 2.1.2 Perubahan Resistensi Pembuluh Darah dan Tekanan Darah
@@ -34,7 +36,7 @@ Pelebaran pembuluh darah menyebabkan resistensi vaskular sistemik menurun sekita
 
 ### 2.1.3 Perubahan Volume Darah
 
-Volume darah meningkat untuk mendukung sirkulasi ibu dan janin serta mempersiapkan kehilangan darah saat persalinan. Volume plasma dapat meningkat sekitar 45%, sedangkan massa sel darah merah meningkat dalam proporsi lebih kecil. Akibatnya, hemoglobin dan hematokrit dapat menurun akibat hemodilusi fisiologis [3,5].
+Volume darah meningkat untuk mendukung sirkulasi ibu dan janin serta mempersiapkan kehilangan darah saat persalinan. Volume plasma dapat meningkat sekitar 45%, sedangkan massa sel darah merah meningkat dalam proporsi lebih kecil. Akibatnya, hemoglobin dan hematokrit dapat menurun akibat hemodilusi fisiologis [3,6].
 
 <p class="judul-tabel"><strong>Tabel 2.1.</strong> Perubahan Hemodinamik pada Kehamilan Normal</p>
 
@@ -47,7 +49,7 @@ Volume darah meningkat untuk mendukung sirkulasi ibu dan janin serta mempersiapk
 | Tekanan darah                | Sedikit menurun, terutama trimester kedua |
 | Volume plasma                | Meningkat sekitar 45%                     |
 
-<p class="catatan">Sumber: [1–6].</p>
+<p class="catatan">Sumber: [1–4,6,7].</p>
 
 > **Poin Klinis 2.1. Perubahan Volume Darah**
 >
@@ -57,19 +59,19 @@ Volume darah meningkat untuk mendukung sirkulasi ibu dan janin serta mempersiapk
 
 ## 2.2 Adaptasi Struktural dan Fungsional Jantung
 
-Peningkatan volume darah dan curah jantung menyebabkan pembesaran ringan ruang jantung dan peningkatan massa otot jantung. Fungsi pompa umumnya tetap terjaga dan perubahan berangsur pulih setelah persalinan [1,2,7].
+Peningkatan volume darah dan curah jantung menyebabkan pembesaran ringan ruang jantung dan peningkatan massa otot jantung. Fungsi pompa umumnya tetap terjaga dan perubahan berangsur pulih setelah persalinan [1,2,8].
 
 ### 2.2.1 Perubahan Struktur Jantung
 
-Ruang jantung dapat sedikit membesar dan dinding ventrikel kiri menebal sebagai respons terhadap peningkatan beban kerja. Perubahan ini disebut remodeling fisiologis. Meta-analisis menunjukkan massa ventrikel kiri meningkat sekitar 24%, terutama mulai trimester kedua [7].
+Ruang jantung dapat sedikit membesar dan dinding ventrikel kiri menebal sebagai respons terhadap peningkatan beban kerja. Perubahan ini disebut remodeling fisiologis. Meta-analisis menunjukkan massa ventrikel kiri meningkat sekitar 24%, terutama mulai trimester kedua [8].
 
 ### 2.2.2 Perubahan Fungsi Jantung
 
-Fraksi ejeksi ventrikel kiri (LVEF) biasanya tetap normal selama kehamilan [1,8]. Parameter pengisian jantung atau fungsi diastolik dapat berubah ringan, sehingga hasil ekokardiografi perlu dinilai bersama kondisi klinis ibu [9,10].
+Fraksi ejeksi ventrikel kiri (LVEF) biasanya tetap normal selama kehamilan [1,9]. Parameter pengisian jantung atau fungsi diastolik dapat berubah ringan, sehingga hasil ekokardiografi perlu dinilai bersama kondisi klinis ibu [10,11].
 
 ### 2.2.3 Temuan Ekokardiografi pada Kehamilan Normal
 
-Ekokardiografi aman digunakan selama kehamilan. Pembesaran ringan ruang jantung dan regurgitasi katup derajat ringan, terutama trikuspid dan pulmonal, dapat merupakan temuan fisiologis. Penurunan fungsi pompa, pembesaran berlebihan, atau peningkatan tekanan arteri pulmonalis bukan bagian dari adaptasi normal [1,10].
+Ekokardiografi aman digunakan selama kehamilan. Pembesaran ringan ruang jantung dan regurgitasi katup derajat ringan, terutama trikuspid dan pulmonal, dapat merupakan temuan fisiologis. Penurunan fungsi pompa, pembesaran berlebihan, atau peningkatan tekanan arteri pulmonalis bukan bagian dari adaptasi normal [1,11].
 
 <p class="judul-tabel"><strong>Tabel 2.2.</strong> Perubahan Struktur dan Fungsi Jantung selama Kehamilan</p>
 
@@ -82,7 +84,7 @@ Ekokardiografi aman digunakan selama kehamilan. Pembesaran ringan ruang jantung 
 | Regurgitasi katup              | Derajat ringan dapat ditemukan |
 | Tekanan arteri pulmonalis      | Umumnya tetap normal           |
 
-<p class="catatan">Sumber: [1,7–10].</p>
+<p class="catatan">Sumber: [1,8–11].</p>
 
 > **Poin Klinis 2.2. Temuan Ekokardiografi pada Kehamilan Normal**
 >
@@ -92,15 +94,15 @@ Ekokardiografi aman digunakan selama kehamilan. Pembesaran ringan ruang jantung 
 
 ## 2.3 Perubahan Sistem Vaskular dan Hemostasis
 
-Pembuluh darah dan sistem pembekuan mengalami adaptasi untuk mendukung sirkulasi ibu dan janin serta mempersiapkan persalinan [2,11].
+Pembuluh darah dan sistem pembekuan mengalami adaptasi untuk mendukung sirkulasi ibu dan janin serta mempersiapkan persalinan [2,12].
 
 ### 2.3.1 Perubahan Sistem Vaskular
 
-Pembuluh darah melebar dan aliran darah ke uterus serta plasenta meningkat. Pembesaran uterus juga dapat menekan vena panggul dan tungkai, memperlambat aliran balik vena sehingga edema tungkai dan varises lebih sering ditemukan [3,12].
+Pembuluh darah melebar dan aliran darah ke uterus serta plasenta meningkat. Pembesaran uterus juga dapat menekan vena panggul dan tungkai, memperlambat aliran balik vena sehingga edema tungkai dan varises lebih sering ditemukan [3,13].
 
 ### 2.3.2 Perubahan Sistem Hemostasis
 
-Kehamilan menimbulkan keadaan hiperkoagulabilitas, antara lain melalui peningkatan fibrinogen dan penurunan aktivitas protein S. Adaptasi ini membantu mengurangi perdarahan saat persalinan, tetapi juga meningkatkan risiko tromboemboli vena [11–13]. D-dimer dapat meningkat secara fisiologis; interpretasinya perlu mengikuti algoritme diagnostik yang sesuai untuk kehamilan [12,13].
+Kehamilan menimbulkan keadaan hiperkoagulabilitas, antara lain melalui peningkatan fibrinogen dan penurunan aktivitas protein S. Adaptasi ini membantu mengurangi perdarahan saat persalinan, tetapi juga meningkatkan risiko tromboemboli vena [12–14]. D-dimer dapat meningkat secara fisiologis; interpretasinya perlu mengikuti algoritme diagnostik yang sesuai untuk kehamilan [13,14].
 
 > **Poin Klinis 2.3. Perubahan Sistem Hemostasis**
 >
@@ -115,7 +117,7 @@ Persalinan dan masa nifas menyebabkan perubahan hemodinamik cepat akibat kontrak
 
 ### 2.4.1 Perubahan Hemodinamik selama Persalinan
 
-Kontraksi uterus dan respons terhadap nyeri meningkatkan aliran balik vena, curah jantung, dan tekanan darah. Peningkatan curah jantung dapat mencapai sekitar 50% dibandingkan kondisi sebelum persalinan, terutama kala II. Besarnya perubahan dipengaruhi posisi, analgesia atau anestesia, cara persalinan, dan perdarahan [2,3,14].
+Kontraksi uterus dan respons terhadap nyeri meningkatkan aliran balik vena, curah jantung, dan tekanan darah. Peningkatan curah jantung dapat mencapai sekitar 50% dibandingkan kondisi sebelum persalinan, terutama kala II. Besarnya perubahan dipengaruhi posisi, analgesia atau anestesia, cara persalinan, dan perdarahan [2,3,15].
 
 ### 2.4.2 Perubahan Hemodinamik setelah Persalinan
 
@@ -146,13 +148,29 @@ Mudah lelah, sesak ringan saat beraktivitas, palpitasi sesaat, dan edema tungkai
 | Nyeri dada        | Dapat berasal dari muskuloskeletal     | Dicurigai penyebab kardiovaskular           |
 | Sinkop            | Presinkop terkait posisi dapat terjadi | Sinkop saat aktivitas atau dengan palpitasi |
 
-<p class="catatan">Sumber: [1–3,12].</p>
+<p class="catatan">Sumber: [1–3,13].</p>
+
+Beban hemodinamik tidak merata sepanjang kehamilan. Volume plasma dan curah jantung mencapai puncaknya sekitar usia kehamilan 32 minggu, sehingga lesi stenotik dan disfungsi ventrikel sering mulai bergejala pada usia kehamilan 28–34 minggu. Persalinan kembali meningkatkan tekanan darah dan curah jantung akibat kontraksi, nyeri, perdarahan, dan anestesi, sedangkan kardiomiopati peripartum dapat muncul sejak akhir kehamilan hingga beberapa bulan setelah persalinan [1,16,17]. Oleh karena itu, skrining satu kali pada awal kehamilan tidak cukup; penilaian perlu diulang menjelang puncak beban dan pada masa nifas. Pada ibu dengan penyakit katup yang telah diketahui, ekokardiografi dapat diulang pada usia kehamilan 28–32 minggu [18].
 
 ### 2.5.2 Pemeriksaan Fisik dan Penunjang
 
 Pemeriksaan mencakup tekanan darah, frekuensi jantung dan napas, saturasi oksigen, auskultasi jantung dan paru, serta tanda kongesti. Murmur sistolik ringan dapat bersifat fisiologis, sedangkan murmur diastolik, peningkatan tekanan vena jugularis, ronki paru, atau tanda gagal jantung merupakan indikasi ekokardiografi [1,2].
 
-EKG dapat digunakan untuk menilai palpitasi, nyeri dada, atau dugaan aritmia. Ekokardiografi diindikasikan bila dicurigai kelainan struktur atau fungsi jantung, termasuk penyakit katup dan hipertensi pulmonal [1,10].
+Hubungan antara perubahan fisiologis dan temuan pemeriksaan di samping tempat tidur dirangkum pada tabel berikut.
+
+<p class="judul-tabel"><strong>Tabel 2.4.</strong> Dari Perubahan Fisiologis ke Temuan Pemeriksaan</p>
+
+| Perubahan fisiologis                                 | Temuan yang dapat normal                                                | Mulai curigai bila                                                             |
+|------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Volume dan aliran meningkat (sirkulasi hiperdinamik) | Bising sistolik ejeksi lembut                                           | Bising ≥3/6, diastolik, atau holosistolik; S4                                  |
+| Frekuensi jantung meningkat 10–20 kali/menit         | Takikardia sinus ringan                                                 | Nadi istirahat ≥110 kali/menit menetap; ≥120 kali/menit merupakan tanda bahaya |
+| Diafragma terdorong, jantung berotasi ke kiri        | Aksis QRS bergeser ke kiri 15–20°; Q dan inversi T di III               | Deviasi aksis kanan                                                            |
+| Uterus menekan vena kava saat telentang              | Edema tungkai dependen; hipotensi atau pusing saat telentang            | Edema menyeluruh; distensi vena leher yang menetap                             |
+| Anulus katup melebar karena volume                   | Regurgitasi mitral, trikuspid, atau pulmonal ringan pada ekokardiografi | Regurgitasi aorta                                                              |
+
+<p class="catatan">Sumber: [1,11,16,19–21].</p>
+
+EKG dapat digunakan untuk menilai palpitasi, nyeri dada, atau dugaan aritmia. Ekokardiografi diindikasikan bila dicurigai kelainan struktur atau fungsi jantung, termasuk penyakit katup dan hipertensi pulmonal [1,11].
 
 > **Poin Klinis 2.5. Pemeriksaan Fisik dan Penunjang**
 >
@@ -166,13 +184,20 @@ EKG dapat digunakan untuk menilai palpitasi, nyeri dada, atau dugaan aritmia. Ek
 2. Sanghavi M, Rutherford JD. Cardiovascular physiology of pregnancy. Circulation. 2014;130(12):1003-8.
 3. Ouzounian JG, Elkayam U. Physiologic changes during normal pregnancy and delivery. Cardiol Clin. 2012;30(3):317-29.
 4. Mulder EG, de Haas S, Mohseni Z, Schartmann N, Abo Hasson F, Alsadah F, et al. Cardiac output and peripheral vascular resistance during normotensive and hypertensive pregnancy - a systematic review and meta-analysis. BJOG. 2022;129(5):696-707.
-5. de Haas S, Ghossein-Doha C, van Kuijk SM, van Drongelen J, Spaanderman ME. Physiological adaptation of maternal plasma volume during pregnancy: a systematic review and meta-analysis. Ultrasound Obstet Gynecol. 2017;49(2):177-87.
-6. Stampalija T, Lees C, Ghi T, Cornette J, Gyselaers W, Ferrazzi E, et al. ISUOG Consensus Statement on maternal hemodynamic assessment in hypertensive disorders of pregnancy and fetal growth restriction. Ultrasound Obstet Gynecol. 2025;66(5):681-96.
-7. De Haas S, Ghossein-Doha C, Geerts L, van Kuijk SMJ, van Drongelen J, Spaanderman MEA. Cardiac remodeling in normotensive pregnancy and in pregnancy complicated by hypertension: systematic review and meta-analysis. Ultrasound Obstet Gynecol. 2017;50(6):683-96.
-8. Estensen ME, Beitnes JO, Grindheim G, Aaberge L, Smiseth OA, Henriksen T, et al. Altered maternal left ventricular contractility and function during normal pregnancy. Ultrasound Obstet Gynecol. 2013;41(6):659-66.
-9. de Haas S, Spaanderman MEA, van Kuijk SMJ, van Drongelen J, Mohseni Z, Jorissen L, et al. Adaptation of left ventricular diastolic function to pregnancy: a systematic review and meta-analysis. J Hypertens. 2021;39(10):1934-41.
-10. Curtis SL, Belham M, Bennett S, James R, Harkness A, Gamlin W, et al. Transthoracic Echocardiographic Assessment of the Heart in Pregnancy-a position statement on behalf of the British Society of Echocardiography and the United Kingdom Maternal Cardiology Society. Echo Res Pract. 2023;10(1):7.
-11. Bremme KA. Haemostatic changes in pregnancy. Best Pract Res Clin Haematol. 2003;16(2):153-68.
-12. Frank AK, Samuelson Bannow B. Venous thromboembolism in pregnancy and postpartum: an illustrated review. Res Pract Thromb Haemost. 2024;8(4):102446.
-13. Hansen AT, Andreasen BH, Salvig JD, Hvas AM. Changes in fibrin D-dimer, fibrinogen, and protein S during pregnancy. Scand J Clin Lab Invest. 2011;71(2):173-6.
-14. Robson SC, Dunlop W, Hunter S, Boys R, Bryson M. Haemodynamic changes associated with caesarean section under epidural anaesthesia. Br J Obstet Gynaecol. 1989;96(6):642-7.
+5. Loerup L, Pullon RM, Birks J, Fleming S, Mackillop LH, Gerry S, et al. Trends of blood pressure and heart rate in normal pregnancies: a systematic review and meta-analysis. BMC Med. 2019;17(1):167.
+6. de Haas S, Ghossein-Doha C, van Kuijk SM, van Drongelen J, Spaanderman ME. Physiological adaptation of maternal plasma volume during pregnancy: a systematic review and meta-analysis. Ultrasound Obstet Gynecol. 2017;49(2):177-87.
+7. Stampalija T, Lees C, Ghi T, Cornette J, Gyselaers W, Ferrazzi E, et al. ISUOG Consensus Statement on maternal hemodynamic assessment in hypertensive disorders of pregnancy and fetal growth restriction. Ultrasound Obstet Gynecol. 2025;66(5):681-96.
+8. De Haas S, Ghossein-Doha C, Geerts L, van Kuijk SMJ, van Drongelen J, Spaanderman MEA. Cardiac remodeling in normotensive pregnancy and in pregnancy complicated by hypertension: systematic review and meta-analysis. Ultrasound Obstet Gynecol. 2017;50(6):683-96.
+9. Estensen ME, Beitnes JO, Grindheim G, Aaberge L, Smiseth OA, Henriksen T, et al. Altered maternal left ventricular contractility and function during normal pregnancy. Ultrasound Obstet Gynecol. 2013;41(6):659-66.
+10. de Haas S, Spaanderman MEA, van Kuijk SMJ, van Drongelen J, Mohseni Z, Jorissen L, et al. Adaptation of left ventricular diastolic function to pregnancy: a systematic review and meta-analysis. J Hypertens. 2021;39(10):1934-41.
+11. Curtis SL, Belham M, Bennett S, James R, Harkness A, Gamlin W, et al. Transthoracic Echocardiographic Assessment of the Heart in Pregnancy-a position statement on behalf of the British Society of Echocardiography and the United Kingdom Maternal Cardiology Society. Echo Res Pract. 2023;10(1):7.
+12. Bremme KA. Haemostatic changes in pregnancy. Best Pract Res Clin Haematol. 2003;16(2):153-68.
+13. Frank AK, Samuelson Bannow B. Venous thromboembolism in pregnancy and postpartum: an illustrated review. Res Pract Thromb Haemost. 2024;8(4):102446.
+14. Hansen AT, Andreasen BH, Salvig JD, Hvas AM. Changes in fibrin D-dimer, fibrinogen, and protein S during pregnancy. Scand J Clin Lab Invest. 2011;71(2):173-6.
+15. Robson SC, Dunlop W, Hunter S, Boys R, Bryson M. Haemodynamic changes associated with caesarean section under epidural anaesthesia. Br J Obstet Gynaecol. 1989;96(6):642-7.
+16. Regitz-Zagrosek V, Roos-Hesselink JW, Bauersachs J, Blomström-Lundqvist C, Cífková R, De Bonis M, et al. 2018 ESC Guidelines for the management of cardiovascular diseases during pregnancy. Eur Heart J. 2018;39(34):3165-241.
+17. Bauersachs J, König T, van der Meer P, Petrie MC, Hilfiker-Kleiner D, Mbakwem A, et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy: a position statement from the Heart Failure Association of the European Society of Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827-43.
+18. Bortnick AE, Levine LD. Valvular Heart Disease in Pregnancy. Clin Obstet Gynecol. 2020;63(4):910-22.
+19. Cutforth R, MacDonald CB. Heart sounds and murmurs in pregnancy. Am Heart J. 1966;71(6):741-7.
+20. Kinsella SM, Lohmann G. Supine hypotensive syndrome. Obstet Gynecol. 1994;83(5 Pt 1):774-88.
+21. American College of Obstetricians and Gynecologists' Presidential Task Force on Pregnancy and Heart Disease and Committee on Practice Bulletins—Obstetrics. ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133(5):e320-56.

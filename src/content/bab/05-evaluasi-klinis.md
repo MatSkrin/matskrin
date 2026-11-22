@@ -8,6 +8,7 @@ ringkasan: Anamnesis, pemeriksaan fisik, EKG, biomarker, ekokardiografi, dan pen
 <p class="ringkasan-judul">Inti bab ini</p>
 <ul>
 <li>Nilai onset, progresivitas, dan dampak keluhan terhadap aktivitas; gejala saat istirahat perlu evaluasi segera.</li>
+<li>Auskultasi dilakukan per area dan per komponen; bising diastolik, bising ≥3/6, dan S4 tidak boleh dianggap fisiologis.</li>
 <li>EKG kehamilan normal dapat menunjukkan takikardia sinus, aksis bergeser ke kiri, dan T inversi di III.</li>
 <li>Ekokardiografi transtorakal (TTE) adalah pencitraan lini pertama dan aman bagi janin.</li>
 <li>Pemeriksaan dengan radiasi tetap boleh dilakukan bila diperlukan untuk diagnosis dan tata laksana ibu.</li>
@@ -24,86 +25,248 @@ Anamnesis mencakup keluhan kardiovaskular, riwayat penyakit jantung, komplikasi 
 
 Pemeriksaan fisik meliputi tanda vital, saturasi oksigen, tekanan vena jugularis, auskultasi jantung dan paru, serta tanda kongesti. Murmur sistolik aliran dapat bersifat fisiologis; murmur diastolik, sianosis, ronki paru, atau peningkatan tekanan vena jugularis bukan temuan fisiologis dan merupakan indikasi ekokardiografi [1].
 
+Keluhan yang wajar pada kehamilan umumnya ringan, tidak progresif, dan membaik dengan istirahat, misalnya sesak ringan saat aktivitas, mudah lelah, edema tungkai dependen, berdebar sesaat tanpa pusing, atau pusing saat lama telentang yang membaik dengan posisi miring kiri. Kebutuhan evaluasi lanjut ditentukan oleh derajat, progresivitas, dan kombinasi keluhan dengan temuan fisik serta EKG, bukan oleh jenis keluhannya. Sesak saat istirahat atau tidak sebanding dengan usia kehamilan, ortopnea, paroxysmal nocturnal dyspnea, nyeri dada saat istirahat atau aktivitas ringan, berdebar disertai presinkop, sinkop terutama saat aktivitas, serta batuk atau mengi baru, termasuk pada masa nifas, memerlukan evaluasi lebih lanjut [3–6].
+
+Tanda vital diukur saat istirahat dalam posisi duduk atau miring kiri dan diulang bila abnormal. Nadi ≥110 kali/menit, tekanan darah sistolik ≥140 mmHg, laju napas ≥24 kali/menit, atau SpO₂ ≤96% merupakan temuan yang perlu diwaspadai dan dinilai bersama gejala serta faktor risiko, bukan sebagai pemicu tunggal [5,7,8].
+
 > **Poin Klinis 5.1. Anamnesis dan Pemeriksaan Fisik**
 >
 > - Nilai onset, progresivitas, dan dampak keluhan terhadap aktivitas.
 > - Sesak saat istirahat, ortopnea, sinkop saat aktivitas, atau nyeri dada memerlukan evaluasi segera.
 
+### 5.1.2 Auskultasi Jantung Terstruktur
+
+Auskultasi dilakukan di ruang yang tenang dengan stetoskop menempel langsung pada kulit, bukan di atas pakaian. Posisi dasar adalah semi-Fowler 30–45° atau miring kiri. Posisi telentang datar dalam waktu lama dihindari pada kehamilan lanjut karena kompresi vena kava oleh uterus dapat menimbulkan hipotensi [6]. Posisi dekubitus lateral kiri dengan bell yang ditempel ringan di apeks memperjelas rumble stenosis mitral, S3, dan S4, sedangkan posisi duduk condong ke depan dengan ekspirasi ditahan memperjelas bising regurgitasi aorta di tepi sternum kiri. Diafragma digunakan untuk bunyi bernada tinggi (S1, S2, klik, bising sistolik, dan bising regurgitasi aorta), sedangkan bell untuk bunyi bernada rendah (S3, S4, dan rumble stenosis mitral). Meraba nadi karotis sambil mendengarkan membantu memastikan fase sistol dan diastol [9,10].
+
+<p class="judul-tabel"><strong>Tabel 5.1.</strong> Area Auskultasi dan Temuan yang Dicari</p>
+
+| Area          | Lokasi                                                          | Temuan yang dicari                                                                  |
+|---------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Aorta         | Ruang interkostal 2 parasternal kanan                           | Stenosis aorta; nilai penjalaran ke karotis                                         |
+| Pulmonal      | Ruang interkostal 2 parasternal kiri                            | Bising aliran kehamilan, ASD, stenosis pulmonal; nilai komponen P2                  |
+| Erb           | Ruang interkostal 3 parasternal kiri                            | Regurgitasi aorta atau pulmonal (duduk condong ke depan, ekspirasi)                 |
+| Trikuspid     | Ruang interkostal 4–5 parasternal kiri                          | Regurgitasi trikuspid, VSD                                                          |
+| Mitral        | Apeks: ruang interkostal 5 linea midklavikula kiri              | Regurgitasi mitral (menjalar ke aksila); stenosis mitral (bell, posisi miring kiri) |
+| Area tambahan | Karotis, supraklavikula kanan, infraklavikula kiri, aksila kiri | Penjalaran stenosis aorta, venous hum, PDA, penjalaran regurgitasi mitral           |
+
+<p class="catatan">Sumber: [9,10]. Pada kehamilan lanjut, apeks ditentukan dengan meraba iktus kordis, tidak hanya berpatokan pada landmark anatomis.</p>
+
+Pemeriksaan dilakukan dengan prinsip satu komponen pada satu waktu: menentukan S1 dan S2, menilai intensitas dan split S1, menilai split S2 dan komponen P2, mencari bunyi tambahan (klik, S3, S4, opening snap), kemudian menilai bising sistolik, diastolik, dan kontinu. Pada setiap area, pemeriksaan dengan diafragma dilanjutkan dengan bell, dan beberapa siklus jantung didengarkan untuk setiap komponen. Diastol merupakan fase yang paling sering terlewat. Takikardia pada kehamilan memendekkan diastol sehingga rumble stenosis mitral mudah tidak terdengar; bising ini perlu dicari secara aktif dengan bell di apeks, posisi miring kiri, dan saat ekspirasi [9–11].
+
+Pada kehamilan normal, S1 terdengar lebih keras dengan split yang lebih jelas, dan S2 menunjukkan split fisiologis yang melebar saat inspirasi serta menyatu saat ekspirasi. S3 dapat terdengar pada ibu tanpa keluhan dengan tanda vital normal, tetapi S4 tidak lazim dijumpai [12]. Batas antara temuan normal dan temuan yang perlu dicurigai dirangkum pada tabel berikut.
+
+<p class="judul-tabel"><strong>Tabel 5.2.</strong> Bunyi Jantung pada Kehamilan Normal dan Temuan yang Perlu Dicurigai</p>
+
+| Bunyi                 | Pada kehamilan normal                                            | Curigai bila                                                                          |
+|-----------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| S1                    | Lebih keras; split lebih jelas                                   | S1 sangat keras disertai opening snap atau rumble (stenosis mitral)                   |
+| S2                    | Split fisiologis: melebar saat inspirasi, menyatu saat ekspirasi | Split lebar menetap (ASD), P2 keras (hipertensi pulmonal), atau S2 tunggal            |
+| S3                    | Dapat terdengar pada ibu tanpa keluhan dengan tanda vital normal | Disertai sesak, ortopnea, takikardia, atau ronki (curigai gagal jantung)              |
+| S4                    | Tidak lazim                                                      | Setiap S4 perlu dievaluasi                                                            |
+| Klik dan opening snap | Tidak ada                                                        | Klik ejeksi (katup aorta bikuspid, stenosis pulmonal); opening snap (stenosis mitral) |
+
+<p class="catatan">Sumber: [8,10,12,13].</p>
+
+Setiap bising dideskripsikan menurut fase, lokasi punctum maximum, penjalaran, intensitas, bentuk, nada dan kualitas, serta responsnya terhadap respirasi, posisi, dan manuver. Intensitas bising sistolik dinilai dengan skala Levine. Bising dengan intensitas ≥3/6 perlu dirujuk untuk ekokardiografi [9,14,15].
+
+<p class="judul-tabel"><strong>Tabel 5.3.</strong> Skala Levine untuk Intensitas Bising Sistolik</p>
+
+| Derajat | Deskripsi                                                             |
+|---------|-----------------------------------------------------------------------|
+| 1/6     | Sangat lemah; terdengar setelah pemeriksa berkonsentrasi              |
+| 2/6     | Lemah, tetapi langsung terdengar                                      |
+| 3/6     | Cukup keras, tanpa thrill                                             |
+| 4/6     | Keras, disertai thrill                                                |
+| 5/6     | Sangat keras; terdengar dengan stetoskop yang hanya sebagian menempel |
+| 6/6     | Terdengar dengan stetoskop terangkat dari dinding dada                |
+
+<p class="catatan">Sumber: [9,14].</p>
+
+Bentuk bising membantu memperkirakan penyebabnya. Bising ejeksi mid-sistolik berbentuk crescendo–decrescendo dapat berasal dari aliran kehamilan, tetapi juga dari ASD serta stenosis aorta atau pulmonal; bising ini hanya dapat dianggap fisiologis bila intensitasnya ≤2/6 dan ciri lainnya aman. Bising holosistolik (regurgitasi mitral atau trikuspid, VSD), bising diastolik awal (regurgitasi aorta atau pulmonal), dan rumble mid-diastolik dengan atau tanpa opening snap (stenosis mitral) selalu memerlukan rujukan. Bising kontinu yang melewati S2 mengarah pada PDA, kecuali pola jinak yang khas seperti venous hum dan mammary souffle [9,10,15].
+
+Venous hum adalah bising kontinu yang paling jelas di supraklavikula kanan saat posisi duduk dan menghilang dengan penekanan vena jugularis. Mammary souffle merupakan bising sistolik atau kontinu di atas payudara yang muncul pada trimester kedua dan ketiga serta masa laktasi. Bising ini ditemukan pada sekitar 13–18% perempuan, tidak dijumpai sebelum usia kehamilan 12 minggu, berasal dari arteri, dan berkurang bila stetoskop ditekan lebih kuat [10,16]. Pedoman ACC/AHA menyatakan bahwa bising mid-sistolik ≤2/6 yang dinilai jinak oleh pemeriksa berpengalaman tidak memerlukan ekokardiografi. Bila pemeriksa ragu, bising dianggap belum jinak [15].
+
+> **Poin Klinis 5.2. Ciri Bising Fungsional pada Kehamilan**
+>
+> - Mid-sistolik tipe ejeksi, bukan holosistolik atau sistolik akhir
+> - Intensitas ≤2/6 tanpa thrill
+> - Terdengar di basis jantung atau tepi sternum kiri atas
+> - Tidak menjalar ke karotis, aksila, atau punggung
+> - S2 normal dengan split fisiologis, tanpa klik atau opening snap
+> - Tidak ada bising diastolik
+> - Ibu tanpa keluhan bermakna dengan tanda vital dan SpO₂ normal
+> - EKG tanpa kelainan selain varian kehamilan
+
+> **Poin Klinis 5.3. Bising yang Tidak Boleh Dianggap Fisiologis**
+>
+> - Bising diastolik apa pun
+> - Bising kontinu, kecuali venous hum atau mammary souffle yang khas
+> - Bising holosistolik atau sistolik akhir
+> - Intensitas ≥3/6 atau disertai thrill
+> - Menjalar ke leher atau punggung
+> - Disertai klik ejeksi, opening snap, atau S2 abnormal (split menetap, P2 keras)
+> - Disertai gejala atau tanda gagal jantung, sinkop, atau SpO₂ rendah
+> - Disertai EKG abnormal atau riwayat penyakit jantung atau demam rematik
+
+Beberapa kelainan jantung yang perlu dikenali pada ibu hamil dirangkum pada tabel berikut. ASD sekundum memerlukan perhatian khusus karena bising ejeksinya di area pulmonal menyerupai bising aliran kehamilan dan pasien sering tidak mengeluh. Petunjuknya adalah split S2 lebar yang menetap serta deviasi aksis kanan dan pola RBBB inkomplet pada EKG [13].
+
+<p class="judul-tabel"><strong>Tabel 5.4.</strong> Pola Auskultasi Kelainan Jantung yang Perlu Dikenali</p>
+
+| Kondisi                                      | Temuan auskultasi                                                                         | Petunjuk tambahan                                                                      |
+|----------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| Stenosis mitral (rematik)                    | S1 keras, opening snap, rumble mid-diastolik di apeks (bell, posisi miring kiri)          | Fibrilasi atrium, P mitral; sesak atau ortopnea makin berat menjelang trimester ketiga |
+| ASD sekundum                                 | Bising ejeksi di area pulmonal yang mirip bising aliran, dengan split S2 lebar menetap    | Deviasi aksis kanan, rSR′ di V1 (RBBB inkomplet); sering tanpa keluhan                 |
+| Hipertensi pulmonal atau sindrom Eisenmenger | P2 keras, heave parasternal kiri, dengan atau tanpa bising regurgitasi trikuspid          | Deviasi aksis kanan, hipertrofi ventrikel kanan; SpO₂ rendah atau sianosis             |
+| Stenosis aorta (sering katup bikuspid)       | Bising ejeksi kasar di area aorta yang menjalar ke karotis, dengan atau tanpa klik ejeksi | Hipertrofi ventrikel kiri; sinkop atau nyeri dada saat aktivitas                       |
+| VSD                                          | Bising holosistolik kasar di tepi sternum kiri bawah, sering dengan thrill                | Riwayat bising sejak kecil                                                             |
+| PDA                                          | Bising kontinu tipe machinery di infraklavikula kiri                                      | Tekanan nadi lebar                                                                     |
+| Regurgitasi mitral                           | Bising holosistolik di apeks yang menjalar ke aksila                                      | Sesak pada derajat berat                                                               |
+| Kardiomiopati hipertrofik                    | Bising ejeksi di tepi sternum kiri yang mengeras saat Valsalva                            | Riwayat keluarga kardiomiopati atau kematian mendadak                                  |
+| Kardiomiopati peripartum                     | S3 gallop, takikardia, ronki, dengan atau tanpa bising regurgitasi mitral baru            | Akhir kehamilan hingga bulan-bulan pascapersalinan; EKG jarang normal; LVEF \<45%      |
+
+<p class="catatan">Sumber: [1,10,11,13,17,18].</p>
+
+Manuver sederhana di ruang periksa membantu membedakan sumber bising. Inspirasi dalam mengeraskan bising yang berasal dari jantung kanan dengan sensitivitas 100% dan spesifisitas 88%, sedangkan Valsalva mengeraskan bising kardiomiopati hipertrofik dengan spesifisitas 96%. Valsalva tidak wajib dilakukan di fasilitas kesehatan tingkat pertama dan dihentikan bila ibu merasa pusing [10,17].
+
+<p class="judul-tabel"><strong>Tabel 5.5.</strong> Manuver Sederhana untuk Menilai Bising</p>
+
+| Manuver                                         | Efek                                           | Kegunaan                                                                                                              |
+|-------------------------------------------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Inspirasi dalam                                 | Bising sisi kanan mengeras                     | Membedakan regurgitasi trikuspid atau stenosis pulmonal dari regurgitasi mitral atau stenosis aorta; menilai split S2 |
+| Miring kiri dengan bell di apeks                | Rumble stenosis mitral, S3, dan S4 lebih jelas | Mencari stenosis mitral agar tidak terlewat                                                                           |
+| Duduk condong ke depan dengan ekspirasi ditahan | Bising regurgitasi aorta lebih jelas           | Mencari regurgitasi aorta di area Erb                                                                                 |
+| Valsalva singkat (opsional)                     | Bising kardiomiopati hipertrofik mengeras      | Tidak wajib di FKTP; hentikan bila ibu pusing                                                                         |
+| Penekanan vena jugularis atau stetoskop         | Venous hum hilang; mammary souffle berkurang   | Memastikan bising kontinu yang jinak                                                                                  |
+
+<p class="catatan">Sumber: [9,10,17].</p>
+
 ## 5.2 Pemeriksaan Noninvasif
 
 ### 5.2.1 Elektrokardiografi
 
-EKG 12 sadapan adalah pemeriksaan awal yang aman untuk menilai irama, konduksi, dugaan iskemia, serta tanda kelainan struktural jantung. Pada kehamilan dapat ditemukan peningkatan frekuensi sinus, pergeseran ringan aksis QRS ke kiri, pemendekan interval PR, dan perubahan gelombang Q atau T pada sadapan tertentu. Temuan ini tidak boleh secara otomatis dianggap fisiologis tanpa mempertimbangkan gejala dan gambaran klinis [1,3].
+EKG 12 sadapan adalah pemeriksaan awal yang aman untuk menilai irama, konduksi, dugaan iskemia, serta tanda kelainan struktural jantung. Pada kehamilan dapat ditemukan peningkatan frekuensi sinus, pergeseran ringan aksis QRS ke kiri, pemendekan interval PR, dan perubahan gelombang Q atau T pada sadapan tertentu. Temuan ini tidak boleh secara otomatis dianggap fisiologis tanpa mempertimbangkan gejala dan gambaran klinis [1,19].
 
-<p class="judul-tabel"><strong>Tabel 5.1.</strong> Perubahan EKG yang dapat dijumpai pada kehamilan normal</p>
+Perubahan EKG pada kehamilan berasal dari tiga mekanisme. Uterus yang membesar mendorong diafragma sehingga jantung berotasi ke kiri; aksis QRS bergeser ke kiri sekitar 15–20°, gelombang Q dapat menonjol di II, III, dan aVF, serta gelombang T dapat datar atau inversi di III, aVF, dan V1–V3. Peningkatan tonus simpatis dan volume darah menaikkan frekuensi jantung 10–20 kali/menit dan memendekkan interval PR sekitar 20 ms. Regangan jantung dan perubahan hormonal meningkatkan frekuensi ekstrasistol atrial maupun ventrikel [1,4,20]. Perubahan ini ringan, sehingga EKG ibu hamil yang normal tetap harus memenuhi kriteria EKG normal. Perubahan kehamilan juga dapat menyerupai hipertrofi ventrikel kiri atau penyakit struktural, sehingga interpretasi selalu dikaitkan dengan kondisi klinis [1].
 
-| Parameter           | Temuan yang dapat dijumpai pada kehamilan                                    |
-|---------------------|------------------------------------------------------------------------------|
-| Frekuensi dan irama | Peningkatan frekuensi dengan irama sinus                                     |
-| Aksis QRS           | Pergeseran ringan ke kiri relatif terhadap kondisi sebelum kehamilan         |
-| Interval PR         | Dapat memendek ringan                                                        |
-| Gelombang Q         | Dapat lebih menonjol pada sadapan III                                        |
-| Gelombang T         | Pendataran atau inversi pada III, aVF, dan sadapan prekordial kanan tertentu |
+<p class="judul-tabel"><strong>Tabel 5.6.</strong> Varian Normal EKG pada Kehamilan dan Batasnya</p>
 
-Interpretasi EKG dilakukan secara sistematis: frekuensi, irama, aksis, gelombang P, interval PR, durasi QRS, segmen ST, gelombang T, dan QTc. Perhatikan perubahan ST-T yang baru atau luas, aritmia menetap, gangguan konduksi bermakna, dan QTc memanjang. Bandingkan dengan EKG sebelumnya apabila tersedia [1,3].
+| Parameter        | Pada kehamilan normal                                              | Batas                                                                               |
+|------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Frekuensi        | Takikardia sinus ringan; naik 10–20 kali/menit                     | Median 91 kali/menit (persentil 3–97: 68–115) pada usia kehamilan sekitar 34 minggu |
+| Interval PR      | Sedikit memendek (sekitar 20 ms)                                   | PR pendek dengan gelombang delta bukan varian                                       |
+| Aksis QRS        | Bergeser ke kiri 15–20°                                            | Tetap dalam rentang −30° hingga +90°                                                |
+| Gelombang Q      | Q menonjol di II, III, dan aVF                                     | Q lebar atau dalam di sadapan lain bukan varian                                     |
+| Gelombang T      | Datar atau inversi di III, aVF, dan V1–V3                          | Inversi T dalam di I, aVL, V5–V6 bukan varian                                       |
+| ST-T nonspesifik | Perubahan ringan pada hingga 14% kehamilan; hilang pascapersalinan | Elevasi atau depresi ST bermakna bukan varian                                       |
+| QTc              | Umumnya tidak berubah bermakna                                     | QTc ≥460 ms pada perempuan dianggap memanjang                                       |
+| Irama            | Sinus                                                              | Ekstrasistol atrial atau ventrikel terisolasi masih dapat diterima                  |
 
-<p class="judul-tabel"><strong>Tabel 5.2.</strong> Temuan EKG yang perlu evaluasi lanjut dan kemungkinan penyebabnya</p>
+<p class="catatan">Sumber: [1,4,8,21,22].</p>
 
-| Temuan EKG                                    | Kemungkinan kondisi yang perlu dipertimbangkan                    |
-|-----------------------------------------------|-------------------------------------------------------------------|
-| Takikardia sinus persisten                    | Anemia, infeksi, hipertiroidisme, emboli paru, atau gagal jantung |
-| Takikardia QRS sempit reguler                 | Takikardia supraventrikular                                       |
-| Irama ireguler tanpa P sinus jelas            | Fibrilasi atrium                                                  |
-| Perubahan ST-T yang mencurigakan              | Iskemia atau cedera miokard; evaluasi sesuai gejala               |
-| Inversi T prekordial kanan dan tanda beban RV | Hipertensi pulmonal atau emboli paru (tidak spesifik)             |
-| QTc memanjang                                 | Efek obat, gangguan elektrolit, atau sindrom long QT              |
+Kualitas perekaman menentukan ketepatan interpretasi. Elektroda prekordial ditempatkan pada posisi baku: V1–V2 di ruang interkostal keempat tepi sternum (dihitung dari sudut Louis sebagai ruang interkostal kedua), V4 di ruang interkostal kelima linea midklavikula, serta V5–V6 sejajar V4. Pada perempuan, elektroda V4–V6 diletakkan di bawah payudara. Rekaman menggunakan kalibrasi 10 mm/mV dan kecepatan 25 mm/s, serta diberi label identitas dan usia kehamilan [23]. Penempatan V1–V2 yang terlalu tinggi (ruang interkostal kedua atau ketiga) dapat menimbulkan pola rSr′ dengan inversi T yang menyerupai RBBB inkomplet atau ASD. Kabel lengan kanan dan kiri yang tertukar menghasilkan gelombang P dan QRS negatif di sadapan I yang tampak seperti deviasi aksis kanan, sementara sadapan prekordial tetap normal [24,25].
 
-Pada palpitasi atau sinkop yang belum terjelaskan melalui EKG standar, pemantauan EKG ambulatory dapat digunakan. Holter 24–48 jam sesuai untuk keluhan yang sering, sedangkan pemantauan lebih panjang dapat dipilih bila gejala jarang muncul [3].
+Interpretasi EKG dilakukan secara sistematis: frekuensi, irama, aksis, gelombang P, interval PR, durasi QRS, segmen ST, gelombang T, dan QTc. Perhatikan perubahan ST-T yang baru atau luas, aritmia menetap, gangguan konduksi bermakna, dan QTc memanjang. Bandingkan dengan EKG sebelumnya apabila tersedia [1,19].
 
+> **Poin Klinis 5.4. Tujuh Langkah Membaca EKG pada Kehamilan**
+>
+> - **Kualitas:** pastikan kalibrasi 25 mm/s dan 10 mm/mV serta tidak ada artefak gerak atau tremor
+> - **Frekuensi:** bila >100 kali/menit, cari penyebab seperti demam, anemia, nyeri, hipovolemia, gangguan tiroid, atau gagal jantung; ≥110 kali/menit menetap perlu dievaluasi dan ≥120 kali/menit merupakan tanda bahaya
+> - **Irama:** pastikan irama sinus dengan gelombang P di depan setiap QRS; fibrilasi atrium, flutter, atau SVT perlu dirujuk
+> - **Aksis:** −30° hingga +90°; pergeseran ke kiri masih dapat diterima, deviasi aksis kanan (>+90°) bukan varian
+> - **Interval:** nilai PR, QRS, dan QTc; gelombang delta, QRS ≥120 ms, atau QTc ≥460 ms bukan varian
+> - **Morfologi:** nilai P mitral atau pulmonal, voltase hipertrofi, dan gelombang Q patologis di luar II, III, dan aVF
+> - **ST-T:** inversi T di III, aVF, dan V1–V2 masih dapat diterima; elevasi atau depresi ST dan inversi T dalam di sadapan lateral tidak
 
-Pola S1Q3T3 tidak identik dengan strain ventrikel kanan dan tidak spesifik untuk emboli paru.
+<p class="judul-tabel"><strong>Tabel 5.7.</strong> Temuan EKG yang Bukan Varian Normal Kehamilan</p>
 
-<p class="catatan">Sumber: [1,3].</p>
+| Temuan EKG                                                                   | Kemungkinan kondisi yang perlu dipertimbangkan                   |
+|------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Deviasi aksis kanan atau R dominan di V1                                     | Beban ventrikel kanan: ASD, hipertensi pulmonal, stenosis mitral |
+| RBBB inkomplet atau komplet dengan deviasi aksis kanan                       | Curigai ASD sekundum                                             |
+| Fibrilasi atrium, flutter, SVT, VT                                           | Aritmia bermakna; nilai status hemodinamik                       |
+| PR pendek dengan gelombang delta                                             | Preeksitasi (sindrom Wolff–Parkinson–White)                      |
+| Blok AV derajat 2–3                                                          | Gangguan sistem konduksi                                         |
+| LBBB atau QRS ≥120 ms                                                        | Kardiomiopati, termasuk kardiomiopati peripartum                 |
+| Q patologis, elevasi atau depresi ST, inversi T dalam di sadapan lateral     | Iskemia atau infark (termasuk SCAD), kardiomiopati               |
+| QTc ≥460 ms                                                                  | Sindrom QT panjang, efek obat, gangguan elektrolit               |
+| Hipertrofi ventrikel kiri atau kanan dengan strain; P mitral atau P pulmonal | Beban tekanan atau volume; penyakit katup                        |
+
+<p class="catatan">Sumber: [1,8,13,18,22,26]. Bila ditemukan, pastikan perekaman sudah benar, konsultasikan dengan dokter spesialis jantung, lalu lakukan ekokardiografi sesuai triase.</p>
+
+Pada palpitasi atau sinkop yang belum terjelaskan melalui EKG standar, pemantauan EKG ambulatory dapat digunakan. Holter 24–48 jam sesuai untuk keluhan yang sering, sedangkan pemantauan lebih panjang dapat dipilih bila gejala jarang muncul [19].
+
+Palpitasi sering dikeluhkan selama kehamilan. Lebih dari separuh ibu hamil yang diperiksa karena palpitasi menunjukkan ektopik atau aritmia non-sustained, sedangkan takikardia sustained jarang terjadi, sekitar 2–3 per 1.000 kehamilan. Ekstrasistol terisolasi tanpa presinkop atau sinkop, tanpa penyakit jantung struktural, dengan auskultasi, SpO₂, dan EKG lain yang normal cukup ditangani dengan edukasi dan evaluasi ulang [20]. Ekstrasistol atrial atau ventrikel yang terisolasi termasuk kategori mWHO 2.0 kelas I dengan risiko terendah [1]. Fibrilasi atrium memerlukan rujukan, segera bila disertai sesak, hipotensi, atau nadi ≥120 kali/menit; pada ibu hamil, fibrilasi atrium perlu memunculkan kecurigaan stenosis mitral rematik [1,20].
+
+> **Poin Klinis 5.5. Palpitasi yang Perlu Dirujuk**
+>
+> - Palpitasi disertai presinkop atau sinkop
+> - Takikardia reguler cepat yang berulang atau berkepanjangan
+> - Ekstrasistol yang sangat sering, berpasangan, atau beruntun
+> - Terdapat penyakit jantung struktural atau riwayat keluarga kematian mendadak usia muda
+> - **EKG lain abnormal:** preeksitasi, QTc memanjang, atau blok
+
+<figure class="gambar">
+<figcaption><strong>Gambar 5.1.</strong> Perubahan EKG pada Kehamilan Dibandingkan sebelum Hamil</figcaption>
+<img src="img/bab5-1.png" alt="Perubahan EKG pada Kehamilan Dibandingkan sebelum Hamil" loading="lazy" />
+<p class="catatan">Perubahan yang dapat ditemukan meliputi peningkatan frekuensi jantung, pergeseran ringan aksis QRS ke kiri, pemendekan interval PR, serta perubahan gelombang Q dan T pada sadapan tertentu. Temuan tersebut perlu diinterpretasikan berdasarkan kondisi klinis pasien.</p>
+<p class="catatan">Sumber: Angeli dkk. [27]. Dipakai di bawah lisensi CC BY.</p>
+</figure>
 
 ### 5.2.2 Ekokardiografi
 
-Ekokardiografi transtorakal (TTE) merupakan pencitraan lini pertama untuk menilai struktur dan fungsi jantung selama kehamilan. TTE memungkinkan evaluasi ruang jantung, fungsi ventrikel, kelainan katup, penyakit jantung bawaan, serta probabilitas hipertensi pulmonal. Interpretasi perlu mempertimbangkan peningkatan volume darah dan curah jantung yang dapat mengubah ukuran ruang dan kecepatan aliran transvalvular [1,4].
+Ekokardiografi transtorakal (TTE) merupakan pencitraan lini pertama untuk menilai struktur dan fungsi jantung selama kehamilan. TTE memungkinkan evaluasi ruang jantung, fungsi ventrikel, kelainan katup, penyakit jantung bawaan, serta probabilitas hipertensi pulmonal. Interpretasi perlu mempertimbangkan peningkatan volume darah dan curah jantung yang dapat mengubah ukuran ruang dan kecepatan aliran transvalvular [1,3].
 
 <div class="rekomendasi">
 <table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
 <tbody><tr><td>TTE sebagai pencitraan lini pertama pada setiap ibu hamil dengan tanda atau gejala kardiovaskular baru atau yang belum terjelaskan.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
 </div>
 
+Perubahan geometri dan fungsi jantung akibat kehamilan paling besar pada awal trimester ketiga dan kembali normal pada awal masa nifas. Diameter pangkal aorta, LVEF, fungsi ventrikel kanan, dan tekanan sistolik arteri pulmonal tidak berubah, sedangkan ukuran atrium kiri, diameter diastolik ventrikel kiri, diameter ventrikel kanan, dan massa ventrikel kiri meningkat; efusi perikard kecil dapat dijumpai [1]. Laporan TTE ibu hamil dibaca dengan memperhatikan perubahan yang masih normal. Gradien transvalvular meningkat seiring bertambahnya aliran sehingga stenosis dapat tampak lebih berat, sedangkan regurgitasi aorta tidak termasuk temuan normal kehamilan [1,3].
+
+<p class="judul-tabel"><strong>Tabel 5.8.</strong> Temuan Ekokardiografi yang Masih Dapat Normal pada Kehamilan</p>
+
+| Komponen               | Temuan                                                                                                                         |
+|------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Ruang jantung          | Dilatasi ringan yang seimbang pada keempat ruang, masih dalam batas normal                                                     |
+| Dinding ventrikel kiri | Ketebalan meningkat 25–30% dan massa ventrikel kiri meningkat 5–10%                                                            |
+| Fungsi ventrikel kiri  | LVEF tidak berubah bermakna                                                                                                    |
+| Katup                  | Regurgitasi mitral ringan (sekitar 28%), regurgitasi trikuspid ringan (sekitar 94%), regurgitasi pulmonal ringan (sekitar 94%) |
+| Perikardium            | Efusi kecil asimtomatik pada sekitar 40%, terutama trimester ketiga                                                            |
+| Gradien katup          | Meningkat seiring aliran sehingga stenosis dapat tampak lebih berat                                                            |
+| Bukan temuan normal    | Regurgitasi aorta (anulus aorta tidak melebar)                                                                                 |
+
+<p class="catatan">Sumber: [1,3,28,29].</p>
+
 Ekokardiografi transesofageal (TEE) dapat dipertimbangkan bila TTE tidak memadai atau dibutuhkan penilaian anatomi lebih rinci, dengan mempertimbangkan sedasi dan risiko aspirasi [1].
 
 ### 5.2.3 Laboratorium dan Biomarker Jantung
 
-Pemeriksaan laboratorium yang sering diperlukan meliputi darah lengkap, elektrolit, fungsi ginjal, dan fungsi tiroid. BNP atau NT-proBNP dapat membantu evaluasi dugaan gagal jantung; kadar normal membuat gagal jantung kecil kemungkinannya, sedangkan kadar tinggi perlu ditafsirkan bersama gejala, ekokardiografi, dan faktor penyerta [5,6].
+Pemeriksaan laboratorium yang sering diperlukan meliputi darah lengkap, elektrolit, fungsi ginjal, dan fungsi tiroid. BNP atau NT-proBNP dapat membantu evaluasi dugaan gagal jantung; kadar normal membuat gagal jantung kecil kemungkinannya, sedangkan kadar tinggi perlu ditafsirkan bersama gejala, ekokardiografi, dan faktor penyerta [30,31].
 
-Troponin diperiksa bila dicurigai cedera miokard. Peningkatannya tidak selalu menunjukkan sindrom koroner akut, karena dapat pula dijumpai pada kondisi obstetri tertentu seperti preeklamsia [6,7].
+Troponin diperiksa bila dicurigai cedera miokard. Peningkatannya tidak selalu menunjukkan sindrom koroner akut, karena dapat pula dijumpai pada kondisi obstetri tertentu seperti preeklamsia [31,32].
 
 ## 5.3 Pemeriksaan Pencitraan Lanjutan dan Invasif
 
 ### 5.3.1 CMR
 
-Cardiovascular magnetic resonance (CMR) dapat membantu penilaian anatomi dan fungsi jantung apabila TTE belum memadai, terutama pada ventrikel kanan, penyakit jantung bawaan kompleks, dan kelainan aorta. CMR tanpa gadolinium dapat dipertimbangkan bila diperlukan secara klinis. Gadolinium umumnya dihindari selama kehamilan kecuali manfaat diagnostiknya dinilai lebih besar daripada potensi risiko [1,8,9].
+Cardiovascular magnetic resonance (CMR) dapat membantu penilaian anatomi dan fungsi jantung apabila TTE belum memadai, terutama pada ventrikel kanan, penyakit jantung bawaan kompleks, dan kelainan aorta. CMR tanpa gadolinium dapat dipertimbangkan bila diperlukan secara klinis. Gadolinium umumnya dihindari selama kehamilan kecuali manfaat diagnostiknya dinilai lebih besar daripada potensi risiko [1,33,34].
 
 ### 5.3.2 CT dan Pemeriksaan Berbasis Radiasi
 
-CT atau CT angiografi dapat digunakan pada dugaan emboli paru, sindrom aorta akut, atau kondisi vaskular serius apabila diperlukan untuk keputusan klinis. Paparan radiasi bergantung pada protokol dan area pemeriksaan; optimasi dosis dilakukan tanpa mengurangi nilai diagnostik. Pemeriksaan penting tidak perlu ditunda semata-mata karena kekhawatiran terhadap radiasi [1,2,8].
+CT atau CT angiografi dapat digunakan pada dugaan emboli paru, sindrom aorta akut, atau kondisi vaskular serius apabila diperlukan untuk keputusan klinis. Paparan radiasi bergantung pada protokol dan area pemeriksaan; optimasi dosis dilakukan tanpa mengurangi nilai diagnostik. Pemeriksaan penting tidak perlu ditunda semata-mata karena kekhawatiran terhadap radiasi [1,2,33].
 
 <div class="rekomendasi">
 <table><thead><tr><th>Rekomendasi ESC 2025</th><th>Kelas</th><th>Level</th></tr></thead>
 <tbody><tr><td>Paparan radiasi pengion medis dibatasi serendah yang dapat dicapai secara wajar (ALARA).</td><td class="kelas-i">I</td><td>C</td></tr><tr><td>Dosis radiasi pada janin dijaga serendah mungkin (sebaiknya \<50 mGy), terutama bila janin berada dalam lapang pemeriksaan.</td><td class="kelas-i">I</td><td>C</td></tr></tbody></table>
 </div>
 
-Kontras iodin dapat diberikan berdasarkan indikasi dan pertimbangan manfaat-risiko individual. Penggunaan gadolinium dan kontras iodin mengikuti pedoman keamanan kontras yang berlaku [10].
+Kontras iodin dapat diberikan berdasarkan indikasi dan pertimbangan manfaat-risiko individual. Penggunaan gadolinium dan kontras iodin mengikuti pedoman keamanan kontras yang berlaku [35].
 
 ### 5.3.3 Pemeriksaan Diagnostik Invasif
 
 Kateterisasi jantung dilakukan pada indikasi terpilih ketika informasi hemodinamik atau anatomi koroner diperlukan untuk menentukan tata laksana dan tidak dapat diperoleh secara memadai melalui pemeriksaan noninvasif. Pertimbangkan kondisi hemodinamik, usia kehamilan, sedasi, dan paparan fluoroskopi; koordinasi multidisiplin diperlukan [1,2].
 
-<p class="judul-tabel"><strong>Tabel 5.3.</strong> Modalitas pencitraan lanjutan dan pertimbangannya pada kehamilan</p>
+<p class="judul-tabel"><strong>Tabel 5.9.</strong> Modalitas Pencitraan Lanjutan dan Invasif pada Kehamilan</p>
 
 | Modalitas             | Kegunaan                         | Pertimbangan                             |
 |-----------------------|----------------------------------|------------------------------------------|
@@ -116,7 +279,7 @@ Kateterisasi jantung dilakukan pada indikasi terpilih ketika informasi hemodinam
 
 Pemilihan pemeriksaan didasarkan pada gejala, temuan fisik, kemungkinan diagnosis, dan tingkat kegawatan. EKG dan TTE menjadi pemeriksaan awal pada banyak pasien dengan dugaan kelainan kardiovaskular, sedangkan biomarker, pemantauan irama, dan pencitraan lanjutan ditambahkan bila hasil awal belum menjawab pertanyaan klinis. Pada nyeri dada, sesak berat, sinkop yang dicurigai berasal dari jantung, atau ketidakstabilan hemodinamik, evaluasi harus cepat dan terarah [1,2].
 
-> **Poin Klinis 5.2. Pendekatan Diagnostik Terintegrasi**
+> **Poin Klinis 5.6. Pendekatan Diagnostik Terintegrasi**
 >
 > - TTE merupakan pencitraan lini pertama untuk evaluasi struktur dan fungsi jantung.
 > - Biomarker diinterpretasikan bersama kondisi klinis, bukan sebagai pemeriksaan tunggal.
@@ -127,11 +290,36 @@ Pemilihan pemeriksaan didasarkan pada gejala, temuan fisik, kemungkinan diagnosi
 
 1. De Backer J, Haugaa KH, Hasselberg NE, de Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462-568.
 2. Brener A, Briller J. Cardiovascular Testing and Imaging in Pregnant Women. Cardiol Clin. 2021;39(1):21-32.
-3. Joglar JA, Kapa S, Saarel EV, Dubin AM, Gorenek B, Hameed AB, et al. 2023 HRS expert consensus statement on the management of arrhythmias during pregnancy. Heart Rhythm. 2023;20(10):e175-e264.
-4. Curtis SL, Belham M, Bennett S, James R, Harkness A, Gamlin W, et al. Transthoracic Echocardiographic Assessment of the Heart in Pregnancy-a position statement on behalf of the British Society of Echocardiography and the United Kingdom Maternal Cardiology Society. Echo Res Pract. 2023;10(1):7.
-5. Sheikh M, Ostadrahimi P, Salarzaei M, Parooie F. Cardiac Complications in Pregnancy: A Systematic Review and Meta-Analysis of Diagnostic Accuracy of BNP and N-Terminal Pro-BNP. Cardiol Ther. 2021;10(2):501-14.
-6. Sarma AA, Aggarwal NR, Briller JE, Davis M, Economy KE, Hameed AB, et al. The Utilization and Interpretation of Cardiac Biomarkers During Pregnancy: JACC: Advances Expert Panel. JACC Adv. 2022;1(3):100064.
-7. Dockree S, Brook J, Shine B, James T, Green L, Vatish M. Cardiac-specific troponins in uncomplicated pregnancy and pre-eclampsia: A systematic review. PLoS One. 2021;16(2):e0247946.
-8. Committee on Obstetric Practice. Committee Opinion No. 723: Guidelines for Diagnostic Imaging During Pregnancy and Lactation. Obstet Gynecol. 2017;130(4):e210-e6.
-9. Ray JG, Vermeulen MJ, Bharatha A, Montanera WJ, Park AL. Association Between MRI Exposure During Pregnancy and Fetal and Childhood Outcomes. JAMA. 2016;316(9):952-61.
-10. ACR Committee on Drugs and Contrast Media. ACR manual on contrast media [Internet]. Reston (VA): American College of Radiology [cited 2026 Nov 22]. Available from: https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Contrast-Manual
+3. Curtis SL, Belham M, Bennett S, James R, Harkness A, Gamlin W, et al. Transthoracic Echocardiographic Assessment of the Heart in Pregnancy-a position statement on behalf of the British Society of Echocardiography and the United Kingdom Maternal Cardiology Society. Echo Res Pract. 2023;10(1):7.
+4. Regitz-Zagrosek V, Roos-Hesselink JW, Bauersachs J, Blomström-Lundqvist C, Cífková R, De Bonis M, et al. 2018 ESC Guidelines for the management of cardiovascular diseases during pregnancy. Eur Heart J. 2018;39(34):3165-241.
+5. Hameed AB, Haddock A, Wolfe DS, Florio K, Drummond N, Allen C, et al. Alliance for Innovation on Maternal Health: Consensus Bundle on Cardiac Conditions in Obstetric Care. Obstet Gynecol. 2023;141(2):253-63.
+6. Kinsella SM, Lohmann G. Supine hypotensive syndrome. Obstet Gynecol. 1994;83(5 Pt 1):774-88.
+7. Hameed AB, Morton CH, Moore A. Improving health care response to cardiovascular disease in pregnancy and postpartum. Stanford (CA): California Maternal Quality Care Collaborative; 2017.
+8. American College of Obstetricians and Gynecologists' Presidential Task Force on Pregnancy and Heart Disease and Committee on Practice Bulletins—Obstetrics. ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133(5):e320-56.
+9. Bickley LS, Szilagyi PG, Hoffman RM, Soriano RP. Bates' guide to physical examination and history taking. 13th ed. Philadelphia: Wolters Kluwer; 2021.
+10. Chizner MA. Cardiac auscultation: rediscovering the lost art. Curr Probl Cardiol. 2008;33(7):326-408.
+11. Chandrashekhar Y, Westaby S, Narula J. Mitral stenosis. Lancet. 2009;374(9697):1271-83.
+12. Cutforth R, MacDonald CB. Heart sounds and murmurs in pregnancy. Am Heart J. 1966;71(6):741-7.
+13. Webb G, Gatzoulis MA. Atrial septal defects in the adult: recent progress and overview. Circulation. 2006;114(15):1645-53.
+14. Freeman AR, Levine SA. The clinical significance of the systolic murmur. Ann Intern Med. 1933;6(11):1371-85.
+15. Bonow RO, Carabello BA, Chatterjee K, de Leon AC Jr, Faxon DP, Freed MD, et al. ACC/AHA 2006 guidelines for the management of patients with valvular heart disease: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines. J Am Coll Cardiol. 2006;48(3):e1-148.
+16. Tabatznik B, Randall TW, Hersch C. The mammary souffle of pregnancy and lactation. Circulation. 1960;22:1069-73.
+17. Lembo NJ, Dell'Italia LJ, Crawford MH, O'Rourke RA. Bedside diagnosis of systolic murmurs. N Engl J Med. 1988;318(24):1572-8.
+18. Bauersachs J, König T, van der Meer P, Petrie MC, Hilfiker-Kleiner D, Mbakwem A, et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy: a position statement from the Heart Failure Association of the European Society of Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827-43.
+19. Joglar JA, Kapa S, Saarel EV, Dubin AM, Gorenek B, Hameed AB, et al. 2023 HRS expert consensus statement on the management of arrhythmias during pregnancy. Heart Rhythm. 2023;20(10):e175-e264.
+20. Adamson DL, Nelson-Piercy C. Managing palpitations and arrhythmias during pregnancy. Heart. 2007;93(12):1630-6.
+21. Green LJ, Mackillop LH, Salvi D, Pullon R, Loerup L, Tarassenko L, et al. Gestation-Specific Vital Sign Reference Ranges in Pregnancy. Obstet Gynecol. 2020;135(3):653-64.
+22. Rautaharju PM, Surawicz B, Gettes LS, Bailey JJ, Childers R, Deal BJ, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval. Circulation. 2009;119(10):e241-50.
+23. Kligfield P, Gettes LS, Bailey JJ, Childers R, Deal BJ, Hancock EW, et al. Recommendations for the standardization and interpretation of the electrocardiogram: part I: the electrocardiogram and its technology. Circulation. 2007;115(10):1306-24.
+24. Walsh B. Misplacing V1 and V2 can have clinical consequences. Am J Emerg Med. 2018;36(5):865-70.
+25. Batchvarov VN, Malik M, Camm AJ. Incorrect electrode cable connection during electrocardiographic recording. Europace. 2007;9(11):1081-90.
+26. Surawicz B, Childers R, Deal BJ, Gettes LS, Bailey JJ, Gorgels A, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part III: intraventricular conduction disturbances. Circulation. 2009;119(10):e235-40.
+27. Angeli F, Angeli E, Verdecchia P. Novel Electrocardiographic Patterns for the Prediction of Hypertensive Disorders of Pregnancy--From Pathophysiology to Practical Implications. Int J Mol Sci. 2015;16(8):18454-73.
+28. Campos O, Andrade JL, Bocanegra J, Ambrose JA, Carvalho AC, Harada K, et al. Physiologic multivalvular regurgitation during pregnancy: a longitudinal Doppler echocardiographic study. Int J Cardiol. 1993;40(3):265-72.
+29. Savu O, Jurcuţ R, Giuşcă S, van Mieghem T, Gussi I, Popescu BA, et al. Morphological and functional adaptation of the maternal heart during pregnancy. Circ Cardiovasc Imaging. 2012;5(3):289-97.
+30. Sheikh M, Ostadrahimi P, Salarzaei M, Parooie F. Cardiac Complications in Pregnancy: A Systematic Review and Meta-Analysis of Diagnostic Accuracy of BNP and N-Terminal Pro-BNP. Cardiol Ther. 2021;10(2):501-14.
+31. Sarma AA, Aggarwal NR, Briller JE, Davis M, Economy KE, Hameed AB, et al. The Utilization and Interpretation of Cardiac Biomarkers During Pregnancy: JACC: Advances Expert Panel. JACC Adv. 2022;1(3):100064.
+32. Dockree S, Brook J, Shine B, James T, Green L, Vatish M. Cardiac-specific troponins in uncomplicated pregnancy and pre-eclampsia: A systematic review. PLoS One. 2021;16(2):e0247946.
+33. Committee on Obstetric Practice. Committee Opinion No. 723: Guidelines for Diagnostic Imaging During Pregnancy and Lactation. Obstet Gynecol. 2017;130(4):e210-e6.
+34. Ray JG, Vermeulen MJ, Bharatha A, Montanera WJ, Park AL. Association Between MRI Exposure During Pregnancy and Fetal and Childhood Outcomes. JAMA. 2016;316(9):952-61.
+35. ACR Committee on Drugs and Contrast Media. ACR manual on contrast media [Internet]. Reston (VA): American College of Radiology [cited 2026 Nov 22]. Available from: https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Contrast-Manual

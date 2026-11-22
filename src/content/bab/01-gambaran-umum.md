@@ -79,6 +79,8 @@ Tinjauan sistematis Syairaji dkk. (2024) atas 63 penelitian menunjukkan rasio ke
 
 Data penyakit jantung pada kehamilan di Indonesia sebagian besar berasal dari rumah sakit rujukan, sehingga cenderung menggambarkan kasus yang lebih berat [7]. Salah satu kelompok yang menonjol adalah penyakit jantung bawaan dengan hipertensi pulmonal, yang masih berkaitan dengan komplikasi ibu dan janin yang bermakna. Ini menegaskan pentingnya deteksi sebelum hamil, konseling risiko, dan perencanaan oleh tim multidisiplin [7].
 
+Registri COHARD-PH di RSUP Dr. Sardjito, Yogyakarta, mencatat **1.012 pasien** penyakit jantung bawaan dewasa dan hipertensi pulmonal terkait penyakit jantung bawaan pada 2012–2019 [8]. Sebagian besar adalah perempuan dewasa muda, **73,4%** merupakan defek septum atrium sekundum, dan **77,1%** sudah menunjukkan tanda hipertensi pulmonal pada ekokardiografi. Artinya, banyak penyakit jantung bawaan baru dikenali saat dewasa, dan pelayanan antenatal menjadi kesempatan penting untuk menemukannya.
+
 Registri, pencatatan yang terstandar, dan penelitian multisenter masih diperlukan agar gambaran nasional lebih representatif [4,7].
 
 ## 1.3 Spektrum Penyakit
@@ -139,3 +141,4 @@ Penerapannya perlu disesuaikan dengan kapasitas setempat. Kolaborasi dokter umum
 5. Van Hagen IM, Boersma E, Johnson MR, Thorne SA, Parsonage WA, Escribano Subías P, et al. Global Cardiac Risk Assessment in the Registry of Pregnancy and Cardiac Disease: Results of a Registry from the European Society of Cardiology. European Journal of Heart Failure 2016;18:523–33. <https://doi.org/10.1002/ejhf.501>
 6. Cresswell JA, Alexander M, Chong MYC, Link HM, Pejchinovska M, Gazeley U, et al. Global and regional causes of maternal deaths 2009–20: a WHO systematic analysis. The Lancet Global Health 2025;13:e626–34. <https://doi.org/10.1016/S2214-109X(24)00560-6>
 7. Anggrahini DW, Nurdiati DS, Hartopo AB, Hudoyo AW, Sattwika PD, Cipta CE, et al. Pregnancy Outcomes in Adult Congenital Heart Disease Patients with Pulmonary Hypertension in Indonesia. J Asian Pac Soc Cardiol 2025;4:e35. <https://doi.org/10.15420/japsc.2025.18>
+8. Dinarti LK, Hartopo AB, Kusuma AD, Satwiko MG, Hadwiono MR, Pradana AD, et al. The COngenital HeARt Disease in adult and Pulmonary Hypertension (COHARD-PH) registry: a descriptive study from single-center hospital registry of adult congenital heart disease and pulmonary hypertension in Indonesia. BMC Cardiovasc Disord. 2020;20(1):163.
