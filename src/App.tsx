@@ -1,4 +1,6 @@
-import { HashRouter, NavLink, Route, Routes } from 'react-router-dom'
+import { useEffect } from 'react'
+import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router-dom'
+import { DAFTAR_BAB } from './lib/content'
 import Beranda from './pages/Beranda'
 import DaftarModul from './pages/DaftarModul'
 import HalamanBab from './pages/HalamanBab'
@@ -15,9 +17,26 @@ const MENU = [
   { to: '/tentang', label: 'Tentang', ikon: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 11v5M12 8h.01' },
 ]
 
+const JUDUL: Record<string, string> = { '/': '', '/modul': 'Modul', '/checklist': 'Checklist Puskesmas', '/risiko': 'Skor Risiko', '/tentang': 'Tentang' }
+
+/** Judul tab per halaman (WCAG 2.4.2) dan pindah ke atas saat ganti halaman. */
+function JudulHalaman() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    const bab = DAFTAR_BAB.find((b) => pathname === `/modul/${b.slug}`)
+    const judul = bab ? `Bab ${bab.nomor}: ${bab.judul}` : JUDUL[pathname]
+    document.title = judul ? `${judul} · MatSkrin` : 'MatSkrin · Penyakit Jantung pada Kehamilan'
+  }, [pathname])
+  return null
+}
+
 export default function App() {
   return (
     <HashRouter>
+      <JudulHalaman />
+      <a href="#konten" className="lewati" onClick={(e) => { e.preventDefault(); const m = document.getElementById('konten'); m?.focus(); m?.scrollIntoView() }}>
+        Lewati ke konten
+      </a>
       <header className="topbar">
         <div className="wrap topbar-inner">
           <NavLink to="/" className="brand" aria-label="MatSkrin, ke beranda">
@@ -38,7 +57,7 @@ export default function App() {
           </nav>
         </div>
       </header>
-      <main className="wrap">
+      <main className="wrap" id="konten" tabIndex={-1}>
         <Routes>
           <Route path="/" element={<Beranda />} />
           <Route path="/modul" element={<DaftarModul />} />

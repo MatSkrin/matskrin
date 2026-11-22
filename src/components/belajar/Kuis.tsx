@@ -19,7 +19,7 @@ export function Kuis({ soal }: { soal: Soal[] }) {
           const sudah = pilih !== undefined
           return (
             <li key={s.id} className="rounded-card border border-line bg-bg p-4 sm:p-5">
-              <p className="m-0 text-xs font-bold tracking-wider text-accent uppercase">Kasus {n + 1}</p>
+              <p className="m-0 text-xs font-bold text-accent">Kasus {n + 1}</p>
               <p className="mt-1 mb-2">{s.kasus}</p>
               <p className="m-0 mb-3 font-semibold">{s.tanya}</p>
               <div className="grid gap-2" role="group" aria-label={`Pilihan jawaban kasus ${n + 1}`}>

@@ -1,10 +1,11 @@
-import { ArrowRight, Check, ChevronDown, Search } from 'lucide-react'
+import { Check, ChevronDown, Search } from 'lucide-react'
+import LanjutkanBelajar from '@/components/LanjutkanBelajar'
 import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { Progress } from '@/components/ui/progress'
 import { DAFTAR_BAB } from '@/lib/content'
 import { baca } from '@/lib/progres'
-import { cn } from '@/lib/utils'
+import { cn, perilakuGulir } from '@/lib/utils'
 
 const norm = (s: string) => s.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '')
 
@@ -16,7 +17,7 @@ export default function DaftarModul() {
 
   const buka_kartu = (slug: string, id: string) => {
     nav(`/modul/${slug}`)
-    setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }), 120)
+    setTimeout(() => document.getElementById(id)?.scrollIntoView({ behavior: perilakuGulir() }), 120)
   }
 
   const data = DAFTAR_BAB.map((b) => {
@@ -26,9 +27,6 @@ export default function DaftarModul() {
   const totalKartu = data.reduce((n, b) => n + b.kartu.length, 0)
   const totalSelesai = data.reduce((n, b) => n + b.jumlahSelesai, 0)
 
-  // Bab pertama yang sudah dimulai tapi belum tuntas → kartu berikutnya yang belum selesai.
-  const lanjut = data.find((b) => b.jumlahSelesai > 0 && b.jumlahSelesai < b.kartu.length)
-  const kartuLanjut = lanjut?.kartu.find((k) => !lanjut.selesai.has(k.id))
 
   const q = norm(cari.trim())
   const tampil = q
@@ -45,10 +43,10 @@ export default function DaftarModul() {
     <div className="daftar-modul">
       <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
         <div>
-          <h1 className="mb-1">Daftar Isi Modul</h1>
+          <h1 className="mb-1">Modul</h1>
           <p className="m-0 text-muted">
-            {DAFTAR_BAB.length} bab · {totalKartu} kartu pelajaran
-            {totalSelesai > 0 && ` · ${totalSelesai} selesai`}
+            {DAFTAR_BAB.length} bab, {totalKartu} kartu pelajaran
+            {totalSelesai > 0 && `, ${totalSelesai} sudah selesai`}
           </p>
         </div>
         <label className="relative w-full sm:w-72">
@@ -64,22 +62,7 @@ export default function DaftarModul() {
         </label>
       </div>
 
-      {lanjut && kartuLanjut && !q && (
-        <button
-          type="button"
-          onClick={() => buka_kartu(lanjut.slug, kartuLanjut.id)}
-          className="mt-5 flex w-full cursor-pointer items-center gap-4 rounded-card border border-poin/40 bg-poin-bg px-4 py-3 text-left font-[inherit] text-ink"
-        >
-          <span className="min-w-0 flex-1">
-            <span className="block text-xs font-bold tracking-wider text-poin uppercase">Lanjutkan belajar</span>
-            <span className="block truncate font-semibold">
-              Bab {lanjut.nomor} · {kartuLanjut.nomor ? `${kartuLanjut.nomor} ` : ''}
-              {kartuLanjut.teks}
-            </span>
-          </span>
-          <ArrowRight className="size-5 shrink-0 text-poin" aria-hidden />
-        </button>
-      )}
+      {!q && <LanjutkanBelajar className="mt-5" />}
 
       <ol className="mt-5 grid list-none items-start gap-3 p-0 sm:grid-cols-2 lg:grid-cols-3">
         {tampil.map((b) => {
@@ -96,7 +79,7 @@ export default function DaftarModul() {
             >
               <Link to={`/modul/${b.slug}`} className="flex flex-1 flex-col gap-1 px-4 pt-3.5 pb-3 sm:pt-4 text-ink no-underline">
                 <span className="flex items-center justify-between gap-2">
-                  <span className="text-xs font-bold tracking-wider text-accent uppercase">Bab {b.nomor}</span>
+                  <span className="text-xs font-bold text-accent">Bab {b.nomor}</span>
                   {tuntas && (
                     <span className="inline-flex items-center gap-1 text-xs font-semibold text-poin">
                       <Check className="size-3.5" aria-hidden /> Selesai

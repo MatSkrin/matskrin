@@ -8,12 +8,12 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: 'border-transparent bg-accent text-white hover:opacity-90',
+        default: 'border-transparent bg-accent text-[var(--on-accent)] hover:opacity-90',
         outline: 'border-line bg-surface text-ink hover:border-accent hover:text-accent',
         ghost: 'border-transparent bg-transparent text-muted hover:bg-accent-soft hover:text-ink',
         success: 'border-transparent bg-ok text-white hover:opacity-90',
       },
-      size: { default: 'h-9 px-4', sm: 'h-8 px-3 text-xs', icon: 'size-9' },
+      size: { default: 'h-10 px-4 sm:h-9', sm: 'h-10 px-3 text-xs sm:h-8', icon: 'size-10 sm:size-9' },
     },
     defaultVariants: { variant: 'default', size: 'default' },
   },

@@ -1,3 +1,4 @@
+import { perilakuGulir } from '@/lib/utils'
 import { useMemo, useState } from 'react'
 import {
   CARPREG2,
@@ -57,7 +58,7 @@ function RingkasHasil({ judul, isi }: { judul: string; isi: string }) {
     <button
       type="button"
       className="result-mini"
-      onClick={() => document.getElementById('hasil-risiko')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+      onClick={() => document.getElementById('hasil-risiko')?.scrollIntoView({ behavior: perilakuGulir(), block: 'start' })}
     >
       <strong>{judul}</strong>
       <span>{isi}</span>
@@ -186,7 +187,7 @@ export default function PenilaianRisiko() {
   const [tab, setTab] = useState<Tab>('mwho')
   return (
     <>
-      <h1>Penilaian Risiko</h1>
+      <h1>Skor Risiko</h1>
       <p className="muted">
         Klasifikasi mWHO 2.0 dan prediktor CARPREG II mengikuti Tabel 6 pedoman ESC 2025. Hasil kalkulator membantu
         stratifikasi risiko dan tidak menggantikan penilaian klinis.

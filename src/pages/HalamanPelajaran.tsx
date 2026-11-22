@@ -1,6 +1,6 @@
 import { MDXProvider } from '@mdx-js/react'
 import { BookOpenText, Check, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ComponentProps } from 'react'
 import { Link } from 'react-router-dom'
 import * as B from '@/components/belajar'
 import { Pelajaran as KonteksPelajaran } from '@/components/belajar/konteks'
@@ -11,12 +11,16 @@ import { Progress } from '@/components/ui/progress'
 import type { Pelajaran } from '@/content/pelajaran'
 import type { Bab } from '@/lib/content'
 import { usePreferensi, useProgres } from '@/lib/progres'
-import { cn } from '@/lib/utils'
+import { cn, perilakuGulir } from '@/lib/utils'
 
-const komponenMDX = { ...B }
+const komponenMDX = {
+  ...B,
+  // Tabel bisa digulir horizontal di layar sempit; tabIndex agar bisa digulir dengan keyboard (WCAG 2.1.1).
+  table: (p: ComponentProps<'table'>) => <table tabIndex={0} {...p} />,
+}
 
 function gulirKe(id: string) {
-  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  document.getElementById(id)?.scrollIntoView({ behavior: perilakuGulir(), block: 'start' })
 }
 
 function DaftarKartu({
