@@ -157,3 +157,8 @@
   .ke-checklist { flex-wrap: wrap; }
   .ke-checklist-tombol { width: 100%; justify-content: center; }
 }
+
+/* Bagian di daftar modul */
+.bagian-modul { margin-top: 1.75rem; }
+.bagian-judul { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; margin: 0; padding-bottom: 8px; border-bottom: 1px solid var(--line); font-size: 1.1rem; }
+.bagian-nomor { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); }
