@@ -3,6 +3,7 @@ import type { ReactNode } from 'react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { usePelajaran } from './konteks'
+import { TeksJudul } from './TeksJudul'
 
 /** Satu kartu pelajaran = satu subbab. Tombol "Tandai selesai" menyimpan progres di localStorage. */
 export function LessonCard({
@@ -24,7 +25,7 @@ export function LessonCard({
   return (
     <section
       id={id}
-      data-kartu={judul}
+      data-kartu={judul.replace(/\*/g, '')}
       className={cn(
         'my-6 scroll-mt-20 rounded-card border bg-surface p-4 shadow-[0_1px_2px_rgb(0_0_0/0.04)] transition-colors sm:p-7',
         selesai ? 'border-poin/50' : 'border-line',
@@ -42,7 +43,7 @@ export function LessonCard({
             {selesai ? <Check className="size-4" aria-label="Selesai" /> : nomor}
           </span>
         )}
-        <h2 className="kartu-judul flex-1 text-[1.2rem] sm:text-[1.35rem]">{judul}</h2>
+        <h2 className="kartu-judul flex-1 text-[1.2rem] sm:text-[1.35rem]"><TeksJudul>{judul}</TeksJudul></h2>
       </header>
       <div className="kartu-isi mt-3">{children}</div>
       {!ringkas && (

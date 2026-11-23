@@ -4,6 +4,19 @@ import { TeksSitasi } from './Cite'
 
 export type BarisMWHO = { kelas: string; contoh: string; implikasi: string }
 
+/** Daftar kondisi dipisah titik koma di data; tampilkan sebagai butir agar mudah dipindai. */
+function Butir({ teks, className }: { teks: string; className?: string }) {
+  const butir = teks.replace(/\.$/, '').split(/;\s*/)
+  if (butir.length < 2) return <p className={className}>{teks}</p>
+  return (
+    <ul className={cn(className, 'list-disc pl-5')}>
+      {butir.map((x) => (
+        <li key={x}>{x.charAt(0).toUpperCase() + x.slice(1)}</li>
+      ))}
+    </ul>
+  )
+}
+
 // Gradasi risiko hijau → merah; cukup gelap agar teks putih kontras ≥ 4.5:1 (WCAG AA).
 const WARNA = ['#276b4d', '#3f6f22', '#7f5a00', '#a8461a', '#a8323f']
 
@@ -57,11 +70,11 @@ export function TanggaMWHO({ data, sumber }: { data: BarisMWHO[]; sumber: string
       >
         <div>
           <p className="m-0 text-xs font-bold text-muted">Contoh kondisi (kelas {b.kelas})</p>
-          <p className="m-0 mt-1 text-[0.95rem]">{b.contoh}</p>
+          <Butir teks={b.contoh} className="m-0 mt-1 text-[0.95rem]" />
         </div>
         <div>
           <p className="m-0 text-xs font-bold text-muted">Implikasi pelayanan</p>
-          <p className="m-0 mt-1 text-[0.95rem]">{b.implikasi}</p>
+          <Butir teks={b.implikasi} className="m-0 mt-1 text-[0.95rem]" />
         </div>
       </div>
       <p className="catatan">
@@ -85,8 +98,8 @@ export function TabelMWHO({ data }: { data: BarisMWHO[] }) {
         {data.map((d) => (
           <tr key={d.kelas}>
             <td className="font-bold whitespace-nowrap">{d.kelas}</td>
-            <td>{d.contoh}</td>
-            <td>{d.implikasi}</td>
+            <td><Butir teks={d.contoh} /></td>
+            <td><Butir teks={d.implikasi} /></td>
           </tr>
         ))}
       </tbody>

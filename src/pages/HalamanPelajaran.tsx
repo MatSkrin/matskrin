@@ -2,7 +2,8 @@ import { MDXProvider } from '@mdx-js/react'
 import { BookOpenText, Check, BookMarked, Flag, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope, X } from 'lucide-react'
 import { Children, useEffect, useState, type ComponentProps } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { gulirKeElemen } from '@/components/belajar/Rujuk'
+import { gulirKeElemen } from '@/lib/rujukan'
+import { TeksJudul } from '@/components/belajar/TeksJudul'
 import * as B from '@/components/belajar'
 import { bagianDari } from '@/data/bagian'
 import { Pelajaran as KonteksPelajaran } from '@/components/belajar/konteks'
@@ -83,7 +84,7 @@ function DaftarKartu({
                     <Flag className="size-3" aria-hidden />
                   )}
                 </span>
-                <span>{k.teks}</span>
+                <span><TeksJudul>{k.teks}</TeksJudul></span>
               </span>
             </button>
           </li>
@@ -133,8 +134,13 @@ export default function HalamanPelajaran({
   // Rujukan silang dari bab lain (?ke=tabel-6-1): gulir ke tabel/gambar yang dituju.
   useEffect(() => {
     if (!ke) return
-    const t = window.setTimeout(() => gulirKeElemen(ke), 80)
-    return () => window.clearTimeout(t)
+    // Gulir dua kali: gambar lazy-load dapat menggeser tata letak setelah gulir pertama.
+    const t1 = window.setTimeout(() => gulirKeElemen(ke), 80)
+    const t2 = window.setTimeout(() => gulirKeElemen(ke), 700)
+    return () => {
+      window.clearTimeout(t1)
+      window.clearTimeout(t2)
+    }
   }, [ke, bab])
 
   // Esc menutup daftar kartu melayang.

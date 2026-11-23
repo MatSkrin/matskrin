@@ -195,3 +195,8 @@ body:has(.fab-kartu) .fab-grup { bottom: calc(var(--tabbar-h) + 20px); }
 /* Hero beranda */
 .hero-judul { font-size: clamp(2.4rem, 6vw, 3.4rem); line-height: 1.05; margin: 0; letter-spacing: -0.02em; }
 .hero-sub { font-size: 1.3rem; font-weight: 600; margin: 0.5rem 0 0.25rem; }
+.prose td ul { margin: 0; padding-left: 1.1em; } .prose td li { margin: 0.15em 0; }
+/* Desktop dengan sidebar terbuka: daftar kartu sudah tampil di kiri, tombol melayang tidak perlu. */
+@media (min-width: 961px) {
+  .bab-layout:not(.sidebar-tutup) ~ .fab-kartu { display: none; }
+}

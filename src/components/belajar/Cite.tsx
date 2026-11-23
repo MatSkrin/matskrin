@@ -2,6 +2,7 @@ import { Fragment, type ReactNode } from 'react'
 import { POLA_SITASI, uraiNomor } from '@/lib/sitasi'
 import { TeksRujukan } from './Pustaka'
 import { usePelajaran } from './konteks'
+import { TeksJudul } from './TeksJudul'
 
 /** Sitasi angka [n] dengan popover rujukan lengkap (gaya Vancouver). */
 export function Cite({ r }: { r: string }) {
@@ -27,9 +28,9 @@ export function TeksSitasi({ children }: { children: string }) {
   const out: ReactNode[] = []
   let akhir = 0
   for (const m of children.matchAll(POLA_SITASI)) {
-    out.push(children.slice(akhir, m.index), <Cite key={m.index} r={m[1]} />)
+    out.push(<TeksJudul key={`t${m.index}`}>{children.slice(akhir, m.index)}</TeksJudul>, <Cite key={m.index} r={m[1]} />)
     akhir = m.index! + m[0].length
   }
-  out.push(children.slice(akhir))
+  out.push(<TeksJudul key="akhir">{children.slice(akhir)}</TeksJudul>)
   return <>{out.map((x, i) => <Fragment key={i}>{x}</Fragment>)}</>
 }

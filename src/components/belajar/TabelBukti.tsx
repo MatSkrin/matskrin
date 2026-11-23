@@ -2,7 +2,7 @@ import type { ReactNode } from 'react'
 import { Table2 } from 'lucide-react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { TeksSitasi } from './Cite'
-import { idRujukan } from './Rujuk'
+import { idRujukan } from '@/lib/rujukan'
 import { TeksJudul } from './TeksJudul'
 
 /** Tabel bukti yang bisa dibuka-tutup, lengkap dengan baris sumber. */
