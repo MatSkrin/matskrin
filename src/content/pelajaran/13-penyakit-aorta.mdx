@@ -1,3 +1,5 @@
+import { kuis } from './kuis/13'
+
 {/* Dikonversi dari naskah bab (Format Master) tanpa mengubah teks klinis. */}
 
 export const meta = {
@@ -144,5 +146,13 @@ Di layanan primer, tindakan awal meliputi analgesia yang adekuat, penurunan teka
 - Rujukan tidak ditunda untuk pemeriksaan penunjang di fasilitas yang tidak memiliki CT.
 
 </PoinKlinis>
+
+</LessonCard>
+
+<LessonCard id="kuis" nomor="Kuis" judul="Uji Pemahaman" latihan>
+
+Soal berikut menguji ingatan terhadap poin utama bab ini. Pilih satu jawaban untuk melihat pembahasannya.
+
+<Kuis soal={kuis} />
 
 </LessonCard>

@@ -1,3 +1,5 @@
+import { kuis } from './kuis/12'
+
 {/* Dikonversi dari naskah bab (Format Master) tanpa mengubah teks klinis. */}
 
 export const meta = {
@@ -126,5 +128,13 @@ Bagi dokter umum, ibu dengan riwayat infark miokard, pemasangan *stent*, atau SC
 - Persalinan direncanakan di rumah sakit rujukan bersama spesialis jantung dan pembuluh darah serta spesialis anestesi.
 
 </PoinKlinis>
+
+</LessonCard>
+
+<LessonCard id="kuis" nomor="Kuis" judul="Uji Pemahaman" latihan>
+
+Soal berikut menguji ingatan terhadap poin utama bab ini. Pilih satu jawaban untuk melihat pembahasannya.
+
+<Kuis soal={kuis} />
 
 </LessonCard>

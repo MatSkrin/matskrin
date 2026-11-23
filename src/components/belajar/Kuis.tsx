@@ -2,11 +2,13 @@ import { CheckCircle2, RotateCcw, XCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 import { TeksSitasi } from './Cite'
+import { TeksJudul } from './TeksJudul'
 import { usePelajaran } from './konteks'
 
-export type Soal = { id: string; kasus: string; tanya: string; opsi: string[]; benar: number; pembahasan: string }
+/** Satu soal pilihan ganda. `kasus` (vinyet klinis) opsional; soal recall cukup memakai `tanya`. */
+export type Soal = { id: string; kasus?: string; tanya: string; opsi: string[]; benar: number; pembahasan: string }
 
-/** Kuis berbasis kasus. Jawaban dan skor disimpan di localStorage. */
+/** Kuis pilihan ganda di akhir bab. Jawaban dan skor disimpan di localStorage. */
 export function Kuis({ soal }: { soal: Soal[] }) {
   const { progres, jawab, ulangKuis } = usePelajaran()
   const dijawab = soal.filter((s) => progres.kuis[s.id] !== undefined)
@@ -19,10 +21,16 @@ export function Kuis({ soal }: { soal: Soal[] }) {
           const sudah = pilih !== undefined
           return (
             <li key={s.id} className="rounded-card border border-line bg-bg p-4 sm:p-5">
-              <p className="m-0 text-xs font-bold text-accent">Kasus {n + 1}</p>
-              <p className="mt-1 mb-2">{s.kasus}</p>
-              <p className="m-0 mb-3 font-semibold">{s.tanya}</p>
-              <div className="grid gap-2" role="group" aria-label={`Pilihan jawaban kasus ${n + 1}`}>
+              <p className="m-0 text-xs font-bold text-accent">Soal {n + 1}</p>
+              {s.kasus && (
+                <p className="mt-1 mb-2">
+                  <TeksSitasi>{s.kasus}</TeksSitasi>
+                </p>
+              )}
+              <p className="m-0 mt-1 mb-3 font-semibold">
+                <TeksSitasi>{s.tanya}</TeksSitasi>
+              </p>
+              <div className="grid gap-2" role="group" aria-label={`Pilihan jawaban soal ${n + 1}`}>
                 {s.opsi.map((o, k) => {
                   const ini = pilih === k
                   const kunci = sudah && k === s.benar
@@ -40,7 +48,9 @@ export function Kuis({ soal }: { soal: Soal[] }) {
                       )}
                     >
                       <span className="mt-0.5 font-bold text-muted">{String.fromCharCode(65 + k)}.</span>
-                      <span className="flex-1">{o}</span>
+                      <span className="flex-1">
+                        <TeksJudul>{o}</TeksJudul>
+                      </span>
                       {kunci && <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-ok" aria-label="Jawaban benar" />}
                       {sudah && ini && !kunci && <XCircle className="mt-0.5 size-5 shrink-0 text-accent" aria-label="Jawaban Anda" />}
                     </button>

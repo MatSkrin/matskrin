@@ -1,3 +1,5 @@
+import { kuis } from './kuis/01'
+
 {/* Dikonversi dari naskah bab (Markdown) tanpa mengubah teks klinis. */}
 
 export const meta = {
@@ -172,5 +174,13 @@ Penerapannya perlu disesuaikan dengan kapasitas setempat. Kolaborasi dokter umum
 <p className="catatan perbesar">Ketuk gambar untuk membuka ukuran penuh.</p>
 <p className="catatan">Sumber: Diadaptasi dari De Backer et al. [1].</p>
 </figure>
+
+</LessonCard>
+
+<LessonCard id="kuis" nomor="Kuis" judul="Uji Pemahaman" latihan>
+
+Soal berikut menguji ingatan terhadap poin utama bab ini. Pilih satu jawaban untuk melihat pembahasannya.
+
+<Kuis soal={kuis} />
 
 </LessonCard>

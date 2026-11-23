@@ -7,4 +7,5 @@ Setiap bab adalah satu file `src/content/pelajaran/<slug>.mdx` yang tampil di `/
 - Komponen yang tersedia di MDX: `Ringkasan`, `LessonCard` (satu subbab), `PoinKlinis`, `RekomendasiESC`, `TabelBukti`, `TanggaMWHO`, `SkorCarpreg`, `Kuis`.
 - Elemen yang tetap tampil di mode **Ringkas klinis** diberi kelas `kunci` (Poin Klinis, rekomendasi ESC, tabel, ilustrasi). Paragraf narasi dan kuis disembunyikan.
 - Progres (kartu selesai, jawaban kuis) disimpan di `localStorage` peramban dengan kunci `matskrin:progres:v1`. Tidak ada akun atau server.
-- Aturan isi: teks klinis disalin apa adanya dari bab. Komponen `Kuis` sudah tersedia tetapi belum dipakai (keputusan Faiz, 23 Nov 2026); soal kuis nanti hanya bersandar pada isi bab dengan nomor sitasi yang sama dan ditinjau penulis.
+- Aturan isi: teks klinis disalin apa adanya dari bab.
+- Kuis: setiap bab ditutup kartu `<LessonCard id="kuis" nomor="Kuis" judul="Uji Pemahaman" latihan>` berisi `<Kuis soal={kuis} />`. Soal ada di `src/content/pelajaran/kuis/NN.ts` (id `bN-qM`). Level dokter umum dan bersifat *recall*: jawaban dan pembahasan hanya bersandar pada isi bab itu, dengan nomor sitasi yang sama. `kasus` (vinyet klinis) opsional. `src/lib/kuis.test.ts` memeriksa kunci jawaban, id unik, dan nomor sitasi.
