@@ -3,6 +3,7 @@ import { BookOpenText, Check, BookMarked, Flag, ChevronLeft, ChevronRight, List,
 import { useEffect, useState, type ComponentProps } from 'react'
 import { Link } from 'react-router-dom'
 import * as B from '@/components/belajar'
+import { bagianDari } from '@/data/bagian'
 import { Pelajaran as KonteksPelajaran } from '@/components/belajar/konteks'
 import { TeksRujukan } from '@/components/belajar/Pustaka'
 import { Badge } from '@/components/ui/badge'
@@ -148,7 +149,9 @@ export default function HalamanPelajaran({
             ← Daftar modul
           </Link>
           <div className="mt-3 flex flex-wrap items-center gap-2">
-            <p className="eyebrow">Bab {meta.nomor}</p>
+            <p className="eyebrow">
+              {bagianDari(meta.nomor) && <>Bagian {bagianDari(meta.nomor)!.nomor} · {bagianDari(meta.nomor)!.judul} · </>}Bab {meta.nomor}
+            </p>
             <Badge variant="ok">Pelajaran interaktif</Badge>
           </div>
           <h1>{meta.judul}</h1>

@@ -1,6 +1,7 @@
 import { TeksIstilah } from '@/components/Istilah'
 import { perilakuGulir } from '@/lib/utils'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import {
   EKG,
   FAKTOR_RISIKO,
@@ -122,7 +123,12 @@ function suratRujukan(st: State, hasil: HasilTriase): string {
 
 export default function PanduanKlinis() {
   const [st, setSt] = useState<State>(muat)
-  const [langkah, setLangkah] = useState(0)
+  const [param] = useSearchParams()
+  // ?langkah=N (1–6) membuka langsung langkah tertentu, dipakai pintasan dari bab.
+  const [langkah, setLangkah] = useState(() => {
+    const n = Number(param.get('langkah'))
+    return Number.isInteger(n) && n >= 1 && n <= LANGKAH.length ? n - 1 : 0
+  })
   const [tersalin, setTersalin] = useState(false)
   const stepperRef = useRef<HTMLElement>(null)
   const langkahAwal = useRef(true)
