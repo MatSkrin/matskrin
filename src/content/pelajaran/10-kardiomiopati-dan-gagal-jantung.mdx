@@ -1,3 +1,5 @@
+import { kuis } from './kuis/10'
+
 {/* Dikonversi dari naskah bab (Format Master) tanpa mengubah teks klinis. */}
 
 export const meta = {
@@ -186,5 +188,13 @@ Peran dokter umum setelah ibu pulang adalah memastikan kontrol ke spesialis jant
 - Kehamilan berikutnya direncanakan bersama spesialis jantung dan pembuluh darah setelah evaluasi fungsi jantung.
 
 </PoinKlinis>
+
+</LessonCard>
+
+<LessonCard id="kuis" nomor="Kuis" judul="Uji Pemahaman" latihan>
+
+Soal berikut menguji ingatan terhadap poin utama bab ini. Pilih satu jawaban untuk melihat pembahasannya.
+
+<Kuis soal={kuis} />
 
 </LessonCard>
