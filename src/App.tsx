@@ -72,7 +72,16 @@ export default function App() {
         </Routes>
       </main>
       <footer className="wrap footer">
-        Alat bantu edukasi untuk tenaga kesehatan. Tidak menggantikan penilaian klinis dan konsultasi spesialis.
+        <p className="m-0">
+          Alat bantu edukasi untuk tenaga kesehatan. Tidak menggantikan penilaian klinis dan konsultasi spesialis.
+        </p>
+        <p className="footer-lisensi">
+          © 2026 COHARD-PH, Departemen Kardiologi dan Kedokteran Vaskular, RSUP Dr. Sardjito/FK-KMK UGM. Konten:{' '}
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.id" target="_blank" rel="license noopener">
+            CC BY-NC-SA 4.0
+          </a>
+          . Kode: MIT. <NavLink to="/tentang">Rincian lisensi</NavLink>
+        </p>
       </footer>
       <div className="fab-grup">
         <KeAtas />

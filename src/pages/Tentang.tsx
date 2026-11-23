@@ -210,6 +210,44 @@ export default function Tentang() {
         </div>
       </section>
 
+      <section className="tentang-blok" id="lisensi" aria-labelledby="judul-lisensi">
+        <p className="eyebrow">Lisensi</p>
+        <h2 id="judul-lisensi">Hak cipta dan lisensi</h2>
+        <p className="muted">
+          © 2026 COHARD-PH, Departemen Kardiologi dan Kedokteran Vaskular, RSUP Dr. Sardjito/FK-KMK UGM.
+        </p>
+        <div className="sumber-skor">
+          <div className="tentang-kartu">
+            <h3>Konten edukasi</h3>
+            <p>
+              Teks modul, checklist, data skor, serta gambar dan diagram buatan tim dilisensikan{' '}
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.id" target="_blank" rel="license noopener">
+                CC BY-NC-SA 4.0
+              </a>
+              . Boleh dibagikan dan diadaptasi untuk tujuan nonkomersial dengan mencantumkan sumber dan memakai lisensi
+              yang sama.
+            </p>
+          </div>
+          <div className="tentang-kartu">
+            <h3>Kode sumber</h3>
+            <p>
+              Kode aplikasi dilisensikan{' '}
+              <a href="https://github.com/MatSkrin/matskrin/blob/main/LICENSE" target="_blank" rel="noopener">
+                MIT
+              </a>
+              .
+            </p>
+          </div>
+          <div className="tentang-kartu">
+            <h3>Materi pihak ketiga</h3>
+            <p>
+              Gambar dari Wikimedia Commons dan artikel terbitan terbuka, serta tabel atau gambar yang diadaptasi dari
+              pedoman ESC, tetap mengikuti lisensi atau hak cipta pemiliknya. Atribusinya tercantum di keterangan gambar.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <DaftarPustaka />
     </div>
   )

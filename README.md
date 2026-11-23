@@ -32,3 +32,12 @@ Kriteria ada di `src/data/risk.ts`, logika di `src/lib/risk.ts`. Kriteria belum 
 Push ke `main` akan membangun dan menerbitkan ke GitHub Pages lewat `.github/workflows/deploy.yml` (aktifkan Settings → Pages → Source: GitHub Actions).
 
 Alat bantu edukasi; tidak menggantikan penilaian klinis.
+
+## Lisensi
+
+Hak cipta © 2026 COHARD-PH, Departemen Kardiologi dan Kedokteran Vaskular, RSUP Dr. Sardjito/FK-KMK UGM.
+
+- **Kode sumber**: MIT, lihat [`LICENSE`](LICENSE).
+- **Konten edukasi** (teks modul, checklist, data skor, gambar buatan tim): [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.id), lihat [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md).
+- **Materi pihak ketiga** (gambar Wikimedia, gambar artikel terbitan terbuka, adaptasi tabel/gambar pedoman ESC) tetap mengikuti lisensi pemiliknya.
+
