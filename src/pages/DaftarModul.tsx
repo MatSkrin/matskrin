@@ -1,4 +1,4 @@
-import { Check, ChevronDown, Search } from 'lucide-react'
+import { BookMarked, Check, ChevronDown, Flag, Search } from 'lucide-react'
 import LanjutkanBelajar from '@/components/LanjutkanBelajar'
 import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
@@ -86,8 +86,8 @@ export default function DaftarModul() {
                     </span>
                   )}
                 </span>
-                <span className="text-[1.02rem] leading-snug font-semibold">{b.judul}</span>
-                {b.ringkasan && <span className="hidden text-sm text-muted sm:line-clamp-2">{b.ringkasan}</span>}
+                <span className="text-[1.02rem] leading-snug font-semibold sm:line-clamp-2 sm:min-h-[2lh]">{b.judul}</span>
+                {b.ringkasan && <span className="hidden text-sm text-muted sm:line-clamp-2 sm:min-h-[2lh]">{b.ringkasan}</span>}
                 <span className="mt-auto flex items-center gap-2 pt-2">
                   <Progress value={persen} label={`Progres Bab ${b.nomor}`} className="h-1.5" />
                   <span className="text-xs whitespace-nowrap text-muted tabular-nums">
@@ -116,7 +116,9 @@ export default function DaftarModul() {
                         {b.selesai.has(k.id) ? (
                           <Check className="mt-0.5 size-4 shrink-0 text-ok" aria-label="Selesai" />
                         ) : (
-                          <span className="min-w-8 shrink-0 text-muted tabular-nums">{k.nomor ?? '·'}</span>
+                          <span className="min-w-8 shrink-0 text-muted tabular-nums">
+                            {k.nomor ?? (k.id === 'daftar-pustaka' ? <BookMarked className="mt-0.5 size-4" aria-hidden /> : <Flag className="mt-0.5 size-4" aria-hidden />)}
+                          </span>
                         )}
                         <span>{k.teks}</span>
                       </button>
@@ -129,7 +131,6 @@ export default function DaftarModul() {
         })}
       </ol>
       {q && tampil.length === 0 && <p className="mt-6 text-muted">Tidak ada bab atau subbab yang cocok dengan “{cari}”.</p>}
-      <p className="mt-6 text-sm text-muted">Bab 10–13 akan ditambahkan menyusul.</p>
     </div>
   )
 }

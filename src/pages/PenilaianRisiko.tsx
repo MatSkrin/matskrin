@@ -12,6 +12,7 @@ import {
 } from '../data/risk'
 import { hitungSkor, kategoriSkor, kelasMWHO } from '../lib/risk'
 import { SINGKATAN, pecahSingkatan, singkatanDalam } from '../data/singkatan'
+import { Istilah } from '@/components/Istilah'
 
 /** Teks dengan singkatan bergaris titik; kepanjangan muncul saat disorot (dan di daftar singkatan). */
 function TeksSingkatan({ children }: { children: string }) {
@@ -19,9 +20,9 @@ function TeksSingkatan({ children }: { children: string }) {
     <>
       {pecahSingkatan(children).map((p, i) =>
         p.singkatan ? (
-          <abbr key={i} title={p.singkatan}>
+          <Istilah key={i} k={p.teks}>
             {p.teks}
-          </abbr>
+          </Istilah>
         ) : (
           p.teks
         ),
