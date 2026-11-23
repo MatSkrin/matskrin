@@ -430,3 +430,11 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cur
 .daftar-singkatan dl > div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 8px; }
 .daftar-singkatan dt { font-weight: 700; }
 .daftar-singkatan dd { margin: 0; color: var(--muted); }
+
+/* Halaman Tentang: daftar pustaka gabungan */
+.tentang .lead { margin-top: 0; }
+.tentang ol.pustaka { padding-left: 1.6em; font-size: 0.9rem; color: var(--muted); }
+.tentang ol.pustaka li { margin-bottom: 0.5em; }
+.tentang ol.pustaka a { overflow-wrap: anywhere; }
+.pustaka-bab { display: inline-flex; flex-wrap: wrap; gap: 4px; vertical-align: baseline; }
+.pustaka-bab a { font-size: 0.72rem; font-weight: 600; padding: 0 6px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); text-decoration: none; white-space: nowrap; }
