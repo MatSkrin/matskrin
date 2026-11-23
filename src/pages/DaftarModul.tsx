@@ -37,8 +37,6 @@ export default function DaftarModul() {
       jumlahSelesai: b.kartu.filter((k) => selesai.has(k.id)).length,
     };
   });
-  const totalKartu = data.reduce((n, b) => n + b.kartu.length, 0);
-  const totalSelesai = data.reduce((n, b) => n + b.jumlahSelesai, 0);
 
   const q = norm(cari.trim());
   const tampil = q
@@ -62,10 +60,6 @@ export default function DaftarModul() {
       <div className="flex flex-wrap items-end justify-between gap-x-6 gap-y-3">
         <div>
           <h1 className="mb-1">Modul</h1>
-          <p className="m-0 text-muted">
-            {DAFTAR_BAB.length} bab, {totalKartu} kartu pelajaran
-            {totalSelesai > 0 && `, ${totalSelesai} sudah selesai`}
-          </p>
         </div>
         <label className="relative w-full sm:w-72">
           <span className="sr-only">Cari bab atau subbab</span>
