@@ -94,3 +94,51 @@
 /* Daftar isi modul */
 .daftar-modul a { color: inherit; text-decoration: none; }
 .daftar-modul h1 { margin: 0.4em 0 0.15em; }
+
+/* ---------- Ilustrasi bergerak: jantung sebelum hamil vs hamil (Bab 2) ---------- */
+.jh-putar { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-size: 0.82rem; font-weight: 600; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.jh-putar svg { width: 14px; height: 14px; }
+.jh-panel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.jh-panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; min-width: 0; }
+.jh-panel.hamil { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.jh-judul { margin: 0 0 4px; font-size: 0.85rem; font-weight: 700; }
+.jh-judul span { color: var(--muted); font-weight: 500; }
+.jh-visual { height: 180px; display: flex; align-items: center; justify-content: center; }
+.jh-jantung { display: block; transition: width 0.3s; }
+.jh-atrium, .jh-ventrikel { transform-box: fill-box; transform-origin: center; }
+.jh-ventrikel { transform-origin: 50% 0%; }
+.jh-atrium.jalan { animation-name: jh-atrium; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.jh-ventrikel.jalan { animation-name: jh-ventrikel; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+@keyframes jh-atrium { 0%, 100% { transform: scale(1); } 10% { transform: scale(0.9); } 22% { transform: scale(1); } }
+@keyframes jh-ventrikel { 0%, 18% { transform: scale(1); } 34% { transform: scale(0.86, 0.84); } 52%, 100% { transform: scale(1); } }
+.jh-label { fill: #fff; font-size: 13px; font-weight: 700; text-anchor: middle; pointer-events: none; }
+.jh-label.kecil { font-size: 10px; }
+.jh-vki { transition: d 0.4s; }
+.jh-aliran { display: block; width: 100%; height: 22px; margin: 4px 0 8px; }
+.jh-pembuluh { fill: color-mix(in srgb, var(--accent) 14%, var(--surface)); stroke: color-mix(in srgb, var(--accent) 35%, var(--line)); stroke-width: 1; transition: d 0.4s; }
+.jh-darah { fill: none; stroke: var(--accent); stroke-linecap: round; stroke-dasharray: 0.1 14; }
+.jh-darah.jalan { animation: jh-alir linear infinite; }
+@keyframes jh-alir { to { stroke-dashoffset: -28.2; } }
+.jh-angka { display: grid; gap: 8px; margin: 0; }
+.jh-angka > div { position: relative; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 0.82rem; padding-bottom: 4px; }
+.jh-angka dt { color: var(--muted); }
+.jh-angka dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; }
+.jh-angka dd small { font-weight: 500; color: var(--muted); }
+.jh-bar { position: absolute; left: 0; bottom: 0; height: 3px; border-radius: 999px; background: var(--accent); opacity: 0.6; transition: width 0.3s; }
+.jh-slider { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 12px; margin: 14px 0 10px; font-size: 0.88rem; font-weight: 600; }
+.jh-slider input { width: 100%; accent-color: var(--accent); }
+.jh-posisi { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.jh-posisi button { font: inherit; font-size: 0.82rem; padding: 4px 12px; border-radius: 6px; border: 0; background: none; color: var(--ink); cursor: pointer; }
+.jh-posisi button[aria-pressed='true'] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.jh-posisi.redup button { opacity: 0.45; cursor: default; }
+.jh-posisi.redup p { color: var(--muted); }
+@media (max-width: 520px) {
+  .jh-panel-grid { gap: 8px; }
+  .jh-panel { padding: 10px 8px; }
+  .jh-visual { height: 150px; }
+  .jh-angka > div { flex-direction: column; align-items: flex-start; gap: 0; }
+  .jh-angka dd { text-align: left; }
+  .jh-slider { grid-template-columns: 1fr auto; }
+  .jh-slider > span:first-child { grid-column: 1 / -1; }
+}
+@media (prefers-reduced-motion: reduce) { .jh-jantung, .jh-bar, .jh-pembuluh { transition: none; } }

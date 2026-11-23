@@ -143,10 +143,10 @@ export default function Tentang() {
           <span className="tentang-ikon" aria-hidden>
             <Stethoscope />
           </span>
-          <h2 id="judul-sudut">Ditulis dari sudut pandang spesialis jantung</h2>
+          <h2 id="judul-sudut">Fokus materi: kenali, tangani, rujuk</h2>
           <p>
-            Materi disusun oleh dokter spesialis jantung dan pembuluh darah untuk rekan di layanan primer. Fokusnya pada
-            keputusan yang diambil sebelum pasien sampai ke spesialis. Tindakan spesialistik hanya dibahas sekilas.
+            Materi menekankan keputusan yang diambil di layanan primer sebelum pasien sampai ke spesialis. Tindakan
+            spesialistik hanya dibahas sekilas.
           </p>
         </div>
         <ol className="tentang-langkah">
