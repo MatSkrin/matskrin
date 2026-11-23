@@ -32,7 +32,7 @@ export default function Tentang() {
         </li>
         <li>
           <Link to="/checklist">Checklist</Link>: daftar periksa deteksi dini saat ANC (riwayat, gejala, tanda vital,
-          auskultasi, dan EKG) yang langsung memberi hasil triase dan arah rujukan.
+          auskultasi, dan EKG) dengan hasil triase yang diperbarui otomatis.
         </li>
         <li>
           <Link to="/risiko">Skor Risiko</Link>: kalkulator mWHO 2.0 dan CARPREG II.
