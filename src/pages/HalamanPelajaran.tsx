@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react'
-import { BookOpenText, Check, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope } from 'lucide-react'
+import { BookOpenText, Check, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope, X } from 'lucide-react'
 import { useEffect, useState, type ComponentProps } from 'react'
 import { Link } from 'react-router-dom'
 import * as B from '@/components/belajar'
@@ -103,6 +103,14 @@ export default function HalamanPelajaran({
     return () => obs.disconnect()
   }, [bab])
 
+  // Esc menutup daftar kartu melayang.
+  useEffect(() => {
+    if (!navBuka) return
+    const tutup = (e: KeyboardEvent) => e.key === 'Escape' && setNavBuka(false)
+    window.addEventListener('keydown', tutup)
+    return () => window.removeEventListener('keydown', tutup)
+  }, [navBuka])
+
   const total = bab.kartu.length
   const selesai = bab.kartu.filter((k) => prog.progres.selesai.includes(k.id)).length
   const persen = total ? (selesai / total) * 100 : 0
@@ -140,7 +148,7 @@ export default function HalamanPelajaran({
 
           {/* Bilah alat: mode tampilan, progres, dan (di ponsel) daftar kartu. Menempel saat digulir. */}
           <div className="alat-pelajaran sticky top-[var(--topbar-h)] z-20 mt-5 mb-6 border-b border-line bg-bg py-3">
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-3">
               <div className="inline-flex rounded-lg border border-line bg-surface p-0.5" role="group" aria-label="Mode tampilan">
                 <Button size="sm" variant={ringkas ? 'ghost' : 'default'} aria-pressed={!ringkas} onClick={() => setRingkas(false)}>
                   <BookOpenText /> Belajar
@@ -171,22 +179,7 @@ export default function HalamanPelajaran({
                   <PanelLeftOpen /> Kartu
                 </Button>
               )}
-              <Button
-                size="sm"
-                variant="outline"
-                className="nav-kartu-ponsel"
-                aria-expanded={navBuka}
-                aria-controls="nav-kartu"
-                onClick={() => setNavBuka((v) => !v)}
-              >
-                <List /> Kartu
-              </Button>
             </div>
-            {navBuka && (
-              <div id="nav-kartu" className="nav-kartu-ponsel-isi">
-                <DaftarKartu bab={bab} selesai={prog.progres.selesai} aktif={aktif} onPilih={() => setNavBuka(false)} />
-              </div>
-            )}
             {ringkas && (
               <p className="m-0 mt-2 text-xs text-muted">
                 Ringkas klinis: hanya inti bab, Poin Klinis, rekomendasi ESC, tabel, dan gambar yang ditampilkan.
@@ -235,6 +228,24 @@ export default function HalamanPelajaran({
           </nav>
         </article>
       </div>
+
+      {/* Daftar kartu melayang: bisa dibuka dari mana saja tanpa gulir ke atas. */}
+      {navBuka && (
+        <div id="nav-kartu" className="panel-kartu-melayang" role="dialog" aria-label="Daftar kartu pelajaran">
+          <p className="toc-title">Kartu pelajaran</p>
+          <DaftarKartu bab={bab} selesai={prog.progres.selesai} aktif={aktif} onPilih={() => setNavBuka(false)} />
+        </div>
+      )}
+      <button
+        type="button"
+        className="fab fab-kartu"
+        aria-expanded={navBuka}
+        aria-controls="nav-kartu"
+        onClick={() => setNavBuka((v) => !v)}
+      >
+        {navBuka ? <X aria-hidden /> : <List aria-hidden />}
+        <span>Kartu</span>
+      </button>
     </KonteksPelajaran.Provider>
   )
 }

@@ -11,6 +11,42 @@ import {
   type SkorRisiko,
 } from '../data/risk'
 import { hitungSkor, kategoriSkor, kelasMWHO } from '../lib/risk'
+import { SINGKATAN, pecahSingkatan, singkatanDalam } from '../data/singkatan'
+
+/** Teks dengan singkatan bergaris titik; kepanjangan muncul saat disorot (dan di daftar singkatan). */
+function TeksSingkatan({ children }: { children: string }) {
+  return (
+    <>
+      {pecahSingkatan(children).map((p, i) =>
+        p.singkatan ? (
+          <abbr key={i} title={p.singkatan}>
+            {p.teks}
+          </abbr>
+        ) : (
+          p.teks
+        ),
+      )}
+    </>
+  )
+}
+
+function DaftarSingkatan({ teks }: { teks: string[] }) {
+  const daftar = singkatanDalam(teks)
+  if (!daftar.length) return null
+  return (
+    <section className="daftar-singkatan" aria-label="Daftar singkatan">
+      <h2>Singkatan</h2>
+      <dl>
+        {daftar.map((k) => (
+          <div key={k}>
+            <dt>{k}</dt>
+            <dd>{SINGKATAN[k]}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  )
+}
 
 type Tab = 'mwho' | 'carpreg2'
 
@@ -82,13 +118,14 @@ function KalkulatorSkor({ skor }: { skor: SkorRisiko }) {
             <label key={k.id} className="check">
               <input type="checkbox" checked={dipilih.has(k.id)} onChange={() => toggle(k.id)} />
               <span>
-                {k.label}
+                <TeksSingkatan>{k.label}</TeksSingkatan>
                 {k.keterangan && <small>{k.keterangan}</small>}
               </span>
               <span className="poin">{fmt(k.poin)}</span>
             </label>
           ))}
         </fieldset>
+        <DaftarSingkatan teks={skor.kriteria.map((k) => `${k.label} ${k.keterangan ?? ''}`)} />
         <button type="button" className="ghost" onClick={reset}>Atur ulang</button>
       </div>
       <aside className="result" id="hasil-risiko" aria-live="polite">
@@ -132,12 +169,13 @@ function KalkulatorMWHO() {
             {g.kondisi.map((c) => (
               <label key={c.id} className="check">
                 <input type="checkbox" checked={dipilih.has(c.id)} onChange={() => toggle(c.id)} />
-                <span>{c.label}</span>
+                <span><TeksSingkatan>{c.label}</TeksSingkatan></span>
                 <span className={`poin kelas-tag kelas-${c.kelas.replace('–', '-')}`}>{c.kelas}</span>
               </label>
             ))}
           </fieldset>
         ))}
+        <DaftarSingkatan teks={KELOMPOK_MWHO.flatMap((g) => g.kondisi.map((c) => c.label))} />
         <button type="button" className="ghost" onClick={reset}>Atur ulang</button>
       </div>
       <aside className="result" id="hasil-risiko" aria-live="polite">
