@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react'
-import { BookOpenText, Check, BookMarked, Flag, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope, X } from 'lucide-react'
+import { BookOpenText, Check, BookMarked, Flag, ChevronLeft, ChevronRight, List, PanelLeftClose, RotateCcw, Stethoscope, X } from 'lucide-react'
 import { Children, useEffect, useState, type ComponentProps } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { gulirKeElemen } from '@/lib/rujukan'
@@ -158,15 +158,15 @@ export default function HalamanPelajaran({
   return (
     <KonteksPelajaran.Provider value={{ pustaka, ringkas, ...prog }}>
       <div className={cn('bab-layout', sidebarTutup && 'sidebar-tutup')}>
-        <aside className="toc-side" aria-label="Kartu pelajaran" hidden={sidebarTutup}>
+        <aside className="toc-side" aria-label="Daftar isi" hidden={sidebarTutup}>
           <div className="mb-2 flex items-center justify-between gap-2">
-            <p className="toc-title m-0">Kartu pelajaran</p>
+            <p className="toc-title m-0">Daftar Isi</p>
             <Button
               size="icon"
               variant="ghost"
               className="size-7"
-              aria-label="Sembunyikan daftar kartu"
-              title="Sembunyikan daftar kartu"
+              aria-label="Sembunyikan daftar isi"
+              title="Sembunyikan daftar isi"
               onClick={() => setSidebarTutup(true)}
             >
               <PanelLeftClose />
@@ -188,7 +188,7 @@ export default function HalamanPelajaran({
           <h1>{meta.judul}</h1>
           {meta.ringkasan && <p className="m-0 text-[1.02rem] text-muted">{meta.ringkasan}</p>}
 
-          {/* Bilah alat: mode tampilan, progres, dan (di ponsel) daftar kartu. Menempel saat digulir. */}
+          {/* Bilah alat: mode tampilan dan progres. Menempel saat digulir. */}
           <div className="alat-pelajaran sticky top-[var(--topbar-h)] z-20 mt-5 mb-6 border-b border-line bg-bg py-3">
             <div className="flex flex-wrap items-center gap-x-3 gap-y-3">
               <div className="inline-flex rounded-lg border border-line bg-surface p-0.5" role="group" aria-label="Mode tampilan">
@@ -210,23 +210,7 @@ export default function HalamanPelajaran({
                   </Button>
                 )}
               </div>
-              {sidebarTutup && (
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="nav-kartu-desktop"
-                  aria-label="Tampilkan daftar kartu"
-                  onClick={() => setSidebarTutup(false)}
-                >
-                  <PanelLeftOpen /> Kartu
-                </Button>
-              )}
             </div>
-            {ringkas && (
-              <p className="m-0 mt-2 text-xs text-muted">
-                Praktis Klinis: hanya intisari, Poin Klinis, rekomendasi ESC, tabel, dan gambar yang ditampilkan.
-              </p>
-            )}
           </div>
 
           <div className="prose">
@@ -276,8 +260,8 @@ export default function HalamanPelajaran({
 
       {/* Daftar kartu melayang: bisa dibuka dari mana saja tanpa gulir ke atas. */}
       {navBuka && (
-        <div id="nav-kartu" className="panel-kartu-melayang" role="dialog" aria-label="Daftar kartu pelajaran">
-          <p className="toc-title">Kartu pelajaran</p>
+        <div id="nav-kartu" className="panel-kartu-melayang" role="dialog" aria-label="Daftar isi">
+          <p className="toc-title">Daftar Isi</p>
           <DaftarKartu bab={bab} selesai={prog.progres.selesai} aktif={aktif} onPilih={() => setNavBuka(false)} />
         </div>
       )}
@@ -286,10 +270,14 @@ export default function HalamanPelajaran({
         className="fab fab-kartu"
         aria-expanded={navBuka}
         aria-controls="nav-kartu"
-        onClick={() => setNavBuka((v) => !v)}
+        onClick={() => {
+          // Desktop: sidebar tersembunyi dibuka lagi di kiri. Ponsel/tablet: panel melayang.
+          if (sidebarTutup && window.matchMedia('(min-width: 961px)').matches) setSidebarTutup(false)
+          else setNavBuka((v) => !v)
+        }}
       >
         {navBuka ? <X aria-hidden /> : <List aria-hidden />}
-        <span>Kartu</span>
+        <span>Daftar Isi</span>
       </button>
     </KonteksPelajaran.Provider>
   )
