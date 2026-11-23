@@ -561,3 +561,10 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cur
 .pita i.kuning { background: var(--yellow); opacity: 0.6; }
 .pita i.merah { background: var(--red); opacity: 0.6; }
 .pita b { position: absolute; top: -4px; width: 4px; height: 14px; margin-left: -2px; border-radius: 2px; background: var(--ink); box-shadow: 0 0 0 2px var(--surface); }
+/* Halaman Tentang: daftar pustaka gabungan */
+.tentang .lead { margin-top: 0; }
+.tentang ol.pustaka { padding-left: 1.6em; font-size: 0.9rem; color: var(--muted); }
+.tentang ol.pustaka li { margin-bottom: 0.5em; }
+.tentang ol.pustaka a { overflow-wrap: anywhere; }
+.pustaka-bab { display: inline-flex; flex-wrap: wrap; gap: 4px; vertical-align: baseline; }
+.pustaka-bab a { font-size: 0.72rem; font-weight: 600; padding: 0 6px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); text-decoration: none; white-space: nowrap; }
