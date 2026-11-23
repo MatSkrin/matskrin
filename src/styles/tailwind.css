@@ -84,9 +84,7 @@
 /* Sidebar kartu yang bisa disembunyikan (desktop) */
 .bab-layout.sidebar-tutup { grid-template-columns: minmax(0, 1fr); }
 .bab-layout.sidebar-tutup .pelajaran { margin-inline: auto; }
-.nav-kartu-desktop { display: inline-flex; }
 @media (max-width: 960px) {
-  .nav-kartu-desktop { display: none; }
   .toc-side[hidden] { display: none; }
 }
 .toc-side .toc-title { margin: 0; }
@@ -184,12 +182,11 @@ details.pustaka-blok > summary h2 { margin: 0 !important; font-size: 1.25rem; }
 .pustaka-jumlah { font-size: 0.85rem; color: var(--muted); }
 details.pustaka-blok ol.pustaka { margin-top: 1rem; }
 
-/* Tombol & panel daftar kartu di kiri, sejajar dengan sidebar daftar isi; tombol Ke atas tetap di kanan. */
-.fab-kartu { right: auto; left: 20px; }
-.panel-kartu-melayang { right: auto; left: 20px; }
+/* Tombol Daftar Isi melayang di tengah bawah; panelnya terbuka di atas tombol. Tombol Ke atas tetap di kanan. */
+.fab-kartu, .panel-kartu-melayang { right: auto; left: 50%; transform: translateX(-50%); }
 body:has(.fab-kartu) .fab-grup { bottom: calc(var(--tabbar-h) + 20px); }
 @media (max-width: 640px) {
-  .fab-kartu, .panel-kartu-melayang { right: auto; left: 16px; }
+  .fab-kartu, .panel-kartu-melayang { right: auto; left: 50%; }
 }
 
 /* Hero beranda */

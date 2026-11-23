@@ -25,11 +25,11 @@ function jalur(): string {
 const JALUR = jalur()
 
 /** Penanda rentang horizontal (mm) dengan label. */
-function Rentang({ a, b, h, label }: { a: number; b: number; h: number; label: string }) {
+function Rentang({ a, b, h, label, rataKiri }: { a: number; b: number; h: number; label: string; rataKiri?: boolean }) {
   return (
     <g className="ekg-rentang">
       <path d={`M${x(a)} ${y(h) - 5} V${y(h) + 5} M${x(a)} ${y(h)} H${x(b)} M${x(b)} ${y(h) - 5} V${y(h) + 5}`} />
-      <text x={(x(a) + x(b)) / 2} y={y(h) - 8} textAnchor="middle">{label}</text>
+      <text x={rataKiri ? x(a) : (x(a) + x(b)) / 2} y={y(h) - 8} textAnchor={rataKiri ? 'start' : 'middle'}>{label}</text>
     </g>
   )
 }
@@ -151,7 +151,7 @@ const LANGKAH: Langkah[] = [
     gambar: (
       <>
         <Sorot a={0.4} b={6.6} bawah={-1} atas={11} />
-        <Rentang a={1} b={6} h={12.5} label="10 mm = 1 mV" />
+        <Rentang a={1} b={6} h={12.5} label="10 mm = 1 mV" rataKiri />
         <rect x={x(15)} y={y(-5)} width={x(5)} height={x(5)} className="ekg-kotak" />
         <text x={x(17.5)} y={y(-7.3)} textAnchor="middle" className="ekg-catatan">1 kotak besar = 0,2 s</text>
       </>

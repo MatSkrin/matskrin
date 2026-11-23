@@ -176,10 +176,6 @@ export default function PanduanKlinis() {
   return (
     <>
       <h1>Checklist Pemeriksaan</h1>
-      <p className="lead-sm">
-        Checklist deteksi dini penyakit jantung pada ibu hamil saat pemeriksaan antenatal: riwayat, gejala, tanda vital, auskultasi, dan
-        EKG. Hasil triase diperbarui otomatis.
-      </p>
 
       <div className={`triase-bar ${hasil.triase}`} aria-live="polite">
         <strong>{info.judul}</strong>

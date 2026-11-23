@@ -200,7 +200,7 @@ legend { font-weight: 700; padding: 0 6px; }
 /* ---------- Checklist / panduan klinis ---------- */
 .lead-sm { color: var(--muted); max-width: 680px; }
 .small { font-size: 0.85rem; }
-.triase-bar { position: sticky; top: var(--topbar-h); z-index: 4; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 10px 16px; border-radius: 10px; margin: 16px 0; border: 1px solid transparent; }
+.triase-bar { max-width: 820px; position: sticky; top: var(--topbar-h); z-index: 4; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 10px 16px; border-radius: 10px; margin: 16px 0; border: 1px solid transparent; }
 .triase-bar.merah { background: var(--red-bg); color: var(--red); border-color: var(--red); }
 .triase-bar.kuning { background: var(--yellow-bg); color: var(--yellow); border-color: var(--yellow); }
 .triase-bar.hijau { background: var(--green-bg); color: var(--green); border-color: var(--green); }

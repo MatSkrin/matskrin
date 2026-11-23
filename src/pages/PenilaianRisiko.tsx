@@ -227,10 +227,6 @@ export default function PenilaianRisiko() {
   return (
     <>
       <h1>Skor Risiko</h1>
-      <p className="muted">
-        Klasifikasi mWHO 2.0 dan prediktor CARPREG II mengikuti Tabel 6 pedoman ESC 2025. Hasil kalkulator membantu
-        stratifikasi risiko dan tidak menggantikan penilaian klinis.
-      </p>
       <div className="tabs" role="tablist">
         {(
           [
