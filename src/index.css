@@ -612,3 +612,17 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cur
 .pita i.merah { background: var(--red); opacity: 0.6; }
 .pita b { position: absolute; top: -4px; width: 4px; height: 14px; margin-left: -2px; border-radius: 2px; background: var(--ink); box-shadow: 0 0 0 2px var(--surface); }
 
+
+/* Bilah triase melayang: beri jarak dari topbar, tutup konten di belakangnya, dan beri bayangan halus. */
+.triase-bar { top: calc(var(--topbar-h) + 8px); border-radius: 14px; box-shadow: 0 -8px 0 0 var(--bg), 0 0 0 1px var(--bg), 0 8px 24px rgb(0 0 0 / 0.1); }
+.triase-bar strong { letter-spacing: -0.005em; }
+.triase-bar button.link { margin-left: auto; text-decoration: none; font-weight: 600; }
+.triase-bar button.link:hover { text-decoration: underline; }
+.triase-bar.hijau { background: color-mix(in srgb, var(--green-bg) 92%, var(--surface)); }
+:root[data-theme='dark'] .triase-bar { box-shadow: 0 -8px 0 0 var(--bg), 0 0 0 1px var(--bg), 0 8px 24px rgb(0 0 0 / 0.4); }
+
+/* Sumber skor risiko sebagai kartu */
+.sumber-skor { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.sumber-skor .tentang-kartu h3 { margin-top: 0; }
+.sumber-skor .tentang-kartu p { font-size: 0.88rem; line-height: 1.55; }
+.sumber-skor .tentang-kartu a { overflow-wrap: anywhere; }

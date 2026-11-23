@@ -194,17 +194,20 @@ export default function Tentang() {
       <section className="tentang-blok" aria-labelledby="judul-skor">
         <p className="eyebrow">Sumber skor risiko</p>
         <h2 id="judul-skor">Dasar kalkulator</h2>
-        <ul className="pustaka-daftar">
-          <li>
-            <p>mWHO 2.0: Tabel 6 pedoman ESC 2025.</p>
-          </li>
-          <li>
-            <p>CARPREG II: {CARPREG2.sumber}</p>
-          </li>
-          <li>
-            <p>Angka kejadian kardiak maternal: {SUMBER_KEJADIAN.vanHagen}</p>
-          </li>
-        </ul>
+        <div className="sumber-skor">
+          {[
+            { judul: 'mWHO 2.0', isi: 'Tabel 6 pedoman ESC 2025.' },
+            { judul: 'CARPREG II', isi: CARPREG2.sumber },
+            { judul: 'Angka kejadian kardiak maternal', isi: SUMBER_KEJADIAN.vanHagen },
+          ].map((k) => (
+            <div key={k.judul} className="tentang-kartu">
+              <h3>{k.judul}</h3>
+              <p>
+                <TeksRujukan>{k.isi}</TeksRujukan>
+              </p>
+            </div>
+          ))}
+        </div>
       </section>
 
       <DaftarPustaka />
