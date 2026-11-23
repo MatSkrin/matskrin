@@ -103,10 +103,17 @@
 .jh-panel.hamil { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
 .jh-judul { margin: 0 0 4px; font-size: 0.85rem; font-weight: 700; }
 .jh-judul span { color: var(--muted); font-weight: 500; }
-.jh-visual { height: 110px; display: flex; align-items: center; justify-content: center; }
+.jh-visual { height: 180px; display: flex; align-items: center; justify-content: center; }
 .jh-jantung { display: block; transition: width 0.3s; }
-.jh-detak.jalan { animation-name: jh-detak; animation-timing-function: ease-out; animation-iteration-count: infinite; }
-@keyframes jh-detak { 0% { transform: scale(1); } 12% { transform: scale(1.12); } 24% { transform: scale(0.97); } 36% { transform: scale(1.05); } 55%, 100% { transform: scale(1); } }
+.jh-atrium, .jh-ventrikel { transform-box: fill-box; transform-origin: center; }
+.jh-ventrikel { transform-origin: 50% 0%; }
+.jh-atrium.jalan { animation-name: jh-atrium; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.jh-ventrikel.jalan { animation-name: jh-ventrikel; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+@keyframes jh-atrium { 0%, 100% { transform: scale(1); } 10% { transform: scale(0.9); } 22% { transform: scale(1); } }
+@keyframes jh-ventrikel { 0%, 18% { transform: scale(1); } 34% { transform: scale(0.86, 0.84); } 52%, 100% { transform: scale(1); } }
+.jh-label { fill: #fff; font-size: 13px; font-weight: 700; text-anchor: middle; pointer-events: none; }
+.jh-label.kecil { font-size: 10px; }
+.jh-vki { transition: d 0.4s; }
 .jh-aliran { display: block; width: 100%; height: 22px; margin: 4px 0 8px; }
 .jh-pembuluh { fill: color-mix(in srgb, var(--accent) 14%, var(--surface)); stroke: color-mix(in srgb, var(--accent) 35%, var(--line)); stroke-width: 1; transition: d 0.4s; }
 .jh-darah { fill: none; stroke: var(--accent); stroke-linecap: round; stroke-dasharray: 0.1 14; }
@@ -128,7 +135,7 @@
 @media (max-width: 520px) {
   .jh-panel-grid { gap: 8px; }
   .jh-panel { padding: 10px 8px; }
-  .jh-visual { height: 90px; }
+  .jh-visual { height: 150px; }
   .jh-angka > div { flex-direction: column; align-items: flex-start; gap: 0; }
   .jh-angka dd { text-align: left; }
   .jh-slider { grid-template-columns: 1fr auto; }

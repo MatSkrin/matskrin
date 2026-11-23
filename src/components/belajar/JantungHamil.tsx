@@ -23,19 +23,54 @@ function fraksiPuncak(mg: number) {
   return Math.max(0, Math.min(1, (mg - 6) / 22))
 }
 
-function Jantung({ bpm, jalan, warna, skala = 1 }: { bpm: number; jalan: boolean; warna: string; skala?: number }) {
+const KANAN = '#4f74ad'
+const KIRI = '#c0394b'
+
+/** Skema jantung potongan koronal (empat ruang). Atrium lalu ventrikel berkontraksi sesuai frekuensi. */
+function Jantung({
+  bpm,
+  jalan,
+  skala = 1,
+  vkiTertekan = false,
+}: {
+  bpm: number
+  jalan: boolean
+  skala?: number
+  vkiTertekan?: boolean
+}) {
+  const dur = { animationDuration: `${60 / bpm}s` }
   return (
-    <svg viewBox="0 0 100 92" className="jh-jantung" style={{ width: `${86 * skala}px` }} aria-hidden>
-      <g
-        className={cn('jh-detak', jalan && 'jalan')}
-        style={{ animationDuration: `${60 / bpm}s`, transformOrigin: '50px 50px' }}
-      >
-        <path
-          d="M50 86 C20 64 4 48 4 28 C4 14 15 4 28 4 C38 4 46 10 50 18 C54 10 62 4 72 4 C85 4 96 14 96 28 C96 48 80 64 50 86 Z"
-          fill={warna}
-        />
-        <path d="M30 22 C24 24 20 30 20 36" stroke="white" strokeOpacity=".45" strokeWidth="5" fill="none" strokeLinecap="round" />
+    <svg viewBox="0 0 200 215" className="jh-jantung" style={{ width: `${150 * skala}px` }} role="img" aria-label="Skema jantung potongan koronal">
+      {/* Vena kava superior & inferior */}
+      <path d="M46 0 H62 V44 H46 Z" fill={KANAN} opacity=".85" />
+      <path
+        d={vkiTertekan ? 'M30 100 L38 102 L35 124 L36 150 H31 L32 124 Z' : 'M26 100 L40 102 V150 H26 Z'}
+        fill={KANAN}
+        opacity=".85"
+        className="jh-vki"
+      />
+      {/* Atrium */}
+      <g className={jalan ? 'jh-atrium jalan' : 'jh-atrium'} style={dur}>
+        <path d="M30 62 Q30 40 52 38 Q80 36 92 58 L96 106 H40 Q30 92 30 62 Z" fill={KANAN} />
+        <path d="M104 60 Q110 40 134 40 Q160 42 164 66 Q164 94 150 104 L106 106 Z" fill={KIRI} />
+        <text x="62" y="80" className="jh-label">RA</text>
+        <text x="134" y="78" className="jh-label">LA</text>
       </g>
+      {/* Ventrikel */}
+      <g className={jalan ? 'jh-ventrikel jalan' : 'jh-ventrikel'} style={dur}>
+        <path d="M40 110 Q34 152 70 184 Q88 198 104 198 L100 110 Z" fill={KANAN} />
+        <path d="M108 110 L110 198 Q132 208 154 198 Q176 176 172 138 Q168 112 150 108 Z" fill={KIRI} />
+        <path d="M104 110 L107 198" stroke="var(--surface)" strokeWidth="4" />
+        <text x="72" y="150" className="jh-label">RV</text>
+        <text x="140" y="152" className="jh-label">LV</text>
+      </g>
+      {/* Katup trikuspid & mitral */}
+      <path d="M42 108 H98 M108 108 H150" stroke="var(--surface)" strokeWidth="3" strokeLinecap="round" />
+      {/* Arteri pulmonalis & aorta */}
+      <path d="M112 108 V40 Q112 12 140 12 Q168 12 168 40 V64 H156 V40 Q156 25 140 25 Q125 25 125 40 V108 Z" fill={KIRI} stroke="var(--surface)" strokeWidth="2" />
+      <path d="M72 110 Q70 72 92 56 L110 46 L116 60 L100 70 Q92 82 94 110 Z" fill={KANAN} stroke="var(--surface)" strokeWidth="2" />
+      <text x="140" y="21" className="jh-label kecil">Ao</text>
+      <text x="88" y="80" className="jh-label kecil">AP</text>
     </svg>
   )
 }
@@ -97,7 +132,7 @@ export function JantungHamil({ sumber }: { sumber: string }) {
         <div className="jh-panel">
           <p className="jh-judul">Sebelum hamil</p>
           <div className="jh-visual">
-            <Jantung bpm={HR_ILUSTRASI_SEBELUM} jalan={jalan} warna="#9a5a66" />
+            <Jantung bpm={HR_ILUSTRASI_SEBELUM} jalan={jalan} />
           </div>
           <Aliran kecepatan={1} jalan={jalan} />
           <dl className="jh-angka">
@@ -121,7 +156,7 @@ export function JantungHamil({ sumber }: { sumber: string }) {
             Hamil {mg} minggu <span>· {trimester}</span>
           </p>
           <div className="jh-visual">
-            <Jantung bpm={hr} jalan={jalan} warna="var(--accent)" skala={1 + sv / 200} />
+            <Jantung bpm={hr} jalan={jalan} skala={1 + sv / 250} vkiTertekan={tertekan} />
           </div>
           <Aliran kecepatan={aliranHamil} jalan={jalan} sempit={tertekan} />
           <dl className="jh-angka">
@@ -189,7 +224,8 @@ export function JantungHamil({ sumber }: { sumber: string }) {
       </div>
 
       <p className="catatan">
-        <TeksSitasi>{sumber}</TeksSitasi>
+        Skema potongan koronal. RA/RV: atrium/ventrikel kanan; LA/LV: atrium/ventrikel kiri; Ao: aorta; AP: arteri
+        pulmonalis. Vena kava inferior tampak menyempit saat ibu telentang. <TeksSitasi>{sumber}</TeksSitasi>
         {kurangiGerak && ' Animasi dijeda karena pengaturan perangkat mengurangi gerakan.'}
       </p>
     </figure>
