@@ -5,8 +5,9 @@ import mdx from '@mdx-js/rollup'
 import remarkGfm from 'remark-gfm'
 import { fileURLToPath } from 'node:url'
 import remarkSitasi from './src/lib/remark-sitasi'
+import remarkRujukan from './src/lib/remark-rujukan'
 
-const mdxPlugin = mdx({ include: /\.mdx$/, remarkPlugins: [remarkGfm, remarkSitasi], providerImportSource: '@mdx-js/react' })
+const mdxPlugin = mdx({ include: /\.mdx$/, remarkPlugins: [remarkGfm, remarkSitasi, remarkRujukan], providerImportSource: '@mdx-js/react' })
 
 // base relatif agar bisa di-deploy ke GitHub Pages (subpath /matskrin/) maupun Vercel/Netlify.
 export default defineConfig({

@@ -1,12 +1,13 @@
 import type { ReactNode } from 'react'
 import { Lightbulb } from 'lucide-react'
 import { TeksSitasi } from './Cite'
+import { TeksJudul } from './TeksJudul'
 
-/** Kotak "Inti bab ini" di awal pelajaran. */
+/** Kotak "Intisari" di awal pelajaran. */
 export function Ringkasan({ children }: { children: ReactNode }) {
   return (
     <div className="ringkasan kunci">
-      <p className="ringkasan-judul">Inti bab ini</p>
+      <p className="ringkasan-judul">Intisari</p>
       {children}
     </div>
   )
@@ -15,9 +16,9 @@ export function Ringkasan({ children }: { children: ReactNode }) {
 /** Poin Klinis: butir singkat yang tetap tampil di mode ringkas. */
 export function PoinKlinis({ judul, children }: { judul: string; children: ReactNode }) {
   return (
-    <aside className="kunci my-5 rounded-r-card border-l-4 border-poin bg-poin-bg px-5 py-3" aria-label={judul}>
+    <aside className="kunci my-5 rounded-r-card border-l-4 border-poin bg-poin-bg px-5 py-3" aria-label={judul.replace(/\*/g, '')}>
       <p className="m-0 mt-1 flex items-center gap-2 font-bold text-poin">
-        <Lightbulb className="size-4 shrink-0" aria-hidden /> {judul}
+        <Lightbulb className="size-4 shrink-0" aria-hidden /> <span><TeksJudul>{judul}</TeksJudul></span>
       </p>
       <div className="[&_ul]:mb-1 [&_ul]:pl-5">{children}</div>
     </aside>

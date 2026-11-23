@@ -1,30 +1,27 @@
 import { ArrowRight, BookOpen, ClipboardCheck, Gauge } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import LanjutkanBelajar from '@/components/LanjutkanBelajar'
-import { DAFTAR_BAB } from '@/lib/content'
-
-const jumlahKartu = DAFTAR_BAB.reduce((n, b) => n + b.kartu.length, 0)
 
 const MENU = [
   {
     to: '/modul',
     ikon: BookOpen,
     judul: 'Modul',
-    isi: `${DAFTAR_BAB.length} bab, ${jumlahKartu} kartu. Baca per kartu, atau pakai mode Ringkas saat praktik.`,
+    isi: 'Pembelajaran singkat penyakit jantung pada kehamilan, diagnosis, stratifikasi risiko, dan tata laksana.',
     cta: 'Buka modul',
   },
   {
     to: '/checklist',
     ikon: ClipboardCheck,
-    judul: 'Checklist Puskesmas',
-    isi: 'Untuk ibu hamil saat ANC. Isi riwayat, gejala, tanda vital, auskultasi, dan EKG; triase dan surat rujukan keluar otomatis.',
+    judul: 'Checklist Pemeriksaan',
+    isi: 'Penilaian anamnesis, gejala, tanda vital, pemeriksaan fisik, serta EKG yang diperlukan untuk keperluan merujuk.',
     cta: 'Mulai checklist',
   },
   {
     to: '/risiko',
     ikon: Gauge,
     judul: 'Skor Risiko',
-    isi: 'Kelas mWHO 2.0 dan skor CARPREG II, mengikuti ESC 2025.',
+    isi: 'Penilaian risiko maternal menggunakan mWHO 2.0 dan skor CARPREG II.',
     cta: 'Hitung skor risiko',
   },
 ]
@@ -33,11 +30,11 @@ export default function Beranda() {
   return (
     <>
       <section className="hero">
-        <h1>Penyakit Jantung pada Kehamilan</h1>
-        <p className="lead">
-          Materi ringkas untuk dokter umum: fisiologi, deteksi dini, evaluasi, dan stratifikasi risiko ibu hamil dengan
-          penyakit jantung, berlandaskan pedoman ESC 2025.
-        </p>
+        <h1 className="hero-judul">
+          <span className="text-accent">Mat</span>Skrin
+        </h1>
+        <p className="hero-sub">Skrining penyakit jantung pada kehamilan</p>
+        <p className="lead">Deteksi dini, evaluasi, dan stratifikasi risiko ibu hamil dengan penyakit jantung.</p>
       </section>
       <LanjutkanBelajar className="mb-4" />
       <div className="cards">

@@ -51,7 +51,7 @@ const INFO_TRIASE = {
     aksi: 'Rujuk terencana cepat untuk telaah SpJP dan ekokardiografi.',
   },
   hijau: {
-    judul: 'HIJAU: lanjut ANC',
+    judul: 'HIJAU: lanjutkan pemeriksaan antenatal',
     aksi: 'Edukasi tanda bahaya; nilai ulang setiap kunjungan, termasuk masa nifas. Ambang rujuk rendah bila ragu.',
   },
 } as const
@@ -175,9 +175,9 @@ export default function PanduanKlinis() {
 
   return (
     <>
-      <h1>Checklist Puskesmas</h1>
+      <h1>Checklist Pemeriksaan</h1>
       <p className="lead-sm">
-        Checklist deteksi dini penyakit jantung pada ibu hamil saat ANC: riwayat, gejala, tanda vital, auskultasi, dan
+        Checklist deteksi dini penyakit jantung pada ibu hamil saat pemeriksaan antenatal: riwayat, gejala, tanda vital, auskultasi, dan
         EKG. Hasil triase diperbarui otomatis.
       </p>
 
