@@ -7,6 +7,7 @@ import { DAFTAR_BAB } from "@/lib/content";
 import { BAGIAN } from "@/data/bagian";
 import { baca } from "@/lib/progres";
 import { cn, perilakuGulir } from "@/lib/utils";
+import { TeksJudul } from '@/components/belajar/TeksJudul'
 
 const norm = (s: string) =>
   s.toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "");
@@ -47,7 +48,7 @@ export default function DaftarModul() {
             `bab ${b.nomor} ${b.judul} ${b.ringkasan}`,
           ).includes(q);
           const kartu = b.kartu.filter((k) =>
-            norm(`${k.nomor ?? ""} ${k.teks}`).includes(q),
+            norm(`${k.nomor ?? ""} ${k.teks.replace(/\*/g, "")}`).includes(q),
           );
           return cocokBab || kartu.length
             ? { ...b, cocok: cocokBab ? b.kartu : kartu }
@@ -194,7 +195,7 @@ export default function DaftarModul() {
                                     ))}
                                 </span>
                               )}
-                              <span>{k.teks}</span>
+                              <span><TeksJudul>{k.teks}</TeksJudul></span>
                             </button>
                           </li>
                         ))}

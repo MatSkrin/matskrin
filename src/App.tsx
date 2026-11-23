@@ -19,7 +19,7 @@ const MENU = [
   { to: '/tentang', label: 'Tentang', ikon: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 11v5M12 8h.01' },
 ]
 
-const JUDUL: Record<string, string> = { '/': '', '/modul': 'Modul', '/checklist': 'Checklist Puskesmas', '/risiko': 'Skor Risiko', '/tentang': 'Tentang' }
+const JUDUL: Record<string, string> = { '/': '', '/modul': 'Modul', '/checklist': 'Checklist Pemeriksaan', '/risiko': 'Skor Risiko', '/tentang': 'Tentang' }
 
 /** Judul tab per halaman (WCAG 2.4.2) dan pindah ke atas saat ganti halaman. */
 function JudulHalaman() {
@@ -73,7 +73,7 @@ export default function App() {
       </main>
       <footer className="wrap footer">
         <p className="m-0">
-          Alat bantu edukasi untuk tenaga kesehatan. Tidak menggantikan penilaian klinis dan konsultasi spesialis.
+          Aplikasi ini digunakan untuk tenaga kesehatan, tidak menggantikan penilaian klinis, serta konsultasi oleh spesialis.
         </p>
         <p className="footer-lisensi">
           © 2026 COHARD-PH, Departemen Kardiologi dan Kedokteran Vaskular, RSUP Dr. Sardjito/FK-KMK UGM. Konten:{' '}

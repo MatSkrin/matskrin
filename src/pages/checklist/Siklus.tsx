@@ -12,7 +12,7 @@ type Pola = { id: string; nama: string; gambar: React.ReactNode; dengar: string;
 
 const BISING: Pola[] = [
   { id: 'normal', nama: 'Normal', gambar: null, dengar: 'Hanya S1 dan S2 ("lub-dub"), sistol lebih pendek dari diastol.', arti: 'Pada kehamilan S1 dapat lebih keras dan split S2 lebih jelas.' },
-  { id: 'ejeksi', nama: 'Bising ejeksi', gambar: <path className="bising" d={`M68 ${Y} L128 ${Y - 26} L188 ${Y} L128 ${Y + 26} Z`} />, dengar: 'Belah ketupat di tengah sistol, berhenti sebelum S2.', arti: 'Bising aliran kehamilan berbentuk ini. Aman bila ≤ 2/6, tanpa thrill, tidak menjalar, dan S2 normal. Bila keras atau menjalar ke leher, pikirkan stenosis aorta/pulmonal.' },
+  { id: 'ejeksi', nama: 'Bising ejeksi', gambar: <path className="bising" d={`M68 ${Y} L128 ${Y - 26} L188 ${Y} L128 ${Y + 26} Z`} />, dengar: 'Belah ketupat di tengah sistol, berhenti sebelum S2.', arti: 'Bising sistolik fungsional kehamilan berbentuk ini. Aman bila ≤ 2/6, tanpa thrill, tidak menjalar, dan S2 normal. Bila keras atau menjalar ke leher, pikirkan stenosis aorta/pulmonal.' },
   { id: 'holo', nama: 'Holosistolik', gambar: <rect className="bising" x={56} y={Y - 20} width={148} height={40} rx={3} />, dengar: 'Rata dari S1 sampai S2, menutupi seluruh sistol.', arti: 'Selalu patologis: MR (apeks, menjalar ke aksila), TR (tepi kiri bawah sternum, mengeras saat inspirasi), atau VSD. Rujuk.' },
   { id: 'ar', nama: 'Diastolik dini', gambar: <path className="bising" d={`M216 ${Y} L218 ${Y - 22} L340 ${Y} L218 ${Y + 22} Z`} />, dengar: 'Bernada tinggi, langsung setelah S2, makin lemah (dekresendo).', arti: 'Regurgitasi aorta. Paling jelas di titik Erb dengan diafragma, ibu duduk condong ke depan, napas ditahan setelah ekspirasi. Setiap bising diastolik dirujuk.' },
   {
@@ -187,7 +187,7 @@ export function CekFungsional() {
       </div>
       <p className={`cek-hasil ${semua ? 'hijau' : 'kuning'}`} aria-live="polite">
         {semua
-          ? 'Semua terpenuhi: sesuai bising fungsional. Lanjut ANC, nilai ulang tiap kunjungan.'
+          ? 'Semua terpenuhi: sesuai bising fungsional. Lanjutkan pemeriksaan antenatal, nilai ulang tiap kunjungan.'
           : `${n} dari ${ok.length} terpenuhi: belum bisa dianggap fungsional. Bila ragu, anggap belum jinak dan centang temuan di bawah.`}
       </p>
     </div>

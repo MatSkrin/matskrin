@@ -6,7 +6,7 @@ type Titik = { id: string; x: number; y: number; label: string; nama: string; lo
 // Koordinat skematis (viewBox 320×330). Kanan ibu tampil di kiri gambar, seperti saat berhadapan.
 const AUSKULTASI: Titik[] = [
   { id: 'A', x: 131, y: 101, label: 'A', nama: 'Aorta', lokasi: 'ICS 2 parasternal kanan', isi: 'Stenosis aorta; dengarkan penjalaran ke karotis.' },
-  { id: 'P', x: 169, y: 101, label: 'P', nama: 'Pulmonal', lokasi: 'ICS 2 parasternal kiri', isi: 'Bising aliran kehamilan, ASD, stenosis pulmonal. Nilai P2 dan split S2 di sini.' },
+  { id: 'P', x: 169, y: 101, label: 'P', nama: 'Pulmonal', lokasi: 'ICS 2 parasternal kiri', isi: 'Bising sistolik fungsional kehamilan, ASD, stenosis pulmonal. Nilai P2 dan split S2 di sini.' },
   { id: 'E', x: 169, y: 126, label: 'E', nama: 'Erb', lokasi: 'ICS 3 parasternal kiri', isi: 'Regurgitasi aorta/pulmonal. Dengarkan saat ibu duduk condong ke depan dan menahan napas setelah ekspirasi.' },
   { id: 'T', x: 167, y: 163, label: 'T', nama: 'Trikuspid', lokasi: 'ICS 4–5 parasternal kiri', isi: 'Regurgitasi trikuspid, VSD. Bising sisi kanan mengeras saat inspirasi dalam.' },
   { id: 'M', x: 211, y: 176, label: 'M', nama: 'Mitral (apeks)', lokasi: 'Apeks, ICS 5 linea midklavikula kiri', isi: 'MR (menjalar ke aksila); MS (rumble, dengan bell, ibu miring kiri). Pada kehamilan lanjut, tentukan apeks dengan meraba iktus.' },

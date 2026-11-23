@@ -1,7 +1,9 @@
 import { MDXProvider } from '@mdx-js/react'
 import { BookOpenText, Check, BookMarked, Flag, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope, X } from 'lucide-react'
-import { useEffect, useState, type ComponentProps } from 'react'
-import { Link } from 'react-router-dom'
+import { Children, useEffect, useState, type ComponentProps } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
+import { gulirKeElemen } from '@/lib/rujukan'
+import { TeksJudul } from '@/components/belajar/TeksJudul'
 import * as B from '@/components/belajar'
 import { bagianDari } from '@/data/bagian'
 import { Pelajaran as KonteksPelajaran } from '@/components/belajar/konteks'
@@ -12,16 +14,31 @@ import { Progress } from '@/components/ui/progress'
 import type { Pelajaran } from '@/content/pelajaran'
 import type { Bab } from '@/lib/content'
 import { usePreferensi, useProgres } from '@/lib/progres'
-import { cn, perilakuGulir } from '@/lib/utils'
+import { cn } from '@/lib/utils'
 
 const komponenMDX = {
   ...B,
   // Tabel bisa digulir horizontal di layar sempit; tabIndex agar bisa digulir dengan keyboard (WCAG 2.1.1).
   table: (p: ComponentProps<'table'>) => <table tabIndex={0} {...p} />,
+  // Nomor sub-subbab (mis. "4.2.1") ditonjolkan sebagai lencana.
+  h3: ({ children, ...p }: ComponentProps<'h3'>) => {
+    const [awal, ...sisa] = Children.toArray(children)
+    const m = typeof awal === 'string' ? awal.match(/^(\d+\.\d+\.\d+)\s+([\s\S]*)$/) : null
+    if (!m) return <h3 {...p}>{children}</h3>
+    return (
+      <h3 {...p} className="sub-bernomor">
+        <span className="nomor-sub">{m[1]}</span>
+        <span>
+          {m[2]}
+          {sisa}
+        </span>
+      </h3>
+    )
+  },
 }
 
 function gulirKe(id: string) {
-  document.getElementById(id)?.scrollIntoView({ behavior: perilakuGulir(), block: 'start' })
+  gulirKeElemen(id)
 }
 
 function DaftarKartu({
@@ -67,7 +84,7 @@ function DaftarKartu({
                     <Flag className="size-3" aria-hidden />
                   )}
                 </span>
-                <span>{k.teks}</span>
+                <span><TeksJudul>{k.teks}</TeksJudul></span>
               </span>
             </button>
           </li>
@@ -94,6 +111,8 @@ export default function HalamanPelajaran({
   const [aktif, setAktif] = useState('')
   const [navBuka, setNavBuka] = useState(false)
   const [sidebarTutup, setSidebarTutup] = usePreferensi('matskrin:sidebar-tutup', false)
+  const [params] = useSearchParams()
+  const ke = params.get('ke')
 
   // Sorot kartu yang sedang dibaca.
   useEffect(() => {
@@ -111,6 +130,18 @@ export default function HalamanPelajaran({
     window.scrollTo(0, 0)
     return () => obs.disconnect()
   }, [bab])
+
+  // Rujukan silang dari bab lain (?ke=tabel-6-1): gulir ke tabel/gambar yang dituju.
+  useEffect(() => {
+    if (!ke) return
+    // Gulir dua kali: gambar lazy-load dapat menggeser tata letak setelah gulir pertama.
+    const t1 = window.setTimeout(() => gulirKeElemen(ke), 80)
+    const t2 = window.setTimeout(() => gulirKeElemen(ke), 700)
+    return () => {
+      window.clearTimeout(t1)
+      window.clearTimeout(t2)
+    }
+  }, [ke, bab])
 
   // Esc menutup daftar kartu melayang.
   useEffect(() => {
@@ -165,7 +196,7 @@ export default function HalamanPelajaran({
                   <BookOpenText /> Belajar
                 </Button>
                 <Button size="sm" variant={ringkas ? 'default' : 'ghost'} aria-pressed={ringkas} onClick={() => setRingkas(true)}>
-                  <Stethoscope /> Ringkas klinis
+                  <Stethoscope /> Praktis Klinis
                 </Button>
               </div>
               <div className="flex min-w-36 flex-1 items-center gap-2">
@@ -193,7 +224,7 @@ export default function HalamanPelajaran({
             </div>
             {ringkas && (
               <p className="m-0 mt-2 text-xs text-muted">
-                Ringkas klinis: hanya inti bab, Poin Klinis, rekomendasi ESC, tabel, dan gambar yang ditampilkan.
+                Praktis Klinis: hanya intisari, Poin Klinis, rekomendasi ESC, tabel, dan gambar yang ditampilkan.
               </p>
             )}
           </div>
@@ -203,8 +234,11 @@ export default function HalamanPelajaran({
               <Konten />
             </MDXProvider>
 
-            <section id="daftar-pustaka" className="pustaka-blok">
-              <h2>Daftar Pustaka</h2>
+            <details id="daftar-pustaka" className="pustaka-blok">
+              <summary>
+                <h2>Daftar Pustaka</h2>
+                <span className="pustaka-jumlah">{pustaka.length} rujukan</span>
+              </summary>
               <ol className="pustaka">
                 {pustaka.map((r, i) => (
                   <li key={i} id={`ref-${i + 1}`}>
@@ -212,7 +246,7 @@ export default function HalamanPelajaran({
                   </li>
                 ))}
               </ol>
-            </section>
+            </details>
           </div>
 
           <nav className="pager-bab" aria-label="Bab sebelumnya dan berikutnya">

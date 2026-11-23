@@ -12,7 +12,7 @@ const SLUG = Object.fromEntries(DAFTAR_BAB.map((b) => [b.nomor, b.slug]))
 const JUMLAH_KARTU = DAFTAR_BAB.reduce((n, b) => n + b.kartu.length, 0)
 
 const SASARAN = [
-  { ikon: Hospital, judul: 'Puskesmas dan klinik', isi: 'Dokter umum yang menemui ibu hamil saat ANC dan menjadi pintu pertama rujukan.' },
+  { ikon: Hospital, judul: 'Puskesmas dan klinik', isi: 'Dokter umum yang menemui ibu hamil saat pemeriksaan antenatal dan menjadi pintu pertama rujukan.' },
   { ikon: Siren, judul: 'IGD', isi: 'Dokter jaga yang menerima ibu hamil atau nifas dengan sesak, nyeri dada, atau berdebar.' },
   { ikon: UsersRound, judul: 'Bidan dan tenaga kesehatan lain', isi: 'Tim yang paling sering bertemu ibu hamil dan perlu tahu kapan harus waspada.' },
 ]
@@ -24,8 +24,8 @@ const LANGKAH = [
 ]
 
 const ISI = [
-  { to: '/modul', ikon: BookOpen, judul: 'Modul', isi: `${DAFTAR_BAB.length} bab pelajaran interaktif dengan mode Ringkas klinis untuk dibaca cepat saat praktik.` },
-  { to: '/checklist', ikon: ClipboardCheck, judul: 'Checklist', isi: 'Deteksi dini saat ANC: riwayat, gejala, tanda vital, auskultasi, dan EKG, dengan hasil triase otomatis.' },
+  { to: '/modul', ikon: BookOpen, judul: 'Modul', isi: `${DAFTAR_BAB.length} bab pelajaran interaktif dengan mode Praktis Klinis untuk dibaca cepat saat praktik.` },
+  { to: '/checklist', ikon: ClipboardCheck, judul: 'Checklist', isi: 'Deteksi dini saat pemeriksaan antenatal: riwayat, gejala, tanda vital, auskultasi, dan EKG, dengan hasil triase otomatis.' },
   { to: '/risiko', ikon: Gauge, judul: 'Skor Risiko', isi: 'Kalkulator kelas mWHO 2.0 dan skor CARPREG II.' },
 ]
 
