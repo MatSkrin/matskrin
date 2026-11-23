@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react'
-import { BookOpenText, Check, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope, X } from 'lucide-react'
+import { BookOpenText, Check, BookMarked, Flag, ChevronLeft, ChevronRight, List, PanelLeftClose, PanelLeftOpen, RotateCcw, Stethoscope, X } from 'lucide-react'
 import { useEffect, useState, type ComponentProps } from 'react'
 import { Link } from 'react-router-dom'
 import * as B from '@/components/belajar'
@@ -56,7 +56,15 @@ function DaftarKartu({
                   )}
                   aria-label={done ? 'Selesai' : undefined}
                 >
-                  {done ? <Check className="size-3" /> : (k.nomor ?? '·')}
+                  {done ? (
+                    <Check className="size-3" />
+                  ) : k.nomor ? (
+                    k.nomor
+                  ) : k.id === 'daftar-pustaka' ? (
+                    <BookMarked className="size-3" aria-hidden />
+                  ) : (
+                    <Flag className="size-3" aria-hidden />
+                  )}
                 </span>
                 <span>{k.teks}</span>
               </span>
