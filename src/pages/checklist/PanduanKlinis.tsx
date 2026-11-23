@@ -1,3 +1,4 @@
+import { TeksIstilah } from '@/components/Istilah'
 import { perilakuGulir } from '@/lib/utils'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import {
@@ -61,13 +62,38 @@ function Daftar({ items, dipilih, toggle }: { items: Temuan[]; dipilih: Set<stri
         <label key={t.id} className={`check ${dipilih.has(t.id) ? 'on' : ''}`}>
           <input type="checkbox" checked={dipilih.has(t.id)} onChange={() => toggle(t.id)} />
           <span>
-            {t.label}
-            {t.detail && <small>{t.detail}</small>}
+            <TeksIstilah>{t.label}</TeksIstilah>
+            {t.detail && <small><TeksIstilah>{t.detail}</TeksIstilah></small>}
           </span>
           <span className={`pill ${t.tingkat}`}>{t.hanyaBilaGejala ? 'bila keluhan' : t.merahBilaGejala ? 'kuning/merah' : t.tingkat}</span>
         </label>
       ))}
     </div>
+  )
+}
+
+// Rentang warna tiap tanda vital, sesuai ambang nilaiVital(): [batas atas, tingkat]
+const PITA: Record<keyof Vital, { min: number; max: number; seg: [number, 'hijau' | 'kuning' | 'merah'][] }> = {
+  nadi: { min: 50, max: 140, seg: [[110, 'hijau'], [120, 'kuning'], [140, 'merah']] },
+  tds: { min: 70, max: 180, seg: [[90, 'merah'], [140, 'hijau'], [160, 'kuning'], [180, 'merah']] },
+  rr: { min: 10, max: 32, seg: [[24, 'hijau'], [25, 'kuning'], [32, 'merah']] },
+  spo2: { min: 88, max: 100, seg: [[94.5, 'merah'], [96.5, 'kuning'], [100, 'hijau']] },
+}
+
+/** Pita hijau-kuning-merah dengan penanda nilai yang diisi. */
+function PitaVital({ k, nilai }: { k: keyof Vital; nilai?: number }) {
+  const p = PITA[k]
+  const pct = (v: number) => ((Math.min(Math.max(v, p.min), p.max) - p.min) / (p.max - p.min)) * 100
+  let awal = p.min
+  return (
+    <span className="pita" aria-hidden>
+      {p.seg.map(([batas, w]) => {
+        const el = <i key={batas} className={w} style={{ left: `${pct(awal)}%`, width: `${pct(batas) - pct(awal)}%` }} />
+        awal = batas
+        return el
+      })}
+      {nilai != null && <b style={{ left: `${pct(nilai)}%` }} />}
+    </span>
   )
 }
 
@@ -210,6 +236,7 @@ export default function PanduanKlinis() {
                       <small>{unit}</small>
                     </span>
                     {nilai && <em>{nilai.tingkat}</em>}
+                    <PitaVital k={k} nilai={vital[k]} />
                   </label>
                 )
               })}
