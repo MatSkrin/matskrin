@@ -21,7 +21,7 @@ export const kuis: Soal[] = [
     ],
     benar: 0,
     pembahasan:
-      'Petunjuk penyakit aorta meliputi riwayat keluarga diseksi atau kematian mendadak usia muda, ciri Marfan atau sindrom lain, katup aorta bikuspid, koarktasio, dan bising diastolik regurgitasi aorta [2,4].',
+      'Petunjuk penyakit aorta meliputi riwayat keluarga diseksi atau kematian mendadak usia muda, ciri Marfan atau sindrom lain, katup aorta bikuspid, koarktasio, dan bising diastolik regurgitasi aorta [2,5].',
   },
   {
     id: 'b13-q3',
@@ -49,6 +49,6 @@ export const kuis: Soal[] = [
     ],
     benar: 1,
     pembahasan:
-      'Kondisi ini perlu dicurigai sebagai diseksi aorta. Ibu dirujuk darurat ke rumah sakit dengan layanan bedah jantung dan obstetri, dan rujukan tidak ditunda untuk pemeriksaan penunjang [2,13].',
+      'Kondisi ini perlu dicurigai sebagai diseksi aorta. Ibu dirujuk darurat ke rumah sakit dengan layanan bedah jantung dan obstetri, dan rujukan tidak ditunda untuk pemeriksaan penunjang [2,14].',
   },
 ]
