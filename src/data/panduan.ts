@@ -8,7 +8,8 @@
  * menetapkan ambang triase antenatal). Butir riwayat, EKG, biomarker, dan katup mekanik
  * diselaraskan dengan ESC 2025 (verifikasi 23 Nov 2026). Kriteria EKG: konduksi dan
  * preeksitasi dari Surawicz 2009, ST-T dan QTc dari Rautaharju 2009, pola ASD dari Webb &
- * Gatzoulis 2006, petunjuk PPCM dari Bauersachs 2019.
+ * Gatzoulis 2006, petunjuk PPCM dari Bauersachs 2019, palpitasi dari Adamson & Nelson-Piercy 2007,
+ * kesalahan perekaman dari Kligfield 2007, Batchvarov 2007, dan Walsh 2018 (sesuai slide materi).
  */
 
 export type Tingkat = 'merah' | 'kuning'
@@ -177,5 +178,9 @@ export const SUMBER_PANDUAN = [
   'Rautaharju PM, Surawicz B, Gettes LS, Bailey JJ, Childers R, Deal BJ, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval. Circulation. 2009;119(10):e241–50.',
   'Webb G, Gatzoulis MA. Atrial septal defects in the adult: recent progress and overview. Circulation. 2006;114(15):1645–53.',
   'Bauersachs J, König T, van der Meer P, Petrie MC, Hilfiker-Kleiner D, Mbakwem A, et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy: a position statement from the Heart Failure Association of the European Society of Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827–43.',
+  'Adamson DL, Nelson-Piercy C. Managing palpitations and arrhythmias during pregnancy. Heart. 2007;93(12):1630–6.',
+  'Kligfield P, Gettes LS, Bailey JJ, Childers R, Deal BJ, Hancock EW, et al. Recommendations for the standardization and interpretation of the electrocardiogram: part I: the electrocardiogram and its technology. Circulation. 2007;115(10):1306–24.',
+  'Batchvarov VN, Malik M, Camm AJ. Incorrect electrode cable connection during electrocardiographic recording. Europace. 2007;9(11):1081–90.',
+  'Walsh B. Misplacing V1 and V2 can have clinical consequences. Am J Emerg Med. 2018;36(5):865–70.',
   'De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462–568. doi:10.1093/eurheartj/ehaf193',
 ]
