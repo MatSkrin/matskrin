@@ -6,7 +6,9 @@
  * mengadaptasi algoritma ACOG 2023 (red flags) dan CMQCC/CDPH CVD in Pregnancy Toolkit 2017.
  * Ambang tanda vital dan aturan triase berasal dari ACOG/CMQCC, bukan dari ESC 2025 (ESC tidak
  * menetapkan ambang triase antenatal). Butir riwayat, EKG, biomarker, dan katup mekanik
- * diselaraskan dengan ESC 2025 (verifikasi 23 Nov 2026).
+ * diselaraskan dengan ESC 2025 (verifikasi 23 Nov 2026). Kriteria EKG: konduksi dan
+ * preeksitasi dari Surawicz 2009, ST-T dan QTc dari Rautaharju 2009, pola ASD dari Webb &
+ * Gatzoulis 2006, petunjuk PPCM dari Bauersachs 2019.
  */
 
 export type Tingkat = 'merah' | 'kuning'
@@ -128,7 +130,7 @@ export const EKG: Temuan[] = [
     label: 'Q patologis, ST elevasi/depresi bermakna, atau T inversi dalam di lateral',
     tingkat: 'kuning',
   },
-  { id: 'e-qtc', label: 'QTc ≥ 460 ms', detail: 'Ambang menurut materi Prabowo (2026)', tingkat: 'kuning' },
+  { id: 'e-qtc', label: 'QTc ≥ 460 ms', detail: 'Batas QTc memanjang pada perempuan (Rautaharju 2009)', tingkat: 'kuning' },
   { id: 'e-hipertrofi', label: 'LVH/RVH dengan strain, atau P mitral/pulmonal', tingkat: 'kuning' },
   {
     id: 'e-np',
@@ -171,5 +173,9 @@ export const SUMBER_PANDUAN = [
   'American College of Obstetricians and Gynecologists. Cardiovascular Disease in Pregnancy and Postpartum Algorithm; 2023.',
   'California Maternal Quality Care Collaborative/CDPH. Cardiovascular Disease in Pregnancy and Postpartum Toolkit; 2017.',
   'ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133:e320–56.',
+  'Surawicz B, Childers R, Deal BJ, Gettes LS, Bailey JJ, Gorgels A, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part III: intraventricular conduction disturbances. Circulation. 2009;119(10):e235–40.',
+  'Rautaharju PM, Surawicz B, Gettes LS, Bailey JJ, Childers R, Deal BJ, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval. Circulation. 2009;119(10):e241–50.',
+  'Webb G, Gatzoulis MA. Atrial septal defects in the adult: recent progress and overview. Circulation. 2006;114(15):1645–53.',
+  'Bauersachs J, König T, van der Meer P, Petrie MC, Hilfiker-Kleiner D, Mbakwem A, et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy: a position statement from the Heart Failure Association of the European Society of Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827–43.',
   'De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462–568. doi:10.1093/eurheartj/ehaf193',
 ]
