@@ -1,3 +1,4 @@
+import { TeksRujukan } from '@/components/belajar/Pustaka'
 import { TeksIstilah } from '@/components/Istilah'
 import { perilakuGulir } from '@/lib/utils'
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -345,7 +346,7 @@ export default function PanduanKlinis() {
 
       <details className="acuan sumber">
         <summary>Sumber</summary>
-        <ol className="small">{SUMBER_PANDUAN.map((s) => <li key={s}>{s}</li>)}</ol>
+        <ol className="small">{SUMBER_PANDUAN.map((s) => <li key={s}><TeksRujukan>{s}</TeksRujukan></li>)}</ol>
       </details>
     </>
   )

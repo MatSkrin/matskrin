@@ -169,18 +169,19 @@ export function nilaiVital(v: Vital): HasilVital[] {
   return out
 }
 
+/** Daftar pustaka checklist, gaya Vancouver. DOI hanya dicantumkan bila sudah dicek ke PDF atau Crossref. */
 export const SUMBER_PANDUAN = [
-  'Prabowo BK. Auskultasi Terstruktur, Varian Normal EKG Kehamilan, dan Kriteria Rujukan Ekokardiografi. FK-KMK UGM/RSUP Dr. Sardjito; November 2026.',
-  'American College of Obstetricians and Gynecologists. Cardiovascular Disease in Pregnancy and Postpartum Algorithm; 2023.',
-  'California Maternal Quality Care Collaborative/CDPH. Cardiovascular Disease in Pregnancy and Postpartum Toolkit; 2017.',
-  'ACOG Practice Bulletin No. 212: Pregnancy and Heart Disease. Obstet Gynecol. 2019;133:e320–56.',
-  'Surawicz B, Childers R, Deal BJ, Gettes LS, Bailey JJ, Gorgels A, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part III: intraventricular conduction disturbances. Circulation. 2009;119(10):e235–40.',
-  'Rautaharju PM, Surawicz B, Gettes LS, Bailey JJ, Childers R, Deal BJ, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval. Circulation. 2009;119(10):e241–50.',
-  'Webb G, Gatzoulis MA. Atrial septal defects in the adult: recent progress and overview. Circulation. 2006;114(15):1645–53.',
-  'Bauersachs J, König T, van der Meer P, Petrie MC, Hilfiker-Kleiner D, Mbakwem A, et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy: a position statement from the Heart Failure Association of the European Society of Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827–43.',
-  'Adamson DL, Nelson-Piercy C. Managing palpitations and arrhythmias during pregnancy. Heart. 2007;93(12):1630–6.',
+  'Prabowo BK. Auskultasi terstruktur, varian normal EKG kehamilan, dan kriteria rujukan ekokardiografi [materi presentasi]. Yogyakarta: FK-KMK UGM/RSUP Dr. Sardjito; 2026.',
+  'De Backer J, Haugaa KH, Hasselberg NE, de Hosson M, Brida M, Castelletti S, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462–568. doi:10.1093/eurheartj/ehaf193',
+  'American College of Obstetricians and Gynecologists\' Presidential Task Force on Pregnancy and Heart Disease and Committee on Practice Bulletins—Obstetrics. ACOG Practice Bulletin No. 212: pregnancy and heart disease. Obstet Gynecol. 2019;133(5):e320–56. doi:10.1097/AOG.0000000000003243',
+  'American College of Obstetricians and Gynecologists. Cardiovascular disease in pregnancy and postpartum algorithm. Washington (DC): ACOG; 2023.',
+  'Hameed AB, Morton CH, Moore A. Improving health care response to cardiovascular disease in pregnancy and postpartum. California Maternal Quality Care Collaborative toolkit. Sacramento (CA): California Department of Public Health; 2017.',
+  'Surawicz B, Childers R, Deal BJ, Gettes LS, Bailey JJ, Gorgels A, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part III: intraventricular conduction disturbances. Circulation. 2009;119(10):e235–40. doi:10.1161/CIRCULATIONAHA.108.191095',
+  'Rautaharju PM, Surawicz B, Gettes LS, Bailey JJ, Childers R, Deal BJ, et al. AHA/ACCF/HRS recommendations for the standardization and interpretation of the electrocardiogram: part IV: the ST segment, T and U waves, and the QT interval. Circulation. 2009;119(10):e241–50. doi:10.1161/CIRCULATIONAHA.108.191096',
   'Kligfield P, Gettes LS, Bailey JJ, Childers R, Deal BJ, Hancock EW, et al. Recommendations for the standardization and interpretation of the electrocardiogram: part I: the electrocardiogram and its technology. Circulation. 2007;115(10):1306–24.',
   'Batchvarov VN, Malik M, Camm AJ. Incorrect electrode cable connection during electrocardiographic recording. Europace. 2007;9(11):1081–90.',
   'Walsh B. Misplacing V1 and V2 can have clinical consequences. Am J Emerg Med. 2018;36(5):865–70.',
-  'De Backer J, et al. 2025 ESC Guidelines for the management of cardiovascular disease and pregnancy. Eur Heart J. 2025;46(43):4462–568. doi:10.1093/eurheartj/ehaf193',
+  'Webb G, Gatzoulis MA. Atrial septal defects in the adult: recent progress and overview. Circulation. 2006;114(15):1645–53. doi:10.1161/CIRCULATIONAHA.105.592055',
+  'Bauersachs J, König T, van der Meer P, Petrie MC, Hilfiker-Kleiner D, Mbakwem A, et al. Pathophysiology, diagnosis and management of peripartum cardiomyopathy: a position statement from the Heart Failure Association of the European Society of Cardiology Study Group on peripartum cardiomyopathy. Eur J Heart Fail. 2019;21(7):827–43. doi:10.1002/ejhf.1493',
+  'Adamson DL, Nelson-Piercy C. Managing palpitations and arrhythmias during pregnancy. Heart. 2007;93(12):1630–6.',
 ]
