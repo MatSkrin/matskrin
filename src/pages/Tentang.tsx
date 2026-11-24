@@ -56,15 +56,11 @@ function DaftarPustaka() {
 
   return (
     <section className="tentang-blok" aria-labelledby="judul-pustaka">
-      <div className="tentang-kepala">
-        <div>
-          <h2 id="judul-pustaka">Menggunakan materi berbasis bukti terkini</h2>
-        </div>
-        <label className="cari-pustaka">
-          <Search aria-hidden />
-          <input type="search" placeholder="Cari penulis, judul, atau jurnal" value={cari} onChange={(e) => setCari(e.target.value)} />
-        </label>
-      </div>
+      <h2 id="judul-pustaka">Menggunakan materi berbasis bukti terkini</h2>
+      <label className="cari-pustaka">
+        <Search aria-hidden />
+        <input type="search" placeholder="Cari penulis, judul, atau jurnal" value={cari} onChange={(e) => setCari(e.target.value)} />
+      </label>
       <p className="pustaka-jumlah" aria-live="polite">
         {cari ? `${jumlah} dari ${PUSTAKA.length} rujukan` : `${PUSTAKA.length} rujukan`}
       </p>
@@ -132,9 +128,6 @@ export default function Tentang() {
 
       <section className="tentang-blok" aria-labelledby="judul-langkah">
         <h2 id="judul-langkah">Kenali, tangani, rujuk</h2>
-        <p className="muted tentang-sub">
-          Keputusan yang diambil di layanan primer sebelum pasien sampai ke spesialis sangat berharga.
-        </p>
         <ol className="tentang-langkah">
           {LANGKAH.map((l, i) => (
             <li key={l.judul}>

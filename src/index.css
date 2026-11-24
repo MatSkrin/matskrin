@@ -449,7 +449,6 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cur
 .tentang-kartu p { margin: 0; color: var(--muted); font-size: 0.95rem; }
 .tentang-ikon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); }
 .tentang-ikon svg { width: 20px; height: 20px; }
-.tentang-sub { margin: -0.4em 0 1.2em; max-width: 620px; }
 .tentang-langkah { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .tentang-langkah li { display: flex; flex-direction: column; gap: 6px; padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .tentang-langkah-no { flex: none; width: 30px; height: 30px; border-radius: 999px; background: var(--accent); color: var(--on-accent); display: inline-flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem; }
@@ -461,7 +460,7 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cur
 .tentang-catatan p { margin: 0; }
 .tentang-kepala { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px; }
 .tentang-kepala > div { max-width: 560px; }
-.cari-pustaka { display: flex; align-items: center; gap: 8px; min-width: min(320px, 100%); padding: 0 12px; height: 44px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--muted); }
+.cari-pustaka { display: flex; align-items: center; gap: 8px; width: 100%; box-sizing: border-box; padding: 0 12px; height: 44px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--muted); }
 .cari-pustaka:focus-within { border-color: var(--accent); }
 .cari-pustaka svg { width: 18px; height: 18px; flex: none; }
 .cari-pustaka input { flex: 1; min-width: 0; border: 0; outline: 0; background: none; font: inherit; color: var(--ink); }
