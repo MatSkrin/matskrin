@@ -228,6 +228,8 @@ button.link { background: none; border: none; font: inherit; color: inherit; tex
 .acuan-isi { padding: 0 16px 12px; font-size: 0.97rem; }
 .acuan-isi p, .acuan-isi li { line-height: 1.6; }
 .acuan.sumber { margin-top: 40px; }
+.acuan-langsung { margin: 10px 0 4px; font-size: 0.97rem; }
+.acuan-langsung p, .acuan-langsung li { line-height: 1.6; }
 .acuan.sumber ol { padding: 0 16px 12px 36px; color: var(--muted); }
 .ceklis { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 2px 16px; }
 .ceklis .check.on span:nth-child(2) { font-weight: 600; }

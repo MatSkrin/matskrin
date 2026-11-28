@@ -14,6 +14,15 @@ export function Acuan({ judul, children, buka = false }: { judul: string; childr
   )
 }
 
+export function AcuanLangsung({ judul, children }: { judul?: string; children: ReactNode }) {
+  return (
+    <>
+      {judul && <h3>{judul}</h3>}
+      <div className="acuan-langsung prose"><Glosarium>{children}</Glosarium></div>
+    </>
+  )
+}
+
 export function AcuanRiwayat() {
   return (
     <Acuan judul="Mengapa ditanyakan?">
@@ -28,7 +37,7 @@ export function AcuanRiwayat() {
 
 export function AcuanGejala() {
   return (
-    <Acuan judul="Keluhan wajar vs tanda waspada">
+    <AcuanLangsung>
       <div className="banding">
         <div className="hijau">
           <b>Wajar bila ringan dan tidak progresif</b>
@@ -47,7 +56,7 @@ export function AcuanGejala() {
         Yang menentukan bukan jenis keluhannya, melainkan <strong>derajat, progresivitas, dan kombinasinya</strong> dengan
         temuan fisik dan EKG.
       </p>
-    </Acuan>
+    </AcuanLangsung>
   )
 }
 
@@ -80,6 +89,7 @@ export function AcuanVital() {
 export function AcuanAuskultasi() {
   return (
     <>
+      <h3>Langkah auskultasi</h3>
       <Acuan judul="1. Persiapan: posisi dan stetoskop">
         <ol>
           <li><strong>Semi-Fowler 30–45° atau miring kiri</strong> sebagai posisi dasar. Hindari telentang datar lama pada kehamilan lanjut.</li>
@@ -96,6 +106,7 @@ export function AcuanAuskultasi() {
         <UrutanAuskultasi />
         <p>Takikardia kehamilan memendekkan diastol sehingga rumble stenosis mitral mudah terlewat. Cari dengan bell di apeks, posisi miring kiri, saat ekspirasi.</p>
       </Acuan>
+      <h3>Acuan bunyi dan bising</h3>
       <Acuan judul="Kenali bunyi tambahan dan bentuk bising">
         <p>Pilih jenis bunyi untuk melihat letaknya dalam satu siklus jantung.</p>
         <BentukBising />
@@ -145,10 +156,10 @@ export function AcuanEKG() {
         </ul>
         <p><strong>Kesalahan yang menyesatkan:</strong> V1–V2 terlalu tinggi menghasilkan pola mirip RBBB inkomplet/ASD; kabel lengan tertukar membuat P dan QRS negatif di I sehingga tampak seperti RAD.</p>
       </Acuan>
-      <Acuan judul="Membaca EKG dalam 7 langkah" buka>
+      <AcuanLangsung judul="Membaca EKG dalam 7 langkah">
         <p>Ikuti urutan yang sama setiap kali membaca. Ketuk langkah untuk melihat bagian EKG yang dinilai.</p>
         <EkgTujuhLangkah />
-      </Acuan>
+      </AcuanLangsung>
       <Acuan judul="Varian normal EKG kehamilan">
         <table>
           <thead><tr><th>Parameter</th><th>Normal pada kehamilan</th><th>Bukan varian bila</th></tr></thead>
