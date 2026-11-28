@@ -15,17 +15,19 @@ import {
   type Temuan,
   type Vital,
 } from '../../data/panduan'
+import { hplDariHpht, teksTanggal } from '../../lib/kehamilan'
 import { hitungTriase, type HasilTriase } from '../../lib/triase'
+import KalkulatorHPL from './KalkulatorHPL'
 import { AcuanAuskultasi, AcuanEKG, AcuanGejala, AcuanRiwayat, AcuanVital } from './Acuan'
 
-type Identitas = { usia: string; uk: string; gpa: string; keluhan: string; obat: string; catatan: string }
+type Identitas = { usia: string; uk: string; hpht: string; gpa: string; keluhan: string; obat: string; catatan: string }
 
 type State = { dipilih: string[]; vital: Record<keyof Vital, string>; identitas: Identitas }
 
 const KOSONG: State = {
   dipilih: [],
   vital: { nadi: '', tds: '', rr: '', spo2: '' },
-  identitas: { usia: '', uk: '', gpa: '', keluhan: '', obat: '', catatan: '' },
+  identitas: { usia: '', uk: '', hpht: '', gpa: '', keluhan: '', obat: '', catatan: '' },
 }
 
 const KUNCI = 'panduan-klinis-v1'
@@ -33,7 +35,10 @@ const KUNCI = 'panduan-klinis-v1'
 function muat(): State {
   try {
     const raw = localStorage.getItem(KUNCI)
-    if (raw) return { ...KOSONG, ...JSON.parse(raw) }
+    if (raw) {
+      const simpan = JSON.parse(raw)
+      return { ...KOSONG, ...simpan, identitas: { ...KOSONG.identitas, ...simpan.identitas } }
+    }
   } catch {
     /* penyimpanan tidak tersedia */
   }
@@ -109,6 +114,7 @@ function suratRujukan(st: State, hasil: HasilTriase): string {
   }
   return [
     `Ibu ${id.usia ? id.usia + ' tahun' : '...'}, ${id.gpa || 'G_P_A_'}, usia kehamilan ${id.uk || '...'} minggu.`,
+    ...(id.hpht ? [`HPHT ${teksTanggal(id.hpht)}, HPL ${teksTanggal(hplDariHpht(id.hpht) ?? '')}.`] : []),
     baris('Keluhan utama', id.keluhan),
     baris('Gejala', pilih(GEJALA)),
     baris('Riwayat penyakit jantung', pilih(RIWAYAT)),
@@ -306,6 +312,11 @@ export default function PanduanKlinis() {
                 </p>
               </div>
             </details>
+
+            <KalkulatorHPL
+              hpht={st.identitas.hpht}
+              onHpht={(hpht, uk) => setSt((s) => ({ ...s, identitas: { ...s.identitas, hpht, uk: uk || s.identitas.uk } }))}
+            />
 
             <h3>Surat rujukan</h3>
             <div className="field-grid">

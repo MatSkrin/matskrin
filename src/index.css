@@ -634,3 +634,18 @@ abbr[title] { text-decoration: underline dotted; text-underline-offset: 3px; cur
 
 .footer-lisensi { margin: 6px 0 0; font-size: 0.78rem; }
 .footer-lisensi a { color: inherit; }
+
+/* Kalkulator HPL/HPHT di hasil triase */
+.kalk-hpl { margin: 20px 0 8px; padding: 16px 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.kalk-hpl-kepala { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; }
+.kalk-hpl-kepala h3 { margin: 0; }
+.tabs.kecil { margin: 0; border-bottom: none; }
+.tabs.kecil button { padding: 6px 10px; font-size: 0.9rem; }
+.kalk-hpl .field input[type='date'] { max-width: 220px; }
+.kalk-hpl-hasil { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0; }
+.kalk-hpl-hasil div { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.kalk-hpl-hasil dt { font-size: 0.8rem; color: var(--muted); font-weight: 600; }
+.kalk-hpl-hasil dd { margin: 2px 0 0; font-size: 1.1rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.kalk-hpl-hasil dd small { display: block; font-size: 0.8rem; font-weight: 600; color: var(--muted); }
+@media (max-width: 640px) { .kalk-hpl { padding: 14px; } .kalk-hpl-hasil dd { font-size: 1rem; } }
+.kalk-hpl-awas { color: var(--yellow); font-weight: 600; }
